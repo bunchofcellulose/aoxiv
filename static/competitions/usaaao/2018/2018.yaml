@@ -1,0 +1,85 @@
+name: "USAAAO 2018"
+
+papers:
+  - category: "First Round"
+    link: "/competitions/usaaao/2018/first_round_exam.pdf"
+    solutionLink: "/competitions/usaaao/2018/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/competitions/usaaao/2018/paper.pdf"
+    solutionLink: "/competitions/usaaao/2018/solutions.pdf"
+
+problems:
+  - id: "usaaao-2018-1"
+    number: "S1"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-2"
+    number: "S2"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-3"
+    number: "S3"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-4"
+    number: "S4"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-5"
+    number: "S5"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-6"
+    number: "S6"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-7"
+    number: "S7"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-8"
+    number: "S8"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-9"
+    number: "S9"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-10"
+    number: "S10"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-11"
+    number: "S11"
+    category: "NAC"
+    maxScore: 5
+
+  - id: "usaaao-2018-l1"
+    number: "L1"
+    category: "NAC"
+    name: "WASP-14b"
+    maxScore: 15
+
+  - id: "usaaao-2018-l2"
+    number: "L2"
+    category: "NAC"
+    name: "Sualocin and Rotanev"
+    maxScore: 15
+
+  - id: "usaaao-2018-l3"
+    number: "L3"
+    category: "NAC"
+    name: "Fusing hydrogen"
+    maxScore: 15

@@ -1,0 +1,66 @@
+name: "USAAAO 2022"
+
+papers:
+  - category: "First Round"
+    link: "/competitions/usaaao/2022/first_round_exam.pdf"
+    solutionLink: "/competitions/usaaao/2022/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/competitions/usaaao/2022/paper.pdf"
+    solutionLink: "/competitions/usaaao/2022/solutions.pdf"
+
+problems:
+  - id: "usaaao-2022-1"
+    number: "S1"
+    category: "NAC"
+    name: "Hydrogen Atom Energies"
+    maxScore: 10
+
+  - id: "usaaao-2022-2"
+    number: "S2"
+    category: "NAC"
+    name: "Binary Mass Function"
+    maxScore: 10
+
+  - id: "usaaao-2022-3"
+    number: "S3"
+    category: "NAC"
+    name: "Exoplanet Radius Transit"
+    maxScore: 10
+
+  - id: "usaaao-2022-4"
+    number: "S4"
+    category: "NAC"
+    name: "Posidonius Earth Measurement"
+    maxScore: 10
+
+  - id: "usaaao-2022-5"
+    number: "S5"
+    category: "NAC"
+    name: "Electron Orbital Energy"
+    maxScore: 10
+
+  - id: "usaaao-2022-m1"
+    number: "M1"
+    category: "NAC"
+    name: "The Speed of Light"
+    maxScore: 30
+
+  - id: "usaaao-2022-m2"
+    number: "M2"
+    category: "NAC"
+    name: "Meteorite Space Station"
+    maxScore: 30
+
+  - id: "usaaao-2022-l1"
+    number: "L1"
+    category: "NAC"
+    name: "The Curious Orbit of James Webb"
+    maxScore: 45
+
+  - id: "usaaao-2022-l2"
+    number: "L2"
+    category: "NAC"
+    name: "The Sundial I"
+    maxScore: 45

@@ -1,0 +1,243 @@
+name: "INAO 2009"
+
+papers:
+  - category: "Junior"
+    examDuration: 180
+    link: "/competitions/inao/2009/paper_junior.pdf"
+    solutionLink: "/competitions/inao/2009/solutions_junior.pdf"
+
+  - category: "Senior"
+    examDuration: 180
+    link: "/competitions/inao/2009/paper_senior.pdf"
+    solutionLink: "/competitions/inao/2009/solutions_senior.pdf"
+
+problems:
+  # Junior problems
+  - id: "inao-2009-jr-1"
+    number: "1"
+    name: "Algebraic Expression"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-2"
+    number: "2"
+    name: "Constellation Pattern"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-3"
+    number: "3"
+    name: "Gold Sphere Gravity"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-4"
+    number: "4"
+    name: "Thermal Conductivity"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-5"
+    number: "5"
+    name: "Number Divisibility"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-6"
+    number: "6"
+    name: "Free Fall Physics"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-7"
+    number: "7"
+    name: "Solar Geometry"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-8"
+    number: "8"
+    name: "Light Shadow"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-9"
+    number: "9"
+    name: "Speed-Time Graph"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-10"
+    number: "10"
+    name: "Fluid Mechanics"
+    category: "Junior"
+    maxScore: 3
+
+  - id: "inao-2009-jr-11"
+    number: "11"
+    name: "Energy Systems"
+    category: "Junior"
+    maxScore: 5
+
+  - id: "inao-2009-jr-12"
+    number: "12"
+    name: "Radioactive Dating"
+    category: "Junior"
+    maxScore: 5
+
+  - id: "inao-2009-jr-13"
+    number: "13"
+    name: "Travel Kinematics"
+    category: "Junior"
+    maxScore: 5
+
+  - id: "inao-2009-jr-14"
+    number: "14"
+    name: "Cosmic Measurement"
+    category: "Junior"
+    maxScore: 5
+
+  - id: "inao-2009-jr-alpha"
+    number: "α"
+    name: "Inscribed Quadrilateral"
+    category: "Junior"
+    maxScore: 8
+
+  - id: "inao-2009-jr-beta"
+    number: "β"
+    name: "Eclipse Geometry"
+    category: "Junior"
+    maxScore: 12
+
+  - id: "inao-2009-jr-gamma"
+    number: "γ"
+    name: "Aryabhata Pi Value"
+    category: "Junior"
+    maxScore: 8
+
+  - id: "inao-2009-jr-delta"
+    number: "δ"
+    name: "Electrical Resistance"
+    category: "Junior"
+    maxScore: 12
+
+  - id: "inao-2009-jr-epsilon"
+    number: "ε"
+    name: "Surface Area"
+    category: "Junior"
+    maxScore: 10
+
+  # Senior problems
+  - id: "inao-2009-sr-1"
+    number: "1"
+    name: "Algebraic Expression"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-2"
+    number: "2"
+    name: "Constellation Pattern"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-3"
+    number: "3"
+    name: "Gold Sphere Gravity"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-4"
+    number: "4"
+    name: "Thermal Conductivity"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-5"
+    number: "5"
+    name: "Number Divisibility"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-6"
+    number: "6"
+    name: "Vector Mathematics"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-7"
+    number: "7"
+    name: "Lunar Orbit"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-8"
+    number: "8"
+    name: "Light Shadow"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-9"
+    number: "9"
+    name: "Celestial Navigation"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-10"
+    number: "10"
+    name: "Optical Lens"
+    category: "Senior"
+    maxScore: 3
+
+  - id: "inao-2009-sr-11"
+    number: "11"
+    name: "Energy Systems"
+    category: "Senior"
+    maxScore: 5
+
+  - id: "inao-2009-sr-12"
+    number: "12"
+    name: "Thermodynamics Process"
+    category: "Senior"
+    maxScore: 5
+
+  - id: "inao-2009-sr-13"
+    number: "13"
+    name: "Radioactive Dating"
+    category: "Senior"
+    maxScore: 5
+
+  - id: "inao-2009-sr-14"
+    number: "14"
+    name: "Distance Estimation"
+    category: "Senior"
+    maxScore: 5
+
+  - id: "inao-2009-sr-alpha"
+    number: "α"
+    name: "Inscribed Quadrilateral"
+    category: "Senior"
+    maxScore: 8
+
+  - id: "inao-2009-sr-beta"
+    number: "β"
+    name: "Eclipse Geometry"
+    category: "Senior"
+    maxScore: 12
+
+  - id: "inao-2009-sr-gamma"
+    number: "γ"
+    name: "Aryabhata Pi Value"
+    category: "Senior"
+    maxScore: 8
+
+  - id: "inao-2009-sr-delta"
+    number: "δ"
+    name: "3D Packing Geometry"
+    category: "Senior"
+    maxScore: 10
+
+  - id: "inao-2009-sr-epsilon"
+    number: "ε"
+    name: "Pendulum g Value"
+    category: "Senior"
+    maxScore: 10

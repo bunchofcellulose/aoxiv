@@ -1,79 +1,160 @@
-# phoXiv
+# aoXiv
 
-To contribute, fork the repository, make your own changes on a separate branch, then open a pull request. See the [GitHub docs](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project#creating-a-branch-to-work-on) for more information.
+A comprehensive archive of astronomy and astrophysics olympiads — problems, solutions, and grading schemes from IOAA, INAO, and many more international, regional, and national competitions.
 
-## Building
+This project is forked from [phoxiv](https://phoxiv.org), adapted for astronomy and astrophysics olympiad archives.
 
-First, install a Javascript runtime like [Bun](https://bun.com/). Then, install all dependencies with `bun install`.
+## Development
 
-Run any of the scripts below with `bun run <script>` or the equivalent in whatever runtime you use. All important commands are in [package.json](./package.json).
+```bash
+# Install dependencies
+bun install
 
-- `dev` - run local development server. **warning: there is an issue that I have not fixed yet. you need to manually create an empty directory for pcup (at `/static/contests/pcup/`)so the pregeneration script doesn't crash when it tries to read a nonexistent directory. I have it on my local repository but git does not track empty directories!**
-- `preview` - run deployment preview
-- `deploy` - deploy to remote
+# Run development server
+bun run dev
 
-This project is built with:
+# Build for production
+bun run build
+```
 
-- Frontend: Svelte
-- Backend: SvelteKit
-- Database (not functional yet): Drizzle ORM
-- UI Library: shadcn-svelte
+## Adding more competitions
 
-## Structure
+The archive data lives in `static/contests/`. Each competition is one folder, and each year is a subfolder with one year YAML.
 
-The structure of this website is as follows: competitions are known as "contests". Each contest is split into "years", and within a year, there are multiple "problems".
+### Directory structure
 
-### Pregeneration
+Use this shape:
 
-You may have noticed that the build script runs [problems.ts](./src/lib/pregen/problems.ts). This is a pregeneration script that generates the file [files.json](./src/lib/pregen/files.json) containing all the problems in a javascript object. The purpose of this is to make adding problems easier. In some ways this makes the website a glorified file explorer.
+```text
+static/contests/
+  <contest-id>/
+    index.yaml
+    2026/
+      2026.yaml
+      <pdf files...>
+    2025/
+      2025.yaml
+      <pdf files...>
+```
 
-All of the pregeneration scripts can be run by simply doing `bun run pregen`.
+Rules:
+- `contest-id` should be lowercase and stable (e.g. `ioaa`, `inao`).
+- Year folders must be 4-digit years (`2024`, `2025`, ...).
+- The year YAML filename must match the folder name exactly (`2025/2025.yaml`).
+- PDF paths referenced in YAML should use `/competitions/<contest-id>/<year>/<file>.pdf`.
 
-File syntax can be customised in [fileSyntax.ts](./src/lib/pregen/fileSyntax.ts).
+### `index.yaml` format (competition metadata)
 
-## Adding content
+Keep keys in this order for consistency:
 
+```yaml
+id: ioaa
+name: International Olympiad in Astronomy and Astrophysics
+shortName: IOAA
+website: "https://ioaa.org/"
+summary: International olympiad for high school students focusing on astronomy and astrophysics.
+icon: "🌎"
+tag: International
+url: "https://ioaa.org/"
+desc: |
+  Short multi-line description of the contest, history, and scope.
+```
 
-### Adding new contests
+Required keys used by the app:
+- `id`, `name`, `shortName`, `website`
+- `summary`, `icon`, `tag`, `url`, `desc`
 
-1. Create a new entry in [contests.ts](./src/lib/pregen/contests.ts) with the information about the contest. This will automatically add the contest to the homepage and "registers" the contest in the automated scripts.
-2. Add the necessary files to the folder in static, with the right file syntax.
-3. Add a folder with the corresponding contest id in `./src/routes/contests`, and include a `+page.svx` file. Optionally include a description.
+Allowed `tag` values:
+- `International`
+- `Regional`
+- `National`
+- `Open`
 
-### Adding new problems
+### Year YAML format (`<year>/<year>.yaml`)
 
-There are two types of files you can add:
-1. Year-level files: these are the files that apply to all problems within that year. 
-2. Problem-level files: files that only apply to a specific problem, like T1, T1 solutions, etc.
+Full example:
 
-**Year-level files** should be added to the contest folder within [static](/static/contests), with the necessary file syntax: `<year><file syntax>`. The file syntax indicates what kind of file it is (problem, solution etc.). For example, the path to the problems for the USAPhO 2019 is `/static/contests/usapho/2019.pdf`, and the solutions are `/static/contests/usapho/2019_S.pdf`. All file syntaxes can be found in [fileSyntax.ts](./src/lib/pregen/fileSyntax.ts) The allowed file extensions are in the pregeneration file [problems.ts](./src/lib/pregen/problems.ts), but usually you don't have to care because most files are pdfs.
+```yaml
+name: "2026 Astronomy and Astrophysics Olympiad"
+location: "Virtual & In-Person"
+link: "https://example.org/2026"
+problemsLink: "https://example.org/2026/problems"
 
-**Problem-level files** should be included in the year's folder, i.e. `<contest>/<year>/`, with the syntax `<problem number><file syntax>`. The allowed problem numbers are in the pregeneration file too. For example, the solution to IPhO 2025 T2 has the path `/static/contests/ipho/2025/T2_S.pdf`.
+papers:
+  - examDuration: 180
+    gradingScheme: "/competitions/aao/2026/grading_scheme.pdf"
 
-### Problem names
-You may optionally include the problem names (titles) by editing [problemNames.csv](./src/lib/pregen/problemNames.csv) and running the conversion script [problemNames.ts](./src/lib/pregen/problemNames.ts) to generate [the json file](./src/lib/pregen/problemNames.json).
+  - category: "Round 1"
+    link: "/competitions/aao/2026/r1_problems.pdf"
+    solutionLink: "/competitions/aao/2026/r1_solutions.pdf"
+    # Overrides the base template duration of 180
+    examDuration: 240
+    # Total contestants is strictly known
+    n: 450
+    camp: 85.5
 
+    scores:
+      - [99.5, 98.2, 95.0, 91.1, 88.0] # Row 1: Always TOTAL Scores
+      - [20.0, 19.5, 15.0, 10.0, 10.0] # Row 2: Problem 1 Scores
+      - [20.0, 20.0, 18.0, 15.0, 12.0] # Row 3: Problem 2 Scores
 
-### External links/comments
+  - category: "N" 
+    link: "/competitions/aao/2026/n_problems.pdf"
+    # We don't know the total number of participants for this category,
+    # so we use a tilde (~) to explicitly tell the system it is null/unknown.
+    n: ~
+    gold: 92.0
+    silver: 80.0
+    scores:
+      - [98.0, 95.0, 92.0, 89.0, 80.0]
+      - [20.0, 18.0, 15.0, 12.0, 10.0]
 
-Adding comments to specific years can be done in [AdditionalYearFiles.svelte](./src/routes/contests/AdditionalYearFiles.svelte). Remember to update the [helper function](./src/routes/contests/additionalYearFiles.ts).
+problems:
+  - id: "ao-2026-1"
+    number: "1"
+    name: "Exoplanet Transit Analysis"
+    category: "Round 1"
+    author: "Dr. Jane Astronomer"
+    maxScore: 20
+    link: "https://example.org/p1"
+    solutionLink: "https://example.org/s1"
 
-## TODO
+  - id: "ao-2026-2"
+    number: "2"
+    name: "Stellar Evolution and HR Diagrams"
+    category: "Round 1"
+    author: "Prof. John Astrophysicist"
 
-### High priority
-- fix the stupid looking emojis in the contest list
-- add a "hide solutions" button
-- ~~add a menu to scroll to years quickly, or some sort of search function~~
-- ~~add problem names for ipho and apho~~
+  - id: "ao-2026-3"
+    number: "3"
+    name: "Gravitational Lensing in Galaxy Clusters"
+    category: "N"
+    maxScore: 15
+```
 
-### Medium priority
-- maybe make files dynamically generated by Vite? As the repo gets larger the build time is getting longer. Using a CDN may be better. See [SvelteKit's /static documentation](https://svelte.dev/docs/kit/project-structure#Project-files-static) or the [image documentation](https://svelte.dev/docs/kit/images#Vite's-built-in-handling)
-- the file display name is "problems" or "solutions" even when it is referring to a single problem or solution
-- Could standardise all of the pregen data into csvs. [Convert the array of objects into csv](https://dev.to/samueldjones/convert-an-array-of-objects-to-csv-string-in-javascript-337d)
-- changelog
-- return to top button
+Notes:
+- The first `papers` item without `category` acts as a base template for all categories.
+- In `scores`, row 1 should be total scores; subsequent rows are per-problem scores in order.
+- Use `n: ~` when participant count is unknown/incomplete.
 
-### Low priority
-- include eupho statutes
-- add "collections" to group contests together
-- make links in mdsvex external (use custom components)
+### After adding or editing data
+
+Regenerate derived data:
+
+```bash
+bun run pregen
+```
+
+Then start the app:
+
+```bash
+bun run dev
+```
+
+## Contributing
+
+Want to add problems or help maintain the site? Open a PR.
+
+## License
+
+MIT

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { contests, type ContestTag } from '$lib/pregen/contests';
+	import { contests, type ContestTag } from '$lib/competitions';
 	import * as Card from '$lib/components/ui/card/index';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import * as ToggleGroup from '$lib/components/ui/toggle-group/index.js';
@@ -45,7 +45,7 @@
 {#if filtered().length > 0}
 	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-4">
 		{#each filtered() as contest (contest.id)}
-			<a href="/contests/{contest.id}" class="group block">
+			<a href={`/contests/${contest.id}`} class="group block">
 				<Card.Root
 					class={cn(
 						'h-full cursor-pointer py-4! transition-all duration-200',

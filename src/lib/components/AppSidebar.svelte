@@ -10,7 +10,7 @@
 	<Sidebar.Root>
 		<Sidebar.Content>
 			<Sidebar.Group>
-				<Sidebar.GroupLabel>phoXiv</Sidebar.GroupLabel>
+				<Sidebar.GroupLabel>aoXiv</Sidebar.GroupLabel>
 				<Sidebar.GroupContent>
 					<Sidebar.Menu>
 						{#each navLinks as navLink (navLink.url)}

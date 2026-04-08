@@ -1,0 +1,72 @@
+name: "USAAAO 2021"
+
+papers:
+  - category: "First Round"
+    link: "/competitions/usaaao/2021/first_round_exam.pdf"
+    solutionLink: "/competitions/usaaao/2021/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/competitions/usaaao/2021/paper.pdf"
+    solutionLink: "/competitions/usaaao/2021/solutions.pdf"
+
+problems:
+  - id: "usaaao-2021-1"
+    number: "S1"
+    category: "NAC"
+    name: "Jupiter"
+    maxScore: 5
+
+  - id: "usaaao-2021-2"
+    number: "S2"
+    category: "NAC"
+    name: "Solar Interior"
+    maxScore: 5
+
+  - id: "usaaao-2021-3"
+    number: "S3"
+    category: "NAC"
+    name: "Seeing galaxies"
+    maxScore: 5
+
+  - id: "usaaao-2021-4"
+    number: "S4"
+    category: "NAC"
+    name: "Eccentric orbit"
+    maxScore: 5
+
+  - id: "usaaao-2021-5"
+    number: "S5"
+    category: "NAC"
+    name: "Winter sunset"
+    maxScore: 5
+
+  - id: "usaaao-2021-m1"
+    number: "M1"
+    category: "NAC"
+    name: "Relativistic Clock"
+    maxScore: 20
+
+  - id: "usaaao-2021-m2"
+    number: "M2"
+    category: "NAC"
+    name: "Hohmann Transfer"
+    maxScore: 30
+
+  - id: "usaaao-2021-m3"
+    number: "M3"
+    category: "NAC"
+    name: "Space Station"
+    maxScore: 30
+
+  - id: "usaaao-2021-l1"
+    number: "L1"
+    category: "NAC"
+    name: "Big Bang Nucleosynthesis"
+    maxScore: 40
+
+  - id: "usaaao-2021-l2"
+    number: "L2"
+    category: "NAC"
+    name: "Conjunction"
+    maxScore: 35

@@ -1,0 +1,8 @@
+name: "2026 USAAAO"
+location: "United States"
+link: "https://usaaao.org/"
+
+papers:
+  - category: "First Round"
+    link: "/competitions/usaaao/2026/first_round_exam.pdf"
+    solutionLink: "/competitions/usaaao/2026/first_round_solutions.pdf"

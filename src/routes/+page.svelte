@@ -5,9 +5,9 @@
 </script>
 
 <SvelteSeo
-	title="phoXiv"
-	description="An archive of problems and solutions from various physics olympiads. Includes IPhO, EuPhO, USAPhO, the Singapore Olympiads, the Hungarian Eötvös competition and more."
-	keywords="problems, solutions, olympiad, physics, ipho, apho, eupho, singapore, eotvos"
+	title="aoXiv"
+	description="An archive of problems and solutions from various astronomy and astrophysics olympiads. Includes IOL, NACLO, APLO, UKLO, and many more international, regional, and national competitions."
+	keywords="problems, solutions, olympiad, astronomy and astrophysics, language, iol, naclo, aplo, uklo, computational astronomy and astrophysics"
 />
 
 <HeroSection />
@@ -29,13 +29,15 @@
 		class="flex flex-col items-start justify-between gap-4 rounded-2xl bg-primary px-6 py-5 sm:flex-row sm:items-center"
 	>
 		<p class="mb-0 text-sm font-medium text-primary-foreground/90">
-			Want to add problems or help maintain the site? Open a PR or reach out.
+			Want to add problems or help maintain the site? Open a PR.
 		</p>
 		<a
-			href="mailto:admin@phoxiv.org"
+			href="https://github.com/bunchofcellulose/aoXiv"
+			target="_blank"
+			rel="noopener noreferrer"
 			class="shrink-0 rounded-lg bg-primary-foreground px-4 py-2 text-sm font-semibold text-primary transition-opacity hover:opacity-90"
 		>
-			Get in touch →
+			Contribute on GitHub →
 		</a>
 	</div>
 </section>

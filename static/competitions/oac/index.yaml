@@ -1,0 +1,10 @@
+id: oac
+name: Online Astronomy Competition
+shortName: OAC
+website: "https://onlineastro.org/"
+summary: International online astronomy competition testing observational and theoretical knowledge.
+icon: "🌐"
+tag: International
+url: "https://onlineastro.org/"
+desc: |
+  The Online Astronomy Competition (OAC) is an international astronomy competition that tests students' knowledge in observational and theoretical astronomy. The competition consists of two main divisions: Open and Invitational. The Open division is accessible to all students worldwide, while the Invitational division is for top performers and features more challenging problems. OAC emphasizes practical astronomy skills including data analysis, celestial mechanics, and astrophysics.

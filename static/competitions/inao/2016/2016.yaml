@@ -1,0 +1,52 @@
+name: "INAO 2016"
+
+papers:
+  - examDuration: 180
+    link: "/competitions/inao/2016/paper.pdf"
+    solutionLink: "/competitions/inao/2016/solutions.pdf"
+
+problems:
+  - id: "inao-2016-1"
+    number: "1"
+    name: "Constellation Identification"
+    maxScore: 9
+
+  - id: "inao-2016-2"
+    number: "2"
+    name: "Neptune Methane Energy"
+    maxScore: 12
+
+  - id: "inao-2016-3"
+    number: "3"
+    name: "Math Patterns"
+    maxScore: 10
+
+  - id: "inao-2016-4"
+    number: "4"
+    name: "Boat River Signboard"
+    maxScore: 10
+
+  - id: "inao-2016-5"
+    number: "5"
+    name: "Triple Lens System"
+    maxScore: 6
+
+  - id: "inao-2016-6"
+    number: "6"
+    name: "Meter Stick Shadow"
+    maxScore: 10
+
+  - id: "inao-2016-7"
+    number: "7"
+    name: "Doppler Whistle Rotation"
+    maxScore: 16
+
+  - id: "inao-2016-8"
+    number: "8"
+    name: "Ball Container Acoustics"
+    maxScore: 12
+
+  - id: "inao-2016-9"
+    number: "9"
+    name: "Stellar Magnitude Device"
+    maxScore: 15

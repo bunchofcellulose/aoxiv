@@ -1,0 +1,84 @@
+name: "USAAAO 2020"
+
+papers:
+  - category: "First Round"
+    link: "/competitions/usaaao/2020/first_round_exam.pdf"
+    solutionLink: "/competitions/usaaao/2020/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/competitions/usaaao/2020/paper.pdf"
+    solutionLink: "/competitions/usaaao/2020/solutions.pdf"
+
+problems:
+  - id: "usaaao-2020-1"
+    number: "S1"
+    category: "NAC"
+    name: "Quadrature"
+    maxScore: 5
+
+  - id: "usaaao-2020-2"
+    number: "S2"
+    category: "NAC"
+    name: "Betelgeuse"
+    maxScore: 10
+
+  - id: "usaaao-2020-3"
+    number: "S3"
+    category: "NAC"
+    name: "Lyman-Break"
+    maxScore: 10
+
+  - id: "usaaao-2020-4"
+    number: "S4"
+    category: "NAC"
+    name: "TRAPPIST-1d"
+    maxScore: 5
+
+  - id: "usaaao-2020-5"
+    number: "S5"
+    category: "NAC"
+    name: "HD 209458b"
+    maxScore: 5
+
+  - id: "usaaao-2020-m1"
+    number: "M1"
+    category: "NAC"
+    name: "Telescoping a binary"
+    maxScore: 15
+
+  - id: "usaaao-2020-m2"
+    number: "M2"
+    category: "NAC"
+    name: "Galaxy Rotation Curves"
+    maxScore: 20
+
+  - id: "usaaao-2020-m3"
+    number: "M3"
+    category: "NAC"
+    name: "Moon"
+    maxScore: 15
+
+  - id: "usaaao-2020-m4"
+    number: "M4"
+    category: "NAC"
+    name: "Black Holes"
+    maxScore: 20
+
+  - id: "usaaao-2020-m5"
+    number: "M5"
+    category: "NAC"
+    name: "Stellar Properties"
+    maxScore: 15
+
+  - id: "usaaao-2020-l1"
+    number: "L1"
+    category: "NAC"
+    name: "M15 Cluster"
+    maxScore: 30
+
+  - id: "usaaao-2020-l2"
+    number: "L2"
+    category: "NAC"
+    name: "Sunspot Magnetograms"
+    maxScore: 25

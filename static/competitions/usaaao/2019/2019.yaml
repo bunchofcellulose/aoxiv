@@ -1,0 +1,78 @@
+name: "USAAAO 2019"
+
+papers:
+  - category: "First Round"
+    link: "/competitions/usaaao/2019/first_round_exam.pdf"
+    solutionLink: "/competitions/usaaao/2019/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/competitions/usaaao/2019/paper.pdf"
+    solutionLink: "/competitions/usaaao/2019/solutions.pdf"
+
+problems:
+  - id: "usaaao-2019-1"
+    number: "1"
+    category: "NAC"
+    name: "Nucleosynthesis"
+    maxScore: 7
+
+  - id: "usaaao-2019-2"
+    number: "2"
+    category: "NAC"
+    name: "Lunar Eclipse"
+    maxScore: 7
+
+  - id: "usaaao-2019-3"
+    number: "3"
+    category: "NAC"
+    name: "Seeing stars"
+    maxScore: 7
+
+  - id: "usaaao-2019-4"
+    number: "4"
+    category: "NAC"
+    name: "Pressure Gradient"
+    maxScore: 7
+
+  - id: "usaaao-2019-5"
+    number: "5"
+    category: "NAC"
+    name: "Terrestrial Precession"
+    maxScore: 15
+
+  - id: "usaaao-2019-6"
+    number: "6"
+    category: "NAC"
+    name: "Exoplanet detection"
+    maxScore: 15
+
+  - id: "usaaao-2019-7"
+    number: "7"
+    category: "NAC"
+    name: "Minimal Black Holes"
+    maxScore: 15
+
+  - id: "usaaao-2019-8"
+    number: "8"
+    category: "NAC"
+    name: "A weird universe"
+    maxScore: 15
+
+  - id: "usaaao-2019-9"
+    number: "9"
+    category: "NAC"
+    name: "Finding distances"
+    maxScore: 15
+
+  - id: "usaaao-2019-10"
+    number: "10"
+    category: "NAC"
+    name: "Magnetic Moments"
+    maxScore: 25
+
+  - id: "usaaao-2019-11"
+    number: "11"
+    category: "NAC"
+    name: "Cygnus X-1"
+    maxScore: 25

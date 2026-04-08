@@ -4,12 +4,14 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "phoxiv",
+	"name": "aoxiv",
 	"main": ".svelte-kit/cloudflare/_worker.js",
 	"workers_dev": true,
 	"preview_urls": true,
 	"compatibility_date": "2025-09-27",
-	"compatibility_flags": ["nodejs_als"],
+	"compatibility_flags": [
+		"nodejs_als"
+	],
 	"assets": {
 		"binding": "ASSETS",
 		"directory": ".svelte-kit/cloudflare"
@@ -17,15 +19,15 @@
 	"observability": {
 		"enabled": true
 	},
-	"route": {
-		"pattern": "phoxiv.org",
-		"custom_domain": true
-	},
+	// "route": {
+	// 	"pattern": "aoxiv.org",
+	// 	"custom_domain": true
+	// },
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "phoxiv",
-			"database_id": "5e7e03d7-377c-4962-abdc-92af4c49b4cb",
+			"database_name": "aoxiv",
+			"database_id": "59104c42-1b5a-4b36-b3b9-728f79632e86",
 			"migrations_dir": "./src/lib/server/db/migrations"
 		}
 	]

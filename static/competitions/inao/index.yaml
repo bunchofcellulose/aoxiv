@@ -1,0 +1,10 @@
+id: inao
+name: Indian National Astronomy Olympiad
+shortName: INAO
+website: "https://olympiads.hbcse.tifr.res.in/"
+summary: National astronomy olympiad for students in India, pathway to IOAA selection.
+icon: "🇮🇳"
+tag: National
+url: "https://olympiads.hbcse.tifr.res.in/"
+desc: |
+  The Indian National Astronomy Olympiad (INAO) is conducted by the Homi Bhabha Centre for Science Education (HBCSE) as part of the national science olympiad program. INAO serves as the primary selection mechanism for India's team to the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. Top performers from INAO proceed to orientation camps and further selection rounds for international representation.

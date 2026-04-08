@@ -1,0 +1,2979 @@
+[
+  {
+    "id": "inao",
+    "name": "Indian National Astronomy Olympiad",
+    "shortName": "INAO",
+    "website": "https://olympiads.hbcse.tifr.res.in/",
+    "desc": "The Indian National Astronomy Olympiad (INAO) is conducted by the Homi Bhabha Centre for Science Education (HBCSE) as part of the national science olympiad program. INAO serves as the primary selection mechanism for India's team to the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. Top performers from INAO proceed to orientation camps and further selection rounds for international representation.\n",
+    "summary": "National astronomy olympiad for students in India, pathway to IOAA selection.",
+    "icon": "🇮🇳",
+    "tag": "National",
+    "url": "https://olympiads.hbcse.tifr.res.in/",
+    "editions": [
+      {
+        "year": 2025,
+        "name": "INAO 2025",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2025/paper.pdf",
+            "solutionLink": "/competitions/inao/2025/solutions.pdf",
+            "answerSheet": "/competitions/inao/2025/answer_sheet.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2025-1",
+            "number": "1",
+            "name": "Solar Telescope",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2025-2",
+            "number": "2",
+            "name": "Exoplanet Detection",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2025-3",
+            "number": "3",
+            "name": "Venus Phases",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2025-4",
+            "number": "4",
+            "name": "Star-Planet-Moon System",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2025-5",
+            "number": "5",
+            "name": "HR Diagram",
+            "maxScore": 7
+          },
+          {
+            "id": "inao-2025-6",
+            "number": "6",
+            "name": "Doppler Shifts",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2025-7",
+            "number": "7",
+            "name": "Solar Sail",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2025-8",
+            "number": "8",
+            "name": "Light Isodelay Surface",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2025-9",
+            "number": "9",
+            "name": "Telluric Phases",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2025-10",
+            "number": "10",
+            "name": "Sun at Horizon",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2025-11",
+            "number": "11",
+            "name": "Spinning White Dwarf",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2025-12",
+            "number": "12",
+            "name": "Redshift of Sirius B",
+            "maxScore": 5
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "INAO 2024",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2024/paper.pdf",
+            "solutionLink": "/competitions/inao/2024/solutions.pdf",
+            "answerSheet": "/competitions/inao/2024/answer_sheet.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2024-1",
+            "number": "1",
+            "name": "Celestial Observations",
+            "maxScore": 23
+          },
+          {
+            "id": "inao-2024-2",
+            "number": "2",
+            "name": "Binary Planets",
+            "maxScore": 26
+          },
+          {
+            "id": "inao-2024-3",
+            "number": "3",
+            "name": "Liquid Transfer Equilibrium",
+            "maxScore": 20
+          },
+          {
+            "id": "inao-2024-4",
+            "number": "4",
+            "name": "Telescope Alignment",
+            "maxScore": 17
+          },
+          {
+            "id": "inao-2024-5",
+            "number": "5",
+            "name": "Celestial Coordinates",
+            "maxScore": 16
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "INAO 2023",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2023/paper.pdf",
+            "solutionLink": "/competitions/inao/2023/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2023-1",
+            "number": "1",
+            "name": "Hohmann Transfer Orbit",
+            "maxScore": 22
+          },
+          {
+            "id": "inao-2023-2",
+            "number": "2",
+            "name": "Binary Star Resolution",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2023-3",
+            "number": "3",
+            "name": "Thermal Equilibrium Box",
+            "maxScore": 16
+          },
+          {
+            "id": "inao-2023-4",
+            "number": "4",
+            "name": "Asteroid Belt Collision",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2023-5",
+            "number": "5",
+            "name": "Earth-Mars Orbital Motion",
+            "maxScore": 22
+          },
+          {
+            "id": "inao-2023-6",
+            "number": "6",
+            "name": "Lunar North Pole",
+            "maxScore": 17
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "name": "INAO 2020",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2020/paper.pdf",
+            "solutionLink": "/competitions/inao/2020/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2020-1",
+            "number": "1",
+            "name": "Mars Rise Time",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2020-2",
+            "number": "2",
+            "name": "Rapunzel Hair Growth",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2020-3",
+            "number": "3",
+            "name": "Circle Perimeter Grid",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2020-4",
+            "number": "4",
+            "name": "Stellar Triangle System",
+            "maxScore": 18
+          },
+          {
+            "id": "inao-2020-5",
+            "number": "5",
+            "name": "Cannonball Orbit",
+            "maxScore": 20
+          },
+          {
+            "id": "inao-2020-6",
+            "number": "6",
+            "name": "Pulsar Properties",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2020-7",
+            "number": "7",
+            "name": "Moon Crescent Image",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "name": "INAO 2019",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2019/paper.pdf",
+            "solutionLink": "/competitions/inao/2019/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2019-1",
+            "number": "1",
+            "name": "Moon Phases",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2019-2",
+            "number": "2",
+            "name": "Solar System Configurations",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2019-3",
+            "number": "3",
+            "name": "Light Reduction Lens",
+            "maxScore": 20
+          },
+          {
+            "id": "inao-2019-4",
+            "number": "4",
+            "name": "Star Constellation",
+            "maxScore": 14
+          },
+          {
+            "id": "inao-2019-5",
+            "number": "5",
+            "name": "Earth Map Projections",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2019-6",
+            "number": "6",
+            "name": "Heated Wire Cooling",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2019-7",
+            "number": "7",
+            "name": "Tidal Height Modeling",
+            "maxScore": 24
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "name": "INAO 2018",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2018/paper.pdf",
+            "solutionLink": "/competitions/inao/2018/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2018-1",
+            "number": "1",
+            "name": "Sun Angular Difference",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2018-2",
+            "number": "2",
+            "name": "Bus Solar Power",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2018-3",
+            "number": "3",
+            "name": "Kepler-13Ab Orbit",
+            "maxScore": 9
+          },
+          {
+            "id": "inao-2018-4",
+            "number": "4",
+            "name": "Infinity Corridor",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2018-5",
+            "number": "5",
+            "name": "Moon Rise Time",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2018-6",
+            "number": "6",
+            "name": "Planets Observation",
+            "maxScore": 17
+          },
+          {
+            "id": "inao-2018-7",
+            "number": "7",
+            "name": "Binary Star Orbit",
+            "maxScore": 18
+          },
+          {
+            "id": "inao-2018-8",
+            "number": "8",
+            "name": "Telescope Mirror Segments",
+            "maxScore": 11
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "name": "INAO 2017",
+        "papers": [
+          {
+            "examDuration": 180,
+            "solutionLink": "/competitions/inao/2017/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2017-1",
+            "number": "1",
+            "name": "Astronomical Phenomena",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2017-2",
+            "number": "2",
+            "name": "Shadow Geometry",
+            "maxScore": 7
+          },
+          {
+            "id": "inao-2017-3",
+            "number": "3",
+            "name": "Supernova Flux",
+            "maxScore": 20
+          },
+          {
+            "id": "inao-2017-4",
+            "number": "4",
+            "name": "Bus Station Schedule",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2017-5",
+            "number": "5",
+            "name": "Alternate Refraction Laws",
+            "maxScore": 20
+          },
+          {
+            "id": "inao-2017-6",
+            "number": "6",
+            "name": "Probability Problems",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2017-7",
+            "number": "7",
+            "name": "Balloon Expansion",
+            "maxScore": 15
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "name": "INAO 2016",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2016/paper.pdf",
+            "solutionLink": "/competitions/inao/2016/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2016-1",
+            "number": "1",
+            "name": "Constellation Identification",
+            "maxScore": 9
+          },
+          {
+            "id": "inao-2016-2",
+            "number": "2",
+            "name": "Neptune Methane Energy",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2016-3",
+            "number": "3",
+            "name": "Math Patterns",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2016-4",
+            "number": "4",
+            "name": "Boat River Signboard",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2016-5",
+            "number": "5",
+            "name": "Triple Lens System",
+            "maxScore": 6
+          },
+          {
+            "id": "inao-2016-6",
+            "number": "6",
+            "name": "Meter Stick Shadow",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2016-7",
+            "number": "7",
+            "name": "Doppler Whistle Rotation",
+            "maxScore": 16
+          },
+          {
+            "id": "inao-2016-8",
+            "number": "8",
+            "name": "Ball Container Acoustics",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2016-9",
+            "number": "9",
+            "name": "Stellar Magnitude Device",
+            "maxScore": 15
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "name": "INAO 2015",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2015/paper.pdf",
+            "solutionLink": "/competitions/inao/2015/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2015-1",
+            "number": "1",
+            "name": "Wheat Food Staple",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2015-2",
+            "number": "2",
+            "name": "Object Categories",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2015-3",
+            "number": "3",
+            "name": "Satellite Orbital Periods",
+            "maxScore": 6
+          },
+          {
+            "id": "inao-2015-4",
+            "number": "4",
+            "name": "True/False Statements",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2015-5",
+            "number": "5",
+            "name": "Ants Shortest Path",
+            "maxScore": 7
+          },
+          {
+            "id": "inao-2015-6",
+            "number": "6",
+            "name": "Light Ray Mirrors",
+            "maxScore": 6
+          },
+          {
+            "id": "inao-2015-7",
+            "number": "7",
+            "name": "Proton Beam Magnetic",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2015-8",
+            "number": "8",
+            "name": "Geostationary Satellites",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2015-9",
+            "number": "9",
+            "name": "Exoplanet Catalogue",
+            "maxScore": 4
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "name": "INAO 2014",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2014/paper.pdf",
+            "solutionLink": "/competitions/inao/2014/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2014-1",
+            "number": "1",
+            "name": "Moon Landing",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2014-2",
+            "number": "2",
+            "name": "Comet Distance",
+            "maxScore": 6
+          },
+          {
+            "id": "inao-2014-3",
+            "number": "3",
+            "name": "Aircraft Speed",
+            "maxScore": 14
+          },
+          {
+            "id": "inao-2014-4",
+            "number": "4",
+            "name": "Skymap Markings",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2014-5",
+            "number": "5",
+            "name": "Gliese-876 Planet",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2014-6",
+            "number": "6",
+            "name": "Lens Mirror Overlap",
+            "maxScore": 15
+          },
+          {
+            "id": "inao-2014-7",
+            "number": "7",
+            "name": "Chandrayaan Gold Wire",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2014-8",
+            "number": "8",
+            "name": "Voyager Unknown Object",
+            "maxScore": 18
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "name": "INAO 2012",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2012/paper.pdf",
+            "solutionLink": "/competitions/inao/2012/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2012-1",
+            "number": "1",
+            "name": "Universe Age",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-2",
+            "number": "2",
+            "name": "Exponential Function",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-3",
+            "number": "3",
+            "name": "Floating Container",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-4",
+            "number": "4",
+            "name": "Electron Motion",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-5",
+            "number": "5",
+            "name": "Pinhole Sun Image",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-6",
+            "number": "6",
+            "name": "Rocket Launch",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-7",
+            "number": "7",
+            "name": "Car Velocity",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-8",
+            "number": "8",
+            "name": "Sunset Atmosphere",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-9",
+            "number": "9",
+            "name": "Tennis Tournament",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-10",
+            "number": "10",
+            "name": "Heat Transfer",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2012-11",
+            "number": "11",
+            "name": "Constellation Statements",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2012-12",
+            "number": "12",
+            "name": "Magnetic Pendulum",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2012-alpha",
+            "number": "α",
+            "name": "Constellation List",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2012-beta",
+            "number": "β",
+            "name": "Polynomial Orbit",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2012-gamma",
+            "number": "γ",
+            "name": "Hollow Earth Gravity",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2012-delta",
+            "number": "δ",
+            "name": "Black Cloud",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2012-epsilon",
+            "number": "ε",
+            "name": "Asteroid Deviation",
+            "maxScore": 12
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "name": "INAO 2011",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/competitions/inao/2011/paper.pdf",
+            "solutionLink": "/competitions/inao/2011/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2011-1",
+            "number": "1",
+            "name": "Polar Satellite",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-2",
+            "number": "2",
+            "name": "Potential Energy",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-3",
+            "number": "3",
+            "name": "Pole Star",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-4",
+            "number": "4",
+            "name": "Converging Lenses",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-5",
+            "number": "5",
+            "name": "Ring Falling",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-6",
+            "number": "6",
+            "name": "Charged Particle",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-7",
+            "number": "7",
+            "name": "Number Puzzle",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-8",
+            "number": "8",
+            "name": "P-V Diagram",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-9",
+            "number": "9",
+            "name": "Equivalent Resistance",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-10",
+            "number": "10",
+            "name": "Prime Numbers",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2011-11",
+            "number": "11",
+            "name": "Proton Equilibrium",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2011-12",
+            "number": "12",
+            "name": "Charge Distribution",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2011-13",
+            "number": "13",
+            "name": "Block Friction",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2011-14",
+            "number": "14",
+            "name": "Star Brightness",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2011-alpha",
+            "number": "α",
+            "name": "Star Constellation",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2011-beta",
+            "number": "β",
+            "name": "Chandrasekhar Mass",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2011-gamma",
+            "number": "γ",
+            "name": "Solar Plasma Cone",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2011-delta",
+            "number": "δ",
+            "name": "Star Temperature",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2011-epsilon",
+            "number": "ε",
+            "name": "DTH Antenna",
+            "maxScore": 9
+          },
+          {
+            "id": "inao-2011-zeta",
+            "number": "ζ",
+            "name": "Graph Sketching",
+            "maxScore": 9
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "INAO 2010",
+        "papers": [
+          {
+            "category": "Junior",
+            "examDuration": 180,
+            "link": "/competitions/inao/2010/paper_junior.pdf",
+            "solutionLink": "/competitions/inao/2010/solutions_junior.pdf"
+          },
+          {
+            "category": "Senior",
+            "examDuration": 180,
+            "link": "/competitions/inao/2010/paper_senior.pdf",
+            "solutionLink": "/competitions/inao/2010/solutions_senior.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "junior",
+            "name": "Junior",
+            "problemIds": [
+              "inao-2010-jr-1",
+              "inao-2010-jr-2",
+              "inao-2010-jr-3",
+              "inao-2010-jr-4",
+              "inao-2010-jr-5",
+              "inao-2010-jr-6",
+              "inao-2010-jr-7",
+              "inao-2010-jr-8",
+              "inao-2010-jr-9",
+              "inao-2010-jr-10",
+              "inao-2010-jr-11",
+              "inao-2010-jr-12",
+              "inao-2010-jr-13",
+              "inao-2010-jr-14",
+              "inao-2010-jr-alpha",
+              "inao-2010-jr-beta",
+              "inao-2010-jr-gamma",
+              "inao-2010-jr-delta",
+              "inao-2010-jr-epsilon"
+            ]
+          },
+          {
+            "id": "senior",
+            "name": "Senior",
+            "problemIds": [
+              "inao-2010-sr-1",
+              "inao-2010-sr-2",
+              "inao-2010-sr-3",
+              "inao-2010-sr-4",
+              "inao-2010-sr-5",
+              "inao-2010-sr-6",
+              "inao-2010-sr-7",
+              "inao-2010-sr-8",
+              "inao-2010-sr-9",
+              "inao-2010-sr-10",
+              "inao-2010-sr-11",
+              "inao-2010-sr-12",
+              "inao-2010-sr-13",
+              "inao-2010-sr-14",
+              "inao-2010-sr-alpha",
+              "inao-2010-sr-beta",
+              "inao-2010-sr-gamma",
+              "inao-2010-sr-delta",
+              "inao-2010-sr-epsilon"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2010-jr-1",
+            "number": "1",
+            "name": "Stellar Twinkling",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-2",
+            "number": "2",
+            "name": "Unpainted Cubes",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-3",
+            "number": "3",
+            "name": "Double-Painted Cubes",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-4",
+            "number": "4",
+            "name": "Corner Cube Cutting",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-5",
+            "number": "5",
+            "name": "Watch Time Drift",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-6",
+            "number": "6",
+            "name": "Parallel Current Wires",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-7",
+            "number": "7",
+            "name": "Magnifying Glass",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-8",
+            "number": "8",
+            "name": "Earthquake Distance",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-9",
+            "number": "9",
+            "name": "Escalator Steps",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-10",
+            "number": "10",
+            "name": "Binary Stars",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-jr-11",
+            "number": "11",
+            "name": "Ripple Propagation",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-jr-12",
+            "number": "12",
+            "name": "Cannon Ball Jets",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-jr-13",
+            "number": "13",
+            "name": "Astronomy History",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-jr-14",
+            "number": "14",
+            "name": "Pendulum Coplanarity",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-jr-alpha",
+            "number": "α",
+            "name": "Alien Code",
+            "category": "Junior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2010-jr-beta",
+            "number": "β",
+            "name": "Optical Phenomena",
+            "category": "Junior",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2010-jr-gamma",
+            "number": "γ",
+            "name": "Night Sky Analysis",
+            "category": "Junior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2010-jr-delta",
+            "number": "δ",
+            "name": "Latitude Shadow",
+            "category": "Junior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2010-jr-epsilon",
+            "number": "ε",
+            "name": "Graph Sketching",
+            "category": "Junior",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2010-sr-1",
+            "number": "1",
+            "name": "Stellar Twinkling",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-2",
+            "number": "2",
+            "name": "Unpainted Cubes",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-3",
+            "number": "3",
+            "name": "Double-Painted Cubes",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-4",
+            "number": "4",
+            "name": "Corner Cube Cutting",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-5",
+            "number": "5",
+            "name": "Bicycle Balance",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-6",
+            "number": "6",
+            "name": "Sonic Boom Altitude",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-7",
+            "number": "7",
+            "name": "Magnifying Glass",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-8",
+            "number": "8",
+            "name": "Earthquake Distance",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-9",
+            "number": "9",
+            "name": "Escalator Steps",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-10",
+            "number": "10",
+            "name": "Binary Stars",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2010-sr-11",
+            "number": "11",
+            "name": "Ripple Propagation",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-sr-12",
+            "number": "12",
+            "name": "Cannon Ball Jets",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-sr-13",
+            "number": "13",
+            "name": "Astronomy History",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-sr-14",
+            "number": "14",
+            "name": "Pendulum Coplanarity",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2010-sr-alpha",
+            "number": "α",
+            "name": "Alien Code",
+            "category": "Senior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2010-sr-beta",
+            "number": "β",
+            "name": "Optical Phenomena",
+            "category": "Senior",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2010-sr-gamma",
+            "number": "γ",
+            "name": "Night Sky Analysis",
+            "category": "Senior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2010-sr-delta",
+            "number": "δ",
+            "name": "Latitude Shadow",
+            "category": "Senior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2010-sr-epsilon",
+            "number": "ε",
+            "name": "Graph Sketching",
+            "category": "Senior",
+            "maxScore": 12
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "name": "INAO 2009",
+        "papers": [
+          {
+            "category": "Junior",
+            "examDuration": 180,
+            "link": "/competitions/inao/2009/paper_junior.pdf",
+            "solutionLink": "/competitions/inao/2009/solutions_junior.pdf"
+          },
+          {
+            "category": "Senior",
+            "examDuration": 180,
+            "link": "/competitions/inao/2009/paper_senior.pdf",
+            "solutionLink": "/competitions/inao/2009/solutions_senior.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "junior",
+            "name": "Junior",
+            "problemIds": [
+              "inao-2009-jr-1",
+              "inao-2009-jr-2",
+              "inao-2009-jr-3",
+              "inao-2009-jr-4",
+              "inao-2009-jr-5",
+              "inao-2009-jr-6",
+              "inao-2009-jr-7",
+              "inao-2009-jr-8",
+              "inao-2009-jr-9",
+              "inao-2009-jr-10",
+              "inao-2009-jr-11",
+              "inao-2009-jr-12",
+              "inao-2009-jr-13",
+              "inao-2009-jr-14",
+              "inao-2009-jr-alpha",
+              "inao-2009-jr-beta",
+              "inao-2009-jr-gamma",
+              "inao-2009-jr-delta",
+              "inao-2009-jr-epsilon"
+            ]
+          },
+          {
+            "id": "senior",
+            "name": "Senior",
+            "problemIds": [
+              "inao-2009-sr-1",
+              "inao-2009-sr-2",
+              "inao-2009-sr-3",
+              "inao-2009-sr-4",
+              "inao-2009-sr-5",
+              "inao-2009-sr-6",
+              "inao-2009-sr-7",
+              "inao-2009-sr-8",
+              "inao-2009-sr-9",
+              "inao-2009-sr-10",
+              "inao-2009-sr-11",
+              "inao-2009-sr-12",
+              "inao-2009-sr-13",
+              "inao-2009-sr-14",
+              "inao-2009-sr-alpha",
+              "inao-2009-sr-beta",
+              "inao-2009-sr-gamma",
+              "inao-2009-sr-delta",
+              "inao-2009-sr-epsilon"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "inao-2009-jr-1",
+            "number": "1",
+            "name": "Algebraic Expression",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-2",
+            "number": "2",
+            "name": "Constellation Pattern",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-3",
+            "number": "3",
+            "name": "Gold Sphere Gravity",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-4",
+            "number": "4",
+            "name": "Thermal Conductivity",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-5",
+            "number": "5",
+            "name": "Number Divisibility",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-6",
+            "number": "6",
+            "name": "Free Fall Physics",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-7",
+            "number": "7",
+            "name": "Solar Geometry",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-8",
+            "number": "8",
+            "name": "Light Shadow",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-9",
+            "number": "9",
+            "name": "Speed-Time Graph",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-10",
+            "number": "10",
+            "name": "Fluid Mechanics",
+            "category": "Junior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-jr-11",
+            "number": "11",
+            "name": "Energy Systems",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-jr-12",
+            "number": "12",
+            "name": "Radioactive Dating",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-jr-13",
+            "number": "13",
+            "name": "Travel Kinematics",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-jr-14",
+            "number": "14",
+            "name": "Cosmic Measurement",
+            "category": "Junior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-jr-alpha",
+            "number": "α",
+            "name": "Inscribed Quadrilateral",
+            "category": "Junior",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2009-jr-beta",
+            "number": "β",
+            "name": "Eclipse Geometry",
+            "category": "Junior",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2009-jr-gamma",
+            "number": "γ",
+            "name": "Aryabhata Pi Value",
+            "category": "Junior",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2009-jr-delta",
+            "number": "δ",
+            "name": "Electrical Resistance",
+            "category": "Junior",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2009-jr-epsilon",
+            "number": "ε",
+            "name": "Surface Area",
+            "category": "Junior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2009-sr-1",
+            "number": "1",
+            "name": "Algebraic Expression",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-2",
+            "number": "2",
+            "name": "Constellation Pattern",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-3",
+            "number": "3",
+            "name": "Gold Sphere Gravity",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-4",
+            "number": "4",
+            "name": "Thermal Conductivity",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-5",
+            "number": "5",
+            "name": "Number Divisibility",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-6",
+            "number": "6",
+            "name": "Vector Mathematics",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-7",
+            "number": "7",
+            "name": "Lunar Orbit",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-8",
+            "number": "8",
+            "name": "Light Shadow",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-9",
+            "number": "9",
+            "name": "Celestial Navigation",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-10",
+            "number": "10",
+            "name": "Optical Lens",
+            "category": "Senior",
+            "maxScore": 3
+          },
+          {
+            "id": "inao-2009-sr-11",
+            "number": "11",
+            "name": "Energy Systems",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-sr-12",
+            "number": "12",
+            "name": "Thermodynamics Process",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-sr-13",
+            "number": "13",
+            "name": "Radioactive Dating",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-sr-14",
+            "number": "14",
+            "name": "Distance Estimation",
+            "category": "Senior",
+            "maxScore": 5
+          },
+          {
+            "id": "inao-2009-sr-alpha",
+            "number": "α",
+            "name": "Inscribed Quadrilateral",
+            "category": "Senior",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2009-sr-beta",
+            "number": "β",
+            "name": "Eclipse Geometry",
+            "category": "Senior",
+            "maxScore": 12
+          },
+          {
+            "id": "inao-2009-sr-gamma",
+            "number": "γ",
+            "name": "Aryabhata Pi Value",
+            "category": "Senior",
+            "maxScore": 8
+          },
+          {
+            "id": "inao-2009-sr-delta",
+            "number": "δ",
+            "name": "3D Packing Geometry",
+            "category": "Senior",
+            "maxScore": 10
+          },
+          {
+            "id": "inao-2009-sr-epsilon",
+            "number": "ε",
+            "name": "Pendulum g Value",
+            "category": "Senior",
+            "maxScore": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oac",
+    "name": "Online Astronomy Competition",
+    "shortName": "OAC",
+    "website": "https://onlineastro.org/",
+    "desc": "The Online Astronomy Competition (OAC) is an international astronomy competition that tests students' knowledge in observational and theoretical astronomy. The competition consists of two main divisions: Open and Invitational. The Open division is accessible to all students worldwide, while the Invitational division is for top performers and features more challenging problems. OAC emphasizes practical astronomy skills including data analysis, celestial mechanics, and astrophysics.\n",
+    "summary": "International online astronomy competition testing observational and theoretical knowledge.",
+    "icon": "🌐",
+    "tag": "International",
+    "url": "https://onlineastro.org/",
+    "editions": [
+      {
+        "year": 2025,
+        "name": "OAC 2025",
+        "papers": [
+          {
+            "category": "Open",
+            "link": "/competitions/oac/2025/paper_open.pdf",
+            "solutionLink": "/competitions/oac/2025/key_open.pdf"
+          },
+          {
+            "category": "Invitationals",
+            "link": "/competitions/oac/2025/paper_invi.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "invitationals",
+            "name": "Invitationals",
+            "problemIds": [
+              "oac-2025-1",
+              "oac-2025-2",
+              "oac-2025-3",
+              "oac-2025-4",
+              "oac-2025-5"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "oac-2025-1",
+            "number": "1",
+            "name": "Am I precessing?? (Or just tripping?)",
+            "category": "Invitationals",
+            "maxScore": 105
+          },
+          {
+            "id": "oac-2025-2",
+            "number": "2",
+            "name": "Hijacking the Royal Swedish Academy of Sciences",
+            "category": "Invitationals",
+            "maxScore": 90
+          },
+          {
+            "id": "oac-2025-3",
+            "number": "3",
+            "name": "Finding Riccardo",
+            "category": "Invitationals",
+            "maxScore": 85
+          },
+          {
+            "id": "oac-2025-4",
+            "number": "4",
+            "name": "Among the stars",
+            "category": "Invitationals",
+            "maxScore": 120
+          },
+          {
+            "id": "oac-2025-5",
+            "number": "5",
+            "name": "Wait, where are Ayush and Osish?",
+            "category": "Invitationals",
+            "maxScore": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "usaaao",
+    "name": "USA Astronomy and Astrophysics Olympiad",
+    "shortName": "USAAAO",
+    "website": "https://usaaao.org/",
+    "desc": "The USA Astronomy and Astrophysics Olympiad (USAAAO) is a national competition for high school students in the United States of America. The competition consists of multiple rounds, including a First Round and the National Astronomy Championship (NAC). Top performers from USAAAO are invited to represent the United States at the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests knowledge and problem-solving skills in astronomy, astrophysics, and related fields.\n",
+    "summary": "National astronomy and astrophysics competition for high school students in the United States of America.",
+    "icon": "🇺🇸",
+    "tag": "National",
+    "url": "https://usaaao.org/",
+    "editions": [
+      {
+        "year": 2026,
+        "name": "2026 USAAAO",
+        "location": "United States",
+        "link": "https://usaaao.org/",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2026/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2026/first_round_solutions.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2025,
+        "name": "USAAAO 2025",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2025/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2025/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2025/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2025/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2025-1",
+              "usaaao-2025-2",
+              "usaaao-2025-3",
+              "usaaao-2025-4",
+              "usaaao-2025-5",
+              "usaaao-2025-6",
+              "usaaao-2025-7"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2025-1",
+            "number": "1",
+            "name": "Tracking a Bootes Planet",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2025-2",
+            "number": "2",
+            "name": "The Eye as a Camera",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2025-3",
+            "number": "3",
+            "name": "Sailing",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2025-4",
+            "number": "4",
+            "name": "Gravitational Waves",
+            "category": "NAC",
+            "maxScore": 20
+          },
+          {
+            "id": "usaaao-2025-5",
+            "number": "5",
+            "name": "Stupendous Man's Saga",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2025-6",
+            "number": "6",
+            "name": "Spherical Cluster",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2025-7",
+            "number": "7",
+            "name": "Planetary Defense",
+            "category": "NAC",
+            "maxScore": 55
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "USAAAO 2024",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2024/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2024/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2024/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2024/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2024-s1",
+              "usaaao-2024-s2",
+              "usaaao-2024-s3",
+              "usaaao-2024-m1",
+              "usaaao-2024-m2",
+              "usaaao-2024-m3",
+              "usaaao-2024-l1",
+              "usaaao-2024-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2024-s1",
+            "number": "S1",
+            "name": "The Boomerang Nebula",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2024-s2",
+            "number": "S2",
+            "name": "Gegenschein Dust",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2024-s3",
+            "number": "S3",
+            "name": "Stellar Dodecahedron",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2024-m1",
+            "number": "M1",
+            "name": "Solar Eclipse",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2024-m2",
+            "number": "M2",
+            "name": "Neutrino Decoupling",
+            "category": "NAC",
+            "maxScore": 25
+          },
+          {
+            "id": "usaaao-2024-m3",
+            "number": "M3",
+            "name": "Spiff's Adventures",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2024-l1",
+            "number": "L1",
+            "name": "TESS",
+            "category": "NAC",
+            "maxScore": 50
+          },
+          {
+            "id": "usaaao-2024-l2",
+            "number": "L2",
+            "name": "The Analemma",
+            "category": "NAC",
+            "maxScore": 50
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "USAAAO 2023",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2023/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2023/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2023/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2023/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2023-s1",
+              "usaaao-2023-s2",
+              "usaaao-2023-s3",
+              "usaaao-2023-m1",
+              "usaaao-2023-m2",
+              "usaaao-2023-m3",
+              "usaaao-2023-l1",
+              "usaaao-2023-l2",
+              "usaaao-2023-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2023-s1",
+            "number": "S1",
+            "name": "White Dwarfs",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2023-s2",
+            "number": "S2",
+            "name": "The Large Magellanic Cloud",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2023-s3",
+            "number": "S3",
+            "name": "Culmination Time",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2023-m1",
+            "number": "M1",
+            "name": "Hyperfine Splitting",
+            "category": "NAC",
+            "maxScore": 20
+          },
+          {
+            "id": "usaaao-2023-m2",
+            "number": "M2",
+            "name": "Quantum Fusion",
+            "category": "NAC",
+            "maxScore": 20
+          },
+          {
+            "id": "usaaao-2023-m3",
+            "number": "M3",
+            "name": "Into the Wilds",
+            "category": "NAC",
+            "maxScore": 25
+          },
+          {
+            "id": "usaaao-2023-l1",
+            "number": "L1",
+            "name": "The Sundial II",
+            "category": "NAC",
+            "maxScore": 45
+          },
+          {
+            "id": "usaaao-2023-l2",
+            "number": "L2",
+            "name": "Interstellar Comet",
+            "category": "NAC",
+            "maxScore": 40
+          },
+          {
+            "id": "usaaao-2023-l3",
+            "number": "L3",
+            "name": "Finding Friends",
+            "category": "NAC",
+            "maxScore": 55
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "USAAAO 2022",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2022/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2022/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2022/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2022/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2022-1",
+              "usaaao-2022-2",
+              "usaaao-2022-3",
+              "usaaao-2022-4",
+              "usaaao-2022-5",
+              "usaaao-2022-m1",
+              "usaaao-2022-m2",
+              "usaaao-2022-l1",
+              "usaaao-2022-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2022-1",
+            "number": "S1",
+            "name": "Hydrogen Atom Energies",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2022-2",
+            "number": "S2",
+            "name": "Binary Mass Function",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2022-3",
+            "number": "S3",
+            "name": "Exoplanet Radius Transit",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2022-4",
+            "number": "S4",
+            "name": "Posidonius Earth Measurement",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2022-5",
+            "number": "S5",
+            "name": "Electron Orbital Energy",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2022-m1",
+            "number": "M1",
+            "name": "The Speed of Light",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2022-m2",
+            "number": "M2",
+            "name": "Meteorite Space Station",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2022-l1",
+            "number": "L1",
+            "name": "The Curious Orbit of James Webb",
+            "category": "NAC",
+            "maxScore": 45
+          },
+          {
+            "id": "usaaao-2022-l2",
+            "number": "L2",
+            "name": "The Sundial I",
+            "category": "NAC",
+            "maxScore": 45
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "name": "USAAAO 2021",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2021/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2021/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2021/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2021/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2021-1",
+              "usaaao-2021-2",
+              "usaaao-2021-3",
+              "usaaao-2021-4",
+              "usaaao-2021-5",
+              "usaaao-2021-m1",
+              "usaaao-2021-m2",
+              "usaaao-2021-m3",
+              "usaaao-2021-l1",
+              "usaaao-2021-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2021-1",
+            "number": "S1",
+            "name": "Jupiter",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2021-2",
+            "number": "S2",
+            "name": "Solar Interior",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2021-3",
+            "number": "S3",
+            "name": "Seeing galaxies",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2021-4",
+            "number": "S4",
+            "name": "Eccentric orbit",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2021-5",
+            "number": "S5",
+            "name": "Winter sunset",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2021-m1",
+            "number": "M1",
+            "name": "Relativistic Clock",
+            "category": "NAC",
+            "maxScore": 20
+          },
+          {
+            "id": "usaaao-2021-m2",
+            "number": "M2",
+            "name": "Hohmann Transfer",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2021-m3",
+            "number": "M3",
+            "name": "Space Station",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2021-l1",
+            "number": "L1",
+            "name": "Big Bang Nucleosynthesis",
+            "category": "NAC",
+            "maxScore": 40
+          },
+          {
+            "id": "usaaao-2021-l2",
+            "number": "L2",
+            "name": "Conjunction",
+            "category": "NAC",
+            "maxScore": 35
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "name": "USAAAO 2020",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2020/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2020/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2020/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2020/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2020-1",
+              "usaaao-2020-2",
+              "usaaao-2020-3",
+              "usaaao-2020-4",
+              "usaaao-2020-5",
+              "usaaao-2020-m1",
+              "usaaao-2020-m2",
+              "usaaao-2020-m3",
+              "usaaao-2020-m4",
+              "usaaao-2020-m5",
+              "usaaao-2020-l1",
+              "usaaao-2020-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2020-1",
+            "number": "S1",
+            "name": "Quadrature",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2020-2",
+            "number": "S2",
+            "name": "Betelgeuse",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2020-3",
+            "number": "S3",
+            "name": "Lyman-Break",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2020-4",
+            "number": "S4",
+            "name": "TRAPPIST-1d",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2020-5",
+            "number": "S5",
+            "name": "HD 209458b",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2020-m1",
+            "number": "M1",
+            "name": "Telescoping a binary",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2020-m2",
+            "number": "M2",
+            "name": "Galaxy Rotation Curves",
+            "category": "NAC",
+            "maxScore": 20
+          },
+          {
+            "id": "usaaao-2020-m3",
+            "number": "M3",
+            "name": "Moon",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2020-m4",
+            "number": "M4",
+            "name": "Black Holes",
+            "category": "NAC",
+            "maxScore": 20
+          },
+          {
+            "id": "usaaao-2020-m5",
+            "number": "M5",
+            "name": "Stellar Properties",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2020-l1",
+            "number": "L1",
+            "name": "M15 Cluster",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2020-l2",
+            "number": "L2",
+            "name": "Sunspot Magnetograms",
+            "category": "NAC",
+            "maxScore": 25
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "name": "USAAAO 2019",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2019/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2019/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2019/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2019/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2019-1",
+              "usaaao-2019-2",
+              "usaaao-2019-3",
+              "usaaao-2019-4",
+              "usaaao-2019-5",
+              "usaaao-2019-6",
+              "usaaao-2019-7",
+              "usaaao-2019-8",
+              "usaaao-2019-9",
+              "usaaao-2019-10",
+              "usaaao-2019-11"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2019-1",
+            "number": "1",
+            "name": "Nucleosynthesis",
+            "category": "NAC",
+            "maxScore": 7
+          },
+          {
+            "id": "usaaao-2019-2",
+            "number": "2",
+            "name": "Lunar Eclipse",
+            "category": "NAC",
+            "maxScore": 7
+          },
+          {
+            "id": "usaaao-2019-3",
+            "number": "3",
+            "name": "Seeing stars",
+            "category": "NAC",
+            "maxScore": 7
+          },
+          {
+            "id": "usaaao-2019-4",
+            "number": "4",
+            "name": "Pressure Gradient",
+            "category": "NAC",
+            "maxScore": 7
+          },
+          {
+            "id": "usaaao-2019-5",
+            "number": "5",
+            "name": "Terrestrial Precession",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2019-6",
+            "number": "6",
+            "name": "Exoplanet detection",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2019-7",
+            "number": "7",
+            "name": "Minimal Black Holes",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2019-8",
+            "number": "8",
+            "name": "A weird universe",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2019-9",
+            "number": "9",
+            "name": "Finding distances",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2019-10",
+            "number": "10",
+            "name": "Magnetic Moments",
+            "category": "NAC",
+            "maxScore": 25
+          },
+          {
+            "id": "usaaao-2019-11",
+            "number": "11",
+            "name": "Cygnus X-1",
+            "category": "NAC",
+            "maxScore": 25
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "name": "USAAAO 2018",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2018/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2018/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2018/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2018/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2018-1",
+              "usaaao-2018-2",
+              "usaaao-2018-3",
+              "usaaao-2018-4",
+              "usaaao-2018-5",
+              "usaaao-2018-6",
+              "usaaao-2018-7",
+              "usaaao-2018-8",
+              "usaaao-2018-9",
+              "usaaao-2018-10",
+              "usaaao-2018-11",
+              "usaaao-2018-l1",
+              "usaaao-2018-l2",
+              "usaaao-2018-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2018-1",
+            "number": "S1",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-2",
+            "number": "S2",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-3",
+            "number": "S3",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-4",
+            "number": "S4",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-5",
+            "number": "S5",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-6",
+            "number": "S6",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-7",
+            "number": "S7",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-8",
+            "number": "S8",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-9",
+            "number": "S9",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-10",
+            "number": "S10",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-11",
+            "number": "S11",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2018-l1",
+            "number": "L1",
+            "name": "WASP-14b",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2018-l2",
+            "number": "L2",
+            "name": "Sualocin and Rotanev",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2018-l3",
+            "number": "L3",
+            "name": "Fusing hydrogen",
+            "category": "NAC",
+            "maxScore": 15
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "name": "USAAAO 2017",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2017/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "solutionLink": "/competitions/usaaao/2017/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2017-1",
+              "usaaao-2017-2",
+              "usaaao-2017-3",
+              "usaaao-2017-4",
+              "usaaao-2017-5",
+              "usaaao-2017-6",
+              "usaaao-2017-7",
+              "usaaao-2017-8",
+              "usaaao-2017-9"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2017-1",
+            "number": "1",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2017-2",
+            "number": "2",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2017-3",
+            "number": "3",
+            "category": "NAC",
+            "maxScore": 5
+          },
+          {
+            "id": "usaaao-2017-4",
+            "number": "4",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2017-5",
+            "number": "5",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2017-6",
+            "number": "6",
+            "category": "NAC",
+            "maxScore": 10
+          },
+          {
+            "id": "usaaao-2017-7",
+            "number": "7",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2017-8",
+            "number": "8",
+            "category": "NAC",
+            "maxScore": 15
+          },
+          {
+            "id": "usaaao-2017-9",
+            "number": "9",
+            "category": "NAC",
+            "maxScore": 15
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "name": "USAAAO 2016",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2016/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2016/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2016/paper.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2016-1",
+              "usaaao-2016-2",
+              "usaaao-2016-3",
+              "usaaao-2016-4",
+              "usaaao-2016-5",
+              "usaaao-2016-6",
+              "usaaao-2016-7",
+              "usaaao-2016-8",
+              "usaaao-2016-9",
+              "usaaao-2016-10",
+              "usaaao-2016-11",
+              "usaaao-2016-12",
+              "usaaao-2016-l1",
+              "usaaao-2016-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2016-1",
+            "number": "1",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-2",
+            "number": "2",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-3",
+            "number": "3",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-4",
+            "number": "4",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-5",
+            "number": "5",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-6",
+            "number": "6",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-7",
+            "number": "7",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-8",
+            "number": "8",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-9",
+            "number": "9",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-10",
+            "number": "10",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-11",
+            "number": "11",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-12",
+            "number": "12",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2016-l1",
+            "number": "L1",
+            "category": "NAC",
+            "maxScore": 30
+          },
+          {
+            "id": "usaaao-2016-l2",
+            "number": "L2",
+            "category": "NAC",
+            "maxScore": 37
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "name": "USAAAO 2015",
+        "papers": [
+          {
+            "category": "First Round",
+            "link": "/competitions/usaaao/2015/first_round_exam.pdf",
+            "solutionLink": "/competitions/usaaao/2015/first_round_solutions.pdf"
+          },
+          {
+            "category": "NAC",
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2015/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2015/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2015-1",
+              "usaaao-2015-2",
+              "usaaao-2015-3",
+              "usaaao-2015-4",
+              "usaaao-2015-5",
+              "usaaao-2015-6",
+              "usaaao-2015-7",
+              "usaaao-2015-8",
+              "usaaao-2015-9",
+              "usaaao-2015-10",
+              "usaaao-2015-11",
+              "usaaao-2015-12",
+              "usaaao-2015-13",
+              "usaaao-2015-l1"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2015-1",
+            "number": "1",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2015-2",
+            "number": "2",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2015-3",
+            "number": "3",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2015-4",
+            "number": "4",
+            "category": "NAC",
+            "maxScore": 3
+          },
+          {
+            "id": "usaaao-2015-5",
+            "number": "5",
+            "category": "NAC",
+            "maxScore": 3
+          },
+          {
+            "id": "usaaao-2015-6",
+            "number": "6",
+            "category": "NAC",
+            "maxScore": 3
+          },
+          {
+            "id": "usaaao-2015-7",
+            "number": "7",
+            "category": "NAC",
+            "maxScore": 3
+          },
+          {
+            "id": "usaaao-2015-8",
+            "number": "8",
+            "category": "NAC",
+            "maxScore": 3
+          },
+          {
+            "id": "usaaao-2015-9",
+            "number": "9",
+            "category": "NAC",
+            "maxScore": 3
+          },
+          {
+            "id": "usaaao-2015-10",
+            "number": "10",
+            "category": "NAC",
+            "maxScore": 4
+          },
+          {
+            "id": "usaaao-2015-11",
+            "number": "11",
+            "category": "NAC",
+            "maxScore": 4
+          },
+          {
+            "id": "usaaao-2015-12",
+            "number": "12",
+            "category": "NAC",
+            "maxScore": 4
+          },
+          {
+            "id": "usaaao-2015-13",
+            "number": "13",
+            "category": "NAC",
+            "maxScore": 6
+          },
+          {
+            "id": "usaaao-2015-l1",
+            "number": "L1",
+            "category": "NAC",
+            "maxScore": 25
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "name": "USAAAO 2014",
+        "papers": [
+          {
+            "examDuration": 150,
+            "link": "/competitions/usaaao/2014/paper.pdf",
+            "solutionLink": "/competitions/usaaao/2014/solutions.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "nac",
+            "name": "NAC",
+            "problemIds": [
+              "usaaao-2014-1",
+              "usaaao-2014-2",
+              "usaaao-2014-3",
+              "usaaao-2014-4",
+              "usaaao-2014-5",
+              "usaaao-2014-6",
+              "usaaao-2014-7",
+              "usaaao-2014-8",
+              "usaaao-2014-9",
+              "usaaao-2014-10",
+              "usaaao-2014-11",
+              "usaaao-2014-12",
+              "usaaao-2014-13",
+              "usaaao-2014-14",
+              "usaaao-2014-15",
+              "usaaao-2014-16",
+              "usaaao-2014-l1",
+              "usaaao-2014-l2",
+              "usaaao-2014-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "usaaao-2014-1",
+            "number": "1",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-2",
+            "number": "2",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-3",
+            "number": "3",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-4",
+            "number": "4",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-5",
+            "number": "5",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-6",
+            "number": "6",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-7",
+            "number": "7",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-8",
+            "number": "8",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-9",
+            "number": "9",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-10",
+            "number": "10",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-11",
+            "number": "11",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-12",
+            "number": "12",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-13",
+            "number": "13",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-14",
+            "number": "14",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-15",
+            "number": "15",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-16",
+            "number": "16",
+            "category": "NAC",
+            "maxScore": 2
+          },
+          {
+            "id": "usaaao-2014-l1",
+            "number": "L1",
+            "category": "NAC",
+            "maxScore": 12
+          },
+          {
+            "id": "usaaao-2014-l2",
+            "number": "L2",
+            "category": "NAC",
+            "maxScore": 12
+          },
+          {
+            "id": "usaaao-2014-l3",
+            "number": "L3",
+            "category": "NAC",
+            "maxScore": 10
+          }
+        ]
+      }
+    ]
+  }
+]

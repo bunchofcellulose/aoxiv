@@ -1,0 +1,406 @@
+2023 National Astronomy Competition
+1
+
+Instructions (Please Read Carefully)
+
+The top 5 eligible scorers on the NAC will be invited to represent USA at the next IOAA. In order to qualify
+for the national team, you must be a high school student with US citizenship or permanent residency.
+This exam consists of 3 parts: Short Questions, Medium Questions and Long Questions.
+The maximum number of points is 240 points.
+The test must be completed within 2.5 hours (150 minutes).
+Please solve each problem on a blank piece of paper and mark the number of the problem at the top of the
+page. The contestant’s full name in capital letters should appear at the top of each solution page. If the
+contestant uses scratch papers, those should be labeled with the contestant’s name as well and marked as
+“scratch paper” at the top of the page. Scratch paper will not be graded. Partial credit will be available
+given that correct and legible work was displayed in the solution.
+This is a written exam. Contestants can only use a scientific or graphing calculator for this exam. A table of
+physical constants will be provided. Discussing the problems with other people is strictly prohibited
+in any way until the end of the examination period on April 1st. Receiving any external help during
+the exam is strictly prohibited. This means that the only allowed items are: a calculator, the provided table
+of constants, a pencil (or pen), an eraser, blank sheets of papers, and the exam. No books or notes are allowed during the exam. Exam is proctored and recorded. You are expected to have your video on at all times.
+We acknowledge the following people for their contributions to this year’s exam:
+Wesley Antônio Machado Andrade de Aguiar, Erez Abrams, Lucas Pinheiro, Sahil Pontula, Joe McCarty,
+Hagan Hensley, Leo Yao, and Andrew Liu.
+
+2
+
+Short Questions - 35 points
+
+1. (10 points) White Dwarfs are stars in their last stage of life that are prevented from collapsing only
+by the electron degeneracy pressure. This pressure is an outward one exerted by the electrons inside the
+star, which are fermions subject to the Pauli exclusion principle. We can find its value by the following
+formula, which is derived from the theory of fermion gases:
+pelectron “
+
+ℏ2
+2
+u“
+p3π 2 q2{3 n5{3
+3
+5me
+
+where n is the number density of electrons in the star. This pressure balances the inward gravitational
+pressure, which is given by
+pgrav “ ´
+
+3GM 2
+Ω
+, Ω“´
+3V
+5R
+
+where Ω is the value of the total potential energy of the star.
+(a) (8 points) If the star contains nuclei with atomic number Z and mass number A, what is the
+density value of the white dwarf in function of its total mass M , A, Z, and other fundamental
+constants?
+(b) (2 points) Find what is the value of k in the relation M 9V k , where V is the volume of the star.
+2. (10 points) The Large Magellanic Cloud (LMC) is a galaxy with a redshift of z “ 8.75 ˆ 10´4 .
+(a) (4 points) What is the radial velocity of the LMC with respect to the Solar System? Is is getting
+closer or farther from the Solar System?
+(b) (4 points) Hubble’s Law is a well-known method of calculating the distance to a galaxy. Using
+this approach, calculate the distance between the LMC and the Solar System.
+(c) (2 points) Is Hubble’s Law a reasonable method to determine the distance to the LMC? Explain
+your answer.
+3. (15 points) Culmination Time
+(a) (12 points) In Lubbock, Texas (λ “ 101˝ 531 W, ϕ “ 33˝ 351 N) on September 22nd, what is the
+local time of upper culmination of Vega (α “ 18 hr 37 min, δ “ 38˝ 471 )? The time zone of Lubbock
+is CDT, UTC´5. Assume that the equation of time is 6 min at the relevant time, in the convention
+of solar time minus mean time.
+(b) (3 points) Name the two primary factors which contribute to the equation of time, and give a
+brief one-sentence explanation for why each causes solar time to differ from mean time.
+
+Page 2
+
+3
+
+Medium Questions - 65 points
+
+1. (20 points) Hyperfine splitting
+The 21cm spectral line of hydrogen is a result of the interaction between the electron’s and proton’s
+quantum mechanical spin (known as hyperfine splitting). The spins can be either aligned or antialigned. When a hydrogen atom decays from the higher energy state to the lower energy state, a photon
+is emitted with energy equal to the energy difference in these two states.
+The intrinsic magnetic moment of the electron µe is approximately equal to the Bohr magneton µB “
+eℏ
+eℏ
+2me , and the intrinsic magnetic moment of the proton µp is roughly 2.8 2mp . Electrons and protons (and
+any particles with spin 21 ) have permanent magnetic dipole moments ⃗
+m with magnitude equal to the
+intrinsic magnetic moment.
+(a) (5 points) Consider two classical magnetic dipoles ⃗
+m1 , ⃗
+m2 separated by a distance ⃗r “ rr̂. The
+magnetic field from a perfect magnetic dipole ⃗
+m is
+m ¨ r̂q ´ ⃗
+m
+⃗ “ µ0 3r̂p ⃗
+B
+3
+4π
+r
+⃗ (e.g. the field created by
+The potential energy of a magnetic dipole in an external magnetic field B
+⃗
+the other dipole) is U “ ´ ⃗
+m ¨ B.
+Using these two formulas together, what is the energy Uint of the interaction between two magnetic
+dipoles ⃗
+m1 , ⃗
+m2 separated by a distance ⃗r “ rr̂?
+(b) (6 points) In our case, we can assume that r is the Bohr radius a0 , and both ⃗
+m1 and ⃗
+m2 are
+oriented perpendicularly to ⃗r. What is the interaction energy Uint between the magnetic moments
+of the proton and the electron? Write your answer in terms of ⃗
+mp ¨ ⃗
+me .
+(c) (2 points) Which state is the lower energy state: the state where the spins are aligned, or the
+state where the spins are anti-aligned?
+(d) (7 points) The energy of the photon emitted by the transition between these two states is equal
+to the energy difference in the two states. What value would you predict for the wavelength of the
+21cm spectral line? (You should get the right answer to within an order of magnitude, but note
+that we are treating a quantum mechanical system classically and so there will be large errors.)
+2. (20 points) Astrophysics studies both the smallest and largest scales of physics. The latter is one of
+the main focuses of cosmology. Here, we look into the former - the role of quantum mechanics in the
+astrophysics of stars. For this problem, assume that the Sun’s core has a proton number density of
+nc « 6 ˆ 1031 m-3 and temperature Tc « 15 million K.
+(a) (2 points) Suppose that two hydrogen nuclei (protons) are flying towards each other in equal and
+opposite directions, with an impact parameter (distance of closest approach) of d « 1 fm. If all of
+this initial kinetic energy came from the average thermal energy of an ideal gas, what would be the
+requisite temperature Tclassical for “fusion” to occur?
+In quantum mechanics, particles are described by wavefunctions ψ, whose squared norms |ψ|2 govern
+the probability of finding the particle in a particular state (e.g., having a certain position, momentum,
+or energy). Particles are said to behave as waves with a wavelength given by the de Broglie wavelength
+λ “ h{p, where p is the particle’s momentum and h is Planck’s constant. It’s also convenient to define
+p “ ℏk, where k is the wavevector and ℏ “ h{p2πq.
+(b) (2 points) Evaluate the de Broglie wavelength λdB in fm (1 fm = 10´15 m) for a proton with the
+average thermal energy of an ideal gas at the temperature of the Sun’s core, Tc .
+
+Page 3
+
+In Figure 1, we see that it’s classically impossible for a nucleus to make it through the potential barrier
+with U0 ą E (potential energy larger than the total energy). However, quantum mechanics gives a
+nonzero probability to “tunnel” through the barrier. To solve for ψ in the regions before, inside, and
+ikpxqx
+after the
+, where A is a normalization constant and
+b barrier, we can use an ansatz ψpxq “ Ae
+kpxq “
+
+2m
+ℏ2 pE ´ V pxqq.
+
+(c) (2 points) In which regions of Figure 1 is k purely real? Purely imaginary?
+(d) (2 points) Modeling the Sun’s main fusion reaction as a single process where two protons and two
+neutrons combine to form a He-4 nucleus, calculate how much energy is released in a single fusion
+reaction.
+(e) (6 points) Not every proton-proton collision results in fusion. Calculate the probability Pfusion of
+fusion per proton necessary to sustain the Sun’s current luminosity. You may assume 1% of the
+Sun’s mass is comprised of protons available for fusion. For this part, treat the fusion reaction as
+a collision between two protons (i.e. ignore the neutrons). Assume the cross section for collision is
+given by πλ2dB where λdB is the de Broglie wavelength corresponding to being in thermal equilibrium
+at temperature Tc .
+(f) (6 points) Consider one proton (moving) in the potential of the other (at rest) in the simplified
+1D model of Figure 1. Suppose that U0 is given by the Coulomb repulsion energy of the two
+protons at a distance d « 1 fm and that b is the approximate width of the barrier. Here, b is the
+impact parameter for a proton repelled by the Coulomb force with initial kinetic energy (outside the
+barrier) equal to the average thermal energy E. Assuming the potential energy V pxq “ 0 outside
+the barrier, find the temperature Tquantum such that the probability that protons can tunnel through
+the barrier and fuse is Pfusion .
+
+Figure 1: Quantum tunneling.
+3. (25 points) Into the Wilds
+You are an astronaut exploring uncharted parts of space in your trusty spaceship, when suddenly you
+fall into a magical portal to another universe!
+Looking for a way back home, you fly to the nearest solar system. Just like normal solar systems, it is
+home to several planets in orbit around a star - except with one minor difference: it’s miniature! The
+
+Page 4
+
+star is only 4 kilometers in diameter, and the whole solar system could fit within a small country back
+home on Earth.
+You know your astrophysics well enough to know that this should be impossible! The only explanation
+is that some law of physics works differently in this universe. Since you’re still alive, chemistry must
+be unchanged, so quantum mechanics and electromagnetism must work the same as you’re used to.
+Therefore, the only thing that can be different is gravity.
+You decide to do some experiments around the solar system to figure out exactly what is different about
+gravity here.
+(a) (10 points) First you measure the orbital periods ti and orbital semi-major axes ai of the planets
+in the solar system. You name the planets P1 through P5 , because you are incredibly unoriginal.
+Your data is as follows:
+Planet
+
+a (km)
+
+t (minutes)
+
+P1
+P2
+P3
+P4
+P5
+
+5.1
+9.0
+12.1
+17.0
+20.3
+
+1:51
+4:10
+6:38
+11:02
+14:46
+
+Based on this data, do you think that gravity here follows an inverse square law? Justify your
+answer with calculations and/or drawing an appropriate plot. (You needn’t be too formal with
+statistics here, any well-reasoned argument will get full credit.)
+(b) (3 points) If the mass of the star is M and the gravitational constant in this universe is G1 , then
+what is G1 M ?
+This is a good start! Unfortunately, without a known mass, you can’t determine the gravitational
+constant G1 . You decide to give the planets a closer look to see what else you can find out. You’ll start
+from the outermost and work your way in.
+(c) (5 points) After narrowly escaping being eaten by P5 ’s local fauna, you penetrate the stormy
+kg
+atmosphere of P4 to find that it’s made almost entirely of water (ρ “ 997 m
+3 ) with a radius of 500
+m. While standing in your ship floating on the water’s surface, you experience a heavy gravitational
+pull - 2 times what you’re used to on Earth.
+What is the gravitational constant in this universe?
+(d) (2 points) What is the mass of this solar system’s star?
+(e) (5 points) You notice that this star looks yellowish-orange, suggesting its surface temperature is a
+little lower than that of the Sun. Taking a spectrum, you measure that this star’s spectral radiance
+peaks at a wavelength of 916 nm.
+The lifetime of a star can be roughly estimated based on its luminosity and the mass of fuel it has
+available to burn*. Use a simple scaling argument to roughly estimate the lifetime of this solar
+system’s sun. Explain your reasoning.
+(Hint: use our Sun’s lifetime of 1010 years as a reference point.)
+*A more careful calculation shows that the temperature at the core of the star wouldn’t actually be
+enough to ignite fusion, so nuclear physics must work differently here in order for fusion to be possible.
+Let’s ignore that for the sake of this question, though.
+
+4
+
+Long Questions - 140 points
+
+1. (45 points) The Sundial II
+
+Page 5
+
+After gaining an understanding of a sundial, and how the path of the shadow is a straight line on the
+equinoxes running from due West to due East, Leo now wants to create his own.
+At 6am on March 20th, as the Sun is rising, Leo, who is at p40˝ N, 75˝ Wq, plants a (straight) stick
+vertically on the ground. At that moment, he marks out a (finite) line on the ground in the direction
+of the shadow of the stick at that moment, labeling it with the current time. Every hour afterwards, on
+the hour, he marks out a new line in the current direction of the shadow.
+For the following two parts, either show a calculation or explain your answer for credit. Calculating
+specific values is not necessary, but may help with later parts.
+(10 points)
+(a) Is the angle between the lines corresponding to 12pm and 1pm greater than, equal to, or less than
+15˝ ?
+(b) Is the angle between the lines corresponding to 5pm and 6pm greater than, equal to, or less than
+15˝ ?
+At 6pm, after drawing his last line, the sun sets. Leo starts cleaning up his setup, taking down the
+stick. To check his calculations against experiment, Leo measures the angles between pairs of lines on
+the ground. Using a very precise protractor, he gets the following values (rolling sums are also provided):
+Lines
+
+Angle (degrees)
+
+From 6am (degrees)
+
+6am-7am
+7am-8am
+8am-9am
+9am-10am
+10am-11am
+11am-12pm
+12pm-1pm
+1pm-2pm
+2pm-3pm
+3pm-4pm
+4pm-5pm
+5pm-6pm
+
+9.00570
+9.48468
+10.90026
+13.56767
+17.77405
+22.66646
+24.81144
+21.90336
+16.95555
+13.00713
+10.58101
+9.34269
+
+9.00570
+18.49038
+29.39064
+42.95832
+60.73237
+83.39883
+108.21027
+130.11363
+147.06918
+160.07630
+170.65731
+180.00000
+
+Notably, he finds that they deviate from the values he expects! After frantically checking his calculations
+and measurements and finding no discrepancies, Leo suspects that the stick might have been slightly
+tilted. Unfortunately, he took down the stick already, and so can no longer measure it directly.
+To help Leo out, we’d like to reconstruct the parameters of the stick tilt. As you work through the
+following parts, keep in mind this overall goal; it may help to think through all the steps first before
+proceeding. Ignore atmospheric refraction and the equation of time.
+(35 points)
+(c) To start, define a 2-D coordinate system for the ground, where the x-axis points due North and the
+y-axis points due East. Choose and clearly indicate an appropriate origin.
+(d) Choose a specific time during the day when the Sun is above the horizon. In your coordinate
+system, compute the coordinates of the tip of the shadow. Clearly indicate the chosen time and
+any assumptions made, and justify assumptions if they are not general.
+(e) From these coordinates and other information, find a condition on the location of the other end of
+the stick. Provide your answer as a linear equation in the form y “ mx ` b for some m, b.
+(f) Determine more conditions as necessary, and solve to find the coordinates of the other end of the
+stick.
+
+Page 6
+
+(g) Determine the angle, from the vertical, that the stick was tilted, and in what direction.
+Depending on method chosen, points on subparts may vary. Due to small values involved, it is
+recommended to carry calculations to at least 4 decimal places. Answers to the final part
+will be integers. No credit given for guesses without justification.
+2. (40 points) A new interstellar comet is about to enter the solar system, and Erez is really excited
+to calculate some Keplerian elements on its approach and figure out where it’s going! The comet,
+dubbed Scratcher Crab by the astronomical community (for no particular reason), is approaching the
+solar system with a velocity of 29.8km{s from the direction of Altair, which has equatorial coordinates
+α “ 19h 51m , δ “ 8˝ 511 . If the comet were to continue traveling in a straight line with its current velocity,
+its closest approach to the sun would be at a distance of 1au, and on March 21st, the comet would briefly
+be in superior conjunction.
+For reference, here is a diagram of orbital elements. Note that the longitude of the ascending node is
+measured from Aries and the argument of the periapsis is measured from the ascending node:
+
+(a) (6 points) What are the eccentricity and semi-major axis of the orbit?
+(b) (6 points) What are the inclination of the orbit and the longitude of the ascending node, both
+measured with reference to the equatorial plane (not the ecliptic)?
+(c) (6 points) What is the angular distance between the incoming and outgoing trajectories of the
+comet?
+(d) (6 points) What is the argument of the periapsis?
+(e) (6 points) What are the exit coordinates of the comet (in equatorial coordinates)?
+(f) (10 points) Erez wants to check his calculations by making some observations when the comet
+crosses the plane of the ecliptic. At this time, what is the proper motion of the comet in the sun’s
+frame of reference (not the Earth’s)? Give your answer in its equatorial components µα , µδ .
+3. (55 points) Finding Friends
+In the future, Earth is perfectly spherical and completely covered with water. Sailor Andrew is on a boat
+initially positioned at the equator in such that a way that γ, the vernal equinox, is directly overhead.
+He observes a star χ with right ascension and declination pα, δq “ p15˝ , 10˝ q. He wants to chase χ, and
+he needs your help.
+You may assume the following numerical values for each constant:
+
+Page 7
+
+• R‘ is Earth’s radius (same as the current day value).
+• ω “ 2π{p24 hrsq is Earth’s angular frequency.
+• His boat is very fast; its maximum speed is |v| “ ωR‘ {4.
+• The vernal equinox γ has celestial coordinates p0˝ , 0˝ q.
+• pα, δq “ p15˝ , 10˝ q.
+
+(a) (2 points) Calculate the angular distance between γ and χ. Express your answer in degrees.
+In his starting position, χ is somewhere above his horizon. As he sails to different parts of the planet
+and time passes, χ moves around his night sky. He wants sail his boat in order to get χ as close to his
+zenith as possible. To make sure he is as efficient as possible, he wants to make a few calculations first.
+(b) (2 points) If he does not move his boat from his starting position, calculate the minimum zenith
+distance that χ reaches. Express your answer in degrees.
+Note: zenith distance is defined as the angular distance to the zenith.
+Now, he considers what would happen if he sails straight north at all times.
+(c) (3 points) Starting from his intial position when γ is overhead, he directs his boat straight north
+and starts sailing with speed |v|. Does χ first cross his north-south meridian or east-west meridian?
+Briefly explain why this is the case.
+(d) (3 points) Calculate the zenith distance of χ when it first crosses his north-south meridian. Express
+your answer in degrees.
+(e) (15 points) Calculate the zenith distance of χ when it first crosses his east-west meridian. Express
+your answer in degrees.
+Let X be the point in his trajectory (in the celestial sphere) at which χ reaches its minimum zenith
+distance, and N be the north celestial pole. Note that X is a point in the celestial sphere, and not Earth.
+(f) (6 points) Argue that =N γX ` =χXN « π{2, where both angles are spherical angles. Then,
+calculate =χXN . Express your answer in degrees.
+Note: For this part only, you may assume that the declination of X is small, hence the approximation.
+(g) (15 points) Calculate the minimum zenith distance that χ reaches. Express your answer in degrees.
+For this problem:
+• You may no longer assume that the declination of X is small. However, you may use the value
+of =χXN derived in part (f).
+• You are given that the right ascension of X is within pα ˘ 2˝ q.
+• His trajectory in the celestial sphere is not necessarily a great circle. Be careful when
+computing angles and lengths!
+He is not satisfied with these results. He feels there should be an optimal way to get χ directly overhead,
+as fast as possible. Help him figure out the fastest way to get χ to his zenith.
+(h) (2 points) Given that he is allowed to maneuver his boat however he wants throughout the duration
+of his journey, and that he starts from his initial position with γ overhead, show that χ cannot be
+at his zenith the first time it culminates, i.e., crosses his north-south meridian.
+(i) (7 points) Let t be the fastest time he can get χ to his zenith. Compute the quantity pt ´ 20 hrsq,
+in seconds.
+
+Page 8
+
+
