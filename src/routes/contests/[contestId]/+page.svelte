@@ -32,7 +32,7 @@
 <SvelteSeo
 	title={contest.name}
 	description={contest.desc ?? `An archive of problems and solutions from ${contest.name}, in PDF format.`}
-	keywords="problems, solutions, olympiad, astronomy and astrophysics, language"
+	keywords="problems, solutions, olympiad, astronomy, astrophysics"
 />
 
 <h1>{contest.name}</h1>

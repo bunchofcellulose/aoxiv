@@ -11,7 +11,7 @@
 	import NavButtons from './NavButtons.svelte';
 
 	const navLinks = [
-		{ url: '/', label: 'aoXiv' },
+		{ url: '/', label: 'home' },
 		{ url: 'https://aoguide.app/guide/resources', label: 'resources' }
 	];
 </script>

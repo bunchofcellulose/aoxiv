@@ -23,9 +23,7 @@
 
 	<!-- Description -->
 	<p class="my-5 max-w-prose text-left text-base leading-relaxed text-foreground/80">
-		A comprehensive archive of astronomy olympiads — from the prestigious IOAA to regional competitions
-		like NAC and INAO. Includes problem statements, solutions, and answer sheets you rarely find
-		elsewhere, all in a mobile-friendly UI.
+		A comprehensive archive of astronomy and astrophysics olympiads — from the prestigious IOAA and INAO to regional competitions like OAC and USAAAO. Includes problem statements, solutions, and grading schemes you rarely find elsewhere, all in a mobile-friendly UI.
 	</p>
 	<p class="mt-1 mb-4 text-xs text-muted-foreground">
 		This project is a fork of

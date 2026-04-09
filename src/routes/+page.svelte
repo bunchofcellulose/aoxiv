@@ -6,8 +6,8 @@
 
 <SvelteSeo
 	title="aoXiv"
-	description="An archive of problems and solutions from various astronomy and astrophysics olympiads. Includes IOL, NACLO, APLO, UKLO, and many more international, regional, and national competitions."
-	keywords="problems, solutions, olympiad, astronomy and astrophysics, language, iol, naclo, aplo, uklo, computational astronomy and astrophysics"
+	description="An archive of problems and solutions from various astronomy and astrophysics olympiads. Includes IOAA, INAO, OAC, and many more international, regional, and national competitions."
+	keywords="problems, solutions, olympiad, astronomy, astrophysics, ioaa, inao, oac"
 />
 
 <HeroSection />

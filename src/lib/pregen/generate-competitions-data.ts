@@ -284,4 +284,4 @@ export const competitions: Competition[] = fs
 
 const outputPath = path.resolve('./src/lib/pregen/competitions-data.json');
 fs.writeFileSync(outputPath, JSON.stringify(competitions, null, 2));
-console.log('✅ Astronomy and astrophysics competition data generated successfully!');
+console.log('✅ Competition data generated successfully!');
