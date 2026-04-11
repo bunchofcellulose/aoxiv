@@ -1,0 +1,110 @@
+name: 3rd IOAA 2009
+location: Tehran, Iran
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2009/data_analysis_problems_2009_ioaa.pdf
+  solutionLink: /competitions/ioaa/2009/data_analysis_solutions_2009_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Data Analysis 2
+  link: /competitions/ioaa/2009/data_analysis_table_2009_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Long
+  link: /competitions/ioaa/2009/long_problems_2009_ioaa.pdf
+  solutionLink: /competitions/ioaa/2009/long_problems_solutions_2009_ioaa.pdf
+  majorCategory: Theory
+- category: Observation
+  link: /competitions/ioaa/2009/observation_problems_2009_ioaa.pdf
+  solutionLink: /competitions/ioaa/2009/observation_solution_2009_ioaa.pdf
+  majorCategory: Observation
+- category: Short
+  link: /competitions/ioaa/2009/short_problems_2009_ioaa.pdf
+  solutionLink: /competitions/ioaa/2009/short_problems_solutions_2009_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2009-1
+  number: D1
+  category: Data Analysis
+  name: CCD Image Processing (60 points)
+  maxScore: 60
+- id: ioaa-2009-2
+  number: D2
+  category: Data Analysis
+  name: Venus
+- id: ioaa-2009-3
+  number: D1
+  category: Data Analysis 2
+  name: CCD Image Processing data table
+- id: ioaa-2009-4
+  number: T1
+  category: Long
+  name: High Altitude Projectile
+  maxScore: 45
+- id: ioaa-2009-5
+  number: T2
+  category: Long
+  name: Apparent number density of stars in the Galaxy
+  maxScore: 45
+- id: ioaa-2009-6
+  number: O1
+  category: Observation
+  name: Star mapping in Perseus/Andromeda and telescope coordinate measurements
+- id: ioaa-2009-7
+  number: T3
+  category: Short
+  name: Mean mass density of a supermassive black hole
+- id: ioaa-2009-8
+  number: T4
+  category: Short
+  name: Photon rate at the eye from a G2V star
+- id: ioaa-2009-9
+  number: T5
+  category: Short
+  name: Escape-by-jump planet radius estimate
+- id: ioaa-2009-10
+  number: T6
+  category: Short
+  name: South-side window overhang from solar geometry
+- id: ioaa-2009-11
+  number: T7
+  category: Short
+  name: Damavand Mountain and Caspian horizon geometry
+- id: ioaa-2009-12
+  number: T8
+  category: Short
+  name: Escape velocity in a uniform protostar cloud
+- id: ioaa-2009-13
+  number: T9
+  category: Short
+  name: Eyepiece field of view measurement
+- id: ioaa-2009-14
+  number: T10
+  category: Short
+  name: Mass estimate of a globular cluster
+- id: ioaa-2009-15
+  number: T11
+  category: Short
+  name: Galactic longitude and radial velocity relation
+- id: ioaa-2009-16
+  number: T12
+  category: Short
+  name: Main-sequence star average density estimate
+- id: ioaa-2009-17
+  number: T13
+  category: Short
+  name: Number density of relic neutrinos
+- id: ioaa-2009-18
+  number: T14
+  category: Short
+  name: Increase in Earth orbit radius from solar mass loss
+- id: ioaa-2009-19
+  number: T15
+  category: Short
+  name: Copernican-era astronomical inference
+- id: ioaa-2009-20
+  number: T16
+  category: Short
+  name: Equatorial satellite orbital geometry
+- id: ioaa-2009-21
+  number: T17
+  category: Short
+  name: Equal-size eclipsing giant binary system

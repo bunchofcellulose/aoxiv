@@ -1,0 +1,137 @@
+name: 7th IOAA 2013
+location: Volos, Greece
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2013/data_analysis_with_markings_leaders_without_5_solar_figures_2013_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Long Solutions
+  link: /competitions/ioaa/2013/long_problem_and_solution_2013_ioaa.pdf
+  majorCategory: Theory
+- category: Observation Day
+  link: /competitions/ioaa/2013/observational_test_day_indoors_2013_ioaa.pdf
+  majorCategory: Observation
+- category: Observation Night
+  link: /competitions/ioaa/2013/observational_test_night_2013_ioaa.pdf
+  majorCategory: Observation
+- category: Short Solutions
+  link: /competitions/ioaa/2013/short_problems_and_solutions_2013_ioaa.pdf
+  majorCategory: Theory
+- category: Team/Group Competition
+  link: /competitions/ioaa/2013/team_competition_horizontal_questions_2013_ioaa.pdf
+  majorCategory: Team/Group
+- category: Team/Group Competition Part 2
+  link: /competitions/ioaa/2013/team_competition_vertical_questions_2013_ioaa.pdf
+  majorCategory: Team/Group
+problems:
+- id: ioaa-2013-1
+  number: D1
+  category: Data Analysis
+  name: Focal length from Ursa Major image scale
+- id: ioaa-2013-2
+  number: D2
+  category: Data Analysis
+  name: Solar rotation from sunspot tracking
+- id: ioaa-2013-3
+  number: D3
+  category: Data Analysis
+  name: Hyades field photometry
+- id: ioaa-2013-4
+  number: D4
+  category: Data Analysis
+  name: Hyades distance via moving-cluster method
+- id: ioaa-2013-5
+  number: T1
+  category: Long And
+  name: Matter density and galaxy escape in an expanding universe
+- id: ioaa-2013-6
+  number: T2
+  category: Long And
+  name: Orbit of asteroid Seneca from signal delay
+- id: ioaa-2013-7
+  number: T3
+  category: Long And
+  name: Virial mass of a galaxy cluster
+- id: ioaa-2013-8
+  number: O1
+  category: Observation Day
+  name: Noon equinox Sun-based telescope alignment
+- id: ioaa-2013-9
+  number: O1
+  category: Observation Night
+  name: Telescope field-of-view from stellar drift timing
+- id: ioaa-2013-10
+  number: O2
+  category: Observation Night
+  name: Locate M27 from gamma Sagitta without setting-circle reading
+- id: ioaa-2013-11
+  number: O3
+  category: Observation Night
+  name: Spring-equinox daytime equatorial-mount alignment using Sun
+- id: ioaa-2013-15
+  number: T4
+  category: Short And
+  name: Mean Earth temperature with albedo
+- id: ioaa-2013-16
+  number: T5
+  category: Short And
+  name: Minimum telescope diameter to resolve hot Jupiter
+- id: ioaa-2013-17
+  number: T6
+  category: Short And
+  name: Main-sequence lifetime scaling with mass
+- id: ioaa-2013-18
+  number: T7
+  category: Short And
+  name: Cepheid distance from PL relation
+- id: ioaa-2013-19
+  number: T8
+  category: Short And
+  name: Hubble constant from H-alpha redshift
+- id: ioaa-2013-20
+  number: T9
+  category: Short And
+  name: Distance luminosity and radius of a star
+- id: ioaa-2013-21
+  number: T10
+  category: Short And
+  name: Luminosity classification from parallax and temperature
+- id: ioaa-2013-22
+  number: T11
+  category: Short And
+  name: Apparent magnitudes of an unresolved binary
+- id: ioaa-2013-23
+  number: T12
+  category: Short And
+  name: Equatorial coordinates from altitude and azimuth
+- id: ioaa-2013-24
+  number: T13
+  category: Short And
+  name: Sgr A* black hole mass from stellar orbit
+- id: ioaa-2013-25
+  number: T14
+  category: Short And
+  name: Maximum Full Moon altitude from Thessaloniki
+- id: ioaa-2013-26
+  number: T15
+  category: Short And
+  name: Radius of Sirius B from magnitude difference
+- id: ioaa-2013-27
+  number: T16
+  category: Short And
+  name: Optical depth of fog from Sun and Full Moon magnitudes
+- id: ioaa-2013-28
+  number: T17
+  category: Short And
+  name: Hour angle and zenith angle of Vega
+- id: ioaa-2013-29
+  number: T18
+  category: Short And
+  name: Galaxy recession velocities from redshift
+- id: ioaa-2013-30
+  number: G1
+  category: Team/Group Competition
+  name: Team quiz card (A-M astronomy puzzle sheets)
+- id: ioaa-2013-31
+  number: G1
+  category: Team/Group Competition Part 2
+  name: Team quiz card (A-M astronomy puzzle sheets) - answer key

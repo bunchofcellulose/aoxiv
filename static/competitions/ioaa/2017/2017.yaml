@@ -1,0 +1,133 @@
+name: 11th IOAA 2017
+location: Phuket, Thailand
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2017/data_analysis_problem_2017_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Data Analysis Solutions
+  link: /competitions/ioaa/2017/data_analysis_solution_2017_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Observation Day
+  link: /competitions/ioaa/2017/observational_examination_day_problem_2017_ioaa.pdf
+  majorCategory: Observation
+- category: Observation Night
+  link: /competitions/ioaa/2017/observational_examination_night_problem_2017_ioaa.pdf
+  majorCategory: Observation
+- category: Theory
+  link: /competitions/ioaa/2017/theory_problem_2017_ioaa.pdf
+  majorCategory: Theory
+- category: Theory Solutions
+  link: /competitions/ioaa/2017/theory_solution_2017_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2017-1
+  number: D1
+  category: Data Analysis
+  name: Calibrating distance ladder to the LMC
+  maxScore: 75
+- id: ioaa-2017-2
+  number: D2
+  category: Data Analysis
+  name: The search for dark matter
+  maxScore: 75
+- id: ioaa-2017-5
+  number: P1
+  category: Observation Day
+  name: Naked eye observation from real sky with panoramic 360-degrees image
+- id: ioaa-2017-6
+  number: P2
+  category: Observation Day
+  name: Planet observation with real sky in panoramic 360-degrees image
+- id: ioaa-2017-7
+  number: P3
+  category: Observation Day
+  name: Analemma on another planet
+- id: ioaa-2017-8
+  number: P4
+  category: Observation Day
+  name: Exposure time from a Photograph
+- id: ioaa-2017-9
+  number: P5
+  category: Observation Day
+  name: Find True North from Moon shadow
+- id: ioaa-2017-10
+  number: P6
+  category: Observation Day
+  name: Find Latitude from Equatorial Mount
+- id: ioaa-2017-11
+  number: P7
+  category: Observation Day
+  name: Precision Polar Alignment with Equatorial Mount
+- id: ioaa-2017-12
+  number: N1
+  category: Observation Night
+  name: Observation with Equatorial Mount Telescope
+- id: ioaa-2017-13
+  number: N2
+  category: Observation Night
+  name: Observation with Dobsonian Telescope
+- id: ioaa-2017-14
+  number: T1
+  category: Theory
+  name: The Large Magellanic Cloud in Phuket
+  maxScore: 10
+- id: ioaa-2017-15
+  number: T2
+  category: Theory
+  name: Earth's Transit Zone
+  maxScore: 10
+- id: ioaa-2017-16
+  number: T3
+  category: Theory
+  name: The Milky Way's Distant Outer Arm
+  maxScore: 10
+- id: ioaa-2017-17
+  number: T4
+  category: Theory
+  name: 21-cm HI galaxy survey
+  maxScore: 10
+- id: ioaa-2017-18
+  number: T5
+  category: Theory
+  name: A Synchronous Satellite
+  maxScore: 10
+- id: ioaa-2017-19
+  number: T6
+  category: Theory
+  name: Supernova 1987A
+  maxScore: 15
+- id: ioaa-2017-20
+  number: T7
+  category: Theory
+  name: Life on Other Planets
+  maxScore: 20
+- id: ioaa-2017-21
+  number: T8
+  category: Theory
+  name: The Star of Bethlehem
+  maxScore: 20
+- id: ioaa-2017-22
+  number: T9
+  category: Theory
+  name: Galactic Outflow
+  maxScore: 20
+- id: ioaa-2017-23
+  number: T10
+  category: Theory
+  name: GOTO
+  maxScore: 25
+- id: ioaa-2017-24
+  number: T11
+  category: Theory
+  name: Mass of the Local Group
+  maxScore: 50
+- id: ioaa-2017-25
+  number: T12
+  category: Theory
+  name: Shipwreck
+  maxScore: 40
+- id: ioaa-2017-26
+  number: T13
+  category: Theory
+  name: Exomoon
+  maxScore: 60

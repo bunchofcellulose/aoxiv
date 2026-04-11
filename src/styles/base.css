@@ -1,14 +1,23 @@
 @layer base {
 	h1 {
-		@apply mb-2 text-center text-2xl font-semibold sm:text-3xl;
+		@apply mb-2 text-center text-2xl font-semibold;
+		@variant sm {
+			@apply text-3xl;
+		}
 	}
 
 	h2 {
-		@apply text-xl font-semibold sm:text-2xl;
+		@apply text-xl font-semibold;
+		@variant sm {
+			@apply text-2xl;
+		}
 	}
 
 	h3 {
-		@apply text-lg leading-6 font-semibold sm:text-xl;
+		@apply text-lg leading-6 font-semibold;
+		@variant sm {
+			@apply text-xl;
+		}
 	}
 
 	p {

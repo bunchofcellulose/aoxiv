@@ -1,0 +1,99 @@
+name: 4th IOAA 2010
+location: Beijing, China
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2010/data_analysis_2010_ioaa.pdf
+  solutionLink: /competitions/ioaa/2010/data_analysis_solutions_2010_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Long Solutions
+  solutionLink: /competitions/ioaa/2010/long_problems_and_solutions_2010_ioaa.pdf
+  majorCategory: Theory
+- category: Observation
+  link: /competitions/ioaa/2010/observation_problems_2010_ioaa.pdf
+  majorCategory: Observation
+- category: Short Solutions
+  solutionLink: /competitions/ioaa/2010/short_problems_and_solutions_2010_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2010-1
+  number: D1
+  category: Data Analysis
+  name: CCD image (35 points)
+  maxScore: 35
+- id: ioaa-2010-2
+  number: D2
+  category: Data Analysis
+  name: Light curves of stars (35 points)
+  maxScore: 35
+- id: ioaa-2010-3
+  number: T1
+  category: Long And
+  name: Parabolic Earth-to-Mars transfer geometry
+- id: ioaa-2010-4
+  number: T2
+  category: Long And
+  name: Korribian Taris system dynamics
+- id: ioaa-2010-20
+  number: O1
+  category: Observation
+  name: Telescope tests and planetarium sky-identification tasks
+- id: ioaa-2010-5
+  number: T3
+  category: Short And
+  name: Combined magnitude of a binary system
+- id: ioaa-2010-6
+  number: T4
+  category: Short And
+  name: Schwarzschild radius for a solar-mass object
+- id: ioaa-2010-7
+  number: T5
+  category: Short And
+  name: QSO distance from redshift z = 0.20
+- id: ioaa-2010-8
+  number: T6
+  category: Short And
+  name: Binary component masses from orbit and angular separations
+- id: ioaa-2010-9
+  number: T7
+  category: Short And
+  name: Maximum solar lifetime from mass-energy conversion
+- id: ioaa-2010-10
+  number: T8
+  category: Short And
+  name: Can an astronaut walk around a small asteroid?
+- id: ioaa-2010-11
+  number: T9
+  category: Short And
+  name: Maximum transit depth of an Earth-like exoplanet
+- id: ioaa-2010-12
+  number: T10
+  category: Short And
+  name: Resolving Sgr A* event horizon with Earth-sized baseline
+- id: ioaa-2010-13
+  number: T11
+  category: Short And
+  name: Photon rate from an I = 22 star on an 8 m telescope
+- id: ioaa-2010-14
+  number: T12
+  category: Short And
+  name: Exponential vertical density drop in Galactic disc
+- id: ioaa-2010-15
+  number: T13
+  category: Short And
+  name: Date of Mars great opposition in 2018
+- id: ioaa-2010-16
+  number: T14
+  category: Short And
+  name: Radius ratio from magnitude and temperature differences
+- id: ioaa-2010-17
+  number: T15
+  category: Short And
+  name: Solar photosphere temperature from naked-eye color
+- id: ioaa-2010-18
+  number: T16
+  category: Short And
+  name: Fourth contact time of a Venus transit
+- id: ioaa-2010-19
+  number: T17
+  category: Short And
+  name: Annular-to-total solar eclipse occurrence ratio

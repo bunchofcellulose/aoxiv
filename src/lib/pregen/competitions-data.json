@@ -1536,6 +1536,4728 @@
     ]
   },
   {
+    "id": "ioaa",
+    "name": "International Olympiad on Astronomy and Astrophysics",
+    "shortName": "IOAA",
+    "website": "https://ioaastrophysics.org/",
+    "desc": "The International Olympiad on Astronomy and Astrophysics (IOAA) is a global competition for secondary school students. It features multiple components such as theory, data analysis, and observation rounds. This archive contains publicly shared problem and solution PDFs from past editions listed by IOAA.\n",
+    "summary": "International astronomy and astrophysics olympiad with theory, data analysis, and observation rounds.",
+    "icon": "🌍",
+    "tag": "International",
+    "url": "https://ioaastrophysics.org/resources/problems-from-past-ioaa",
+    "editions": [
+      {
+        "year": 2025,
+        "name": "18th IOAA 2025",
+        "location": "Mumbai, India",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "instructions": "/competitions/ioaa/2025/da_instructions.pdf",
+            "link": "/competitions/ioaa/2025/data_analysis_questions.pdf",
+            "solutionLink": "/competitions/ioaa/2025/data_analysis_solutions.pdf",
+            "answerSheet": "/competitions/ioaa/2025/data_analysis_summary_answersheet.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Map OM01",
+            "link": "/competitions/ioaa/2025/map_om01_a3.pdf",
+            "solutionLink": "/competitions/ioaa/2025/map_om01_solutions_a3.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Map OM02",
+            "link": "/competitions/ioaa/2025/map_om02_a3.pdf",
+            "solutionLink": "/competitions/ioaa/2025/map_om02_solutions_a3.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Map OP01",
+            "link": "/competitions/ioaa/2025/map_op01.pdf",
+            "solutionLink": "/competitions/ioaa/2025/map_op01_solutions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Map OP02",
+            "link": "/competitions/ioaa/2025/map_op02.pdf",
+            "solutionLink": "/competitions/ioaa/2025/map_op02_solutions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Map OT01",
+            "link": "/competitions/ioaa/2025/map_ot01.pdf",
+            "solutionLink": "/competitions/ioaa/2025/map_ot01_solution.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Answer Sheet",
+            "answerSheet": "/competitions/ioaa/2025/observation_telesope_summary_answersheet.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Sky Map",
+            "link": "/competitions/ioaa/2025/observation_examination_sky_map_round.pdf",
+            "solutionLink": "/competitions/ioaa/2025/observation_skymap_solutions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Sky Map Part 2",
+            "link": "/competitions/ioaa/2025/observation_skymap_questions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Telescope",
+            "link": "/competitions/ioaa/2025/observation_examination_telescope_round.pdf",
+            "solutionLink": "/competitions/ioaa/2025/observation_telescope_solutions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Telescope Part 2",
+            "link": "/competitions/ioaa/2025/observation_telescope_questions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/competitions/ioaa/2025/observation_examination_planetarium_round.pdf",
+            "solutionLink": "/competitions/ioaa/2025/observation_planetarium_solutions.pdf",
+            "answerSheet": "/competitions/ioaa/2025/observation_planetarium_summary_answersheet.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium Part 2",
+            "link": "/competitions/ioaa/2025/observation_planetarium_questions.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2025/group_questions.pdf",
+            "solutionLink": "/competitions/ioaa/2025/group_solutions.pdf",
+            "answerSheet": "/competitions/ioaa/2025/group_summary_answersheet.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Team/Group Competition Part 2",
+            "link": "/competitions/ioaa/2025/group_write_up.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2025/theory_questions.pdf",
+            "solutionLink": "/competitions/ioaa/2025/theory_solution.pdf",
+            "answerSheet": "/competitions/ioaa/2025/theory_summary_answersheet.pdf",
+            "instructions": "/competitions/ioaa/2025/theory_instructions.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2025-1",
+              "ioaa-2025-2"
+            ]
+          },
+          {
+            "id": "map-om01",
+            "name": "Map OM01",
+            "problemIds": [
+              "ioaa-2025-3"
+            ]
+          },
+          {
+            "id": "map-om02",
+            "name": "Map OM02",
+            "problemIds": [
+              "ioaa-2025-4"
+            ]
+          },
+          {
+            "id": "map-op01",
+            "name": "Map OP01",
+            "problemIds": [
+              "ioaa-2025-5"
+            ]
+          },
+          {
+            "id": "map-op02",
+            "name": "Map OP02",
+            "problemIds": [
+              "ioaa-2025-6"
+            ]
+          },
+          {
+            "id": "map-ot01",
+            "name": "Map OT01",
+            "problemIds": [
+              "ioaa-2025-7"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2025-8"
+            ]
+          },
+          {
+            "id": "observation-sky-map",
+            "name": "Observation Sky Map",
+            "problemIds": [
+              "ioaa-2025-9"
+            ]
+          },
+          {
+            "id": "observation-sky-map-part-2",
+            "name": "Observation Sky Map Part 2",
+            "problemIds": [
+              "ioaa-2025-10"
+            ]
+          },
+          {
+            "id": "observation-telescope",
+            "name": "Observation Telescope",
+            "problemIds": [
+              "ioaa-2025-11"
+            ]
+          },
+          {
+            "id": "observation-telescope-part-2",
+            "name": "Observation Telescope Part 2",
+            "problemIds": [
+              "ioaa-2025-12"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2025-13"
+            ]
+          },
+          {
+            "id": "planetarium-part-2",
+            "name": "Planetarium Part 2",
+            "problemIds": [
+              "ioaa-2025-14"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2025-15"
+            ]
+          },
+          {
+            "id": "team/group-competition-part-2",
+            "name": "Team/Group Competition Part 2",
+            "problemIds": [
+              "ioaa-2025-16"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2025-17",
+              "ioaa-2025-18",
+              "ioaa-2025-19",
+              "ioaa-2025-20",
+              "ioaa-2025-21",
+              "ioaa-2025-22",
+              "ioaa-2025-23",
+              "ioaa-2025-24",
+              "ioaa-2025-25",
+              "ioaa-2025-26",
+              "ioaa-2025-27",
+              "ioaa-2025-28"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2025-1",
+            "number": "D1",
+            "name": "30 Years of Exoplanets",
+            "category": "Data Analysis",
+            "maxScore": 90
+          },
+          {
+            "id": "ioaa-2025-2",
+            "number": "D2",
+            "name": "Predicting arrival times of coronal mass ejections on Earth",
+            "category": "Data Analysis",
+            "maxScore": 60
+          },
+          {
+            "id": "ioaa-2025-3",
+            "number": "O3",
+            "name": "Map OM01",
+            "category": "Map OM01",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-4",
+            "number": "O4",
+            "name": "Map OM02",
+            "category": "Map OM02",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-5",
+            "number": "O5",
+            "name": "Map OP01",
+            "category": "Map OP01",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-6",
+            "number": "O6",
+            "name": "Map OP02",
+            "category": "Map OP02",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-7",
+            "number": "O7",
+            "name": "Map OT01",
+            "category": "Map OT01",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-8",
+            "number": "O8",
+            "name": "Observation",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-9",
+            "number": "O9",
+            "name": "Observation Sky Map",
+            "category": "Observation Sky Map",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-10",
+            "number": "O10",
+            "name": "Observation Sky Map Part 2",
+            "category": "Observation Sky Map Part 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-11",
+            "number": "O11",
+            "name": "Observation Telescope",
+            "category": "Observation Telescope",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-12",
+            "number": "O12",
+            "name": "Observation Telescope Part 2",
+            "category": "Observation Telescope Part 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-13",
+            "number": "P13",
+            "name": "Planetarium",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-14",
+            "number": "P14",
+            "name": "Planetarium Part 2",
+            "category": "Planetarium Part 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-15",
+            "number": "G1",
+            "name": "Uncovering Galactic dark matter using a radio telescope",
+            "category": "Team/Group Competition",
+            "maxScore": 150
+          },
+          {
+            "id": "ioaa-2025-16",
+            "number": "G16",
+            "name": "Team/Group Competition Part 2",
+            "category": "Team/Group Competition Part 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-17",
+            "number": "T1",
+            "name": "Daksha Mission",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2025-18",
+            "number": "T2",
+            "name": "Makar-Sankranti",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2025-19",
+            "number": "T3",
+            "name": "Gravitational Waves",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2025-20",
+            "number": "T4",
+            "name": "Balmer Decrement",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-21",
+            "number": "T5",
+            "name": "Quasars",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-22",
+            "number": "T6",
+            "name": "Galactic Rotation",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-23",
+            "number": "T7",
+            "name": "Neutron Star Binary",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-24",
+            "number": "T8",
+            "name": "Shadow of a black hole",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-25",
+            "number": "T9",
+            "name": "Atmospheric Seeing",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2025-26",
+            "number": "T10",
+            "name": "Big Bang Nucleosynthesis",
+            "category": "Theory",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2025-27",
+            "number": "T11",
+            "name": "Stars through graphs",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2025-28",
+            "number": "T12",
+            "name": "Hawking Radiation from Black Holes",
+            "category": "Theory",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "17th IOAA 2024",
+        "location": "Rio de Janeiro, Brazil",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2024/data_analysis_2024_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2024/data_analysis_solutions_2024_ioaa.pdf",
+            "gradingScheme": "/competitions/ioaa/2024/data_analysis_marking_scheme_rules_2024_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2024/observation_2024_ioaa.pdf",
+            "gradingScheme": "/competitions/ioaa/2024/observation_marking_scheme_2024_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/competitions/ioaa/2024/planetarium_2024_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2024/planetarium_solutions_2024_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2024/theory_2024_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2024/theory_solutions_2024_ioaa.pdf",
+            "gradingScheme": "/competitions/ioaa/2024/theory_marking_scheme_2024_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2024-1",
+              "ioaa-2024-2"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2024-3",
+              "ioaa-2024-4",
+              "ioaa-2024-5",
+              "ioaa-2024-6",
+              "ioaa-2024-7"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2024-8",
+              "ioaa-2024-9"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2024-10",
+              "ioaa-2024-11",
+              "ioaa-2024-12",
+              "ioaa-2024-13",
+              "ioaa-2024-14",
+              "ioaa-2024-15",
+              "ioaa-2024-16",
+              "ioaa-2024-17",
+              "ioaa-2024-18",
+              "ioaa-2024-19",
+              "ioaa-2024-20"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2024-1",
+            "number": "D1",
+            "name": "Photometric comparison of surveys",
+            "category": "Data Analysis",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2024-2",
+            "number": "D2",
+            "name": "Shapley Hypothesis",
+            "category": "Data Analysis",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2024-3",
+            "number": "O1",
+            "name": "Stars within 8° of alpha Corvi (magnitude 4-6)",
+            "category": "Observation",
+            "maxScore": 18
+          },
+          {
+            "id": "ioaa-2024-4",
+            "number": "O2",
+            "name": "Alt-az sky chart orientation and great-circle markings",
+            "category": "Observation",
+            "maxScore": 16
+          },
+          {
+            "id": "ioaa-2024-5",
+            "number": "O3",
+            "name": "Meridian-transit and setting times from star chart",
+            "category": "Observation",
+            "maxScore": 11
+          },
+          {
+            "id": "ioaa-2024-6",
+            "number": "O4",
+            "name": "First stage: Pointing & Measurement",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2024-7",
+            "number": "O5",
+            "name": "Second stage: Calculation and Identification",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2024-8",
+            "number": "P1",
+            "name": "Problem 1",
+            "category": "Planetarium",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-9",
+            "number": "P2",
+            "name": "Problem 2",
+            "category": "Planetarium",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-10",
+            "number": "T1",
+            "name": "Sundial",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-11",
+            "number": "T2",
+            "name": "Galaxy Cluster",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-12",
+            "number": "T3",
+            "name": "Asteroid",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-13",
+            "number": "T4",
+            "name": "White Dwarf",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-14",
+            "number": "T5",
+            "name": "CMB",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-15",
+            "number": "T6",
+            "name": "Cluster Photography",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2024-16",
+            "number": "T7",
+            "name": "Castaway",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2024-17",
+            "number": "T8",
+            "name": "Binary Hardening",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2024-18",
+            "number": "T9",
+            "name": "Physics of Accretion",
+            "category": "Theory",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2024-19",
+            "number": "T10",
+            "name": "Greatest Eclipse",
+            "category": "Theory",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2024-20",
+            "number": "T11",
+            "name": "Ground Tracks",
+            "category": "Theory",
+            "maxScore": 75
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "16th IOAA 2023",
+        "location": "Katowice, Poland",
+        "papers": [
+          {
+            "category": "Data Analysis Solutions",
+            "solutionLink": "/competitions/ioaa/2023/data_analysis_questions_with_solutions_2023_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation Solutions",
+            "solutionLink": "/competitions/ioaa/2023/observations_questions_with_solutions_2023_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium Solutions",
+            "solutionLink": "/competitions/ioaa/2023/planetarium_questions_with_solutions_2023_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2023/group_competition_2023_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Theory Solutions",
+            "solutionLink": "/competitions/ioaa/2023/theory_medium_questions_with_solutions_2023_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "solutionLink": "/competitions/ioaa/2023/theory_long_questions_with_solutions_2023_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "solutionLink": "/competitions/ioaa/2023/theory_short_questions_with_solutions_2023_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2023-1",
+              "ioaa-2023-2"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2023-3",
+              "ioaa-2023-4",
+              "ioaa-2023-5",
+              "ioaa-2023-6"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2023-7",
+              "ioaa-2023-8",
+              "ioaa-2023-9"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2023-10"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2023-11",
+              "ioaa-2023-12",
+              "ioaa-2023-13",
+              "ioaa-2023-14",
+              "ioaa-2023-15"
+            ]
+          },
+          {
+            "id": "theory-long",
+            "name": "Theory Long",
+            "problemIds": [
+              "ioaa-2023-16",
+              "ioaa-2023-17",
+              "ioaa-2023-18"
+            ]
+          },
+          {
+            "id": "theory-short",
+            "name": "Theory Short",
+            "problemIds": [
+              "ioaa-2023-19",
+              "ioaa-2023-20",
+              "ioaa-2023-21",
+              "ioaa-2023-22",
+              "ioaa-2023-23"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2023-1",
+            "number": "D1",
+            "name": "Distance to the Large Magellanic Cloud",
+            "category": "Data Analysis",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2023-2",
+            "number": "D2",
+            "name": "Isolated black hole",
+            "category": "Data Analysis",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2023-3",
+            "number": "O1",
+            "name": "Asteroid occultation",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2023-4",
+            "number": "O2",
+            "name": "Starlink",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2023-5",
+            "number": "O3",
+            "name": "Planetary Moons",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2023-6",
+            "number": "O4",
+            "name": "Supernova",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2023-7",
+            "number": "P1",
+            "name": "Knowledge of the sky",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-8",
+            "number": "P2",
+            "name": "Retrograde Mars",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-9",
+            "number": "P3",
+            "name": "TRAPPIST-1",
+            "category": "Planetarium",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2023-10",
+            "number": "G1",
+            "name": "Multi-task team challenge (crossword, Arecibo message, Mars loop, astrolabe, Saros)",
+            "category": "Team/Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-11",
+            "number": "T6",
+            "name": "Bolometer",
+            "category": "Theory",
+            "maxScore": 13
+          },
+          {
+            "id": "ioaa-2023-12",
+            "number": "T7",
+            "name": "Libration",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-13",
+            "number": "T8",
+            "name": "Neutrinos",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-14",
+            "number": "T9",
+            "name": "Second eclipse",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-15",
+            "number": "T10",
+            "name": "Aldebaran",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2023-16",
+            "number": "T11",
+            "name": "X-ray emission from galaxy clusters",
+            "category": "Theory Long",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2023-17",
+            "number": "T12",
+            "name": "DART",
+            "category": "Theory Long",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2023-18",
+            "number": "T13",
+            "name": "LISA",
+            "category": "Theory Long",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaa-2023-19",
+            "number": "T1",
+            "name": "Neptune",
+            "category": "Theory Short",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2023-20",
+            "number": "T2",
+            "name": "Magnetic field",
+            "category": "Theory Short",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2023-21",
+            "number": "T3",
+            "name": "Microlensing",
+            "category": "Theory Short",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2023-22",
+            "number": "T4",
+            "name": "Europa",
+            "category": "Theory Short",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2023-23",
+            "number": "T5",
+            "name": "Dark Energy",
+            "category": "Theory Short",
+            "maxScore": 12
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "15th IOAA 2022",
+        "location": "Kutaisi, Georgia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2022/data_analysis_problems_final_2022_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2022/observation_alternative_2022_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Day",
+            "link": "/competitions/ioaa/2022/day_time_observation_problems_final_2022_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Night",
+            "link": "/competitions/ioaa/2022/night_time_observation_problems_final_2022_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2022/theory_final_2022_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2022-1",
+              "ioaa-2022-2"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2022-3",
+              "ioaa-2022-4",
+              "ioaa-2022-5",
+              "ioaa-2022-6"
+            ]
+          },
+          {
+            "id": "observation-day",
+            "name": "Observation Day",
+            "problemIds": [
+              "ioaa-2022-7",
+              "ioaa-2022-8",
+              "ioaa-2022-9",
+              "ioaa-2022-10",
+              "ioaa-2022-11"
+            ]
+          },
+          {
+            "id": "observation-night",
+            "name": "Observation Night",
+            "problemIds": [
+              "ioaa-2022-12",
+              "ioaa-2022-13",
+              "ioaa-2022-14",
+              "ioaa-2022-15"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2022-16",
+              "ioaa-2022-17",
+              "ioaa-2022-18",
+              "ioaa-2022-19",
+              "ioaa-2022-20",
+              "ioaa-2022-21",
+              "ioaa-2022-22",
+              "ioaa-2022-23",
+              "ioaa-2022-24",
+              "ioaa-2022-25",
+              "ioaa-2022-26",
+              "ioaa-2022-27",
+              "ioaa-2022-28"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2022-1",
+            "number": "D1",
+            "name": "Gravitational wave astronomy",
+            "category": "Data Analysis",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaa-2022-2",
+            "number": "D2",
+            "name": "Galactic Surveys",
+            "category": "Data Analysis",
+            "maxScore": 105
+          },
+          {
+            "id": "ioaa-2022-3",
+            "number": "OA1",
+            "name": "Object identification with telescopes",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2022-4",
+            "number": "OA2",
+            "name": "Telescope field of view",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2022-5",
+            "number": "OA3",
+            "name": "Telescope focal length",
+            "category": "Observation",
+            "maxScore": 6
+          },
+          {
+            "id": "ioaa-2022-6",
+            "number": "OA4",
+            "name": "Binary star angle measurement",
+            "category": "Observation",
+            "maxScore": 14
+          },
+          {
+            "id": "ioaa-2022-7",
+            "number": "OD1",
+            "name": "Reflector type identification",
+            "category": "Observation Day",
+            "maxScore": 9
+          },
+          {
+            "id": "ioaa-2022-8",
+            "number": "OD2",
+            "name": "Equatorial constellations and ecliptic",
+            "category": "Observation Day",
+            "maxScore": 21
+          },
+          {
+            "id": "ioaa-2022-9",
+            "number": "OD3",
+            "name": "Messier objects and constellations",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-10",
+            "number": "OD4",
+            "name": "Additional and missing stars",
+            "category": "Observation Day",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2022-11",
+            "number": "OD5",
+            "name": "Time interval from sky figures",
+            "category": "Observation Day",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2022-12",
+            "number": "ON1",
+            "name": "Object sequence identification",
+            "category": "Observation Night",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2022-13",
+            "number": "ON2",
+            "name": "Telescope field of view",
+            "category": "Observation Night",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2022-14",
+            "number": "ON3",
+            "name": "Albireo binary angle",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-15",
+            "number": "ON4",
+            "name": "Telescope focal length",
+            "category": "Observation Night",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2022-16",
+            "number": "T1",
+            "name": "Planck's units",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2022-17",
+            "number": "T2",
+            "name": "Circumbinary planet",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2022-18",
+            "number": "T3",
+            "name": "Expanding ring nebula",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2022-19",
+            "number": "T4",
+            "name": "Journey Between Galaxies",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2022-20",
+            "number": "T5",
+            "name": "Flaring protoplanetary disk",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2022-21",
+            "number": "T6",
+            "name": "Photometry of Binary stars",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-22",
+            "number": "T7",
+            "name": "Georgia to Georgia",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-23",
+            "number": "T8",
+            "name": "Ring of a planet",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-24",
+            "number": "T9",
+            "name": "Solar Retrograde Motion on Mercury",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-25",
+            "number": "T10",
+            "name": "Accretion",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-26",
+            "number": "T11",
+            "name": "Dyson Sphere",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2022-27",
+            "number": "T12",
+            "name": "Co-orbital satellites",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2022-28",
+            "number": "T13",
+            "name": "Relativistic Beaming",
+            "category": "Theory",
+            "maxScore": 50
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "name": "14th IOAA 2021",
+        "location": "Bogota, Colombia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "instructions": "/competitions/ioaa/2021/data_analysis_instructions_2021_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis 1",
+            "link": "/competitions/ioaa/2021/data_analysis_1_2021_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2021/data_analysis_1_solutions_2021_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis 2",
+            "link": "/competitions/ioaa/2021/data_analysis_2_2021_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2021/data_analysis_2_solutions_2021_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation Solar Physics",
+            "link": "/competitions/ioaa/2021/observational_20exam_20solar_20physics_202021_20ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2021/observational_exam_solar_physics_solutions_2021_ioaa.pdf",
+            "instructions": "/competitions/ioaa/2021/observational_exam_solar_physics_instructions_2021_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/competitions/ioaa/2021/planetarium_exam_problems_2021_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2021/planetarium_exam_solutions_2021_ioaa.pdf",
+            "instructions": "/competitions/ioaa/2021/planetarium_exam_instructions_2021_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2021/team_competition_2021_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2021/team_competition_solutions_2021_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2021/theory_problems_2021_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2021/theory_solutions_2021_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis-1",
+            "name": "Data Analysis 1",
+            "problemIds": [
+              "ioaa-2021-1"
+            ]
+          },
+          {
+            "id": "data-analysis-2",
+            "name": "Data Analysis 2",
+            "problemIds": [
+              "ioaa-2021-2"
+            ]
+          },
+          {
+            "id": "observation-solar-physics",
+            "name": "Observation Solar Physics",
+            "problemIds": [
+              "ioaa-2021-3"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2021-4"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2021-5"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2021-6",
+              "ioaa-2021-7",
+              "ioaa-2021-8",
+              "ioaa-2021-9",
+              "ioaa-2021-10",
+              "ioaa-2021-11",
+              "ioaa-2021-12",
+              "ioaa-2021-13",
+              "ioaa-2021-14",
+              "ioaa-2021-15",
+              "ioaa-2021-16",
+              "ioaa-2021-17",
+              "ioaa-2021-18",
+              "ioaa-2021-19"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2021-1",
+            "number": "D1",
+            "name": "Scaling Relations",
+            "category": "Data Analysis 1",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2021-2",
+            "number": "D2",
+            "name": "Stars and Exoplanets",
+            "category": "Data Analysis 2",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2021-3",
+            "number": "O1",
+            "name": "The Solar Slap",
+            "category": "Observation Solar Physics",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2021-4",
+            "number": "P1",
+            "name": "Simulated Sky",
+            "category": "Planetarium",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2021-5",
+            "number": "G1",
+            "name": "Group Radio Astronomy",
+            "category": "Team/Group Competition",
+            "maxScore": 115
+          },
+          {
+            "id": "ioaa-2021-6",
+            "number": "T1",
+            "name": "LIGO",
+            "category": "Theory",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2021-7",
+            "number": "T2",
+            "name": "Temperature of the Earth",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2021-8",
+            "number": "T3",
+            "name": "Mars",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2021-9",
+            "number": "T4",
+            "name": "ALMA - Calculating photons",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2021-10",
+            "number": "T5",
+            "name": "Under pressure",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2021-11",
+            "number": "T6",
+            "name": "Macondo and Melquiades",
+            "category": "Theory",
+            "maxScore": 12
+          },
+          {
+            "id": "ioaa-2021-12",
+            "number": "T7",
+            "name": "Menkalinan (Beta Aurigae)",
+            "category": "Theory",
+            "maxScore": 13
+          },
+          {
+            "id": "ioaa-2021-13",
+            "number": "T8",
+            "name": "IOAA Logo",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2021-14",
+            "number": "T9",
+            "name": "Pluto Satellites",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2021-15",
+            "number": "T10",
+            "name": "Terrestrial Transit",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2021-16",
+            "number": "T11",
+            "name": "Minimum velocity of a projectile",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2021-17",
+            "number": "T12",
+            "name": "Hodograph",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2021-18",
+            "number": "T13",
+            "name": "Lucy: The First Mission to the Trojan Asteroids",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2021-19",
+            "number": "T14",
+            "name": "Formation of the Venus-2",
+            "category": "Theory",
+            "maxScore": 35
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "name": "1st GeCAA 2020",
+        "location": "Estonia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2020/data_analysis_2020_gecaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Solutions",
+            "link": "/competitions/ioaa/2020/data_analysis_solutions_2020_gecaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2020/observation_2020_gecaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Student User With Screenshots",
+            "instructions": "/competitions/ioaa/2020/student_user_guide_with_screenshots.pdf",
+            "majorCategory": "General"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2020/theory_2020_gecaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "link": "/competitions/ioaa/2020/theory_solutions_2020_gecaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2020-1",
+              "ioaa-2020-2",
+              "ioaa-2020-3"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2020-4",
+              "ioaa-2020-5",
+              "ioaa-2020-6",
+              "ioaa-2020-7"
+            ]
+          },
+          {
+            "id": "student-user-with-screenshots",
+            "name": "Student User With Screenshots",
+            "problemIds": [
+              "ioaa-2020-8"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2020-9",
+              "ioaa-2020-10",
+              "ioaa-2020-11",
+              "ioaa-2020-12",
+              "ioaa-2020-13",
+              "ioaa-2020-14",
+              "ioaa-2020-15",
+              "ioaa-2020-16"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2020-1",
+            "number": "D1",
+            "name": "AGN",
+            "category": "Data Analysis",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2020-2",
+            "number": "D2",
+            "name": "Minor Planet",
+            "category": "Data Analysis",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2020-3",
+            "number": "D3",
+            "name": "Hypervelocity Stars",
+            "category": "Data Analysis",
+            "maxScore": 55
+          },
+          {
+            "id": "ioaa-2020-4",
+            "number": "O1",
+            "name": "Comets in the Sky",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2020-5",
+            "number": "O2",
+            "name": "Neowise with MAGIC",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2020-6",
+            "number": "O3",
+            "name": "All Sky",
+            "category": "Observation",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2020-7",
+            "number": "O4",
+            "name": "Sky Map",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2020-8",
+            "number": "Q1",
+            "name": "Student Guide and Materials",
+            "category": "Student User With Screenshots",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2020-9",
+            "number": "T1",
+            "name": "Astrophotography",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2020-10",
+            "number": "T2",
+            "name": "Flat Earth",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2020-11",
+            "number": "T3",
+            "name": "Mirror",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2020-12",
+            "number": "T4",
+            "name": "Light Curves",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2020-13",
+            "number": "T5",
+            "name": "HII region",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2020-14",
+            "number": "T6",
+            "name": "Occultation of an X-ray Source",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2020-15",
+            "number": "T7",
+            "name": "Radiant of a Meteor Shower",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2020-16",
+            "number": "T8",
+            "name": "Jupiter's Great Red Spot",
+            "category": "Theory",
+            "maxScore": 30
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "name": "13th IOAA 2019",
+        "location": "Keszthely, Hungary",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2019/data_analysis_problem_2019_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Solutions",
+            "link": "/competitions/ioaa/2019/data_analysis_solution_2019_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Answer Sheet",
+            "link": "/competitions/ioaa/2019/data_analysis_answersheet_2019_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2019/observational_round_problem_2019_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Solutions",
+            "link": "/competitions/ioaa/2019/observational_round_solution_2019_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/competitions/ioaa/2019/planetarium_round_problem_2019_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium Solutions",
+            "link": "/competitions/ioaa/2019/planetarium_round_solution_2019_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2019/theory_problem_2019_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "link": "/competitions/ioaa/2019/theory_solution_2019_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Answer Sheet",
+            "link": "/competitions/ioaa/2019/theory_answersheet_2019_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2019-1",
+              "ioaa-2019-2"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2019-3"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2019-4",
+              "ioaa-2019-5",
+              "ioaa-2019-6"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2019-7",
+              "ioaa-2019-8",
+              "ioaa-2019-9",
+              "ioaa-2019-10",
+              "ioaa-2019-11",
+              "ioaa-2019-12",
+              "ioaa-2019-13",
+              "ioaa-2019-14",
+              "ioaa-2019-15",
+              "ioaa-2019-16",
+              "ioaa-2019-17",
+              "ioaa-2019-18",
+              "ioaa-2019-19",
+              "ioaa-2019-20"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2019-1",
+            "number": "D1",
+            "name": "Photometry and spectroscopy of Nova Del 2013",
+            "category": "Data Analysis",
+            "maxScore": 60
+          },
+          {
+            "id": "ioaa-2019-2",
+            "number": "D2",
+            "name": "Triply eclipsing hierarchical triple stellar system",
+            "category": "Data Analysis",
+            "maxScore": 90
+          },
+          {
+            "id": "ioaa-2019-3",
+            "number": "O1",
+            "name": "Telescope observational round (Saturn, M57, AF Cyg, naked-eye photometry)",
+            "category": "Observation",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2019-4",
+            "number": "P1",
+            "name": "Sky above Keszthely at midnight",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-5",
+            "number": "P2",
+            "name": "Determining observing site from projected sky",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-6",
+            "number": "P3",
+            "name": "Observing from the Moon during an Earth eclipse",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-7",
+            "number": "T1",
+            "name": "Famous astronomical events",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2019-8",
+            "number": "T2",
+            "name": "Deflection of radio photons in the gravitational field of solar system bodies",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2019-9",
+            "number": "T3",
+            "name": "The supermassive black hole in the centre of Milky Way Galaxy and M87",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2019-10",
+            "number": "T4",
+            "name": "Improving a common reflecting telescope",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2019-11",
+            "number": "T5",
+            "name": "Cosmic Microwave Background Oven",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2019-12",
+            "number": "T6",
+            "name": "The height of the chimney of Tiszaujvaros power plant",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-13",
+            "number": "T7",
+            "name": "Effect of sunspots on solar irradiance",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-14",
+            "number": "T8",
+            "name": "Amplitude variation of RR Lyrae stars",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-15",
+            "number": "T9",
+            "name": "Distance of the Lagrangian point L2 of the Earth-Moon system",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-16",
+            "number": "T10",
+            "name": "South to East to North",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2019-17",
+            "number": "T11",
+            "name": "Identification of light curves of selected variable star types",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2019-18",
+            "number": "T12",
+            "name": "Distance to a Near-Earth Asteroid",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2019-19",
+            "number": "T13",
+            "name": "Distance to the Coma galaxy cluster",
+            "category": "Theory",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2019-20",
+            "number": "T14",
+            "name": "Photographing a nanosatellite",
+            "category": "Theory",
+            "maxScore": 60
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "name": "12th IOAA 2018",
+        "location": "Beijing, China",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2018/data_analysis_problem_2018_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Solutions",
+            "link": "/competitions/ioaa/2018/data_analysis_solution_2018_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation Day",
+            "link": "/competitions/ioaa/2018/observational_competition_day_problem_2018_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Night",
+            "link": "/competitions/ioaa/2018/observational_competition_night_problem_2018_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2018/theory_problem_2018_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "link": "/competitions/ioaa/2018/theory_solution_2018_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2018-1",
+              "ioaa-2018-2"
+            ]
+          },
+          {
+            "id": "observation-day",
+            "name": "Observation Day",
+            "problemIds": [
+              "ioaa-2018-5",
+              "ioaa-2018-6",
+              "ioaa-2018-3",
+              "ioaa-2018-4"
+            ]
+          },
+          {
+            "id": "observation-night",
+            "name": "Observation Night",
+            "problemIds": [
+              "ioaa-2018-7",
+              "ioaa-2018-8"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2018-9",
+              "ioaa-2018-10",
+              "ioaa-2018-11",
+              "ioaa-2018-12",
+              "ioaa-2018-13",
+              "ioaa-2018-14",
+              "ioaa-2018-15",
+              "ioaa-2018-16",
+              "ioaa-2018-17",
+              "ioaa-2018-18",
+              "ioaa-2018-19"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2018-1",
+            "number": "D1",
+            "name": "Dust and Young Stars in Star-forming Galaxies",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-2",
+            "number": "D2",
+            "name": "Compact Object in a Binary System",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-5",
+            "number": "O1",
+            "name": "Missing stars and planet on Yanqing all-sky chart",
+            "category": "Observation Day",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2018-6",
+            "number": "O2",
+            "name": "Date of Jupiter opposition from ecliptic chart",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-3",
+            "number": "O3",
+            "name": "Mean solar time from equatorial star chart",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-4",
+            "number": "O4",
+            "name": "Messier object identification from photos",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-7",
+            "number": "O5",
+            "name": "Telescope field-of-view estimation",
+            "category": "Observation Night",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-8",
+            "number": "O6",
+            "name": "Identify text on observed LED screens",
+            "category": "Observation Night",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2018-9",
+            "number": "T1",
+            "name": "Super Luminal Galaxies",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-10",
+            "number": "T2",
+            "name": "Distance",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-11",
+            "number": "T3",
+            "name": "Atmospheric Refraction",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-12",
+            "number": "T4",
+            "name": "Height of a Hill",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-13",
+            "number": "T5",
+            "name": "Sidereal Time",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-14",
+            "number": "T6",
+            "name": "Observe the Sun with FAST",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2018-15",
+            "number": "T7",
+            "name": "Sunspot",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2018-16",
+            "number": "T8",
+            "name": "A Possible Dark Matter Deficient Galaxy",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2018-17",
+            "number": "T9",
+            "name": "Radio Galaxy",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2018-18",
+            "number": "T10",
+            "name": "Vega and Altair",
+            "category": "Theory",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2018-19",
+            "number": "T11",
+            "name": "Thermal History of the Universe",
+            "category": "Theory",
+            "maxScore": 75
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "name": "11th IOAA 2017",
+        "location": "Phuket, Thailand",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2017/data_analysis_problem_2017_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Solutions",
+            "link": "/competitions/ioaa/2017/data_analysis_solution_2017_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation Day",
+            "link": "/competitions/ioaa/2017/observational_examination_day_problem_2017_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Night",
+            "link": "/competitions/ioaa/2017/observational_examination_night_problem_2017_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2017/theory_problem_2017_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "link": "/competitions/ioaa/2017/theory_solution_2017_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2017-1",
+              "ioaa-2017-2"
+            ]
+          },
+          {
+            "id": "observation-day",
+            "name": "Observation Day",
+            "problemIds": [
+              "ioaa-2017-5",
+              "ioaa-2017-6",
+              "ioaa-2017-7",
+              "ioaa-2017-8",
+              "ioaa-2017-9",
+              "ioaa-2017-10",
+              "ioaa-2017-11"
+            ]
+          },
+          {
+            "id": "observation-night",
+            "name": "Observation Night",
+            "problemIds": [
+              "ioaa-2017-12",
+              "ioaa-2017-13"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2017-14",
+              "ioaa-2017-15",
+              "ioaa-2017-16",
+              "ioaa-2017-17",
+              "ioaa-2017-18",
+              "ioaa-2017-19",
+              "ioaa-2017-20",
+              "ioaa-2017-21",
+              "ioaa-2017-22",
+              "ioaa-2017-23",
+              "ioaa-2017-24",
+              "ioaa-2017-25",
+              "ioaa-2017-26"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2017-1",
+            "number": "D1",
+            "name": "Calibrating distance ladder to the LMC",
+            "category": "Data Analysis",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2017-2",
+            "number": "D2",
+            "name": "The search for dark matter",
+            "category": "Data Analysis",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2017-5",
+            "number": "P1",
+            "name": "Naked eye observation from real sky with panoramic 360-degrees image",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-6",
+            "number": "P2",
+            "name": "Planet observation with real sky in panoramic 360-degrees image",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-7",
+            "number": "P3",
+            "name": "Analemma on another planet",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-8",
+            "number": "P4",
+            "name": "Exposure time from a Photograph",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-9",
+            "number": "P5",
+            "name": "Find True North from Moon shadow",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-10",
+            "number": "P6",
+            "name": "Find Latitude from Equatorial Mount",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-11",
+            "number": "P7",
+            "name": "Precision Polar Alignment with Equatorial Mount",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-12",
+            "number": "N1",
+            "name": "Observation with Equatorial Mount Telescope",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-13",
+            "number": "N2",
+            "name": "Observation with Dobsonian Telescope",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-14",
+            "number": "T1",
+            "name": "The Large Magellanic Cloud in Phuket",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2017-15",
+            "number": "T2",
+            "name": "Earth's Transit Zone",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2017-16",
+            "number": "T3",
+            "name": "The Milky Way's Distant Outer Arm",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2017-17",
+            "number": "T4",
+            "name": "21-cm HI galaxy survey",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2017-18",
+            "number": "T5",
+            "name": "A Synchronous Satellite",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2017-19",
+            "number": "T6",
+            "name": "Supernova 1987A",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2017-20",
+            "number": "T7",
+            "name": "Life on Other Planets",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-21",
+            "number": "T8",
+            "name": "The Star of Bethlehem",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-22",
+            "number": "T9",
+            "name": "Galactic Outflow",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2017-23",
+            "number": "T10",
+            "name": "GOTO",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2017-24",
+            "number": "T11",
+            "name": "Mass of the Local Group",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2017-25",
+            "number": "T12",
+            "name": "Shipwreck",
+            "category": "Theory",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2017-26",
+            "number": "T13",
+            "name": "Exomoon",
+            "category": "Theory",
+            "maxScore": 60
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "name": "10th IOAA 2016",
+        "location": "Bhubaneswar, India",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2016/data_analyis_problem_2016_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Solutions",
+            "link": "/competitions/ioaa/2016/data_analysis_solution_2016_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2016/observational_examination_problem_2016_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2016/group_examination_problem_2016_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2016/theory_problem_2016_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Theory Solutions",
+            "link": "/competitions/ioaa/2016/theory_solution_2016_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2016-1",
+              "ioaa-2016-2",
+              "ioaa-2016-3"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2016-4",
+              "ioaa-2016-5",
+              "ioaa-2016-6",
+              "ioaa-2016-7",
+              "ioaa-2016-8",
+              "ioaa-2016-9",
+              "ioaa-2016-10",
+              "ioaa-2016-11",
+              "ioaa-2016-12",
+              "ioaa-2016-13"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2016-14"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2016-15",
+              "ioaa-2016-16",
+              "ioaa-2016-17",
+              "ioaa-2016-18",
+              "ioaa-2016-19",
+              "ioaa-2016-20",
+              "ioaa-2016-21",
+              "ioaa-2016-22",
+              "ioaa-2016-23",
+              "ioaa-2016-24",
+              "ioaa-2016-25",
+              "ioaa-2016-26"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2016-1",
+            "number": "D1",
+            "name": "Binary Pulsar",
+            "category": "Data Analysis",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2016-2",
+            "number": "D2",
+            "name": "Distance to the Moon",
+            "category": "Data Analysis",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2016-3",
+            "number": "D3",
+            "name": "Type IA Supernovae",
+            "category": "Data Analysis",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2016-4",
+            "number": "OT1",
+            "name": "Deep-sky object identification at preset telescope pointing",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-5",
+            "number": "OT2",
+            "name": "M45 pointing and brightness ordering",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-6",
+            "number": "OT3",
+            "name": "Mare Serenitatis diameter from drift",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-7",
+            "number": "OP1",
+            "name": "Historical supernovae mapping on projected skies",
+            "category": "Observation",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2016-8",
+            "number": "OP2",
+            "name": "Celestial-pole identification on another planet's sky",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-9",
+            "number": "OM1",
+            "name": "Star identification on map",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-10",
+            "number": "OM2",
+            "name": "Galaxy location marking",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2016-11",
+            "number": "OM3",
+            "name": "Draw ecliptic",
+            "category": "Observation",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2016-12",
+            "number": "OM4",
+            "name": "Autumnal equinox position",
+            "category": "Observation",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2016-13",
+            "number": "OM5",
+            "name": "Local meridian on winter solstice",
+            "category": "Observation",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2016-14",
+            "number": "G1",
+            "name": "Gravitational slingshot with Voyager-2 and Jupiter",
+            "category": "Team/Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-15",
+            "number": "T1",
+            "name": "True or False",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-16",
+            "number": "T2",
+            "name": "Gases on Titan",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-17",
+            "number": "T3",
+            "name": "Early Universe",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-18",
+            "number": "T4",
+            "name": "Shadows",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-19",
+            "number": "T5",
+            "name": "GMRT beam transit",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-20",
+            "number": "T6",
+            "name": "Cepheid Pulsations",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-21",
+            "number": "T7",
+            "name": "Telescope optics",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-22",
+            "number": "T8",
+            "name": "U-Band photometry",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-23",
+            "number": "T9",
+            "name": "Mars Orbiter Mission",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-24",
+            "number": "T10",
+            "name": "Gravitational Lensing Telescope",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-25",
+            "number": "T11",
+            "name": "Gravitational Waves",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2016-26",
+            "number": "T12",
+            "name": "AstroSat",
+            "category": "Theory",
+            "maxScore": 50
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "name": "9th IOAA 2015",
+        "location": "Magelang, Indonesia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2015/data_analysis_problem_2015_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis Solutions",
+            "link": "/competitions/ioaa/2015/data_analysis_solution_2015_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long",
+            "link": "/competitions/ioaa/2015/long_problem_problem_2015_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Long Solutions",
+            "link": "/competitions/ioaa/2015/long_problem_solution_2015_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Short",
+            "link": "/competitions/ioaa/2015/short_problem_problem_2015_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Short Solutions",
+            "link": "/competitions/ioaa/2015/short_problem_solution_2015_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Table Of Constants",
+            "link": "/competitions/ioaa/2015/table_of_constants.pdf",
+            "majorCategory": "General"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2015/team_competition_problem_2015_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Team/Group Competition Solutions",
+            "link": "/competitions/ioaa/2015/team_competition_solution_2015_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2015-1",
+              "ioaa-2015-2"
+            ]
+          },
+          {
+            "id": "long",
+            "name": "Long",
+            "problemIds": [
+              "ioaa-2015-5",
+              "ioaa-2015-6",
+              "ioaa-2015-7"
+            ]
+          },
+          {
+            "id": "short",
+            "name": "Short",
+            "problemIds": [
+              "ioaa-2015-8",
+              "ioaa-2015-9",
+              "ioaa-2015-10",
+              "ioaa-2015-11",
+              "ioaa-2015-12",
+              "ioaa-2015-13",
+              "ioaa-2015-14",
+              "ioaa-2015-15",
+              "ioaa-2015-16",
+              "ioaa-2015-17",
+              "ioaa-2015-18",
+              "ioaa-2015-19",
+              "ioaa-2015-20",
+              "ioaa-2015-21",
+              "ioaa-2015-22"
+            ]
+          },
+          {
+            "id": "table-of-constants",
+            "name": "Table Of Constants",
+            "problemIds": [
+              "ioaa-2015-23"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2015-24"
+            ]
+          },
+          {
+            "id": "team/group-competition-part-2",
+            "name": "Team/Group Competition Part 2",
+            "problemIds": [
+              "ioaa-2015-25"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2015-1",
+            "number": "D1",
+            "name": "Photometry and radial velocity of Cepheid HV2257",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-2",
+            "number": "D2",
+            "name": "Extinction law and distance estimate to IC 342",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-5",
+            "number": "T1",
+            "name": "Moon orbit in a plane perpendicular to the observer horizon",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-6",
+            "number": "T2",
+            "name": "Binary stars A and B and line-of-sight velocity constraints",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-7",
+            "number": "T3",
+            "name": "Thermodynamics of a static spherical star",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-8",
+            "number": "T4",
+            "name": "Resonant orbits in the Gliese 876 exoplanet system",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-9",
+            "number": "T5",
+            "name": "Planet mean density from satellite and Moon orbital data",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-10",
+            "number": "T6",
+            "name": "Diameter of asteroid 1285 Julietta from occultation",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-11",
+            "number": "T7",
+            "name": "Maximum resolvable distance of a supermassive black hole",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-12",
+            "number": "T8",
+            "name": "Orbital eccentricity from angular motion measurements",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-13",
+            "number": "T9",
+            "name": "Zenith atmospheric optical depth from calibrator attenuation",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-14",
+            "number": "T10",
+            "name": "Galaxy cluster density from escape velocity",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-15",
+            "number": "T11",
+            "name": "Brightness temperature of a short radio burst",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-16",
+            "number": "T12",
+            "name": "Venus radio flux density at closest approach",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-17",
+            "number": "T13",
+            "name": "Molecular hydrogen rotational excitation frequency",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-18",
+            "number": "T14",
+            "name": "Total mass from inverse-r density profile and escape velocity",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-19",
+            "number": "T15",
+            "name": "Travel time of a 1 GeV proton from Sun to Earth",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-20",
+            "number": "T16",
+            "name": "Average tidal heating power on Io",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-21",
+            "number": "T17",
+            "name": "Mean line-of-sight distance to a star in a static universe",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-22",
+            "number": "T18",
+            "name": "Southernmost latitude on the Lima-Yogyakarta great-circle route",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-23",
+            "number": "Q1",
+            "name": "Problem 1",
+            "category": "Table Of Constants",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-24",
+            "number": "G1",
+            "name": "Borobudur temple astronomical alignment",
+            "category": "Team/Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2015-25",
+            "number": "G1",
+            "name": "Borobudur temple astronomical alignment - solutions",
+            "category": "Team/Group Competition Part 2",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "name": "8th IOAA 2014",
+        "location": "Suceava and Gura Humorului, Romania",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2014/data_analysis_problem_2014_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long",
+            "link": "/competitions/ioaa/2014/long_problem_problem_2014_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Long Solutions",
+            "link": "/competitions/ioaa/2014/long_problem_solution_2014_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2014/observation_outdoor_problem_2014_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium Solutions",
+            "link": "/competitions/ioaa/2014/marking_scheme_planetarium_solution_2014_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium Problems",
+            "link": "/competitions/ioaa/2014/observation_planetarium_problem_2014_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Short Solutions",
+            "solutionLink": "/competitions/ioaa/2014/short_problem_problemandsolution_2014_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2014/team_competition_problem_2014_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Team/Group Competition Solutions",
+            "link": "/competitions/ioaa/2014/team_competition_solution_2014.pdf",
+            "majorCategory": "Team/Group"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2014-1",
+              "ioaa-2014-2",
+              "ioaa-2014-3"
+            ]
+          },
+          {
+            "id": "long",
+            "name": "Long",
+            "problemIds": [
+              "ioaa-2014-4",
+              "ioaa-2014-6"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2014-7"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2014-8",
+              "ioaa-2014-9",
+              "ioaa-2014-10"
+            ]
+          },
+          {
+            "id": "planetarium-part-2",
+            "name": "Planetarium Part 2",
+            "problemIds": [
+              "ioaa-2014-13",
+              "ioaa-2014-14"
+            ]
+          },
+          {
+            "id": "short-problemandsolution",
+            "name": "Short Problemandsolution",
+            "problemIds": [
+              "ioaa-2014-15",
+              "ioaa-2014-16",
+              "ioaa-2014-17",
+              "ioaa-2014-18",
+              "ioaa-2014-19",
+              "ioaa-2014-20",
+              "ioaa-2014-21",
+              "ioaa-2014-22",
+              "ioaa-2014-23",
+              "ioaa-2014-24",
+              "ioaa-2014-25",
+              "ioaa-2014-26"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2014-27"
+            ]
+          },
+          {
+            "id": "team/group-competition-part-2",
+            "name": "Team/Group Competition Part 2",
+            "problemIds": [
+              "ioaa-2014-28"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2014-1",
+            "number": "D1",
+            "name": "Black Hole in Milky Way",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-2",
+            "number": "D2",
+            "name": "Thermodynamic Test",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-3",
+            "number": "D3",
+            "name": "IOAA Observer on an Extrasolar Planet",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-4",
+            "number": "T1",
+            "name": "Eagles on the Caraiman Cross",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-6",
+            "number": "T2",
+            "name": "From Romania to Antipod with a ballistic messenger",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-7",
+            "number": "O1",
+            "name": "Outdoor telescope tasks (meridian, pointing, and coordinate estimates)",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-8",
+            "number": "P1",
+            "name": "Arc identification and sidereal-time/month estimate in dome",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-9",
+            "number": "P2",
+            "name": "Messier object type and constellation identification in dome",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-10",
+            "number": "P3",
+            "name": "Stellar type and constellation identification in dome",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-13",
+            "number": "P1",
+            "name": "Sky-map construction (horizon, major circles, planets, and bright stars)",
+            "category": "Planetarium Part 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-14",
+            "number": "P2",
+            "name": "Sky-map constellation/object plotting and sidereal-coordinate estimates",
+            "category": "Planetarium Part 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-15",
+            "number": "T3",
+            "name": "Lagrange Points",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-16",
+            "number": "T4",
+            "name": "Sun gravitational catastrophe",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-17",
+            "number": "T5",
+            "name": "Cosmic radiation",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-18",
+            "number": "T6",
+            "name": "The Astronaut Saved by Ice from a Can",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-19",
+            "number": "T7",
+            "name": "The lifetime of a main-sequence star",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-20",
+            "number": "T8",
+            "name": "The effective temperature of a star",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-21",
+            "number": "T9",
+            "name": "Pressure of light",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-22",
+            "number": "T10",
+            "name": "Space-ship orbiting the Sun",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-23",
+            "number": "T11",
+            "name": "The Vega star in the mirror",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-24",
+            "number": "T12",
+            "name": "Stars with Romanian names",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-25",
+            "number": "T13",
+            "name": "Apparent magnitude of the Moon",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-26",
+            "number": "T14",
+            "name": "Absolute magnitude of a cepheid",
+            "category": "Short Problemandsolution",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-27",
+            "number": "G1",
+            "name": "Defending the Earth from asteroid 2013 UX11",
+            "category": "Team/Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2014-28",
+            "number": "G1",
+            "name": "Defending the Earth from asteroid 2013 UX11 - solutions",
+            "category": "Team/Group Competition Part 2",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "name": "7th IOAA 2013",
+        "location": "Volos, Greece",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2013/data_analysis_with_markings_leaders_without_5_solar_figures_2013_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long Solutions",
+            "link": "/competitions/ioaa/2013/long_problem_and_solution_2013_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation Day",
+            "link": "/competitions/ioaa/2013/observational_test_day_indoors_2013_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Night",
+            "link": "/competitions/ioaa/2013/observational_test_night_2013_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Short Solutions",
+            "link": "/competitions/ioaa/2013/short_problems_and_solutions_2013_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2013/team_competition_horizontal_questions_2013_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          },
+          {
+            "category": "Team/Group Competition Part 2",
+            "link": "/competitions/ioaa/2013/team_competition_vertical_questions_2013_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2013-1",
+              "ioaa-2013-2",
+              "ioaa-2013-3",
+              "ioaa-2013-4"
+            ]
+          },
+          {
+            "id": "long-and",
+            "name": "Long And",
+            "problemIds": [
+              "ioaa-2013-5",
+              "ioaa-2013-6",
+              "ioaa-2013-7"
+            ]
+          },
+          {
+            "id": "observation-day",
+            "name": "Observation Day",
+            "problemIds": [
+              "ioaa-2013-8"
+            ]
+          },
+          {
+            "id": "observation-night",
+            "name": "Observation Night",
+            "problemIds": [
+              "ioaa-2013-9",
+              "ioaa-2013-10",
+              "ioaa-2013-11"
+            ]
+          },
+          {
+            "id": "short-and",
+            "name": "Short And",
+            "problemIds": [
+              "ioaa-2013-15",
+              "ioaa-2013-16",
+              "ioaa-2013-17",
+              "ioaa-2013-18",
+              "ioaa-2013-19",
+              "ioaa-2013-20",
+              "ioaa-2013-21",
+              "ioaa-2013-22",
+              "ioaa-2013-23",
+              "ioaa-2013-24",
+              "ioaa-2013-25",
+              "ioaa-2013-26",
+              "ioaa-2013-27",
+              "ioaa-2013-28",
+              "ioaa-2013-29"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2013-30"
+            ]
+          },
+          {
+            "id": "team/group-competition-part-2",
+            "name": "Team/Group Competition Part 2",
+            "problemIds": [
+              "ioaa-2013-31"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2013-1",
+            "number": "D1",
+            "name": "Focal length from Ursa Major image scale",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-2",
+            "number": "D2",
+            "name": "Solar rotation from sunspot tracking",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-3",
+            "number": "D3",
+            "name": "Hyades field photometry",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-4",
+            "number": "D4",
+            "name": "Hyades distance via moving-cluster method",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-5",
+            "number": "T1",
+            "name": "Matter density and galaxy escape in an expanding universe",
+            "category": "Long And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-6",
+            "number": "T2",
+            "name": "Orbit of asteroid Seneca from signal delay",
+            "category": "Long And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-7",
+            "number": "T3",
+            "name": "Virial mass of a galaxy cluster",
+            "category": "Long And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-8",
+            "number": "O1",
+            "name": "Noon equinox Sun-based telescope alignment",
+            "category": "Observation Day",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-9",
+            "number": "O1",
+            "name": "Telescope field-of-view from stellar drift timing",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-10",
+            "number": "O2",
+            "name": "Locate M27 from gamma Sagitta without setting-circle reading",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-11",
+            "number": "O3",
+            "name": "Spring-equinox daytime equatorial-mount alignment using Sun",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-15",
+            "number": "T4",
+            "name": "Mean Earth temperature with albedo",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-16",
+            "number": "T5",
+            "name": "Minimum telescope diameter to resolve hot Jupiter",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-17",
+            "number": "T6",
+            "name": "Main-sequence lifetime scaling with mass",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-18",
+            "number": "T7",
+            "name": "Cepheid distance from PL relation",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-19",
+            "number": "T8",
+            "name": "Hubble constant from H-alpha redshift",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-20",
+            "number": "T9",
+            "name": "Distance luminosity and radius of a star",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-21",
+            "number": "T10",
+            "name": "Luminosity classification from parallax and temperature",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-22",
+            "number": "T11",
+            "name": "Apparent magnitudes of an unresolved binary",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-23",
+            "number": "T12",
+            "name": "Equatorial coordinates from altitude and azimuth",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-24",
+            "number": "T13",
+            "name": "Sgr A* black hole mass from stellar orbit",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-25",
+            "number": "T14",
+            "name": "Maximum Full Moon altitude from Thessaloniki",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-26",
+            "number": "T15",
+            "name": "Radius of Sirius B from magnitude difference",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-27",
+            "number": "T16",
+            "name": "Optical depth of fog from Sun and Full Moon magnitudes",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-28",
+            "number": "T17",
+            "name": "Hour angle and zenith angle of Vega",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-29",
+            "number": "T18",
+            "name": "Galaxy recession velocities from redshift",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-30",
+            "number": "G1",
+            "name": "Team quiz card (A-M astronomy puzzle sheets)",
+            "category": "Team/Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2013-31",
+            "number": "G1",
+            "name": "Team quiz card (A-M astronomy puzzle sheets) - answer key",
+            "category": "Team/Group Competition Part 2",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "name": "5th IOAA 2011",
+        "location": "Krakow - Katowice - Chorzow, Poland",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2011/data_analysis_problems_2011_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long",
+            "link": "/competitions/ioaa/2011/long_problems_2011_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2011/planetary_observation_problems_2011_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Observation Night",
+            "link": "/competitions/ioaa/2011/night_observation_problems_2011_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Short",
+            "link": "/competitions/ioaa/2011/short_problems_2011_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Team/Group Competition",
+            "link": "/competitions/ioaa/2011/group_competition_problem_2011_ioaa.pdf",
+            "majorCategory": "Team/Group"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2011-1",
+              "ioaa-2011-2"
+            ]
+          },
+          {
+            "id": "long",
+            "name": "Long",
+            "problemIds": [
+              "ioaa-2011-3",
+              "ioaa-2011-4",
+              "ioaa-2011-5"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2011-6"
+            ]
+          },
+          {
+            "id": "observation-night",
+            "name": "Observation Night",
+            "problemIds": [
+              "ioaa-2011-7"
+            ]
+          },
+          {
+            "id": "short",
+            "name": "Short",
+            "problemIds": [
+              "ioaa-2011-8",
+              "ioaa-2011-9",
+              "ioaa-2011-10",
+              "ioaa-2011-11",
+              "ioaa-2011-12",
+              "ioaa-2011-13",
+              "ioaa-2011-14",
+              "ioaa-2011-15",
+              "ioaa-2011-16",
+              "ioaa-2011-17",
+              "ioaa-2011-18",
+              "ioaa-2011-19",
+              "ioaa-2011-20",
+              "ioaa-2011-21",
+              "ioaa-2011-22"
+            ]
+          },
+          {
+            "id": "team/group-competition",
+            "name": "Team/Group Competition",
+            "problemIds": [
+              "ioaa-2011-23"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2011-1",
+            "number": "D1",
+            "name": "Analysis of times of minima (V1107 Cas)",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-2",
+            "number": "D2",
+            "name": "Weighing a galaxy (NGC 7083 rotation curve)",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-3",
+            "number": "T1",
+            "name": "HD209458 transit and host-star parameters",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-4",
+            "number": "T2",
+            "name": "Absolute magnitude of an elliptical galaxy at z = 0.500",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-5",
+            "number": "T3",
+            "name": "Are two nearby solar-mass stars gravitationally bound?",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-6",
+            "number": "O1",
+            "name": "Planetarium round (Earth and Mars sky tasks)",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-7",
+            "number": "O1",
+            "name": "Night round: Little Dolphin and declination determination",
+            "category": "Observation Night",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-8",
+            "number": "T1",
+            "name": "Oort-cloud comet travel time to inner Solar System",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-9",
+            "number": "T2",
+            "name": "Number of stars in a globular cluster from escape speed",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-10",
+            "number": "T3",
+            "name": "Voyager orbit type and apparent magnitude of the Sun",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-11",
+            "number": "T4",
+            "name": "Visibility duration of Phobos from Martian equator",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-12",
+            "number": "T5",
+            "name": "Equivalent radio telescope diameter at lambda = 1 cm",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-13",
+            "number": "T6",
+            "name": "Days per year 600 Myr ago from tidal torque",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-14",
+            "number": "T7",
+            "name": "Orbit outcomes after impulsive velocity change",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-15",
+            "number": "T8",
+            "name": "Dust-grain size at 1 AU from radiation-pressure balance",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-16",
+            "number": "T9",
+            "name": "Sky fraction obscured by stars in a galaxy field",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-17",
+            "number": "T10",
+            "name": "Minimum proton energy to penetrate magnetosphere",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-18",
+            "number": "T11",
+            "name": "Star-formation redshift from galaxy age at z = 6.03",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-19",
+            "number": "T12",
+            "name": "Precession visibility of Sirius and Canopus from Krakow",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-20",
+            "number": "T13",
+            "name": "Galactic equator equation in horizontal coordinates",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-21",
+            "number": "T14",
+            "name": "Solar-neutrino flux at Earth",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-22",
+            "number": "T15",
+            "name": "CMB temperature-redshift relation and value at z ~ 10",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-23",
+            "number": "G1",
+            "name": "Multi-part group challenge (constellations, optics, eclipsing binary, nocturnal clock)",
+            "category": "Team/Group Competition",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "4th IOAA 2010",
+        "location": "Beijing, China",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2010/data_analysis_2010_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2010/data_analysis_solutions_2010_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long Solutions",
+            "solutionLink": "/competitions/ioaa/2010/long_problems_and_solutions_2010_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2010/observation_problems_2010_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Short Solutions",
+            "solutionLink": "/competitions/ioaa/2010/short_problems_and_solutions_2010_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2010-1",
+              "ioaa-2010-2"
+            ]
+          },
+          {
+            "id": "long-and",
+            "name": "Long And",
+            "problemIds": [
+              "ioaa-2010-3",
+              "ioaa-2010-4"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2010-20"
+            ]
+          },
+          {
+            "id": "short-and",
+            "name": "Short And",
+            "problemIds": [
+              "ioaa-2010-5",
+              "ioaa-2010-6",
+              "ioaa-2010-7",
+              "ioaa-2010-8",
+              "ioaa-2010-9",
+              "ioaa-2010-10",
+              "ioaa-2010-11",
+              "ioaa-2010-12",
+              "ioaa-2010-13",
+              "ioaa-2010-14",
+              "ioaa-2010-15",
+              "ioaa-2010-16",
+              "ioaa-2010-17",
+              "ioaa-2010-18",
+              "ioaa-2010-19"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2010-1",
+            "number": "D1",
+            "name": "CCD image (35 points)",
+            "category": "Data Analysis",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2010-2",
+            "number": "D2",
+            "name": "Light curves of stars (35 points)",
+            "category": "Data Analysis",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2010-3",
+            "number": "T1",
+            "name": "Parabolic Earth-to-Mars transfer geometry",
+            "category": "Long And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-4",
+            "number": "T2",
+            "name": "Korribian Taris system dynamics",
+            "category": "Long And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-20",
+            "number": "O1",
+            "name": "Telescope tests and planetarium sky-identification tasks",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-5",
+            "number": "T3",
+            "name": "Combined magnitude of a binary system",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-6",
+            "number": "T4",
+            "name": "Schwarzschild radius for a solar-mass object",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-7",
+            "number": "T5",
+            "name": "QSO distance from redshift z = 0.20",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-8",
+            "number": "T6",
+            "name": "Binary component masses from orbit and angular separations",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-9",
+            "number": "T7",
+            "name": "Maximum solar lifetime from mass-energy conversion",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-10",
+            "number": "T8",
+            "name": "Can an astronaut walk around a small asteroid?",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-11",
+            "number": "T9",
+            "name": "Maximum transit depth of an Earth-like exoplanet",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-12",
+            "number": "T10",
+            "name": "Resolving Sgr A* event horizon with Earth-sized baseline",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-13",
+            "number": "T11",
+            "name": "Photon rate from an I = 22 star on an 8 m telescope",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-14",
+            "number": "T12",
+            "name": "Exponential vertical density drop in Galactic disc",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-15",
+            "number": "T13",
+            "name": "Date of Mars great opposition in 2018",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-16",
+            "number": "T14",
+            "name": "Radius ratio from magnitude and temperature differences",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-17",
+            "number": "T15",
+            "name": "Solar photosphere temperature from naked-eye color",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-18",
+            "number": "T16",
+            "name": "Fourth contact time of a Venus transit",
+            "category": "Short And",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2010-19",
+            "number": "T17",
+            "name": "Annular-to-total solar eclipse occurrence ratio",
+            "category": "Short And",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "name": "3rd IOAA 2009",
+        "location": "Tehran, Iran",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2009/data_analysis_problems_2009_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2009/data_analysis_solutions_2009_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Data Analysis 2",
+            "link": "/competitions/ioaa/2009/data_analysis_table_2009_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long",
+            "link": "/competitions/ioaa/2009/long_problems_2009_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2009/long_problems_solutions_2009_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2009/observation_problems_2009_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2009/observation_solution_2009_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Short",
+            "link": "/competitions/ioaa/2009/short_problems_2009_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2009/short_problems_solutions_2009_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2009-1",
+              "ioaa-2009-2"
+            ]
+          },
+          {
+            "id": "data-analysis-2",
+            "name": "Data Analysis 2",
+            "problemIds": [
+              "ioaa-2009-3"
+            ]
+          },
+          {
+            "id": "long",
+            "name": "Long",
+            "problemIds": [
+              "ioaa-2009-4",
+              "ioaa-2009-5"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2009-6"
+            ]
+          },
+          {
+            "id": "short",
+            "name": "Short",
+            "problemIds": [
+              "ioaa-2009-7",
+              "ioaa-2009-8",
+              "ioaa-2009-9",
+              "ioaa-2009-10",
+              "ioaa-2009-11",
+              "ioaa-2009-12",
+              "ioaa-2009-13",
+              "ioaa-2009-14",
+              "ioaa-2009-15",
+              "ioaa-2009-16",
+              "ioaa-2009-17",
+              "ioaa-2009-18",
+              "ioaa-2009-19",
+              "ioaa-2009-20",
+              "ioaa-2009-21"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2009-1",
+            "number": "D1",
+            "name": "CCD Image Processing (60 points)",
+            "category": "Data Analysis",
+            "maxScore": 60
+          },
+          {
+            "id": "ioaa-2009-2",
+            "number": "D2",
+            "name": "Venus",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-3",
+            "number": "D1",
+            "name": "CCD Image Processing data table",
+            "category": "Data Analysis 2",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-4",
+            "number": "T1",
+            "name": "High Altitude Projectile",
+            "category": "Long",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaa-2009-5",
+            "number": "T2",
+            "name": "Apparent number density of stars in the Galaxy",
+            "category": "Long",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaa-2009-6",
+            "number": "O1",
+            "name": "Star mapping in Perseus/Andromeda and telescope coordinate measurements",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-7",
+            "number": "T3",
+            "name": "Mean mass density of a supermassive black hole",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-8",
+            "number": "T4",
+            "name": "Photon rate at the eye from a G2V star",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-9",
+            "number": "T5",
+            "name": "Escape-by-jump planet radius estimate",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-10",
+            "number": "T6",
+            "name": "South-side window overhang from solar geometry",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-11",
+            "number": "T7",
+            "name": "Damavand Mountain and Caspian horizon geometry",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-12",
+            "number": "T8",
+            "name": "Escape velocity in a uniform protostar cloud",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-13",
+            "number": "T9",
+            "name": "Eyepiece field of view measurement",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-14",
+            "number": "T10",
+            "name": "Mass estimate of a globular cluster",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-15",
+            "number": "T11",
+            "name": "Galactic longitude and radial velocity relation",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-16",
+            "number": "T12",
+            "name": "Main-sequence star average density estimate",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-17",
+            "number": "T13",
+            "name": "Number density of relic neutrinos",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-18",
+            "number": "T14",
+            "name": "Increase in Earth orbit radius from solar mass loss",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-19",
+            "number": "T15",
+            "name": "Copernican-era astronomical inference",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-20",
+            "number": "T16",
+            "name": "Equatorial satellite orbital geometry",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2009-21",
+            "number": "T17",
+            "name": "Equal-size eclipsing giant binary system",
+            "category": "Short",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2008,
+        "name": "2nd IOAA 2008",
+        "location": "Bandung, Indonesia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2008/data_analysis_problems_2008_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Long",
+            "link": "/competitions/ioaa/2008/long_problems_problems_2008_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2008/long_problems_solutions_2008_ioaa.pdf",
+            "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2008/observation_problems_2008_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Short",
+            "link": "/competitions/ioaa/2008/short_problems_2008_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2008/short_problems_solutions_2008_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2008-1",
+              "ioaa-2008-2",
+              "ioaa-2008-3"
+            ]
+          },
+          {
+            "id": "long",
+            "name": "Long",
+            "problemIds": [
+              "ioaa-2008-4",
+              "ioaa-2008-5",
+              "ioaa-2008-6"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2008-7",
+              "ioaa-2008-23"
+            ]
+          },
+          {
+            "id": "short",
+            "name": "Short",
+            "problemIds": [
+              "ioaa-2008-8",
+              "ioaa-2008-9",
+              "ioaa-2008-10",
+              "ioaa-2008-11",
+              "ioaa-2008-12",
+              "ioaa-2008-13",
+              "ioaa-2008-14",
+              "ioaa-2008-15",
+              "ioaa-2008-16",
+              "ioaa-2008-17",
+              "ioaa-2008-18",
+              "ioaa-2008-19",
+              "ioaa-2008-20",
+              "ioaa-2008-21",
+              "ioaa-2008-22"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2008-1",
+            "number": "D1",
+            "name": "Virgo cluster weighted-distance estimate",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-2",
+            "number": "D2",
+            "name": "Masses in the visual binary Alpha Centauri A-B",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-3",
+            "number": "D3",
+            "name": "Meteorite ages from Rb-Sr isochrones",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-4",
+            "number": "T1",
+            "name": "Eclipsing-binary masses and radii from light and radial-velocity curves",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-5",
+            "number": "T2",
+            "name": "UBV photometry with reddening to infer stellar properties",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-6",
+            "number": "T3",
+            "name": "CMB horizon problem and inflation-era size estimate",
+            "category": "Long",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-7",
+            "number": "O1",
+            "name": "Missing-star identification in Scorpio and Capricorn",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-23",
+            "number": "O2",
+            "name": "Telescope/CCD star-field identification and limiting magnitude",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-8",
+            "number": "T1",
+            "name": "Lunar parallax in right ascension from opposite longitudes",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-9",
+            "number": "T2",
+            "name": "Solar active-region area in msh from CCD image scale",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-10",
+            "number": "T3",
+            "name": "Minimum and maximum moonrise duration at Bosscha",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-11",
+            "number": "T4",
+            "name": "Helium-burning lifetime of a massive star",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-12",
+            "number": "T5",
+            "name": "Dark matter to dark energy ratio at CMB epoch",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-13",
+            "number": "T6",
+            "name": "Black-hole mass from HI line shift of orbiting gas cloud",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-14",
+            "number": "T7",
+            "name": "Visibility distance change from main sequence to giant branch",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-15",
+            "number": "T8",
+            "name": "Horizontal tidal acceleration at Earth's equator",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-16",
+            "number": "T9",
+            "name": "Earth's surface temperature with atmospheric transmittance",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-17",
+            "number": "T10",
+            "name": "Visual binary Mu Sco frame fit and position angle",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-18",
+            "number": "T11",
+            "name": "Distances and coverage in annular solar eclipse geometry",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-19",
+            "number": "T12",
+            "name": "Type Ia supernova distance and Hubble time",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-20",
+            "number": "T13",
+            "name": "Telescope angle extrema to a circular target boundary",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-21",
+            "number": "T14",
+            "name": "Potentially hazardous object mass and energy from u-p data",
+            "category": "Short",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-22",
+            "number": "T15",
+            "name": "NGC 2639 mass and luminosity from Tully-Fisher relation",
+            "category": "Short",
+            "maxScore": 20
+          }
+        ]
+      },
+      {
+        "year": 2007,
+        "name": "1st IOAA 2007",
+        "location": "Chiang Mai, Thailand",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/competitions/ioaa/2007/data_analysis_problems_2007_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2007/data_analysis_solutions_2007_ioaa.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Observation",
+            "link": "/competitions/ioaa/2007/observation_problems_2007_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2007/observation_solutions_2007_ioaa.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Theory",
+            "link": "/competitions/ioaa/2007/theory_problems_2007_ioaa.pdf",
+            "solutionLink": "/competitions/ioaa/2007/theory_solutions_2007_ioaa.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2007-1",
+              "ioaa-2007-2",
+              "ioaa-2007-3"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2007-4",
+              "ioaa-2007-5"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2007-6",
+              "ioaa-2007-7",
+              "ioaa-2007-8",
+              "ioaa-2007-9",
+              "ioaa-2007-10",
+              "ioaa-2007-11",
+              "ioaa-2007-12",
+              "ioaa-2007-13",
+              "ioaa-2007-14",
+              "ioaa-2007-15",
+              "ioaa-2007-16",
+              "ioaa-2007-17",
+              "ioaa-2007-18",
+              "ioaa-2007-19",
+              "ioaa-2007-20",
+              "ioaa-2007-21",
+              "ioaa-2007-22"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2007-1",
+            "number": "D1",
+            "name": "Galilean moons identification",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-2",
+            "number": "D2",
+            "name": "Moon age from June 2006 lunar photos",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-3",
+            "number": "D3",
+            "name": "Solar System objects from apparent-position table",
+            "category": "Data Analysis",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-4",
+            "number": "O1",
+            "name": "Celestial-pointer sky targeting tasks",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-5",
+            "number": "O2",
+            "name": "Binocular observations of Hyades and M31",
+            "category": "Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-6",
+            "number": "T1",
+            "name": "Sunrise time at 42.5 N on 21 December",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-7",
+            "number": "T2",
+            "name": "Venus orbital radius from maximum elongation",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-8",
+            "number": "T3",
+            "name": "Convert 183 solar days to sidereal days",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-9",
+            "number": "T4",
+            "name": "Earth-Moon distance from lunar angular size",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-10",
+            "number": "T5",
+            "name": "Minimum measurable stellar parallax at 100 pc",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-11",
+            "number": "T6",
+            "name": "Comet orbital period from perihelion and aphelion",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-12",
+            "number": "T7",
+            "name": "Comet areal velocity around the Sun",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-13",
+            "number": "T8",
+            "name": "Peak-emission wavelength of a 4000 K star",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-14",
+            "number": "T9",
+            "name": "Luminosity of a 7500 K star with radius 2.5 R_sun",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-15",
+            "number": "T10",
+            "name": "Distance to a K-type main-sequence star from flux",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-16",
+            "number": "T11",
+            "name": "Distance to a supernova as bright as the Sun",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-17",
+            "number": "T12",
+            "name": "Gas-cloud radial velocity from HI 21 cm frequency shift",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-18",
+            "number": "T13",
+            "name": "Naked-eye resolution of an 80 km lunar crater",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-19",
+            "number": "T14",
+            "name": "Schwarzschild radius of the Sun",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-20",
+            "number": "T15",
+            "name": "Flux ratio of m=6 star to m=-1.5 star",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-21",
+            "number": "T16",
+            "name": "Equilibrium temperature and albedo of a planet",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2007-22",
+            "number": "T17",
+            "name": "Gravitational lensing and Einstein ring properties",
+            "category": "Theory",
+            "maxScore": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "oac",
     "name": "Online Astronomy Competition",
     "shortName": "OAC",

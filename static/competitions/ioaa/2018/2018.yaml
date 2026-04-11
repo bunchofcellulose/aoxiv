@@ -1,0 +1,115 @@
+name: 12th IOAA 2018
+location: Beijing, China
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2018/data_analysis_problem_2018_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Data Analysis Solutions
+  link: /competitions/ioaa/2018/data_analysis_solution_2018_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Observation Day
+  link: /competitions/ioaa/2018/observational_competition_day_problem_2018_ioaa.pdf
+  majorCategory: Observation
+- category: Observation Night
+  link: /competitions/ioaa/2018/observational_competition_night_problem_2018_ioaa.pdf
+  majorCategory: Observation
+- category: Theory
+  link: /competitions/ioaa/2018/theory_problem_2018_ioaa.pdf
+  majorCategory: Theory
+- category: Theory Solutions
+  link: /competitions/ioaa/2018/theory_solution_2018_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2018-1
+  number: D1
+  category: Data Analysis
+  name: Dust and Young Stars in Star-forming Galaxies
+- id: ioaa-2018-2
+  number: D2
+  category: Data Analysis
+  name: Compact Object in a Binary System
+- id: ioaa-2018-5
+  number: O1
+  category: Observation Day
+  name: Missing stars and planet on Yanqing all-sky chart
+  maxScore: 40
+- id: ioaa-2018-6
+  number: O2
+  category: Observation Day
+  name: Date of Jupiter opposition from ecliptic chart
+  maxScore: 20
+- id: ioaa-2018-3
+  number: O3
+  category: Observation Day
+  name: Mean solar time from equatorial star chart
+  maxScore: 20
+- id: ioaa-2018-4
+  number: O4
+  category: Observation Day
+  name: Messier object identification from photos
+  maxScore: 20
+- id: ioaa-2018-7
+  number: O5
+  category: Observation Night
+  name: Telescope field-of-view estimation
+  maxScore: 10
+- id: ioaa-2018-8
+  number: O6
+  category: Observation Night
+  name: Identify text on observed LED screens
+  maxScore: 40
+- id: ioaa-2018-9
+  number: T1
+  category: Theory
+  name: Super Luminal Galaxies
+  maxScore: 10
+- id: ioaa-2018-10
+  number: T2
+  category: Theory
+  name: Distance
+  maxScore: 10
+- id: ioaa-2018-11
+  number: T3
+  category: Theory
+  name: Atmospheric Refraction
+  maxScore: 10
+- id: ioaa-2018-12
+  number: T4
+  category: Theory
+  name: Height of a Hill
+  maxScore: 10
+- id: ioaa-2018-13
+  number: T5
+  category: Theory
+  name: Sidereal Time
+  maxScore: 10
+- id: ioaa-2018-14
+  number: T6
+  category: Theory
+  name: Observe the Sun with FAST
+  maxScore: 25
+- id: ioaa-2018-15
+  number: T7
+  category: Theory
+  name: Sunspot
+  maxScore: 25
+- id: ioaa-2018-16
+  number: T8
+  category: Theory
+  name: A Possible Dark Matter Deficient Galaxy
+  maxScore: 25
+- id: ioaa-2018-17
+  number: T9
+  category: Theory
+  name: Radio Galaxy
+  maxScore: 25
+- id: ioaa-2018-18
+  number: T10
+  category: Theory
+  name: Vega and Altair
+  maxScore: 75
+- id: ioaa-2018-19
+  number: T11
+  category: Theory
+  name: Thermal History of the Universe
+  maxScore: 75

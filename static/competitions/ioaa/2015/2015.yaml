@@ -1,0 +1,123 @@
+name: 9th IOAA 2015
+location: Magelang, Indonesia
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2015/data_analysis_problem_2015_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Data Analysis Solutions
+  link: /competitions/ioaa/2015/data_analysis_solution_2015_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Long
+  link: /competitions/ioaa/2015/long_problem_problem_2015_ioaa.pdf
+  majorCategory: Theory
+- category: Long Solutions
+  link: /competitions/ioaa/2015/long_problem_solution_2015_ioaa.pdf
+  majorCategory: Theory
+- category: Short
+  link: /competitions/ioaa/2015/short_problem_problem_2015_ioaa.pdf
+  majorCategory: Theory
+- category: Short Solutions
+  link: /competitions/ioaa/2015/short_problem_solution_2015_ioaa.pdf
+  majorCategory: Theory
+- category: Table Of Constants
+  link: /competitions/ioaa/2015/table_of_constants.pdf
+  majorCategory: General
+- category: Team/Group Competition
+  link: /competitions/ioaa/2015/team_competition_problem_2015_ioaa.pdf
+  majorCategory: Team/Group
+- category: Team/Group Competition Solutions
+  link: /competitions/ioaa/2015/team_competition_solution_2015_ioaa.pdf
+  majorCategory: Team/Group
+problems:
+- id: ioaa-2015-1
+  number: D1
+  category: Data Analysis
+  name: Photometry and radial velocity of Cepheid HV2257
+- id: ioaa-2015-2
+  number: D2
+  category: Data Analysis
+  name: Extinction law and distance estimate to IC 342
+- id: ioaa-2015-5
+  number: T1
+  category: Long
+  name: Moon orbit in a plane perpendicular to the observer horizon
+- id: ioaa-2015-6
+  number: T2
+  category: Long
+  name: Binary stars A and B and line-of-sight velocity constraints
+- id: ioaa-2015-7
+  number: T3
+  category: Long
+  name: Thermodynamics of a static spherical star
+- id: ioaa-2015-8
+  number: T4
+  category: Short
+  name: Resonant orbits in the Gliese 876 exoplanet system
+- id: ioaa-2015-9
+  number: T5
+  category: Short
+  name: Planet mean density from satellite and Moon orbital data
+- id: ioaa-2015-10
+  number: T6
+  category: Short
+  name: Diameter of asteroid 1285 Julietta from occultation
+- id: ioaa-2015-11
+  number: T7
+  category: Short
+  name: Maximum resolvable distance of a supermassive black hole
+- id: ioaa-2015-12
+  number: T8
+  category: Short
+  name: Orbital eccentricity from angular motion measurements
+- id: ioaa-2015-13
+  number: T9
+  category: Short
+  name: Zenith atmospheric optical depth from calibrator attenuation
+- id: ioaa-2015-14
+  number: T10
+  category: Short
+  name: Galaxy cluster density from escape velocity
+- id: ioaa-2015-15
+  number: T11
+  category: Short
+  name: Brightness temperature of a short radio burst
+- id: ioaa-2015-16
+  number: T12
+  category: Short
+  name: Venus radio flux density at closest approach
+- id: ioaa-2015-17
+  number: T13
+  category: Short
+  name: Molecular hydrogen rotational excitation frequency
+- id: ioaa-2015-18
+  number: T14
+  category: Short
+  name: Total mass from inverse-r density profile and escape velocity
+- id: ioaa-2015-19
+  number: T15
+  category: Short
+  name: Travel time of a 1 GeV proton from Sun to Earth
+- id: ioaa-2015-20
+  number: T16
+  category: Short
+  name: Average tidal heating power on Io
+- id: ioaa-2015-21
+  number: T17
+  category: Short
+  name: Mean line-of-sight distance to a star in a static universe
+- id: ioaa-2015-22
+  number: T18
+  category: Short
+  name: Southernmost latitude on the Lima-Yogyakarta great-circle route
+- id: ioaa-2015-23
+  number: Q1
+  category: Table Of Constants
+  name: Problem 1
+- id: ioaa-2015-24
+  number: G1
+  category: Team/Group Competition
+  name: Borobudur temple astronomical alignment
+- id: ioaa-2015-25
+  number: G1
+  category: Team/Group Competition Part 2
+  name: Borobudur temple astronomical alignment - solutions

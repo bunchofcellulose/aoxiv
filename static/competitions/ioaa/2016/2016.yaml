@@ -1,0 +1,151 @@
+name: 10th IOAA 2016
+location: Bhubaneswar, India
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2016/data_analyis_problem_2016_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Data Analysis Solutions
+  link: /competitions/ioaa/2016/data_analysis_solution_2016_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Observation
+  link: /competitions/ioaa/2016/observational_examination_problem_2016_ioaa.pdf
+  majorCategory: Observation
+- category: Team/Group Competition
+  link: /competitions/ioaa/2016/group_examination_problem_2016_ioaa.pdf
+  majorCategory: Team/Group
+- category: Theory
+  link: /competitions/ioaa/2016/theory_problem_2016_ioaa.pdf
+  majorCategory: Theory
+- category: Theory Solutions
+  link: /competitions/ioaa/2016/theory_solution_2016_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2016-1
+  number: D1
+  category: Data Analysis
+  name: Binary Pulsar
+  maxScore: 50
+- id: ioaa-2016-2
+  number: D2
+  category: Data Analysis
+  name: Distance to the Moon
+  maxScore: 50
+- id: ioaa-2016-3
+  number: D3
+  category: Data Analysis
+  name: Type IA Supernovae
+  maxScore: 50
+- id: ioaa-2016-4
+  number: OT1
+  category: Observation
+  name: Deep-sky object identification at preset telescope pointing
+  maxScore: 10
+- id: ioaa-2016-5
+  number: OT2
+  category: Observation
+  name: M45 pointing and brightness ordering
+  maxScore: 20
+- id: ioaa-2016-6
+  number: OT3
+  category: Observation
+  name: Mare Serenitatis diameter from drift
+  maxScore: 20
+- id: ioaa-2016-7
+  number: OP1
+  category: Observation
+  name: Historical supernovae mapping on projected skies
+  maxScore: 40
+- id: ioaa-2016-8
+  number: OP2
+  category: Observation
+  name: Celestial-pole identification on another planet's sky
+  maxScore: 10
+- id: ioaa-2016-9
+  number: OM1
+  category: Observation
+  name: Star identification on map
+  maxScore: 20
+- id: ioaa-2016-10
+  number: OM2
+  category: Observation
+  name: Galaxy location marking
+  maxScore: 15
+- id: ioaa-2016-11
+  number: OM3
+  category: Observation
+  name: Draw ecliptic
+  maxScore: 5
+- id: ioaa-2016-12
+  number: OM4
+  category: Observation
+  name: Autumnal equinox position
+  maxScore: 5
+- id: ioaa-2016-13
+  number: OM5
+  category: Observation
+  name: Local meridian on winter solstice
+  maxScore: 5
+- id: ioaa-2016-14
+  number: G1
+  category: Team/Group Competition
+  name: Gravitational slingshot with Voyager-2 and Jupiter
+- id: ioaa-2016-15
+  number: T1
+  category: Theory
+  name: True or False
+  maxScore: 10
+- id: ioaa-2016-16
+  number: T2
+  category: Theory
+  name: Gases on Titan
+  maxScore: 10
+- id: ioaa-2016-17
+  number: T3
+  category: Theory
+  name: Early Universe
+  maxScore: 10
+- id: ioaa-2016-18
+  number: T4
+  category: Theory
+  name: Shadows
+  maxScore: 10
+- id: ioaa-2016-19
+  number: T5
+  category: Theory
+  name: GMRT beam transit
+  maxScore: 10
+- id: ioaa-2016-20
+  number: T6
+  category: Theory
+  name: Cepheid Pulsations
+  maxScore: 20
+- id: ioaa-2016-21
+  number: T7
+  category: Theory
+  name: Telescope optics
+  maxScore: 20
+- id: ioaa-2016-22
+  number: T8
+  category: Theory
+  name: U-Band photometry
+  maxScore: 20
+- id: ioaa-2016-23
+  number: T9
+  category: Theory
+  name: Mars Orbiter Mission
+  maxScore: 20
+- id: ioaa-2016-24
+  number: T10
+  category: Theory
+  name: Gravitational Lensing Telescope
+  maxScore: 20
+- id: ioaa-2016-25
+  number: T11
+  category: Theory
+  name: Gravitational Waves
+  maxScore: 50
+- id: ioaa-2016-26
+  number: T12
+  category: Theory
+  name: AstroSat
+  maxScore: 50

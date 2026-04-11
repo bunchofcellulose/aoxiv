@@ -1,0 +1,110 @@
+name: 2nd IOAA 2008
+location: Bandung, Indonesia
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2008/data_analysis_problems_2008_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Long
+  link: /competitions/ioaa/2008/long_problems_problems_2008_ioaa.pdf
+  solutionLink: /competitions/ioaa/2008/long_problems_solutions_2008_ioaa.pdf
+  majorCategory: Theory
+- category: Observation
+  link: /competitions/ioaa/2008/observation_problems_2008_ioaa.pdf
+  majorCategory: Observation
+- category: Short
+  link: /competitions/ioaa/2008/short_problems_2008_ioaa.pdf
+  solutionLink: /competitions/ioaa/2008/short_problems_solutions_2008_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2008-1
+  number: D1
+  category: Data Analysis
+  name: Virgo cluster weighted-distance estimate
+- id: ioaa-2008-2
+  number: D2
+  category: Data Analysis
+  name: Masses in the visual binary Alpha Centauri A-B
+- id: ioaa-2008-3
+  number: D3
+  category: Data Analysis
+  name: Meteorite ages from Rb-Sr isochrones
+- id: ioaa-2008-4
+  number: T1
+  category: Long
+  name: Eclipsing-binary masses and radii from light and radial-velocity curves
+- id: ioaa-2008-5
+  number: T2
+  category: Long
+  name: UBV photometry with reddening to infer stellar properties
+- id: ioaa-2008-6
+  number: T3
+  category: Long
+  name: CMB horizon problem and inflation-era size estimate
+- id: ioaa-2008-7
+  number: O1
+  category: Observation
+  name: Missing-star identification in Scorpio and Capricorn
+- id: ioaa-2008-23
+  number: O2
+  category: Observation
+  name: Telescope/CCD star-field identification and limiting magnitude
+- id: ioaa-2008-8
+  number: T1
+  category: Short
+  name: Lunar parallax in right ascension from opposite longitudes
+- id: ioaa-2008-9
+  number: T2
+  category: Short
+  name: Solar active-region area in msh from CCD image scale
+- id: ioaa-2008-10
+  number: T3
+  category: Short
+  name: Minimum and maximum moonrise duration at Bosscha
+- id: ioaa-2008-11
+  number: T4
+  category: Short
+  name: Helium-burning lifetime of a massive star
+- id: ioaa-2008-12
+  number: T5
+  category: Short
+  name: Dark matter to dark energy ratio at CMB epoch
+- id: ioaa-2008-13
+  number: T6
+  category: Short
+  name: Black-hole mass from HI line shift of orbiting gas cloud
+- id: ioaa-2008-14
+  number: T7
+  category: Short
+  name: Visibility distance change from main sequence to giant branch
+- id: ioaa-2008-15
+  number: T8
+  category: Short
+  name: Horizontal tidal acceleration at Earth's equator
+- id: ioaa-2008-16
+  number: T9
+  category: Short
+  name: Earth's surface temperature with atmospheric transmittance
+- id: ioaa-2008-17
+  number: T10
+  category: Short
+  name: Visual binary Mu Sco frame fit and position angle
+- id: ioaa-2008-18
+  number: T11
+  category: Short
+  name: Distances and coverage in annular solar eclipse geometry
+- id: ioaa-2008-19
+  number: T12
+  category: Short
+  name: Type Ia supernova distance and Hubble time
+- id: ioaa-2008-20
+  number: T13
+  category: Short
+  name: Telescope angle extrema to a circular target boundary
+- id: ioaa-2008-21
+  number: T14
+  category: Short
+  name: Potentially hazardous object mass and energy from u-p data
+- id: ioaa-2008-22
+  number: T15
+  category: Short
+  name: NGC 2639 mass and luminosity from Tully-Fisher relation

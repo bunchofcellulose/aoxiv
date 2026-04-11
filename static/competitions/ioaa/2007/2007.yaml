@@ -1,0 +1,104 @@
+name: 1st IOAA 2007
+location: Chiang Mai, Thailand
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2007/data_analysis_problems_2007_ioaa.pdf
+  solutionLink: /competitions/ioaa/2007/data_analysis_solutions_2007_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Observation
+  link: /competitions/ioaa/2007/observation_problems_2007_ioaa.pdf
+  solutionLink: /competitions/ioaa/2007/observation_solutions_2007_ioaa.pdf
+  majorCategory: Observation
+- category: Theory
+  link: /competitions/ioaa/2007/theory_problems_2007_ioaa.pdf
+  solutionLink: /competitions/ioaa/2007/theory_solutions_2007_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2007-1
+  number: D1
+  category: Data Analysis
+  name: Galilean moons identification
+- id: ioaa-2007-2
+  number: D2
+  category: Data Analysis
+  name: Moon age from June 2006 lunar photos
+- id: ioaa-2007-3
+  number: D3
+  category: Data Analysis
+  name: Solar System objects from apparent-position table
+- id: ioaa-2007-4
+  number: O1
+  category: Observation
+  name: Celestial-pointer sky targeting tasks
+- id: ioaa-2007-5
+  number: O2
+  category: Observation
+  name: Binocular observations of Hyades and M31
+- id: ioaa-2007-6
+  number: T1
+  category: Theory
+  name: Sunrise time at 42.5 N on 21 December
+- id: ioaa-2007-7
+  number: T2
+  category: Theory
+  name: Venus orbital radius from maximum elongation
+- id: ioaa-2007-8
+  number: T3
+  category: Theory
+  name: Convert 183 solar days to sidereal days
+- id: ioaa-2007-9
+  number: T4
+  category: Theory
+  name: Earth-Moon distance from lunar angular size
+- id: ioaa-2007-10
+  number: T5
+  category: Theory
+  name: Minimum measurable stellar parallax at 100 pc
+- id: ioaa-2007-11
+  number: T6
+  category: Theory
+  name: Comet orbital period from perihelion and aphelion
+- id: ioaa-2007-12
+  number: T7
+  category: Theory
+  name: Comet areal velocity around the Sun
+- id: ioaa-2007-13
+  number: T8
+  category: Theory
+  name: Peak-emission wavelength of a 4000 K star
+- id: ioaa-2007-14
+  number: T9
+  category: Theory
+  name: Luminosity of a 7500 K star with radius 2.5 R_sun
+- id: ioaa-2007-15
+  number: T10
+  category: Theory
+  name: Distance to a K-type main-sequence star from flux
+- id: ioaa-2007-16
+  number: T11
+  category: Theory
+  name: Distance to a supernova as bright as the Sun
+- id: ioaa-2007-17
+  number: T12
+  category: Theory
+  name: Gas-cloud radial velocity from HI 21 cm frequency shift
+- id: ioaa-2007-18
+  number: T13
+  category: Theory
+  name: Naked-eye resolution of an 80 km lunar crater
+- id: ioaa-2007-19
+  number: T14
+  category: Theory
+  name: Schwarzschild radius of the Sun
+- id: ioaa-2007-20
+  number: T15
+  category: Theory
+  name: Flux ratio of m=6 star to m=-1.5 star
+- id: ioaa-2007-21
+  number: T16
+  category: Theory
+  name: Equilibrium temperature and albedo of a planet
+- id: ioaa-2007-22
+  number: T17
+  category: Theory
+  name: Gravitational lensing and Einstein ring properties

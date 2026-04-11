@@ -1,0 +1,193 @@
+name: 18th IOAA 2025
+location: Mumbai, India
+papers:
+- category: Data Analysis
+  instructions: /competitions/ioaa/2025/da_instructions.pdf
+  link: /competitions/ioaa/2025/data_analysis_questions.pdf
+  solutionLink: /competitions/ioaa/2025/data_analysis_solutions.pdf
+  answerSheet: /competitions/ioaa/2025/data_analysis_summary_answersheet.pdf
+  majorCategory: Data Analysis
+- category: Map OM01
+  link: /competitions/ioaa/2025/map_om01_a3.pdf
+  solutionLink: /competitions/ioaa/2025/map_om01_solutions_a3.pdf
+  majorCategory: Observation
+- category: Map OM02
+  link: /competitions/ioaa/2025/map_om02_a3.pdf
+  solutionLink: /competitions/ioaa/2025/map_om02_solutions_a3.pdf
+  majorCategory: Observation
+- category: Map OP01
+  link: /competitions/ioaa/2025/map_op01.pdf
+  solutionLink: /competitions/ioaa/2025/map_op01_solutions.pdf
+  majorCategory: Observation
+- category: Map OP02
+  link: /competitions/ioaa/2025/map_op02.pdf
+  solutionLink: /competitions/ioaa/2025/map_op02_solutions.pdf
+  majorCategory: Observation
+- category: Map OT01
+  link: /competitions/ioaa/2025/map_ot01.pdf
+  solutionLink: /competitions/ioaa/2025/map_ot01_solution.pdf
+  majorCategory: Observation
+- category: Observation Answer Sheet
+  answerSheet: /competitions/ioaa/2025/observation_telesope_summary_answersheet.pdf
+  majorCategory: Observation
+- category: Sky Map
+  link: /competitions/ioaa/2025/observation_examination_sky_map_round.pdf
+  solutionLink: /competitions/ioaa/2025/observation_skymap_solutions.pdf
+  majorCategory: Observation
+- category: Sky Map Part 2
+  link: /competitions/ioaa/2025/observation_skymap_questions.pdf
+  majorCategory: Observation
+- category: Telescope
+  link: /competitions/ioaa/2025/observation_examination_telescope_round.pdf
+  solutionLink: /competitions/ioaa/2025/observation_telescope_solutions.pdf
+  majorCategory: Observation
+- category: Telescope Part 2
+  link: /competitions/ioaa/2025/observation_telescope_questions.pdf
+  majorCategory: Observation
+- category: Planetarium
+  link: /competitions/ioaa/2025/observation_examination_planetarium_round.pdf
+  solutionLink: /competitions/ioaa/2025/observation_planetarium_solutions.pdf
+  answerSheet: /competitions/ioaa/2025/observation_planetarium_summary_answersheet.pdf
+  majorCategory: Observation
+- category: Planetarium Part 2
+  link: /competitions/ioaa/2025/observation_planetarium_questions.pdf
+  majorCategory: Observation
+- category: Group Competition
+  link: /competitions/ioaa/2025/group_questions.pdf
+  solutionLink: /competitions/ioaa/2025/group_solutions.pdf
+  answerSheet: /competitions/ioaa/2025/group_summary_answersheet.pdf
+  majorCategory: Group
+- category: Group Competition Part 2
+  link: /competitions/ioaa/2025/group_write_up.pdf
+  majorCategory: Group
+- category: Theory
+  link: /competitions/ioaa/2025/theory_questions.pdf
+  solutionLink: /competitions/ioaa/2025/theory_solution.pdf
+  answerSheet: /competitions/ioaa/2025/theory_summary_answersheet.pdf
+  instructions: /competitions/ioaa/2025/theory_instructions.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2025-1
+  number: D1
+  category: Data Analysis
+  name: 30 Years of Exoplanets
+  maxScore: 90
+- id: ioaa-2025-2
+  number: D2
+  category: Data Analysis
+  name: Predicting arrival times of coronal mass ejections on Earth
+  maxScore: 60
+- id: ioaa-2025-3
+  number: O3
+  category: Map OM01
+  name: Map OM01
+- id: ioaa-2025-4
+  number: O4
+  category: Map OM02
+  name: Map OM02
+- id: ioaa-2025-5
+  number: O5
+  category: Map OP01
+  name: Map OP01
+- id: ioaa-2025-6
+  number: O6
+  category: Map OP02
+  name: Map OP02
+- id: ioaa-2025-7
+  number: O7
+  category: Map OT01
+  name: Map OT01
+- id: ioaa-2025-8
+  number: O8
+  category: Observation
+  name: Observation
+- id: ioaa-2025-9
+  number: O9
+  category: Sky Map
+  name: Sky Map
+- id: ioaa-2025-10
+  number: O10
+  category: Sky Map Part 2
+  name: Sky Map Part 2
+- id: ioaa-2025-11
+  number: O11
+  category: Telescope
+  name: Telescope
+- id: ioaa-2025-12
+  number: O12
+  category: Telescope Part 2
+  name: Telescope Part 2
+- id: ioaa-2025-13
+  number: P13
+  category: Planetarium
+  name: Planetarium
+- id: ioaa-2025-14
+  number: P14
+  category: Planetarium Part 2
+  name: Planetarium Part 2
+- id: ioaa-2025-15
+  number: G1
+  category: Group Competition
+  name: Uncovering Galactic dark matter using a radio telescope
+  maxScore: 150
+- id: ioaa-2025-16
+  number: G16
+  category: Group Competition Part 2
+  name: Group Competition Part 2
+- id: ioaa-2025-17
+  number: T1
+  category: Theory
+  name: Daksha Mission
+  maxScore: 10
+- id: ioaa-2025-18
+  number: T2
+  category: Theory
+  name: Makar-Sankranti
+  maxScore: 10
+- id: ioaa-2025-19
+  number: T3
+  category: Theory
+  name: Gravitational Waves
+  maxScore: 15
+- id: ioaa-2025-20
+  number: T4
+  category: Theory
+  name: Balmer Decrement
+- id: ioaa-2025-21
+  number: T5
+  category: Theory
+  name: Quasars
+  maxScore: 20
+- id: ioaa-2025-22
+  number: T6
+  category: Theory
+  name: Galactic Rotation
+  maxScore: 20
+- id: ioaa-2025-23
+  number: T7
+  category: Theory
+  name: Neutron Star Binary
+  maxScore: 20
+- id: ioaa-2025-24
+  number: T8
+  category: Theory
+  name: Shadow of a black hole
+  maxScore: 20
+- id: ioaa-2025-25
+  number: T9
+  category: Theory
+  name: Atmospheric Seeing
+- id: ioaa-2025-26
+  number: T10
+  category: Theory
+  name: Big Bang Nucleosynthesis
+  maxScore: 35
+- id: ioaa-2025-27
+  number: T11
+  category: Theory
+  name: Stars through graphs
+  maxScore: 50
+- id: ioaa-2025-28
+  number: T12
+  category: Theory
+  name: Hawking Radiation from Black Holes

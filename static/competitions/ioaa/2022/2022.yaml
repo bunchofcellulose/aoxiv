@@ -1,0 +1,159 @@
+name: 15th IOAA 2022
+location: Kutaisi, Georgia
+papers:
+- category: Data Analysis
+  link: /competitions/ioaa/2022/data_analysis_problems_final_2022_ioaa.pdf
+  majorCategory: Data Analysis
+- category: Observation
+  link: /competitions/ioaa/2022/observation_alternative_2022_ioaa.pdf
+  majorCategory: Observation
+- category: Observation Day
+  link: /competitions/ioaa/2022/day_time_observation_problems_final_2022_ioaa.pdf
+  majorCategory: Observation
+- category: Observation Night
+  link: /competitions/ioaa/2022/night_time_observation_problems_final_2022_ioaa.pdf
+  majorCategory: Observation
+- category: Theory
+  link: /competitions/ioaa/2022/theory_final_2022_ioaa.pdf
+  majorCategory: Theory
+problems:
+- id: ioaa-2022-1
+  number: D1
+  category: Data Analysis
+  name: Gravitational wave astronomy
+  maxScore: 45
+- id: ioaa-2022-2
+  number: D2
+  category: Data Analysis
+  name: Galactic Surveys
+  maxScore: 105
+- id: ioaa-2022-3
+  number: OA1
+  category: Observation
+  name: Object identification with telescopes
+  maxScore: 15
+- id: ioaa-2022-4
+  number: OA2
+  category: Observation
+  name: Telescope field of view
+  maxScore: 15
+- id: ioaa-2022-5
+  number: OA3
+  category: Observation
+  name: Telescope focal length
+  maxScore: 6
+- id: ioaa-2022-6
+  number: OA4
+  category: Observation
+  name: Binary star angle measurement
+  maxScore: 14
+- id: ioaa-2022-7
+  number: OD1
+  category: Observation Day
+  name: Reflector type identification
+  maxScore: 9
+- id: ioaa-2022-8
+  number: OD2
+  category: Observation Day
+  name: Equatorial constellations and ecliptic
+  maxScore: 21
+- id: ioaa-2022-9
+  number: OD3
+  category: Observation Day
+  name: Messier objects and constellations
+  maxScore: 20
+- id: ioaa-2022-10
+  number: OD4
+  category: Observation Day
+  name: Additional and missing stars
+  maxScore: 30
+- id: ioaa-2022-11
+  number: OD5
+  category: Observation Day
+  name: Time interval from sky figures
+  maxScore: 5
+- id: ioaa-2022-12
+  number: ON1
+  category: Observation Night
+  name: Object sequence identification
+  maxScore: 15
+- id: ioaa-2022-13
+  number: ON2
+  category: Observation Night
+  name: Telescope field of view
+  maxScore: 15
+- id: ioaa-2022-14
+  number: ON3
+  category: Observation Night
+  name: Albireo binary angle
+  maxScore: 20
+- id: ioaa-2022-15
+  number: ON4
+  category: Observation Night
+  name: Telescope focal length
+  maxScore: 10
+- id: ioaa-2022-16
+  number: T1
+  category: Theory
+  name: Planck's units
+  maxScore: 10
+- id: ioaa-2022-17
+  number: T2
+  category: Theory
+  name: Circumbinary planet
+  maxScore: 10
+- id: ioaa-2022-18
+  number: T3
+  category: Theory
+  name: Expanding ring nebula
+  maxScore: 10
+- id: ioaa-2022-19
+  number: T4
+  category: Theory
+  name: Journey Between Galaxies
+  maxScore: 10
+- id: ioaa-2022-20
+  number: T5
+  category: Theory
+  name: Flaring protoplanetary disk
+  maxScore: 10
+- id: ioaa-2022-21
+  number: T6
+  category: Theory
+  name: Photometry of Binary stars
+  maxScore: 20
+- id: ioaa-2022-22
+  number: T7
+  category: Theory
+  name: Georgia to Georgia
+  maxScore: 20
+- id: ioaa-2022-23
+  number: T8
+  category: Theory
+  name: Ring of a planet
+  maxScore: 20
+- id: ioaa-2022-24
+  number: T9
+  category: Theory
+  name: Solar Retrograde Motion on Mercury
+  maxScore: 20
+- id: ioaa-2022-25
+  number: T10
+  category: Theory
+  name: Accretion
+  maxScore: 20
+- id: ioaa-2022-26
+  number: T11
+  category: Theory
+  name: Dyson Sphere
+  maxScore: 50
+- id: ioaa-2022-27
+  number: T12
+  category: Theory
+  name: Co-orbital satellites
+  maxScore: 50
+- id: ioaa-2022-28
+  number: T13
+  category: Theory
+  name: Relativistic Beaming
+  maxScore: 50
