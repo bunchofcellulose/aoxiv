@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { resolve } from '$app/paths';
 	let { children } = $props();
 
 	import NavLink from '$lib/components/NavLink.svelte';
@@ -12,27 +13,27 @@
 
 	const navLinks = [
 		{ url: '/', label: 'home' },
+		{ url: '/contests', label: 'contests' },
 		{ url: 'https://aoguide.app/guide/resources', label: 'resources' }
 	];
 </script>
 
 <svelte:head>
-<link rel="icon" type="image/x-icon" href="/logo.svg" />
+	<link rel="icon" type="image/svg+xml" href="/chi.svg?v=2" />
 </svelte:head>
 
 <ModeWatcher />
 
-
 <Sidebar.Provider>
 	<AppSidebar {navLinks} />
 	<div
-		class="flex min-h-screen w-full flex-col items-center bg-background px-8 py-8 sm:px-10 sm:py-10"
+		class="flex min-h-screen w-full flex-col items-center bg-background px-8 py-3 sm:px-10 sm:py-6"
 	>
 		<div class="w-full md:w-5/6 xl:w-2/3">
 			<nav class="grid grid-cols-3 items-center md:hidden">
 				<Sidebar.Trigger />
 				<a
-					href="/"
+					href={resolve('/')}
 					class="justify-self-center text-base font-medium text-foreground hover:text-primary"
 				>
 					aoXiv

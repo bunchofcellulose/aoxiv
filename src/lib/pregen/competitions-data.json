@@ -1595,24 +1595,24 @@
             "majorCategory": "Observation"
           },
           {
-            "category": "Observation Sky Map",
+            "category": "Sky Map",
             "link": "/competitions/ioaa/2025/observation_examination_sky_map_round.pdf",
             "solutionLink": "/competitions/ioaa/2025/observation_skymap_solutions.pdf",
             "majorCategory": "Observation"
           },
           {
-            "category": "Observation Sky Map Part 2",
+            "category": "Sky Map Part 2",
             "link": "/competitions/ioaa/2025/observation_skymap_questions.pdf",
             "majorCategory": "Observation"
           },
           {
-            "category": "Observation Telescope",
+            "category": "Telescope",
             "link": "/competitions/ioaa/2025/observation_examination_telescope_round.pdf",
             "solutionLink": "/competitions/ioaa/2025/observation_telescope_solutions.pdf",
             "majorCategory": "Observation"
           },
           {
-            "category": "Observation Telescope Part 2",
+            "category": "Telescope Part 2",
             "link": "/competitions/ioaa/2025/observation_telescope_questions.pdf",
             "majorCategory": "Observation"
           },
@@ -1629,16 +1629,16 @@
             "majorCategory": "Observation"
           },
           {
-            "category": "Team/Group Competition",
+            "category": "Group Competition",
             "link": "/competitions/ioaa/2025/group_questions.pdf",
             "solutionLink": "/competitions/ioaa/2025/group_solutions.pdf",
             "answerSheet": "/competitions/ioaa/2025/group_summary_answersheet.pdf",
-            "majorCategory": "Team/Group"
+            "majorCategory": "Group"
           },
           {
-            "category": "Team/Group Competition Part 2",
+            "category": "Group Competition Part 2",
             "link": "/competitions/ioaa/2025/group_write_up.pdf",
-            "majorCategory": "Team/Group"
+            "majorCategory": "Group"
           },
           {
             "category": "Theory",
@@ -1701,29 +1701,29 @@
             ]
           },
           {
-            "id": "observation-sky-map",
-            "name": "Observation Sky Map",
+            "id": "sky-map",
+            "name": "Sky Map",
             "problemIds": [
               "ioaa-2025-9"
             ]
           },
           {
-            "id": "observation-sky-map-part-2",
-            "name": "Observation Sky Map Part 2",
+            "id": "sky-map-part-2",
+            "name": "Sky Map Part 2",
             "problemIds": [
               "ioaa-2025-10"
             ]
           },
           {
-            "id": "observation-telescope",
-            "name": "Observation Telescope",
+            "id": "telescope",
+            "name": "Telescope",
             "problemIds": [
               "ioaa-2025-11"
             ]
           },
           {
-            "id": "observation-telescope-part-2",
-            "name": "Observation Telescope Part 2",
+            "id": "telescope-part-2",
+            "name": "Telescope Part 2",
             "problemIds": [
               "ioaa-2025-12"
             ]
@@ -1743,15 +1743,15 @@
             ]
           },
           {
-            "id": "team/group-competition",
-            "name": "Team/Group Competition",
+            "id": "group-competition",
+            "name": "Group Competition",
             "problemIds": [
               "ioaa-2025-15"
             ]
           },
           {
-            "id": "team/group-competition-part-2",
-            "name": "Team/Group Competition Part 2",
+            "id": "group-competition-part-2",
+            "name": "Group Competition Part 2",
             "problemIds": [
               "ioaa-2025-16"
             ]
@@ -1835,29 +1835,29 @@
           {
             "id": "ioaa-2025-9",
             "number": "O9",
-            "name": "Observation Sky Map",
-            "category": "Observation Sky Map",
+            "name": "Sky Map",
+            "category": "Sky Map",
             "maxScore": 20
           },
           {
             "id": "ioaa-2025-10",
             "number": "O10",
-            "name": "Observation Sky Map Part 2",
-            "category": "Observation Sky Map Part 2",
+            "name": "Sky Map Part 2",
+            "category": "Sky Map Part 2",
             "maxScore": 20
           },
           {
             "id": "ioaa-2025-11",
             "number": "O11",
-            "name": "Observation Telescope",
-            "category": "Observation Telescope",
+            "name": "Telescope",
+            "category": "Telescope",
             "maxScore": 20
           },
           {
             "id": "ioaa-2025-12",
             "number": "O12",
-            "name": "Observation Telescope Part 2",
-            "category": "Observation Telescope Part 2",
+            "name": "Telescope Part 2",
+            "category": "Telescope Part 2",
             "maxScore": 20
           },
           {
@@ -1878,14 +1878,14 @@
             "id": "ioaa-2025-15",
             "number": "G1",
             "name": "Uncovering Galactic dark matter using a radio telescope",
-            "category": "Team/Group Competition",
+            "category": "Group Competition",
             "maxScore": 150
           },
           {
             "id": "ioaa-2025-16",
             "number": "G16",
-            "name": "Team/Group Competition Part 2",
-            "category": "Team/Group Competition Part 2",
+            "name": "Group Competition Part 2",
+            "category": "Group Competition Part 2",
             "maxScore": 20
           },
           {
@@ -2201,37 +2201,37 @@
         "location": "Katowice, Poland",
         "papers": [
           {
-            "category": "Data Analysis Solutions",
+            "category": "Data Analysis",
             "solutionLink": "/competitions/ioaa/2023/data_analysis_questions_with_solutions_2023_ioaa.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "category": "Observation Solutions",
+            "category": "Observation",
             "solutionLink": "/competitions/ioaa/2023/observations_questions_with_solutions_2023_ioaa.pdf",
             "majorCategory": "Observation"
           },
           {
-            "category": "Planetarium Solutions",
+            "category": "Planetarium",
             "solutionLink": "/competitions/ioaa/2023/planetarium_questions_with_solutions_2023_ioaa.pdf",
             "majorCategory": "Observation"
           },
           {
-            "category": "Team/Group Competition",
+            "category": "Group Competition",
             "link": "/competitions/ioaa/2023/group_competition_2023_ioaa.pdf",
-            "majorCategory": "Team/Group"
+            "majorCategory": "Group"
           },
           {
-            "category": "Theory Solutions",
+            "category": "Theory",
             "solutionLink": "/competitions/ioaa/2023/theory_medium_questions_with_solutions_2023_ioaa.pdf",
             "majorCategory": "Theory"
           },
           {
-            "category": "Theory Solutions",
+            "category": "Theory",
             "solutionLink": "/competitions/ioaa/2023/theory_long_questions_with_solutions_2023_ioaa.pdf",
             "majorCategory": "Theory"
           },
           {
-            "category": "Theory Solutions",
+            "category": "Theory",
             "solutionLink": "/competitions/ioaa/2023/theory_short_questions_with_solutions_2023_ioaa.pdf",
             "majorCategory": "Theory"
           }
@@ -2265,8 +2265,8 @@
             ]
           },
           {
-            "id": "team/group-competition",
-            "name": "Team/Group Competition",
+            "id": "group-competition",
+            "name": "Group Competition",
             "problemIds": [
               "ioaa-2023-10"
             ]
@@ -2371,7 +2371,7 @@
             "id": "ioaa-2023-10",
             "number": "G1",
             "name": "Multi-task team challenge (crossword, Arecibo message, Mars loop, astrolabe, Saros)",
-            "category": "Team/Group Competition",
+            "category": "Group Competition",
             "maxScore": 20
           },
           {
