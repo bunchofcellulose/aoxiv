@@ -1,128 +1,128 @@
 name: 14th IOAA 2021
 location: Bogota, Colombia
 papers:
-- category: Data Analysis
-  instructions: /competitions/ioaa/2021/data_analysis_instructions_2021_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Data Analysis 1
-  link: /competitions/ioaa/2021/data_analysis_1_2021_ioaa.pdf
-  solutionLink: /competitions/ioaa/2021/data_analysis_1_solutions_2021_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Data Analysis 2
-  link: /competitions/ioaa/2021/data_analysis_2_2021_ioaa.pdf
-  solutionLink: /competitions/ioaa/2021/data_analysis_2_solutions_2021_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Observation Solar Physics
-  link: /competitions/ioaa/2021/observational_20exam_20solar_20physics_202021_20ioaa.pdf
-  solutionLink: /competitions/ioaa/2021/observational_exam_solar_physics_solutions_2021_ioaa.pdf
-  instructions: /competitions/ioaa/2021/observational_exam_solar_physics_instructions_2021_ioaa.pdf
-  majorCategory: Observation
-- category: Planetarium
-  link: /competitions/ioaa/2021/planetarium_exam_problems_2021_ioaa.pdf
-  solutionLink: /competitions/ioaa/2021/planetarium_exam_solutions_2021_ioaa.pdf
-  instructions: /competitions/ioaa/2021/planetarium_exam_instructions_2021_ioaa.pdf
-  majorCategory: Observation
-- category: Team/Group Competition
-  link: /competitions/ioaa/2021/team_competition_2021_ioaa.pdf
-  solutionLink: /competitions/ioaa/2021/team_competition_solutions_2021_ioaa.pdf
-  majorCategory: Team/Group
-- category: Theory
-  link: /competitions/ioaa/2021/theory_problems_2021_ioaa.pdf
-  solutionLink: /competitions/ioaa/2021/theory_solutions_2021_ioaa.pdf
-  majorCategory: Theory
+  - category: Data Analysis
+    majorCategory: Data Analysis
+  - category: Theory
+    majorCategory: Theory
+
 problems:
-- id: ioaa-2021-1
-  number: D1
-  category: Data Analysis 1
-  name: Scaling Relations
-  maxScore: 75
-- id: ioaa-2021-2
-  number: D2
-  category: Data Analysis 2
-  name: Stars and Exoplanets
-  maxScore: 75
-- id: ioaa-2021-3
-  number: O1
-  category: Observation Solar Physics
-  name: The Solar Slap
-  maxScore: 75
-- id: ioaa-2021-4
-  number: P1
-  category: Planetarium
-  name: Simulated Sky
-  maxScore: 75
-- id: ioaa-2021-5
-  number: G1
-  category: Team/Group Competition
-  name: Group Radio Astronomy
-  maxScore: 115
-- id: ioaa-2021-6
-  number: T1
-  category: Theory
-  name: LIGO
-  maxScore: 5
-- id: ioaa-2021-7
-  number: T2
-  category: Theory
-  name: Temperature of the Earth
-  maxScore: 10
-- id: ioaa-2021-8
-  number: T3
-  category: Theory
-  name: Mars
-  maxScore: 10
-- id: ioaa-2021-9
-  number: T4
-  category: Theory
-  name: ALMA - Calculating photons
-  maxScore: 10
-- id: ioaa-2021-10
-  number: T5
-  category: Theory
-  name: Under pressure
-  maxScore: 10
-- id: ioaa-2021-11
-  number: T6
-  category: Theory
-  name: Macondo and Melquiades
-  maxScore: 12
-- id: ioaa-2021-12
-  number: T7
-  category: Theory
-  name: Menkalinan (Beta Aurigae)
-  maxScore: 13
-- id: ioaa-2021-13
-  number: T8
-  category: Theory
-  name: IOAA Logo
-  maxScore: 15
-- id: ioaa-2021-14
-  number: T9
-  category: Theory
-  name: Pluto Satellites
-  maxScore: 15
-- id: ioaa-2021-15
-  number: T10
-  category: Theory
-  name: Terrestrial Transit
-  maxScore: 15
-- id: ioaa-2021-16
-  number: T11
-  category: Theory
-  name: Minimum velocity of a projectile
-  maxScore: 15
-- id: ioaa-2021-17
-  number: T12
-  category: Theory
-  name: Hodograph
-  maxScore: 15
-- id: ioaa-2021-18
-  number: T13
-  category: Theory
-  name: "Lucy: The First Mission to the Trojan Asteroids"
-  maxScore: 15
-- id: ioaa-2021-19
-  number: T14
-  category: Theory
-  name: Formation of the Venus-2
-  maxScore: 35
+  - id: ioaa-2021-1
+    number: D1
+    category: Data Analysis 1
+    name: Scaling Relations
+    link: /competitions/ioaa/2021/Q1_da.pdf
+    solutionLink: /competitions/ioaa/2021/DA1_solution.pdf
+    maxScore: 75
+  - id: ioaa-2021-2
+    number: D2
+    category: Data Analysis 2
+    name: Stars and Exoplanets
+    link: /competitions/ioaa/2021/Q2_da.pdf
+    solutionLink: /competitions/ioaa/2021/DA2_solution.pdf
+    maxScore: 75
+  - id: ioaa-2021-6
+    number: T1
+    category: Theory
+    name: LIGO
+    link: /competitions/ioaa/2021/Q1.pdf
+    solutionLink: /competitions/ioaa/2021/T1_Solution.pdf
+    maxScore: 5
+  - id: ioaa-2021-7
+    number: T2
+    category: Theory
+    name: Temperature of the Earth
+    link: /competitions/ioaa/2021/Q2.pdf
+    solutionLink: /competitions/ioaa/2021/T2_Solution.pdf
+    maxScore: 10
+  - id: ioaa-2021-8
+    number: T3
+    category: Theory
+    name: Mars
+    link: /competitions/ioaa/2021/Q3.pdf
+    solutionLink: /competitions/ioaa/2021/T3_Solution.pdf
+    maxScore: 10
+  - id: ioaa-2021-9
+    number: T4
+    category: Theory
+    name: ALMA - Calculating photons
+    link: /competitions/ioaa/2021/Q4.pdf
+    solutionLink: /competitions/ioaa/2021/T4_Solution.pdf
+    maxScore: 10
+  - id: ioaa-2021-10
+    number: T5
+    category: Theory
+    name: Under pressure
+    link: /competitions/ioaa/2021/Q5.pdf
+    solutionLink: /competitions/ioaa/2021/T5_Solution.pdf
+    maxScore: 10
+  - id: ioaa-2021-11
+    number: T6
+    category: Theory
+    name: Macondo and Melquiades
+    link: /competitions/ioaa/2021/Q6.pdf
+    solutionLink: /competitions/ioaa/2021/T6_Solution.pdf
+    maxScore: 12
+  - id: ioaa-2021-12
+    number: T7
+    category: Theory
+    name: Menkalinan (Beta Aurigae)
+    link: /competitions/ioaa/2021/Q7.pdf
+    solutionLink: /competitions/ioaa/2021/T7_Solution.pdf
+    maxScore: 13
+  - id: ioaa-2021-13
+    number: T8
+    category: Theory
+    name: IOAA Logo
+    link: /competitions/ioaa/2021/Q8.pdf
+    solutionLink: /competitions/ioaa/2021/T8_Solution.pdf
+    maxScore: 15
+  - id: ioaa-2021-14
+    number: T9
+    category: Theory
+    name: Pluto Satellites
+    maxScore: 15
+    link: /competitions/ioaa/2021/Q9.pdf
+    solutionLink: /competitions/ioaa/2021/T9_Solution.pdf
+  - id: ioaa-2021-15
+    number: T10
+    category: Theory
+    name: Terrestrial Transit
+    link: /competitions/ioaa/2021/Q10.pdf
+    solutionLink: /competitions/ioaa/2021/T10_Solution.pdf
+    maxScore: 15
+  - id: ioaa-2021-16
+    number: T11
+    category: Theory
+    name: Minimum velocity of a projectile
+    link: /competitions/ioaa/2021/Q11.pdf
+    solutionLink: /competitions/ioaa/2021/T11_Solution.pdf
+    maxScore: 15
+  - id: ioaa-2021-17
+    number: T12
+    category: Theory
+    name: Hodograph
+    link: /competitions/ioaa/2021/Q12.pdf
+    solutionLink: /competitions/ioaa/2021/T12_Solution.pdf
+    maxScore: 15
+  - id: ioaa-2021-18
+    number: T13
+    category: Theory
+    name: 'Lucy: The First Mission to the Trojan Asteroids'
+    link: /competitions/ioaa/2021/Q13.pdf
+    solutionLink: /competitions/ioaa/2021/T13_Solution.pdf
+    maxScore: 15
+  - id: ioaa-2021-19
+    number: T14
+    category: Theory
+    name: Formation of the Venus-2
+    link: /competitions/ioaa/2021/Q14.pdf
+    solutionLink: /competitions/ioaa/2021/T14_Solution.pdf
+    maxScore: 35
+  - id: ioaa-2021-20
+    number: T15
+    category: Theory
+    name: Cosmic String
+    link: /competitions/ioaa/2021/Q15.pdf
+    solutionLink: /competitions/ioaa/2021/T15_Solution.pdf
+    maxScore: 55

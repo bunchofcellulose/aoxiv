@@ -2,22 +2,12 @@ name: 11th IOAA 2017
 location: Phuket, Thailand
 papers:
 - category: Data Analysis
-  link: /competitions/ioaa/2017/data_analysis_problem_2017_ioaa.pdf
+  link: /competitions/ioaa/2017/DataAnalysis.pdf
+  solutionLink: /competitions/ioaa/2017/DataAnalysis_Solution.pdf
   majorCategory: Data Analysis
-- category: Data Analysis Solutions
-  link: /competitions/ioaa/2017/data_analysis_solution_2017_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Observation Day
-  link: /competitions/ioaa/2017/observational_examination_day_problem_2017_ioaa.pdf
-  majorCategory: Observation
-- category: Observation Night
-  link: /competitions/ioaa/2017/observational_examination_night_problem_2017_ioaa.pdf
-  majorCategory: Observation
 - category: Theory
-  link: /competitions/ioaa/2017/theory_problem_2017_ioaa.pdf
-  majorCategory: Theory
-- category: Theory Solutions
-  link: /competitions/ioaa/2017/theory_solution_2017_ioaa.pdf
+  link: /competitions/ioaa/2017/Theory.pdf
+  solutionLink: /competitions/ioaa/2017/Theory_Solution.pdf
   majorCategory: Theory
 problems:
 - id: ioaa-2017-1
@@ -30,42 +20,6 @@ problems:
   category: Data Analysis
   name: The search for dark matter
   maxScore: 75
-- id: ioaa-2017-5
-  number: P1
-  category: Observation Day
-  name: Naked eye observation from real sky with panoramic 360-degrees image
-- id: ioaa-2017-6
-  number: P2
-  category: Observation Day
-  name: Planet observation with real sky in panoramic 360-degrees image
-- id: ioaa-2017-7
-  number: P3
-  category: Observation Day
-  name: Analemma on another planet
-- id: ioaa-2017-8
-  number: P4
-  category: Observation Day
-  name: Exposure time from a Photograph
-- id: ioaa-2017-9
-  number: P5
-  category: Observation Day
-  name: Find True North from Moon shadow
-- id: ioaa-2017-10
-  number: P6
-  category: Observation Day
-  name: Find Latitude from Equatorial Mount
-- id: ioaa-2017-11
-  number: P7
-  category: Observation Day
-  name: Precision Polar Alignment with Equatorial Mount
-- id: ioaa-2017-12
-  number: N1
-  category: Observation Night
-  name: Observation with Equatorial Mount Telescope
-- id: ioaa-2017-13
-  number: N2
-  category: Observation Night
-  name: Observation with Dobsonian Telescope
 - id: ioaa-2017-14
   number: T1
   category: Theory

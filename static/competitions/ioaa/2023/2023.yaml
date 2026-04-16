@@ -1,27 +1,15 @@
 name: 16th IOAA 2023
 location: Katowice, Poland
 papers:
-- category: Data Analysis
-  solutionLink: /competitions/ioaa/2023/data_analysis_questions_with_solutions_2023_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Observation
-  solutionLink: /competitions/ioaa/2023/observations_questions_with_solutions_2023_ioaa.pdf
-  majorCategory: Observation
-- category: Planetarium
-  solutionLink: /competitions/ioaa/2023/planetarium_questions_with_solutions_2023_ioaa.pdf
-  majorCategory: Observation
-- category: Group Competition
-  link: /competitions/ioaa/2023/group_competition_2023_ioaa.pdf
-  majorCategory: Group
-- category: Theory
-  solutionLink: /competitions/ioaa/2023/theory_medium_questions_with_solutions_2023_ioaa.pdf
-  majorCategory: Theory
-- category: Theory
-  solutionLink: /competitions/ioaa/2023/theory_long_questions_with_solutions_2023_ioaa.pdf
-  majorCategory: Theory
-- category: Theory
-  solutionLink: /competitions/ioaa/2023/theory_short_questions_with_solutions_2023_ioaa.pdf
-  majorCategory: Theory
+  - category: Data Analysis
+    link: /competitions/ioaa/2023/DA.pdf
+    solutionLink: /competitions/ioaa/2023/DA_sol.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /competitions/ioaa/2023/theory.pdf
+    solutionLink: /competitions/ioaa/2023/th_solutions.pdf
+    majorCategory: Theory
+
 problems:
 - id: ioaa-2023-1
   number: D1
@@ -33,45 +21,6 @@ problems:
   category: Data Analysis
   name: Isolated black hole
   maxScore: 75
-- id: ioaa-2023-3
-  number: O1
-  category: Observation
-  name: Asteroid occultation
-  maxScore: 15
-- id: ioaa-2023-4
-  number: O2
-  category: Observation
-  name: Starlink
-  maxScore: 15
-- id: ioaa-2023-5
-  number: O3
-  category: Observation
-  name: Planetary Moons
-  maxScore: 10
-- id: ioaa-2023-6
-  number: O4
-  category: Observation
-  name: Supernova
-  maxScore: 10
-- id: ioaa-2023-7
-  number: P1
-  category: Planetarium
-  name: Knowledge of the sky
-  maxScore: 20
-- id: ioaa-2023-8
-  number: P2
-  category: Planetarium
-  name: Retrograde Mars
-  maxScore: 20
-- id: ioaa-2023-9
-  number: P3
-  category: Planetarium
-  name: TRAPPIST-1
-  maxScore: 35
-- id: ioaa-2023-10
-  number: G1
-  category: Group Competition
-  name: Multi-task team challenge (crossword, Arecibo message, Mars loop, astrolabe, Saros)
 - id: ioaa-2023-11
   number: T6
   category: Theory

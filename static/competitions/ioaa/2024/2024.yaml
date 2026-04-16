@@ -2,22 +2,14 @@ name: 17th IOAA 2024
 location: Rio de Janeiro, Brazil
 papers:
 - category: Data Analysis
-  link: /competitions/ioaa/2024/data_analysis_2024_ioaa.pdf
-  solutionLink: /competitions/ioaa/2024/data_analysis_solutions_2024_ioaa.pdf
-  gradingScheme: /competitions/ioaa/2024/data_analysis_marking_scheme_rules_2024_ioaa.pdf
+  link: /competitions/ioaa/2024/da.pdf
+  solutionLink: /competitions/ioaa/2024/da_sol.pdf
+  gradingScheme: /competitions/ioaa/2024/da_grading_scheme.pdf
   majorCategory: Data Analysis
-- category: Observation
-  link: /competitions/ioaa/2024/observation_2024_ioaa.pdf
-  gradingScheme: /competitions/ioaa/2024/observation_marking_scheme_2024_ioaa.pdf
-  majorCategory: Observation
-- category: Planetarium
-  link: /competitions/ioaa/2024/planetarium_2024_ioaa.pdf
-  solutionLink: /competitions/ioaa/2024/planetarium_solutions_2024_ioaa.pdf
-  majorCategory: Observation
 - category: Theory
-  link: /competitions/ioaa/2024/theory_2024_ioaa.pdf
-  solutionLink: /competitions/ioaa/2024/theory_solutions_2024_ioaa.pdf
-  gradingScheme: /competitions/ioaa/2024/theory_marking_scheme_2024_ioaa.pdf
+  link: /competitions/ioaa/2024/th.pdf
+  solutionLink: /competitions/ioaa/2024/th_sol.pdf
+  gradingScheme: /competitions/ioaa/2024/th_grading_scheme.pdf
   majorCategory: Theory
 problems:
 - id: ioaa-2024-1
@@ -30,41 +22,6 @@ problems:
   category: Data Analysis
   name: Shapley Hypothesis
   maxScore: 75
-- id: ioaa-2024-3
-  number: O1
-  category: Observation
-  name: Stars within 8° of alpha Corvi (magnitude 4-6)
-  maxScore: 18
-- id: ioaa-2024-4
-  number: O2
-  category: Observation
-  name: Alt-az sky chart orientation and great-circle markings
-  maxScore: 16
-- id: ioaa-2024-5
-  number: O3
-  category: Observation
-  name: Meridian-transit and setting times from star chart
-  maxScore: 11
-- id: ioaa-2024-6
-  number: O4
-  category: Observation
-  name: 'First stage: Pointing & Measurement'
-  maxScore: 15
-- id: ioaa-2024-7
-  number: O5
-  category: Observation
-  name: 'Second stage: Calculation and Identification'
-  maxScore: 15
-- id: ioaa-2024-8
-  number: P1
-  category: Planetarium
-  name: Problem 1
-  maxScore: 10
-- id: ioaa-2024-9
-  number: P2
-  category: Planetarium
-  name: Problem 2
-  maxScore: 10
 - id: ioaa-2024-10
   number: T1
   category: Theory

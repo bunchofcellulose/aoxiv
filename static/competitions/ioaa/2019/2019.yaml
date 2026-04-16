@@ -2,34 +2,14 @@ name: 13th IOAA 2019
 location: Keszthely, Hungary
 papers:
 - category: Data Analysis
-  link: /competitions/ioaa/2019/data_analysis_problem_2019_ioaa.pdf
+  link: /competitions/ioaa/2019/da.pdf
+  solutionLink: /competitions/ioaa/2019/da_sol.pdf
+  answerSheet: /competitions/ioaa/2019/da_ans.pdf
   majorCategory: Data Analysis
-- category: Data Analysis Solutions
-  link: /competitions/ioaa/2019/data_analysis_solution_2019_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Data Analysis Answer Sheet
-  link: /competitions/ioaa/2019/data_analysis_answersheet_2019_ioaa.pdf
-  majorCategory: Data Analysis
-- category: Observation
-  link: /competitions/ioaa/2019/observational_round_problem_2019_ioaa.pdf
-  majorCategory: Observation
-- category: Observation Solutions
-  link: /competitions/ioaa/2019/observational_round_solution_2019_ioaa.pdf
-  majorCategory: Observation
-- category: Planetarium
-  link: /competitions/ioaa/2019/planetarium_round_problem_2019_ioaa.pdf
-  majorCategory: Observation
-- category: Planetarium Solutions
-  link: /competitions/ioaa/2019/planetarium_round_solution_2019_ioaa.pdf
-  majorCategory: Observation
 - category: Theory
-  link: /competitions/ioaa/2019/theory_problem_2019_ioaa.pdf
-  majorCategory: Theory
-- category: Theory Solutions
-  link: /competitions/ioaa/2019/theory_solution_2019_ioaa.pdf
-  majorCategory: Theory
-- category: Theory Answer Sheet
-  link: /competitions/ioaa/2019/theory_answersheet_2019_ioaa.pdf
+  link: /competitions/ioaa/2019/th.pdf
+  solutionLink: /competitions/ioaa/2019/th_sol.pdf
+  answerSheet: /competitions/ioaa/2019/th_ans.pdf
   majorCategory: Theory
 problems:
 - id: ioaa-2019-1
@@ -42,23 +22,6 @@ problems:
   category: Data Analysis
   name: Triply eclipsing hierarchical triple stellar system
   maxScore: 90
-- id: ioaa-2019-3
-  number: O1
-  category: Observation
-  name: Telescope observational round (Saturn, M57, AF Cyg, naked-eye photometry)
-  maxScore: 50
-- id: ioaa-2019-4
-  number: P1
-  category: Planetarium
-  name: Sky above Keszthely at midnight
-- id: ioaa-2019-5
-  number: P2
-  category: Planetarium
-  name: Determining observing site from projected sky
-- id: ioaa-2019-6
-  number: P3
-  category: Planetarium
-  name: Observing from the Moon during an Earth eclipse
 - id: ioaa-2019-7
   number: T1
   category: Theory
