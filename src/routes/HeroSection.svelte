@@ -69,8 +69,8 @@
 		<div class="flex flex-col gap-3">
 			<p class="m-0 max-w-[44ch] text-left text-base leading-[1.7] text-foreground/70">
 				A comprehensive archive of astronomy and astrophysics olympiads — from the prestigious IOAA
-				and INAO to regional competitions like OAC and USAAAO. Includes problem statements,
-				solutions, and grading schemes you rarely find elsewhere, all in a mobile-friendly UI.
+				to national competitions like INAO and USAAAO. Includes problem statements, solutions, and
+				grading schemes you rarely find elsewhere, all in a mobile-friendly UI.
 			</p>
 			<p class="m-0 text-xs text-muted-foreground">
 				This project is a fork of
