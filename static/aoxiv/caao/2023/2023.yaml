@@ -1,0 +1,47 @@
+name: "2023 CAAO"
+location: "Canada"
+link: "https://caao.ca/preparation/"
+
+papers:
+  - link: "/aoxiv/caao/2023/paper.pdf"
+
+problems:
+  - id: "caao-2023-1"
+    number: "1"
+    name: "Moon, planets and aircraft"
+    maxScore: 15
+
+  - id: "caao-2023-2"
+    number: "2"
+    name: "In the world of stars"
+    maxScore: 12
+
+  - id: "caao-2023-3"
+    number: "3"
+    name: "Mars Mission"
+    maxScore: 20
+
+  - id: "caao-2023-4"
+    number: "4"
+    name: "Binary Stars"
+    maxScore: 20
+
+  - id: "caao-2023-5"
+    number: "5"
+    name: "Stereographic Projection"
+    maxScore: 20
+
+  - id: "caao-2023-6"
+    number: "6"
+    name: "Shall I compare thee to a Summer's Triangle?"
+    maxScore: 18
+
+  - id: "caao-2023-7"
+    number: "7"
+    name: "Eclipsing Extrasolar Planet"
+    maxScore: 25
+
+  - id: "caao-2023-8"
+    number: "8"
+    name: "Annihilators"
+    maxScore: 25

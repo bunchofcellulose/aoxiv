@@ -1,0 +1,31 @@
+name: "2020 CAAO"
+location: "Canada"
+link: "https://caao.ca/preparation/"
+
+papers:
+  - link: "/aoxiv/caao/2020/paper.pdf"
+
+problems:
+  - id: "caao-2020-1"
+    number: "1"
+    name: Circumpolar star
+
+  - id: "caao-2020-2"
+    number: "2"
+    name: The movement of a star
+
+  - id: "caao-2020-3"
+    number: "3"
+    name: Telscope
+  
+  - id: "caao-2020-4"
+    number: "4"
+    name: System of two stars
+
+  - id: "caao-2020-5"
+    number: "5"
+    name: Betelgeuse
+  
+  - id: "caao-2020-6"
+    number: "6"
+    name: Redshift

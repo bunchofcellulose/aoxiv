@@ -1,0 +1,40 @@
+name: "OAC 2025"
+
+papers:
+  - category: "Open"
+    link: "/aoxiv/oac/2025/paper_open.pdf"
+    solutionLink: "/aoxiv/oac/2025/key_open.pdf"
+
+  - category: "Invitationals"
+    link: "/aoxiv/oac/2025/paper_invi.pdf"
+
+problems:
+  - id: "oac-2025-1"
+    number: "1"
+    category: "Invitationals"
+    name: "Am I precessing?? (Or just tripping?)"
+    maxScore: 105
+
+  - id: "oac-2025-2"
+    number: "2"
+    category: "Invitationals"
+    name: "Hijacking the Royal Swedish Academy of Sciences"
+    maxScore: 90
+
+  - id: "oac-2025-3"
+    number: "3"
+    category: "Invitationals"
+    name: "Finding Riccardo"
+    maxScore: 85
+
+  - id: "oac-2025-4"
+    number: "4"
+    category: "Invitationals"
+    name: "Among the stars"
+    maxScore: 120
+
+  - id: "oac-2025-5"
+    number: "5"
+    category: "Invitationals"
+    name: "Wait, where are Ayush and Osish?"
+    maxScore: 50

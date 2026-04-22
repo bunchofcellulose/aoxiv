@@ -1,0 +1,14 @@
+name: "INAO 2009"
+
+papers:
+  - category: "Junior"
+    examDuration: 180
+    link: "/aoxiv/inao/2009/paper_junior.pdf"
+    solutionLink: "/aoxiv/inao/2009/solutions_junior.pdf"
+
+  - category: "Senior"
+    examDuration: 180
+    link: "/aoxiv/inao/2009/paper_senior.pdf"
+    solutionLink: "/aoxiv/inao/2009/solutions_senior.pdf"
+
+problems: []

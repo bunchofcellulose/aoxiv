@@ -1,0 +1,87 @@
+name: 15th IOAA 2022
+location: Kutaisi, Georgia
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2022/da.pdf
+    solutionLink: /aoxiv/ioaa/2022/da_sol.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2022/Problems.pdf
+    solutionLink: /aoxiv/ioaa/2022/Solutions.pdf
+    majorCategory: Theory
+problems:
+  - id: ioaa-2022-1
+    number: D1
+    category: Data Analysis
+    name: Gravitational wave astronomy
+    maxScore: 45
+  - id: ioaa-2022-2
+    number: D2
+    category: Data Analysis
+    name: Galactic Surveys
+    maxScore: 105
+  - id: ioaa-2022-16
+    number: T1
+    category: Theory
+    name: Planck's units
+    maxScore: 10
+  - id: ioaa-2022-17
+    number: T2
+    category: Theory
+    name: Circumbinary planet
+    maxScore: 10
+  - id: ioaa-2022-18
+    number: T3
+    category: Theory
+    name: Expanding ring nebula
+    maxScore: 10
+  - id: ioaa-2022-19
+    number: T4
+    category: Theory
+    name: Journey Between Galaxies
+    maxScore: 10
+  - id: ioaa-2022-20
+    number: T5
+    category: Theory
+    name: Flaring protoplanetary disk
+    maxScore: 10
+  - id: ioaa-2022-21
+    number: T6
+    category: Theory
+    name: Photometry of Binary stars
+    maxScore: 20
+  - id: ioaa-2022-22
+    number: T7
+    category: Theory
+    name: Georgia to Georgia
+    maxScore: 20
+  - id: ioaa-2022-23
+    number: T8
+    category: Theory
+    name: Ring of a planet
+    maxScore: 20
+  - id: ioaa-2022-24
+    number: T9
+    category: Theory
+    name: Solar Retrograde Motion on Mercury
+    maxScore: 20
+  - id: ioaa-2022-25
+    number: T10
+    category: Theory
+    name: Accretion
+    maxScore: 20
+  - id: ioaa-2022-26
+    number: T11
+    category: Theory
+    name: Dyson Sphere
+    maxScore: 50
+  - id: ioaa-2022-27
+    number: T12
+    category: Theory
+    name: Co-orbital satellites
+    maxScore: 50
+  - id: ioaa-2022-28
+    number: T13
+    category: Theory
+    name: Relativistic Beaming
+    maxScore: 50

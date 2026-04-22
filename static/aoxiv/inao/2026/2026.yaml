@@ -1,0 +1,37 @@
+name: "INAO 2026"
+
+papers:
+  - examDuration: 180
+    link: "/aoxiv/inao/2026/paper.pdf"
+    solutionLink: "/aoxiv/inao/2026/solutions.pdf"
+
+problems:
+  - id: "inao-2026-1"
+    number: "1"
+    name: "Galileo's Observations"
+    maxScore: 12
+
+  - id: "inao-2026-2"
+    number: "2"
+    name: "Stars in Nashik"
+    maxScore: 10
+
+  - id: "inao-2026-3"
+    number: "3"
+    name: "Approximating π"
+    maxScore: 30
+
+  - id: "inao-2026-4"
+    number: "4"
+    name: "Blackbody Radiation"
+    maxScore: 8
+
+  - id: "inao-2026-5"
+    number: "5"
+    name: "Observing the ISS"
+    maxScore: 10
+
+  - id: "inao-2026-6"
+    number: "6"
+    name: "Planet's Orbit around a Binary Star"
+    maxScore: 30

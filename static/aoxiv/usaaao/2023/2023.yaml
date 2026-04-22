@@ -1,0 +1,66 @@
+name: "USAAAO 2023"
+
+papers:
+  - category: "First Round"
+    link: "/aoxiv/usaaao/2023/first_round_exam.pdf"
+    solutionLink: "/aoxiv/usaaao/2023/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/aoxiv/usaaao/2023/paper.pdf"
+    solutionLink: "/aoxiv/usaaao/2023/solutions.pdf"
+
+problems:
+  - id: "usaaao-2023-s1"
+    number: "S1"
+    category: "NAC"
+    name: "White Dwarfs"
+    maxScore: 10
+
+  - id: "usaaao-2023-s2"
+    number: "S2"
+    category: "NAC"
+    name: "The Large Magellanic Cloud"
+    maxScore: 10
+
+  - id: "usaaao-2023-s3"
+    number: "S3"
+    category: "NAC"
+    name: "Culmination Time"
+    maxScore: 15
+
+  - id: "usaaao-2023-m1"
+    number: "M1"
+    category: "NAC"
+    name: "Hyperfine Splitting"
+    maxScore: 20
+
+  - id: "usaaao-2023-m2"
+    number: "M2"
+    category: "NAC"
+    name: "Quantum Fusion"
+    maxScore: 20
+
+  - id: "usaaao-2023-m3"
+    number: "M3"
+    category: "NAC"
+    name: "Into the Wilds"
+    maxScore: 25
+
+  - id: "usaaao-2023-l1"
+    number: "L1"
+    category: "NAC"
+    name: "The Sundial II"
+    maxScore: 45
+
+  - id: "usaaao-2023-l2"
+    number: "L2"
+    category: "NAC"
+    name: "Interstellar Comet"
+    maxScore: 40
+
+  - id: "usaaao-2023-l3"
+    number: "L3"
+    category: "NAC"
+    name: "Finding Friends"
+    maxScore: 55

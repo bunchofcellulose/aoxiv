@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
 	import { competitions, getTotalProblems } from '$lib/competitions';
+	import { siteConfig } from '$lib/site-config';
 	import { cn } from '$lib/utils.js';
 	import { onMount } from 'svelte';
 
@@ -60,40 +60,40 @@
 			<h1
 				class="text-left! text-[clamp(4rem,10vw,7rem)] leading-none font-bold tracking-[-0.03em] text-foreground"
 			>
-				aoXiv
+				{siteConfig.hero.title}
 			</h1>
-			<span class="font-mono text-xs tracking-[0.02em] text-muted-foreground">/ ˌeɪ.oʊ.ˈkaɪv /</span
-			>
+			{#if siteConfig.pronunciation}
+				<span class="font-mono text-xs tracking-[0.02em] text-muted-foreground">
+					{siteConfig.pronunciation}
+				</span>
+			{/if}
 		</div>
 
 		<div class="flex flex-col gap-3">
 			<p class="m-0 max-w-[44ch] text-left text-base leading-[1.7] text-foreground/70">
-				A comprehensive archive of astronomy and astrophysics olympiads — from the prestigious IOAA
-				to national competitions like INAO and USAAAO. Includes problem statements, solutions, and
-				grading schemes you rarely find elsewhere, all in a mobile-friendly UI.
+				{siteConfig.hero.description}
 			</p>
-			<p class="m-0 text-xs text-muted-foreground">
-				This project is a fork of
-				<a
-					href="https://phoxiv.org"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="underline hover:text-foreground"
-				>
-					phoxiv.org
-				</a>.
-			</p>
+			{#if siteConfig.fork}
+				<p class="m-0 text-xs text-muted-foreground">
+					{siteConfig.fork.text}
+					<a
+						href={siteConfig.fork.url}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="underline hover:text-foreground"
+					>
+						{siteConfig.fork.label}
+					</a>.
+				</p>
+			{/if}
 		</div>
 
 		<div class="flex flex-wrap gap-3">
-			<a href={resolve('/contests')} class={cn(buttonVariants({ variant: 'default' }))}>
-				Browse contests
+			<a href={siteConfig.hero.primaryCtaPath} class={cn(buttonVariants({ variant: 'default' }))}>
+				{siteConfig.hero.primaryCtaLabel}
 			</a>
-			<a
-				href="https://github.com/bunchofcellulose/aoXiv"
-				class={cn(buttonVariants({ variant: 'outline' }))}
-			>
-				Contribute
+			<a href={siteConfig.githubUrl} class={cn(buttonVariants({ variant: 'outline' }))}>
+				{siteConfig.hero.secondaryCtaLabel}
 			</a>
 		</div>
 

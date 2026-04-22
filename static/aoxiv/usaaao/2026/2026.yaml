@@ -1,0 +1,70 @@
+name: "2026 USAAAO"
+location: "United States"
+link: "https://usaaao.org/"
+
+papers:
+  - category: "First Round"
+    link: "/aoxiv/usaaao/2026/first_round_exam.pdf"
+    solutionLink: "/aoxiv/usaaao/2026/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/aoxiv/usaaao/2026/paper.pdf"
+
+problems:
+  - id: "usaaao-2026-1"
+    number: "1"
+    category: "NAC"
+    name: "A \"gravitational atom\""
+    maxScore: 10
+
+  - id: "usaaao-2026-2"
+    number: "2"
+    category: "NAC"
+    name: "Celestial Sphere: Night at the Observatory"
+    maxScore: 15
+
+  - id: "usaaao-2026-3"
+    number: "3"
+    category: "NAC"
+    name: "Sky Map Attack!"
+    answerSheet: "/aoxiv/usaaao/2026/anssheetq3.pdf"
+    maxScore: 15
+
+  - id: "usaaao-2026-4"
+    number: "4"
+    category: "NAC"
+    name: "Solar Observatory"
+    maxScore: 20
+
+  - id: "usaaao-2026-5"
+    number: "5"
+    category: "NAC"
+    name: "Enceladus Geysers"
+    maxScore: 20
+
+  - id: "usaaao-2026-6"
+    number: "6"
+    category: "NAC"
+    name: "Build your Own H-R Diagram"
+    maxScore: 40
+    answerSheet: "/aoxiv/usaaao/2026/anssheetq6.pdf"
+
+  - id: "usaaao-2026-7"
+    number: "7"
+    category: "NAC"
+    name: "Interstellar Flight"
+    maxScore: 40
+
+  - id: "usaaao-2026-8"
+    number: "8"
+    category: "NAC"
+    name: "Watch Out!"
+    maxScore: 55
+
+  - id: "usaaao-2026-9"
+    number: "9"
+    category: "NAC"
+    name: "Neutron Star Dynamics"
+    answerSheet: "/aoxiv/usaaao/2026/anssheetq9.pdf"
+    maxScore: 85

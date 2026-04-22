@@ -1,0 +1,87 @@
+name: 10th IOAA 2016
+location: Bhubaneswar, India
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2016/data_analysis.pdf
+    solutionLink: /aoxiv/ioaa/2016/data_analysis_sol.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2016/theory.pdf
+    solutionLink: /aoxiv/ioaa/2016/theory_sol.pdf
+    majorCategory: Theory
+problems:
+  - id: ioaa-2016-1
+    number: D1
+    category: Data Analysis
+    name: Binary Pulsar
+    maxScore: 50
+  - id: ioaa-2016-2
+    number: D2
+    category: Data Analysis
+    name: Distance to the Moon
+    maxScore: 50
+  - id: ioaa-2016-3
+    number: D3
+    category: Data Analysis
+    name: Type IA Supernovae
+    maxScore: 50
+  - id: ioaa-2016-15
+    number: T1
+    category: Theory
+    name: True or False
+    maxScore: 10
+  - id: ioaa-2016-16
+    number: T2
+    category: Theory
+    name: Gases on Titan
+    maxScore: 10
+  - id: ioaa-2016-17
+    number: T3
+    category: Theory
+    name: Early Universe
+    maxScore: 10
+  - id: ioaa-2016-18
+    number: T4
+    category: Theory
+    name: Shadows
+    maxScore: 10
+  - id: ioaa-2016-19
+    number: T5
+    category: Theory
+    name: GMRT beam transit
+    maxScore: 10
+  - id: ioaa-2016-20
+    number: T6
+    category: Theory
+    name: Cepheid Pulsations
+    maxScore: 20
+  - id: ioaa-2016-21
+    number: T7
+    category: Theory
+    name: Telescope optics
+    maxScore: 20
+  - id: ioaa-2016-22
+    number: T8
+    category: Theory
+    name: U-Band photometry
+    maxScore: 20
+  - id: ioaa-2016-23
+    number: T9
+    category: Theory
+    name: Mars Orbiter Mission
+    maxScore: 20
+  - id: ioaa-2016-24
+    number: T10
+    category: Theory
+    name: Gravitational Lensing Telescope
+    maxScore: 20
+  - id: ioaa-2016-25
+    number: T11
+    category: Theory
+    name: Gravitational Waves
+    maxScore: 50
+  - id: ioaa-2016-26
+    number: T12
+    category: Theory
+    name: AstroSat
+    maxScore: 50

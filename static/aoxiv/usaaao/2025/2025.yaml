@@ -1,0 +1,54 @@
+name: "USAAAO 2025"
+
+papers:
+  - category: "First Round"
+    link: "/aoxiv/usaaao/2025/first_round_exam.pdf"
+    solutionLink: "/aoxiv/usaaao/2025/first_round_solutions.pdf"
+
+  - category: "NAC"
+    examDuration: 150
+    link: "/aoxiv/usaaao/2025/paper.pdf"
+    solutionLink: "/aoxiv/usaaao/2025/solutions.pdf"
+
+problems:
+  - id: "usaaao-2025-1"
+    number: "1"
+    category: "NAC"
+    name: "Tracking a Bootes Planet"
+    maxScore: 15
+
+  - id: "usaaao-2025-2"
+    number: "2"
+    category: "NAC"
+    name: "The Eye as a Camera"
+    maxScore: 15
+
+  - id: "usaaao-2025-3"
+    number: "3"
+    category: "NAC"
+    name: "Sailing"
+    maxScore: 15
+
+  - id: "usaaao-2025-4"
+    number: "4"
+    category: "NAC"
+    name: "Gravitational Waves"
+    maxScore: 20
+
+  - id: "usaaao-2025-5"
+    number: "5"
+    category: "NAC"
+    name: "Stupendous Man's Saga"
+    maxScore: 30
+
+  - id: "usaaao-2025-6"
+    number: "6"
+    category: "NAC"
+    name: "Spherical Cluster"
+    maxScore: 30
+
+  - id: "usaaao-2025-7"
+    number: "7"
+    category: "NAC"
+    name: "Planetary Defense"
+    maxScore: 55

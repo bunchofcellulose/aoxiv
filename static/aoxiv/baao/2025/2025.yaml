@@ -1,0 +1,20 @@
+name: "BAAO 2025"
+
+papers:
+  - examDuration: 180
+    link: "/aoxiv/baao/2025/paper.pdf"
+    solutionLink: "/aoxiv/baao/2025/solutions.pdf"
+
+problems:
+  - id: "baao-2025-1"
+    number: "1"
+    maxScore: 30
+    name: "Gravity Train"
+  - id: "baao-2025-2"
+    number: "2"
+    maxScore: 40
+    name: "The Fate of the Earth"
+  - id: "baao-2025-3"
+    number: "3"
+    maxScore: 30
+    name: "Gravitational Microlensing"

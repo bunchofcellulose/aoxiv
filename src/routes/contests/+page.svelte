@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ContestList from '../ContestList.svelte';
+	import { siteConfig } from '$lib/site-config';
 </script>
 
 <!-- Contests -->
@@ -22,7 +23,7 @@
 			Want to add problems or help maintain the site? Open a PR.
 		</p>
 		<a
-			href="https://github.com/bunchofcellulose/aoXiv"
+			href={siteConfig.githubUrl}
 			target="_blank"
 			rel="noopener noreferrer"
 			class="shrink-0 rounded-lg bg-primary-foreground px-4 py-2 text-sm font-semibold text-primary transition-opacity hover:opacity-90"

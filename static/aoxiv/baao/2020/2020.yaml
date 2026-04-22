@@ -1,0 +1,20 @@
+name: "BAAO 2020"
+
+papers:
+  - link: "/aoxiv/baao/2020/paper.pdf"
+    examDuration: 180
+    solutionLink: "/aoxiv/baao/2020/solutions.pdf"
+
+problems:
+  - id: "baao-2020-1"
+    number: "1"
+    name: "Apollo 11"
+    maxScore: 35
+  - id: "baao-2020-2"
+    number: "2"
+    name: "Event Horizon Telescope and Super Massive Black Holes"
+    maxScore: 35
+  - id: "baao-2020-3"
+    number: "3"
+    name: "Inspirals of Exoplanets Near Tidal Destruction"
+    maxScore: 30

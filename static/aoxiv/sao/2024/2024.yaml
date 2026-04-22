@@ -1,0 +1,60 @@
+name: "SAO 2024"
+location: "Singapore"
+link: "https://astronomy.sg/singapore-astronomy-olympiad/"
+
+papers:
+  - category: "Theory"
+    link: "/aoxiv/sao/2024/theory.pdf"
+  - category: "Data Analysis"
+    link: "/aoxiv/sao/2024/data_analysis.pdf"
+  - category: "Observation"
+    link: "/aoxiv/sao/2024/observation.pdf"
+
+problems:
+  - id: "sao-2024-1"
+    number: "1"
+    name: "Supernova"
+    maxScore: 35
+    category: "Theory"
+
+  - id: "sao-2024-2"
+    number: "2"
+    name: "The Precession of Mercury"
+    maxScore: 21
+    category: "Theory"
+
+  - id: "sao-2024-3"
+    number: "3"
+    name: "Diamond Fuji"
+    maxScore: 21
+    category: "Theory"
+
+  - id: "sao-2024-1d"
+    number: "1"
+    name: "The Moving Cluster Method"
+    maxScore: 21
+    category: "Data Analysis"
+  
+  - id: "sao-2024-1o"
+    number: "1"
+    name: "Ursa Major"
+    maxScore: 6
+    category: "Observation"
+
+  - id: "sao-2024-2o"
+    number: "2"
+    name: "Venus"
+    maxScore: 6
+    category: "Observation"
+
+  - id: "sao-2024-3o"
+    number: "3"
+    name: "Virgo"
+    maxScore: 6
+    category: "Observation"
+
+  - id: "sao-2024-4o"
+    number: "4"
+    name: "Canes Venatici"
+    maxScore: 3
+    category: "Observation"

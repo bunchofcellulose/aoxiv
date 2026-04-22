@@ -3,6 +3,7 @@
 	import { error } from '@sveltejs/kit';
 	import SvelteSeo from 'svelte-seo';
 	import { competitions } from '$lib/competitions';
+	import { siteConfig } from '$lib/site-config';
 	import YearList from '../YearList.svelte';
 
 	const escapeHtml = (input: string) =>
@@ -31,8 +32,9 @@
 
 <SvelteSeo
 	title={contest.name}
-	description={contest.desc ?? `An archive of problems and solutions from ${contest.name}, in PDF format.`}
-	keywords="problems, solutions, olympiad, astronomy, astrophysics"
+	description={contest.desc ??
+		`An archive of problems and solutions from ${contest.name}, in PDF format.`}
+	keywords={siteConfig.seo.contestKeywords}
 />
 
 <h1>{contest.name}</h1>

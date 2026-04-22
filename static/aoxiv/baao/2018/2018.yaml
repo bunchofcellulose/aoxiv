@@ -1,0 +1,24 @@
+name: "BAAO 2018"
+
+papers:
+  - link: "/aoxiv/baao/2018/paper.pdf"
+    examDuration: 180
+    solutionLink: "/aoxiv/baao/2018/solutions.pdf"
+
+problems:
+  - id: "baao-2018-1"
+    number: "1"
+    name: "Stellar Mass Loss"
+    maxScore: 25
+  - id: "baao-2018-2"
+    number: "2"
+    name: "Multi-Messenger Astronomy"
+    maxScore: 25
+  - id: "baao-2018-3"
+    number: "3"
+    name: "Great American Eclipse"
+    maxScore: 25
+  - id: "baao-2018-4"
+    number: "4"
+    name: "Super-Earths and Planet Nine"
+    maxScore: 25

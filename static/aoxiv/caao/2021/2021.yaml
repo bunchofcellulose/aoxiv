@@ -1,0 +1,31 @@
+name: "2021 CAAO"
+location: "Canada"
+link: "https://caao.ca/preparation/"
+
+papers:
+  - link: "/aoxiv/caao/2021/paper.pdf"
+
+problems:
+  - id: "caao-2021-1"
+    number: "1"
+    name: Satellite
+
+  - id: "caao-2021-2"
+    number: "2"
+    name: Seasons
+  
+  - id: "caao-2021-3"
+    number: "3"
+    name: Polar night
+
+  - id: "caao-2021-4"
+    number: "4"
+    name: Galaxy
+  
+  - id: "caao-2021-5"
+    number: "5"
+    name: Telescope
+  
+  - id: "caao-2021-6"
+    number: "6"
+    name: Beginner Astronomer

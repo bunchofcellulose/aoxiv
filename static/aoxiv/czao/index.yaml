@@ -1,0 +1,10 @@
+id: czao
+name: Czech Astronomy Olympiad
+shortName: CzAO
+website: "https://olympiada.astro.cz/"
+summary: National astronomy olympiad for students in the Czech Republic, pathway to IOAA selection.
+icon: "🇨🇿"
+tag: National
+url: "https://olympiada.astro.cz/archiv"
+desc: |
+  The Czech Astronomy Olympiad (CzAO) is a national competition for students in the Czech Republic, serving as a pathway to selection for the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. Top performers from CzAO proceed to orientation camps and further selection rounds for international representation.

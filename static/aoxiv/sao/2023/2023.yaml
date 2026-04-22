@@ -1,0 +1,72 @@
+name: "SAO 2023"
+location: "Singapore"
+link: "https://astronomy.sg/singapore-astronomy-olympiad/"
+
+papers:
+  - category: "Theory"
+    link: "/aoxiv/sao/2023/theory.pdf"
+  - category: "Data Analysis"
+    link: "/aoxiv/sao/2023/data_analysis.pdf"
+  - category: "Practical"
+    link: "/aoxiv/sao/2023/practical.pdf"
+
+problems:
+  - id: "sao-2023-1"
+    number: "1"
+    name: "Multiple Choice Questions"
+    maxScore: 20
+    category: "Theory"
+
+  - id: "sao-2023-2-1"
+    number: "2.1"
+    name: "Venus Observation"
+    maxScore: 10
+    category: "Theory"
+
+  - id: "sao-2023-2-2"
+    number: "2.2"
+    name: "Auriga's Binary"
+    maxScore: 10
+    category: "Theory"
+  
+  - id: "sao-2023-2-3"
+    number: "2.3"
+    name: "Cassegrain Telescope"
+    maxScore: 10
+    category: "Theory"
+
+  - id: "sao-2023-3-1"
+    number: "3.1"
+    name: "Sunsets and Aliens"
+    maxScore: 16
+    category: "Theory"
+  
+  - id: "sao-2023-3-2"
+    number: "3.2"
+    name: "Modelling the Universe"
+    maxScore: 16
+    category: "Theory"
+
+  - id: "sao-2023-1p"
+    number: "1"
+    name: "Multiple Choice Questions"
+    maxScore: 24
+    category: "Practical"
+  
+  - id: "sao-2023-2p"
+    number: "2"
+    name: "Star Charts"
+    maxScore: 10
+    category: "Practical"
+
+  - id: "sao-2023-3p"
+    number: "3"
+    name: "All Sky"
+    maxScore: 10
+    category: "Practical"
+
+  - id: "sao-2023-1d"
+    number: "1"
+    name: "Data Analysis"
+    maxScore: 43
+    category: "Data Analysis"

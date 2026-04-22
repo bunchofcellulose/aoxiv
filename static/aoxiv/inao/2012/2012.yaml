@@ -1,0 +1,8 @@
+name: "INAO 2012"
+
+papers:
+  - examDuration: 180
+    link: "/aoxiv/inao/2012/paper.pdf"
+    solutionLink: "/aoxiv/inao/2012/solutions.pdf"
+
+problems: []

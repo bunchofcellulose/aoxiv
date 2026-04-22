@@ -1,0 +1,14 @@
+name: "SAO 2022"
+location: "Singapore"
+link: "https://astronomy.sg/singapore-astronomy-olympiad/"
+
+papers:
+  - category: "Theory"
+    link: "/aoxiv/sao/2022/theory.pdf"
+  - category: "Data Analysis"
+    link: "/aoxiv/sao/2022/data_analysis.pdf"
+  - category: "Practical"
+    link: "/aoxiv/sao/2022/practical.pdf"
+    gradingScheme: "/aoxiv/sao/2022/grading_scheme.pdf"
+
+problems: []

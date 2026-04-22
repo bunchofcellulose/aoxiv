@@ -1,0 +1,95 @@
+name: 13th IOAA 2019
+location: Keszthely, Hungary
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2019/da.pdf
+    solutionLink: /aoxiv/ioaa/2019/da_sol.pdf
+    answerSheet: /aoxiv/ioaa/2019/da_ans.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2019/th.pdf
+    solutionLink: /aoxiv/ioaa/2019/th_sol.pdf
+    answerSheet: /aoxiv/ioaa/2019/th_ans.pdf
+    majorCategory: Theory
+problems:
+  - id: ioaa-2019-1
+    number: D1
+    category: Data Analysis
+    name: Photometry and spectroscopy of Nova Del 2013
+    maxScore: 60
+  - id: ioaa-2019-2
+    number: D2
+    category: Data Analysis
+    name: Triply eclipsing hierarchical triple stellar system
+    maxScore: 90
+  - id: ioaa-2019-7
+    number: T1
+    category: Theory
+    name: Famous astronomical events
+    maxScore: 10
+  - id: ioaa-2019-8
+    number: T2
+    category: Theory
+    name: Deflection of radio photons in the gravitational field of solar system
+      bodies
+    maxScore: 10
+  - id: ioaa-2019-9
+    number: T3
+    category: Theory
+    name: The supermassive black hole in the centre of Milky Way Galaxy and M87
+    maxScore: 10
+  - id: ioaa-2019-10
+    number: T4
+    category: Theory
+    name: Improving a common reflecting telescope
+    maxScore: 10
+  - id: ioaa-2019-11
+    number: T5
+    category: Theory
+    name: Cosmic Microwave Background Oven
+    maxScore: 10
+  - id: ioaa-2019-12
+    number: T6
+    category: Theory
+    name: The height of the chimney of Tiszaujvaros power plant
+    maxScore: 20
+  - id: ioaa-2019-13
+    number: T7
+    category: Theory
+    name: Effect of sunspots on solar irradiance
+    maxScore: 20
+  - id: ioaa-2019-14
+    number: T8
+    category: Theory
+    name: Amplitude variation of RR Lyrae stars
+    maxScore: 20
+  - id: ioaa-2019-15
+    number: T9
+    category: Theory
+    name: Distance of the Lagrangian point L2 of the Earth-Moon system
+    maxScore: 20
+  - id: ioaa-2019-16
+    number: T10
+    category: Theory
+    name: South to East to North
+    maxScore: 20
+  - id: ioaa-2019-17
+    number: T11
+    category: Theory
+    name: Identification of light curves of selected variable star types
+    maxScore: 25
+  - id: ioaa-2019-18
+    number: T12
+    category: Theory
+    name: Distance to a Near-Earth Asteroid
+    maxScore: 25
+  - id: ioaa-2019-19
+    number: T13
+    category: Theory
+    name: Distance to the Coma galaxy cluster
+    maxScore: 40
+  - id: ioaa-2019-20
+    number: T14
+    category: Theory
+    name: Photographing a nanosatellite
+    maxScore: 60

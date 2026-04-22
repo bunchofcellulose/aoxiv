@@ -1,0 +1,79 @@
+name: "2022 CAAO"
+location: "Canada"
+link: "https://caao.ca/preparation/"
+
+papers:
+  - link: "/aoxiv/caao/2022/paper.pdf"
+
+problems:
+  - id: "caao-2022-1"
+    number: "1"
+    name: Coordinates
+    maxScore: 8
+    category: Senior
+
+  - id: "caao-2022-2"
+    number: "2"
+    name: Binary Star
+    maxScore: 10
+    category: Senior
+  
+  - id: "caao-2022-3"
+    number: "3"
+    name: Galaxy
+    maxScore: 10
+    category: Senior
+
+  - id: "caao-2022-4"
+    number: "4"
+    name: Asteroid
+    maxScore: 8
+    category: Senior
+
+  - id: "caao-2022-5"
+    number: "5"
+    name: Redshift
+    maxScore: 8
+    category: Senior
+
+  - id: "caao-2022-6"
+    number: "6"
+    name: JWST
+    maxScore: 8
+    category: Senior
+  
+  - id: "caao-2022-1j"
+    number: "1"
+    name: Constellation
+    maxScore: 8
+    category: Junior
+  
+  - id: "caao-2022-2j"
+    number: "2"
+    name: Orbit Transfers
+    maxScore: 8
+    category: Junior
+
+  - id: "caao-2022-3j"
+    number: "3"
+    name: Moon
+    maxScore: 8
+    category: Junior
+  
+  - id: "caao-2022-4j"
+    number: "4"
+    name: Planet
+    maxScore: 8
+    category: Junior
+
+  - id: "caao-2022-5j"
+    number: "5"
+    name: Redshift
+    maxScore: 8
+    category: Junior
+
+  - id: "caao-2022-6j"
+    number: "6"
+    name: Transits
+    maxScore: 10
+    category: Junior

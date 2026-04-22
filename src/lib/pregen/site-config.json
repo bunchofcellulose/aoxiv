@@ -1,0 +1,41 @@
+{
+  "name": "aoXiv",
+  "pronunciation": "/ ˌeɪ.oʊ.ˈkaɪv /",
+  "topic": "astronomy and astrophysics olympiads",
+  "githubUrl": "https://github.com/bunchofcellulose/aoXiv",
+  "discordUrl": "https://discord.gg/bV8bxvTmzU",
+  "fork": {
+    "text": "This project is a fork of",
+    "label": "phoxiv.org",
+    "url": "https://phoxiv.org"
+  },
+  "hero": {
+    "title": "aoXiv",
+    "description": "A comprehensive archive of astronomy and astrophysics olympiads. Ranging from the prestigious IOAA to national competitions like INAO and USAAAO, aoXiv provides official/translated problem statements, solutions, answer sheets, and grading schemes you rarely find elsewhere.",
+    "primaryCtaLabel": "Browse contests",
+    "primaryCtaPath": "/contests",
+    "secondaryCtaLabel": "Contribute"
+  },
+  "seo": {
+    "homeTitle": "aoXiv",
+    "homeDescription": "An archive of problems and solutions from various astronomy and astrophysics olympiads. Includes IOAA, INAO, OAC, and many more international, regional, and national competitions.",
+    "homeKeywords": "problems, solutions, olympiad, astronomy, astrophysics, ioaa, inao, oac",
+    "contestKeywords": "problems, solutions, olympiad, astronomy, astrophysics"
+  },
+  "navigation": {
+    "links": [
+      {
+        "label": "home",
+        "url": "/"
+      },
+      {
+        "label": "contests",
+        "url": "/contests"
+      },
+      {
+        "label": "resources",
+        "url": "https://aoguide.app/guide/resources"
+      }
+    ]
+  }
+}

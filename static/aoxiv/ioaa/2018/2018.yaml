@@ -1,0 +1,77 @@
+name: 12th IOAA 2018
+location: Beijing, China
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2018/18_da.pdf
+    solutionLink: /aoxiv/ioaa/2018/18_da_sol.pdf
+    answerSheet: /aoxiv/ioaa/2018/18_da_anssheet.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2018/18_th.pdf
+    solutionLink: /aoxiv/ioaa/2018/18_th_sol.pdf
+    answerSheet: /aoxiv/ioaa/2018/18_th_anssheet.pdf
+    majorCategory: Theory
+problems:
+  - id: ioaa-2018-1
+    number: D1
+    category: Data Analysis
+    name: Dust and Young Stars in Star-forming Galaxies
+  - id: ioaa-2018-2
+    number: D2
+    category: Data Analysis
+    name: Compact Object in a Binary System
+  - id: ioaa-2018-9
+    number: T1
+    category: Theory
+    name: Super Luminal Galaxies
+    maxScore: 10
+  - id: ioaa-2018-10
+    number: T2
+    category: Theory
+    name: Distance
+    maxScore: 10
+  - id: ioaa-2018-11
+    number: T3
+    category: Theory
+    name: Atmospheric Refraction
+    maxScore: 10
+  - id: ioaa-2018-12
+    number: T4
+    category: Theory
+    name: Height of a Hill
+    maxScore: 10
+  - id: ioaa-2018-13
+    number: T5
+    category: Theory
+    name: Sidereal Time
+    maxScore: 10
+  - id: ioaa-2018-14
+    number: T6
+    category: Theory
+    name: Observe the Sun with FAST
+    maxScore: 25
+  - id: ioaa-2018-15
+    number: T7
+    category: Theory
+    name: Sunspot
+    maxScore: 25
+  - id: ioaa-2018-16
+    number: T8
+    category: Theory
+    name: A Possible Dark Matter Deficient Galaxy
+    maxScore: 25
+  - id: ioaa-2018-17
+    number: T9
+    category: Theory
+    name: Radio Galaxy
+    maxScore: 25
+  - id: ioaa-2018-18
+    number: T10
+    category: Theory
+    name: Vega and Altair
+    maxScore: 75
+  - id: ioaa-2018-19
+    number: T11
+    category: Theory
+    name: Thermal History of the Universe
+    maxScore: 75

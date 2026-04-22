@@ -1,7 +1,10 @@
 <script lang="ts">
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 	import NavButtons from '../../routes/NavButtons.svelte';
-	const { navLinks } = $props();
+	const { navLinks, brandName } = $props<{
+		navLinks: { label: string; url: string }[];
+		brandName: string;
+	}>();
 
 	const sidebar = Sidebar.useSidebar();
 </script>
@@ -10,7 +13,7 @@
 	<Sidebar.Root>
 		<Sidebar.Content>
 			<Sidebar.Group>
-				<Sidebar.GroupLabel>aoXiv</Sidebar.GroupLabel>
+				<Sidebar.GroupLabel>{brandName}</Sidebar.GroupLabel>
 				<Sidebar.GroupContent>
 					<Sidebar.Menu>
 						{#each navLinks as navLink (navLink.url)}
@@ -31,6 +34,5 @@
 		<Sidebar.Footer class="items-center py-5">
 			<NavButtons />
 		</Sidebar.Footer>
-
 	</Sidebar.Root>
 </div>

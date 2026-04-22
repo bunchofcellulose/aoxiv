@@ -57,7 +57,15 @@
 					<Card.Content class="flex h-full flex-col gap-3 px-5">
 						<!-- Top row: emoji + badge -->
 						<div class="flex items-start justify-between">
-							<span class="text-4xl leading-none">{contest.icon}</span>
+							{#if contest.icon.startsWith('/')}
+								<img
+									src={contest.icon}
+									alt={`${contest.name} icon`}
+									class="h-10 w-10 object-contain"
+								/>
+							{:else}
+								<span class="text-4xl leading-none">{contest.icon}</span>
+							{/if}
 							<Badge variant="outline">{contest.tag}</Badge>
 						</div>
 

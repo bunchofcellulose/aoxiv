@@ -1,0 +1,20 @@
+name: "BAAO 2021"
+
+papers:
+  - link: "/aoxiv/baao/2021/paper.pdf"
+    examDuration: 180
+    solutionLink: "/aoxiv/baao/2021/solutions.pdf"
+
+problems:
+  - id: "baao-2021-1"
+    number: "1"
+    maxScore: 25
+    name: "Mercury's Rotation Period with Aricebo"
+  - id: "baao-2021-2"
+    number: "2"
+    maxScore: 35
+    name: "Great Conjuctions and the Star of Bethlehem"
+  - id: "baao-2021-3"
+    number: "3"
+    maxScore: 40
+    name: "High Resolution Stellar Photos"

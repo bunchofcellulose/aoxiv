@@ -62,7 +62,7 @@
 	type FilteredEdition = (typeof filtered extends () => infer R ? R : never)[number];
 	type PaperItem = FilteredEdition['papers'][number];
 	type ProblemItem = FilteredEdition['matchedProblems'][number];
-	type MajorGroupName = 'Data Analysis' | 'Theory' | 'Observation' | 'Team/Group';
+	type MajorGroupName = 'Data Analysis' | 'Theory' | 'Practical' | 'Observation' | 'Team/Group';
 
 	function showYearLevel(edition: FilteredEdition) {
 		const q = query.trim().toLowerCase();
@@ -75,13 +75,20 @@
 	}
 
 	function getMajorGrouping(edition: FilteredEdition, includePapers: boolean) {
-		const order: MajorGroupName[] = ['Data Analysis', 'Theory', 'Observation', 'Team/Group'];
+		const order: MajorGroupName[] = [
+			'Theory',
+			'Practical',
+			'Data Analysis',
+			'Observation',
+			'Team/Group'
+		];
 		const groups: Record<
 			MajorGroupName,
 			{ name: MajorGroupName; papers: PaperItem[]; problems: ProblemItem[] }
 		> = {
 			'Data Analysis': { name: 'Data Analysis', papers: [], problems: [] },
 			Theory: { name: 'Theory', papers: [], problems: [] },
+			Practical: { name: 'Practical', papers: [], problems: [] },
 			Observation: { name: 'Observation', papers: [], problems: [] },
 			'Team/Group': { name: 'Team/Group', papers: [], problems: [] }
 		};
@@ -102,6 +109,8 @@
 				return 'Observation';
 			if (normalized.startsWith('team/group') || normalized.startsWith('team group'))
 				return 'Team/Group';
+			if (normalized.startsWith('practical') || normalized.startsWith('experimental'))
+				return 'Practical';
 			return undefined;
 		};
 
@@ -213,25 +222,24 @@
 										{#if showYearLevel(edition) && group.papers.length > 0}
 											<div class="mb-3 flex flex-wrap items-center gap-1.5">
 												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}`)}
-													{@const paperLabel = paper.category ?? group.name}
 													{#if paper.link}
 														<Badge variant="outline" href={paper.link} target="_blank"
-															>{paperLabel} Problems</Badge
+															>{paper.category ? `${paper.category} ` : ''}Problems</Badge
 														>
 													{/if}
 													{#if paper.solutionLink}
 														<Badge variant="outline" href={paper.solutionLink} target="_blank"
-															>{paperLabel} Solutions</Badge
+															>{paper.category ? `${paper.category} ` : ''}Solutions</Badge
 														>
 													{/if}
 													{#if paper.gradingScheme}
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
-															>{paperLabel} Grading Scheme</Badge
+															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
 														>
 													{/if}
 													{#if paper.answerSheet}
 														<Badge variant="outline" href={paper.answerSheet} target="_blank"
-															>{paperLabel} Answer Sheet</Badge
+															>{paper.category ? `${paper.category} ` : ''}Answer Sheet</Badge
 														>
 													{/if}
 												{/each}
@@ -273,6 +281,18 @@
 																	>Solution</Badge
 																>
 															{/if}
+															{#if problem.answerSheet}
+																<Badge variant="outline" href={problem.answerSheet} target="_blank"
+																	>Answer Sheet</Badge
+																>
+															{/if}
+															{#if problem.gradingScheme}
+																<Badge
+																	variant="outline"
+																	href={problem.gradingScheme}
+																	target="_blank">Grading Scheme</Badge
+																>
+															{/if}
 														</div>
 													</div>
 												{/each}
@@ -286,25 +306,24 @@
 										{#if showYearLevel(edition) && grouping.ungroupedPapers.length > 0}
 											<div class="flex flex-wrap items-center gap-1.5">
 												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}`)}
-													{@const paperLabel = paper.category ?? 'Paper'}
 													{#if paper.link}
 														<Badge variant="outline" href={paper.link} target="_blank"
-															>{paperLabel} Problems</Badge
+															>{paper.category ? `${paper.category} ` : ''}Problems</Badge
 														>
 													{/if}
 													{#if paper.solutionLink}
 														<Badge variant="outline" href={paper.solutionLink} target="_blank"
-															>{paperLabel} Solutions</Badge
+															>{paper.category ? `${paper.category} ` : ''}Solutions</Badge
 														>
 													{/if}
 													{#if paper.gradingScheme}
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
-															>{paperLabel} Grading Scheme</Badge
+															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
 														>
 													{/if}
 													{#if paper.answerSheet}
 														<Badge variant="outline" href={paper.answerSheet} target="_blank"
-															>{paperLabel} Answer Sheet</Badge
+															>{paper.category ? `${paper.category} ` : ''}Answer Sheet</Badge
 														>
 													{/if}
 												{/each}
@@ -344,6 +363,18 @@
 															{#if problem.solutionLink}
 																<Badge variant="outline" href={problem.solutionLink} target="_blank"
 																	>Solution</Badge
+																>
+															{/if}
+															{#if problem.answerSheet}
+																<Badge variant="outline" href={problem.answerSheet} target="_blank"
+																	>Answer Sheet</Badge
+																>
+															{/if}
+															{#if problem.gradingScheme}
+																<Badge
+																	variant="outline"
+																	href={problem.gradingScheme}
+																	target="_blank">Grading Scheme</Badge
 																>
 															{/if}
 														</div>

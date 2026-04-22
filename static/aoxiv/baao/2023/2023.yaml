@@ -1,0 +1,20 @@
+name: "BAAO 2023"
+
+papers:
+  - link: "/aoxiv/baao/2023/paper.pdf"
+    examDuration: 180
+    solutionLink: "/aoxiv/baao/2023/solutions.pdf"
+
+problems:
+  - id: "baao-2023-1"
+    number: "1"
+    name: "Solar Analemma"
+    maxScore: 35
+  - id: "baao-2023-2"
+    number: "2"
+    name: "Wolf-Rayet Dust Shells"
+    maxScore: 40
+  - id: "baao-2023-3"
+    number: "3"
+    name: "Planetary Migration in Protoplanetary Disks"
+    maxScore: 25

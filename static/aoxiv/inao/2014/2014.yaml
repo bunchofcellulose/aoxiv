@@ -1,0 +1,47 @@
+name: "INAO 2014"
+
+papers:
+  - examDuration: 180
+    link: "/aoxiv/inao/2014/paper.pdf"
+    solutionLink: "/aoxiv/inao/2014/solutions.pdf"
+
+problems:
+  - id: "inao-2014-1"
+    number: "1"
+    name: "Moon Landing"
+    maxScore: 12
+
+  - id: "inao-2014-2"
+    number: "2"
+    name: "Comet Distance"
+    maxScore: 6
+
+  - id: "inao-2014-3"
+    number: "3"
+    name: "Aircraft Speed"
+    maxScore: 14
+
+  - id: "inao-2014-4"
+    number: "4"
+    name: "Skymap Markings"
+    maxScore: 15
+
+  - id: "inao-2014-5"
+    number: "5"
+    name: "Gliese-876 Planet"
+    maxScore: 12
+
+  - id: "inao-2014-6"
+    number: "6"
+    name: "Lens Mirror Overlap"
+    maxScore: 15
+
+  - id: "inao-2014-7"
+    number: "7"
+    name: "Chandrayaan Gold Wire"
+    maxScore: 8
+
+  - id: "inao-2014-8"
+    number: "8"
+    name: "Voyager Unknown Object"
+    maxScore: 18

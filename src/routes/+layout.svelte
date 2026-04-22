@@ -4,6 +4,7 @@
 	let { children } = $props();
 
 	import NavLink from '$lib/components/NavLink.svelte';
+	import { siteConfig } from '$lib/site-config';
 	import Separator from '$lib/components/ui/separator/separator.svelte';
 	import { ModeWatcher } from 'mode-watcher';
 	import * as NavigationMenu from '$lib/components/ui/navigation-menu/index.js';
@@ -11,11 +12,7 @@
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
 	import NavButtons from './NavButtons.svelte';
 
-	const navLinks = [
-		{ url: '/', label: 'home' },
-		{ url: '/contests', label: 'contests' },
-		{ url: 'https://aoguide.app/guide/resources', label: 'resources' }
-	];
+	const navLinks = siteConfig.navigation?.links ?? [];
 </script>
 
 <svelte:head>
@@ -25,7 +22,7 @@
 <ModeWatcher />
 
 <Sidebar.Provider>
-	<AppSidebar {navLinks} />
+	<AppSidebar {navLinks} brandName={siteConfig.name} />
 	<div
 		class="flex min-h-screen w-full flex-col items-center bg-background px-8 py-3 sm:px-10 sm:py-6"
 	>
@@ -36,7 +33,7 @@
 					href={resolve('/')}
 					class="justify-self-center text-base font-medium text-foreground hover:text-primary"
 				>
-					aoXiv
+					{siteConfig.name}
 				</a>
 				<div></div>
 			</nav>

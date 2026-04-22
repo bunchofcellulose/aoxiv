@@ -1,0 +1,9 @@
+name: "SAO 2018"
+location: "Singapore"
+link: "https://astronomy.sg/singapore-astronomy-olympiad/"
+
+papers:
+  - link: "/aoxiv/sao/2018/paper.pdf"
+    answerSheet: "/aoxiv/sao/2018/answer_sheet.pdf"
+
+problems: []
