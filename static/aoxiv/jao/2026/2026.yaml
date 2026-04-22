@@ -4,10 +4,10 @@ link: "https://iaojapan.org/preparation/"
 
 papers:
   - category: "Final Theory"
-    majorCategorya: "Theory"
+    majorCategory: "Theory"
     examDuration: 150
     link: "/aoxiv/jao/2026/theory.pdf"
-    answerSheet: "/aoxiv/jao/2026/theory_anssheet.pdf"
+    # answerSheet: "/aoxiv/jao/2026/theory_anssheet.pdf"
 
   - category: "Final Practical"
     majorCategory: "Practical"
