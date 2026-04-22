@@ -4,21 +4,26 @@ papers:
   - link: "/aoxiv/baao/2019/paper.pdf"
     examDuration: 180
     solutionLink: "/aoxiv/baao/2019/solutions.pdf"
+    category: "Round 2"
 
 problems:
   - id: "baao-2019-1"
     number: "1"
+    category: "Round 2"
     name: "Parker Solar Probe"
     maxScore: 25
   - id: "baao-2019-2"
     number: "2"
+    category: "Round 2"
     name: "360 Days in a Year"
     maxScore: 25
   - id: "baao-2019-3"
     number: "3"
+    category: "Round 2"
     name: "Stellar Mass Limits"
     maxScore: 25
   - id: "baao-2019-4"
     number: "4"
+    category: "Round 2"
     name: "Superluminal Jets"
     maxScore: 25

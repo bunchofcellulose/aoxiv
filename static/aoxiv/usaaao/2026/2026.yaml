@@ -4,6 +4,7 @@ link: "https://usaaao.org/"
 
 papers:
   - category: "First Round"
+    examDuration: 75
     link: "/aoxiv/usaaao/2026/first_round_exam.pdf"
     solutionLink: "/aoxiv/usaaao/2026/first_round_solutions.pdf"
 

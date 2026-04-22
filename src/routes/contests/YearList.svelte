@@ -221,7 +221,27 @@
 
 										{#if showYearLevel(edition) && group.papers.length > 0}
 											<div class="mb-3 flex flex-wrap items-center gap-1.5">
-												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}`)}
+												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
+													{@const categoryLabel = paper.category ?? group.name}
+													{@const hasCategoryDownloads = !!(
+														paper.link ||
+														paper.solutionLink ||
+														paper.answerSheet ||
+														paper.gradingScheme ||
+														(paper.additionalFiles?.length ?? 0)
+													)}
+													{#if paper.examDuration}
+														<Badge
+															variant="secondary"
+															class="bg-primary/15 text-primary hover:bg-primary/25"
+														>
+															<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+																<circle cx="12" cy="13" r="7"></circle>
+																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"></path>
+															</svg>
+															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads ? ' →' : ''}
+														</Badge>
+													{/if}
 													{#if paper.link}
 														<Badge variant="outline" href={paper.link} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Problems</Badge
@@ -236,6 +256,13 @@
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
 														>
+													{/if}
+													{#if paper.additionalFiles}
+														{#each paper.additionalFiles as file (file)}
+															<Badge variant="outline" href={file} target="_blank"
+																>{paper.category ? `${paper.category} ` : ''}Additional Files</Badge
+															>
+														{/each}
 													{/if}
 													{#if paper.answerSheet}
 														<Badge variant="outline" href={paper.answerSheet} target="_blank"
@@ -305,7 +332,27 @@
 									<div class="flex flex-col gap-3">
 										{#if showYearLevel(edition) && grouping.ungroupedPapers.length > 0}
 											<div class="flex flex-wrap items-center gap-1.5">
-												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}`)}
+												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
+													{@const categoryLabel = paper.category ?? 'Paper'}
+													{@const hasCategoryDownloads = !!(
+														paper.link ||
+														paper.solutionLink ||
+														paper.answerSheet ||
+														paper.gradingScheme ||
+														(paper.additionalFiles?.length ?? 0)
+													)}
+													{#if paper.examDuration}
+														<Badge
+															variant="secondary"
+															class="bg-primary/15 text-primary hover:bg-primary/25"
+														>
+															<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+																<circle cx="12" cy="13" r="7"></circle>
+																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"></path>
+															</svg>
+															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads ? ' →' : ''}
+														</Badge>
+													{/if}
 													{#if paper.link}
 														<Badge variant="outline" href={paper.link} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Problems</Badge
@@ -320,6 +367,13 @@
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
 														>
+													{/if}
+													{#if paper.additionalFiles}
+														{#each paper.additionalFiles as file (file)}
+															<Badge variant="outline" href={file} target="_blank"
+																>{paper.category ? `${paper.category} ` : ''}Additional Files</Badge
+															>
+														{/each}
 													{/if}
 													{#if paper.answerSheet}
 														<Badge variant="outline" href={paper.answerSheet} target="_blank"

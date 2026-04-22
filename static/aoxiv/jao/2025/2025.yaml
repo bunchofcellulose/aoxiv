@@ -7,45 +7,36 @@ papers:
     majorCategory: "Theory"
     examDuration: 150
     link: "/aoxiv/jao/2026/theory.pdf"
+    solutionLink: "/aoxiv/jao/2026/theory_sol.pdf"
 
   - category: "Final Practical"
     majorCategory: "Practical"
     examDuration: 90
     link: "/aoxiv/jao/2026/prac.pdf"
     answerSheet: "/aoxiv/jao/2026/prac_anssheet.pdf"
+    solutionLink: "/aoxiv/jao/2026/prac_sol.pdf"
 
 problems:
   - id: "jao-2026-1"
     number: "1"
     category: "Final Theory"
-    maxScore: 130
 
   - id: "jao-2026-2"
     number: "2"
     category: "Final Theory"
-    maxScore: 90
 
   - id: "jao-2026-3"
     number: "3"
     category: "Final Theory"
-    maxScore: 90
 
   - id: "jao-2026-4"
     number: "4"
     category: "Final Theory"
-    maxScore: 90
 
   - id: "jao-2026-1p"
     number: "1"
     category: "Final Practical"
-    maxScore: 50
 
   - id: "jao-2026-2p"
     number: "2"
     category: "Final Practical"
-    maxScore: 50
-
-  - id: "jao-2026-3p"
-    number: "3"
-    category: "Final Practical"
-    maxScore: 100

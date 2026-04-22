@@ -3,11 +3,11 @@ name: "BAAO 2015"
 papers:
   - category: "Main"
     link: "/aoxiv/baao/2015/paper.pdf"
-    examDuration: 180
+    examDuration: 60
     solutionLink: "/aoxiv/baao/2015/solutions.pdf"
   - category: "Trial"
     link: "/aoxiv/baao/2015/trial_paper.pdf"
-    examDuration: 180
+    examDuration: 60
     solutionLink: "/aoxiv/baao/2015/trial_solutions.pdf"
 
 problems: []

@@ -4,25 +4,31 @@ papers:
   - link: "/aoxiv/baao/2017/paper.pdf"
     examDuration: 180
     solutionLink: "/aoxiv/baao/2017/solutions.pdf"
+    category: "Round 2"
 
 problems:
   - id: "baao-2017-1"
     number: "1"
+    category: "Round 2"
     name: "Martian GPS"
     maxScore: 20
   - id: "baao-2017-2"
     number: "2"
+    category: "Round 2"
     name: "Hohmann Transfer Orbits"
     maxScore: 20
   - id: "baao-2017-3"
     number: "3"
+    category: "Round 2"
     name: "Starkiller Base"
     maxScore: 20
   - id: "baao-2017-4"
     number: "4"
+    category: "Round 2"
     name: "Hanny's Voorwerp"
     maxScore: 20
   - id: "baao-2017-5"
     number: "5"
+    category: "Round 2"
     name: "Imaging an Exoplanet"
     maxScore: 20

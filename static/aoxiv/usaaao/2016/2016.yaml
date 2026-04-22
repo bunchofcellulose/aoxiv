@@ -2,6 +2,7 @@ name: "USAAAO 2016"
 
 papers:
   - category: "First Round"
+    examDuration: 75
     link: "/aoxiv/usaaao/2016/first_round_exam.pdf"
     solutionLink: "/aoxiv/usaaao/2016/first_round_solutions.pdf"
 

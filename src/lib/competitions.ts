@@ -18,6 +18,7 @@ export interface Paper {
 	link?: string;
 	solutionLink?: string;
 	gradingScheme?: string;
+	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];
 	n?: number;
@@ -158,7 +159,7 @@ export function getClientSearchData() {
 						solutionLink: problem.solutionLink || '',
 						answerSheet: problem.answerSheet || '',
 						gradingScheme: problem.gradingScheme || '',
-						maxScore: problem.maxScore || 20
+						maxScore: problem.maxScore
 					});
 				}
 			});

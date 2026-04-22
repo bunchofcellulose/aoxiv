@@ -1,0 +1,14 @@
+name: "OWAO 2023"
+
+papers:
+  - category: "Theory"
+    link: "/aoxiv/owao/2023/theory.pdf"
+    solutionLink: "/aoxiv/owao/2023/theory_sol.pdf"
+
+  - category: "Practical"
+    link: "/aoxiv/owao/2023/prac.pdf"
+    solutionLink: "/aoxiv/owao/2023/prac_sol.pdf"
+    additionalFiles:
+      - "/aoxiv/owao/2023/prac_files.zip"
+
+problems: []

@@ -2,6 +2,7 @@ name: "USAAAO 2023"
 
 papers:
   - category: "First Round"
+    examDuration: 75
     link: "/aoxiv/usaaao/2023/first_round_exam.pdf"
     solutionLink: "/aoxiv/usaaao/2023/first_round_solutions.pdf"
 

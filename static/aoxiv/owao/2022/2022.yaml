@@ -1,0 +1,14 @@
+name: "OWAO 2022"
+
+papers:
+  - category: "Theory"
+    link: "/aoxiv/owao/2022/theory.pdf"
+    solutionLink: "/aoxiv/owao/2022/theory_sol.pdf"
+
+  - category: "Practical"
+    link: "/aoxiv/owao/2022/prac.pdf"
+    solutionLink: "/aoxiv/owao/2022/prac_sol.pdf"
+    additionalFiles:
+      - "/aoxiv/owao/2022/prac_files.zip"
+
+problems: []

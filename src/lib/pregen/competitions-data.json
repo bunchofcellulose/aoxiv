@@ -95,7 +95,19 @@
           {
             "examDuration": 180,
             "link": "/aoxiv/baao/2025/paper.pdf",
-            "solutionLink": "/aoxiv/baao/2025/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2025/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2025-1",
+              "baao-2025-2",
+              "baao-2025-3"
+            ]
           }
         ],
         "problems": [
@@ -103,18 +115,21 @@
             "id": "baao-2025-1",
             "number": "1",
             "name": "Gravity Train",
+            "category": "Round 2",
             "maxScore": 30
           },
           {
             "id": "baao-2025-2",
             "number": "2",
             "name": "The Fate of the Earth",
+            "category": "Round 2",
             "maxScore": 40
           },
           {
             "id": "baao-2025-3",
             "number": "3",
             "name": "Gravitational Microlensing",
+            "category": "Round 2",
             "maxScore": 30
           }
         ]
@@ -126,7 +141,19 @@
           {
             "link": "/aoxiv/baao/2024/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2024/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2024/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2024-1",
+              "baao-2024-2",
+              "baao-2024-3"
+            ]
           }
         ],
         "problems": [
@@ -134,18 +161,21 @@
             "id": "baao-2024-1",
             "number": "1",
             "name": "Maximum Payload to Mars",
+            "category": "Round 2",
             "maxScore": 35
           },
           {
             "id": "baao-2024-2",
             "number": "2",
             "name": "Discworld Astrophysics",
+            "category": "Round 2",
             "maxScore": 30
           },
           {
             "id": "baao-2024-3",
             "number": "3",
             "name": "Heat Transfer in the Sun",
+            "category": "Round 2",
             "maxScore": 35
           }
         ]
@@ -157,7 +187,19 @@
           {
             "link": "/aoxiv/baao/2023/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2023/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2023/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2023-1",
+              "baao-2023-2",
+              "baao-2023-3"
+            ]
           }
         ],
         "problems": [
@@ -165,18 +207,21 @@
             "id": "baao-2023-1",
             "number": "1",
             "name": "Solar Analemma",
+            "category": "Round 2",
             "maxScore": 35
           },
           {
             "id": "baao-2023-2",
             "number": "2",
             "name": "Wolf-Rayet Dust Shells",
+            "category": "Round 2",
             "maxScore": 40
           },
           {
             "id": "baao-2023-3",
             "number": "3",
             "name": "Planetary Migration in Protoplanetary Disks",
+            "category": "Round 2",
             "maxScore": 25
           }
         ]
@@ -188,7 +233,19 @@
           {
             "link": "/aoxiv/baao/2022/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2022/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2022/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2022-1",
+              "baao-2022-2",
+              "baao-2022-3"
+            ]
           }
         ],
         "problems": [
@@ -196,18 +253,21 @@
             "id": "baao-2022-1",
             "number": "1",
             "name": "Sunrise in Oxford",
+            "category": "Round 2",
             "maxScore": 30
           },
           {
             "id": "baao-2022-2",
             "number": "2",
             "name": "Stellar Structure",
+            "category": "Round 2",
             "maxScore": 35
           },
           {
             "id": "baao-2022-3",
             "number": "3",
             "name": "James Webb Space Telescope",
+            "category": "Round 2",
             "maxScore": 35
           }
         ]
@@ -219,7 +279,19 @@
           {
             "link": "/aoxiv/baao/2021/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2021/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2021/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2021-1",
+              "baao-2021-2",
+              "baao-2021-3"
+            ]
           }
         ],
         "problems": [
@@ -227,18 +299,21 @@
             "id": "baao-2021-1",
             "number": "1",
             "name": "Mercury's Rotation Period with Aricebo",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2021-2",
             "number": "2",
             "name": "Great Conjuctions and the Star of Bethlehem",
+            "category": "Round 2",
             "maxScore": 35
           },
           {
             "id": "baao-2021-3",
             "number": "3",
             "name": "High Resolution Stellar Photos",
+            "category": "Round 2",
             "maxScore": 40
           }
         ]
@@ -250,7 +325,19 @@
           {
             "link": "/aoxiv/baao/2020/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2020/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2020/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2020-1",
+              "baao-2020-2",
+              "baao-2020-3"
+            ]
           }
         ],
         "problems": [
@@ -258,18 +345,21 @@
             "id": "baao-2020-1",
             "number": "1",
             "name": "Apollo 11",
+            "category": "Round 2",
             "maxScore": 35
           },
           {
             "id": "baao-2020-2",
             "number": "2",
             "name": "Event Horizon Telescope and Super Massive Black Holes",
+            "category": "Round 2",
             "maxScore": 35
           },
           {
             "id": "baao-2020-3",
             "number": "3",
             "name": "Inspirals of Exoplanets Near Tidal Destruction",
+            "category": "Round 2",
             "maxScore": 30
           }
         ]
@@ -281,7 +371,20 @@
           {
             "link": "/aoxiv/baao/2019/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2019/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2019/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2019-1",
+              "baao-2019-2",
+              "baao-2019-3",
+              "baao-2019-4"
+            ]
           }
         ],
         "problems": [
@@ -289,24 +392,28 @@
             "id": "baao-2019-1",
             "number": "1",
             "name": "Parker Solar Probe",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2019-2",
             "number": "2",
             "name": "360 Days in a Year",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2019-3",
             "number": "3",
             "name": "Stellar Mass Limits",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2019-4",
             "number": "4",
             "name": "Superluminal Jets",
+            "category": "Round 2",
             "maxScore": 25
           }
         ]
@@ -318,7 +425,20 @@
           {
             "link": "/aoxiv/baao/2018/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2018/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2018/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2018-1",
+              "baao-2018-2",
+              "baao-2018-3",
+              "baao-2018-4"
+            ]
           }
         ],
         "problems": [
@@ -326,24 +446,28 @@
             "id": "baao-2018-1",
             "number": "1",
             "name": "Stellar Mass Loss",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2018-2",
             "number": "2",
             "name": "Multi-Messenger Astronomy",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2018-3",
             "number": "3",
             "name": "Great American Eclipse",
+            "category": "Round 2",
             "maxScore": 25
           },
           {
             "id": "baao-2018-4",
             "number": "4",
             "name": "Super-Earths and Planet Nine",
+            "category": "Round 2",
             "maxScore": 25
           }
         ]
@@ -355,7 +479,21 @@
           {
             "link": "/aoxiv/baao/2017/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2017/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2017/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2017-1",
+              "baao-2017-2",
+              "baao-2017-3",
+              "baao-2017-4",
+              "baao-2017-5"
+            ]
           }
         ],
         "problems": [
@@ -363,30 +501,35 @@
             "id": "baao-2017-1",
             "number": "1",
             "name": "Martian GPS",
+            "category": "Round 2",
             "maxScore": 20
           },
           {
             "id": "baao-2017-2",
             "number": "2",
             "name": "Hohmann Transfer Orbits",
+            "category": "Round 2",
             "maxScore": 20
           },
           {
             "id": "baao-2017-3",
             "number": "3",
             "name": "Starkiller Base",
+            "category": "Round 2",
             "maxScore": 20
           },
           {
             "id": "baao-2017-4",
             "number": "4",
             "name": "Hanny's Voorwerp",
+            "category": "Round 2",
             "maxScore": 20
           },
           {
             "id": "baao-2017-5",
             "number": "5",
             "name": "Imaging an Exoplanet",
+            "category": "Round 2",
             "maxScore": 20
           }
         ]
@@ -398,7 +541,21 @@
           {
             "link": "/aoxiv/baao/2016/paper.pdf",
             "examDuration": 180,
-            "solutionLink": "/aoxiv/baao/2016/solutions.pdf"
+            "solutionLink": "/aoxiv/baao/2016/solutions.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2016-1",
+              "baao-2016-2",
+              "baao-2016-3",
+              "baao-2016-4",
+              "baao-2016-5"
+            ]
           }
         ],
         "problems": [
@@ -406,31 +563,31 @@
             "id": "baao-2016-1",
             "number": "1",
             "name": "Asteroid Belt",
-            "maxScore": 20
+            "category": "Round 2"
           },
           {
             "id": "baao-2016-2",
             "number": "2",
             "name": "Supermoons",
-            "maxScore": 20
+            "category": "Round 2"
           },
           {
             "id": "baao-2016-3",
             "number": "3",
             "name": "Interstellar",
-            "maxScore": 20
+            "category": "Round 2"
           },
           {
             "id": "baao-2016-4",
             "number": "4",
             "name": "Dyson structures",
-            "maxScore": 20
+            "category": "Round 2"
           },
           {
             "id": "baao-2016-5",
             "number": "5",
             "name": "Gravitational lensing",
-            "maxScore": 20
+            "category": "Round 2"
           }
         ]
       },
@@ -441,13 +598,13 @@
           {
             "category": "Main",
             "link": "/aoxiv/baao/2015/paper.pdf",
-            "examDuration": 180,
+            "examDuration": 60,
             "solutionLink": "/aoxiv/baao/2015/solutions.pdf"
           },
           {
             "category": "Trial",
             "link": "/aoxiv/baao/2015/trial_paper.pdf",
-            "examDuration": 180,
+            "examDuration": 60,
             "solutionLink": "/aoxiv/baao/2015/trial_solutions.pdf"
           }
         ],
@@ -780,38 +937,32 @@
           {
             "id": "caao-2021-1",
             "number": "1",
-            "name": "Satellite",
-            "maxScore": 20
+            "name": "Satellite"
           },
           {
             "id": "caao-2021-2",
             "number": "2",
-            "name": "Seasons",
-            "maxScore": 20
+            "name": "Seasons"
           },
           {
             "id": "caao-2021-3",
             "number": "3",
-            "name": "Polar night",
-            "maxScore": 20
+            "name": "Polar night"
           },
           {
             "id": "caao-2021-4",
             "number": "4",
-            "name": "Galaxy",
-            "maxScore": 20
+            "name": "Galaxy"
           },
           {
             "id": "caao-2021-5",
             "number": "5",
-            "name": "Telescope",
-            "maxScore": 20
+            "name": "Telescope"
           },
           {
             "id": "caao-2021-6",
             "number": "6",
-            "name": "Beginner Astronomer",
-            "maxScore": 20
+            "name": "Beginner Astronomer"
           }
         ]
       },
@@ -829,38 +980,32 @@
           {
             "id": "caao-2020-1",
             "number": "1",
-            "name": "Circumpolar star",
-            "maxScore": 20
+            "name": "Circumpolar star"
           },
           {
             "id": "caao-2020-2",
             "number": "2",
-            "name": "The movement of a star",
-            "maxScore": 20
+            "name": "The movement of a star"
           },
           {
             "id": "caao-2020-3",
             "number": "3",
-            "name": "Telscope",
-            "maxScore": 20
+            "name": "Telscope"
           },
           {
             "id": "caao-2020-4",
             "number": "4",
-            "name": "System of two stars",
-            "maxScore": 20
+            "name": "System of two stars"
           },
           {
             "id": "caao-2020-5",
             "number": "5",
-            "name": "Betelgeuse",
-            "maxScore": 20
+            "name": "Betelgeuse"
           },
           {
             "id": "caao-2020-6",
             "number": "6",
-            "name": "Redshift",
-            "maxScore": 20
+            "name": "Redshift"
           }
         ]
       },
@@ -1823,8 +1968,7 @@
             "id": "ioaa-2025-20",
             "number": "T4",
             "name": "Balmer Decrement",
-            "category": "Theory",
-            "maxScore": 20
+            "category": "Theory"
           },
           {
             "id": "ioaa-2025-21",
@@ -1858,8 +2002,7 @@
             "id": "ioaa-2025-25",
             "number": "T9",
             "name": "Atmospheric Seeing",
-            "category": "Theory",
-            "maxScore": 20
+            "category": "Theory"
           },
           {
             "id": "ioaa-2025-26",
@@ -1879,8 +2022,7 @@
             "id": "ioaa-2025-28",
             "number": "T12",
             "name": "Hawking Radiation from Black Holes",
-            "category": "Theory",
-            "maxScore": 20
+            "category": "Theory"
           }
         ]
       },
@@ -2892,15 +3034,13 @@
             "id": "ioaa-2018-1",
             "number": "D1",
             "name": "Dust and Young Stars in Star-forming Galaxies",
-            "category": "Data Analysis",
-            "maxScore": 20
+            "category": "Data Analysis"
           },
           {
             "id": "ioaa-2018-2",
             "number": "D2",
             "name": "Compact Object in a Binary System",
-            "category": "Data Analysis",
-            "maxScore": 20
+            "category": "Data Analysis"
           },
           {
             "id": "ioaa-2018-9",
@@ -3312,10 +3452,9 @@
         "papers": [
           {
             "category": "Final Theory",
-            "majorCategorya": "Theory",
+            "majorCategory": "Theory",
             "examDuration": 150,
-            "link": "/aoxiv/jao/2026/theory.pdf",
-            "answerSheet": "/aoxiv/jao/2026/theory_anssheet.pdf"
+            "link": "/aoxiv/jao/2026/theory.pdf"
           },
           {
             "category": "Final Practical",
@@ -3390,6 +3529,168 @@
             "maxScore": 100
           }
         ]
+      },
+      {
+        "year": 2025,
+        "name": "2026 JAO",
+        "location": "Japan",
+        "link": "https://iaojapan.org/preparation/",
+        "papers": [
+          {
+            "category": "Final Theory",
+            "majorCategory": "Theory",
+            "examDuration": 150,
+            "link": "/aoxiv/jao/2026/theory.pdf",
+            "solutionLink": "/aoxiv/jao/2026/theory_sol.pdf"
+          },
+          {
+            "category": "Final Practical",
+            "majorCategory": "Practical",
+            "examDuration": 90,
+            "link": "/aoxiv/jao/2026/prac.pdf",
+            "answerSheet": "/aoxiv/jao/2026/prac_anssheet.pdf",
+            "solutionLink": "/aoxiv/jao/2026/prac_sol.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "final-theory",
+            "name": "Final Theory",
+            "problemIds": [
+              "jao-2026-1",
+              "jao-2026-2",
+              "jao-2026-3",
+              "jao-2026-4"
+            ]
+          },
+          {
+            "id": "final-practical",
+            "name": "Final Practical",
+            "problemIds": [
+              "jao-2026-1p",
+              "jao-2026-2p"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "jao-2026-1",
+            "number": "1",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2026-2",
+            "number": "2",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2026-3",
+            "number": "3",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2026-4",
+            "number": "4",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2026-1p",
+            "number": "1",
+            "category": "Final Practical"
+          },
+          {
+            "id": "jao-2026-2p",
+            "number": "2",
+            "category": "Final Practical"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "owao",
+    "name": "Open World Astronomy Olympiad",
+    "shortName": "OWAO",
+    "website": "https://owao.siriusolymp.ru/",
+    "desc": "The Open World Astronomy Olympiad (OWAO) is an international astronomy competition that tests students' knowledge in observational and theoretical astronomy. It is held in Russia every year.\n",
+    "summary": "International online astronomy competition testing observational and theoretical knowledge.",
+    "icon": "🔭",
+    "tag": "International",
+    "url": "https://owao.siriusolymp.ru/2025en/tasks",
+    "editions": [
+      {
+        "year": 2025,
+        "name": "OWAO 2025",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/owao/2025/theory.pdf",
+            "solutionLink": "/aoxiv/owao/2025/theory_sol.pdf"
+          },
+          {
+            "category": "Practical",
+            "link": "/aoxiv/owao/2025/prac.pdf",
+            "solutionLink": "/aoxiv/owao/2025/prac_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2024,
+        "name": "OWAO 2024",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/owao/2024/theory.pdf",
+            "solutionLink": "/aoxiv/owao/2024/theory_sol.pdf"
+          },
+          {
+            "category": "Practical",
+            "link": "/aoxiv/owao/2024/prac.pdf",
+            "solutionLink": "/aoxiv/owao/2024/prac_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2023,
+        "name": "OWAO 2023",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/owao/2023/theory.pdf",
+            "solutionLink": "/aoxiv/owao/2023/theory_sol.pdf"
+          },
+          {
+            "category": "Practical",
+            "link": "/aoxiv/owao/2023/prac.pdf",
+            "solutionLink": "/aoxiv/owao/2023/prac_sol.pdf",
+            "additionalFiles": [
+              "/aoxiv/owao/2023/prac_files.zip"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2022,
+        "name": "OWAO 2022",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/owao/2022/theory.pdf",
+            "solutionLink": "/aoxiv/owao/2022/theory_sol.pdf"
+          },
+          {
+            "category": "Practical",
+            "link": "/aoxiv/owao/2022/prac.pdf",
+            "solutionLink": "/aoxiv/owao/2022/prac_sol.pdf",
+            "additionalFiles": [
+              "/aoxiv/owao/2022/prac_files.zip"
+            ]
+          }
+        ],
+        "problems": []
       }
     ]
   },
@@ -3778,6 +4079,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2026/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2026/first_round_solutions.pdf"
           },
@@ -3879,6 +4181,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2025/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2025/first_round_solutions.pdf"
           },
@@ -3962,6 +4265,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2024/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2024/first_round_solutions.pdf"
           },
@@ -4053,6 +4357,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2023/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2023/first_round_solutions.pdf"
           },
@@ -4152,6 +4457,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2022/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2022/first_round_solutions.pdf"
           },
@@ -4251,6 +4557,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2021/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2021/first_round_solutions.pdf"
           },
@@ -4358,6 +4665,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2020/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2020/first_round_solutions.pdf"
           },
@@ -4481,6 +4789,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2019/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2019/first_round_solutions.pdf"
           },
@@ -4596,6 +4905,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2018/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2018/first_round_solutions.pdf"
           },
@@ -4724,6 +5034,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2017/first_round_solutions.pdf"
           },
           {
@@ -4812,6 +5123,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2016/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2016/first_round_solutions.pdf"
           },
@@ -4936,6 +5248,7 @@
         "papers": [
           {
             "category": "First Round",
+            "examDuration": 75,
             "link": "/aoxiv/usaaao/2015/first_round_exam.pdf",
             "solutionLink": "/aoxiv/usaaao/2015/first_round_solutions.pdf"
           },
@@ -5062,152 +5375,11 @@
           {
             "examDuration": 150,
             "link": "/aoxiv/usaaao/2014/paper.pdf",
-            "solutionLink": "/aoxiv/usaaao/2014/solutions.pdf"
+            "solutionLink": "/aoxiv/usaaao/2014/solutions.pdf",
+            "category": "NAC"
           }
         ],
-        "mockExams": [
-          {
-            "id": "nac",
-            "name": "NAC",
-            "problemIds": [
-              "usaaao-2014-1",
-              "usaaao-2014-2",
-              "usaaao-2014-3",
-              "usaaao-2014-4",
-              "usaaao-2014-5",
-              "usaaao-2014-6",
-              "usaaao-2014-7",
-              "usaaao-2014-8",
-              "usaaao-2014-9",
-              "usaaao-2014-10",
-              "usaaao-2014-11",
-              "usaaao-2014-12",
-              "usaaao-2014-13",
-              "usaaao-2014-14",
-              "usaaao-2014-15",
-              "usaaao-2014-16",
-              "usaaao-2014-l1",
-              "usaaao-2014-l2",
-              "usaaao-2014-l3"
-            ]
-          }
-        ],
-        "problems": [
-          {
-            "id": "usaaao-2014-1",
-            "number": "1",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-2",
-            "number": "2",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-3",
-            "number": "3",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-4",
-            "number": "4",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-5",
-            "number": "5",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-6",
-            "number": "6",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-7",
-            "number": "7",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-8",
-            "number": "8",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-9",
-            "number": "9",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-10",
-            "number": "10",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-11",
-            "number": "11",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-12",
-            "number": "12",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-13",
-            "number": "13",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-14",
-            "number": "14",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-15",
-            "number": "15",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-16",
-            "number": "16",
-            "category": "NAC",
-            "maxScore": 2
-          },
-          {
-            "id": "usaaao-2014-l1",
-            "number": "L1",
-            "category": "NAC",
-            "maxScore": 12
-          },
-          {
-            "id": "usaaao-2014-l2",
-            "number": "L2",
-            "category": "NAC",
-            "maxScore": 12
-          },
-          {
-            "id": "usaaao-2014-l3",
-            "number": "L3",
-            "category": "NAC",
-            "maxScore": 10
-          }
-        ]
+        "problems": []
       }
     ]
   }

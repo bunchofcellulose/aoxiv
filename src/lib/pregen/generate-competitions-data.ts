@@ -20,6 +20,7 @@ export interface Paper {
 	link?: string;
 	solutionLink?: string;
 	gradingScheme?: string;
+	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];
 	n?: number;
@@ -92,6 +93,7 @@ interface PaperYaml {
 	link?: string;
 	solutionLink?: string;
 	gradingScheme?: string;
+	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];
 	n?: number;
@@ -211,7 +213,7 @@ function loadCompetition(compDir: string): Competition {
 				solutionLink: p.solutionLink,
 				answerSheet: p.answerSheet,
 				gradingScheme: p.gradingScheme,
-				maxScore: p.maxScore || 20
+				maxScore: p.maxScore
 			}));
 
 			// 2. Process Papers

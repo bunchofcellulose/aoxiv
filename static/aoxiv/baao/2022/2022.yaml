@@ -4,17 +4,21 @@ papers:
   - link: "/aoxiv/baao/2022/paper.pdf"
     examDuration: 180
     solutionLink: "/aoxiv/baao/2022/solutions.pdf"
+    category: "Round 2"
 
 problems:
   - id: "baao-2022-1"
     number: "1"
+    category: "Round 2"
     name: "Sunrise in Oxford"
     maxScore: 30
   - id: "baao-2022-2"
     number: "2"
+    category: "Round 2"
     name: "Stellar Structure"
     maxScore: 35
   - id: "baao-2022-3"
     number: "3"
+    category: "Round 2"
     name: "James Webb Space Telescope"
     maxScore: 35

@@ -1,0 +1,12 @@
+name: "OWAO 2024"
+
+papers:
+  - category: "Theory"
+    link: "/aoxiv/owao/2024/theory.pdf"
+    solutionLink: "/aoxiv/owao/2024/theory_sol.pdf"
+
+  - category: "Practical"
+    link: "/aoxiv/owao/2024/prac.pdf"
+    solutionLink: "/aoxiv/owao/2024/prac_sol.pdf"
+
+problems: []

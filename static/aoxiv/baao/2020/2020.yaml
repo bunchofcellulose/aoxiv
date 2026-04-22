@@ -4,17 +4,21 @@ papers:
   - link: "/aoxiv/baao/2020/paper.pdf"
     examDuration: 180
     solutionLink: "/aoxiv/baao/2020/solutions.pdf"
+    category: "Round 2"
 
 problems:
   - id: "baao-2020-1"
     number: "1"
+    category: "Round 2"
     name: "Apollo 11"
     maxScore: 35
   - id: "baao-2020-2"
     number: "2"
+    category: "Round 2"
     name: "Event Horizon Telescope and Super Massive Black Holes"
     maxScore: 35
   - id: "baao-2020-3"
     number: "3"
+    category: "Round 2"
     name: "Inspirals of Exoplanets Near Tidal Destruction"
     maxScore: 30
