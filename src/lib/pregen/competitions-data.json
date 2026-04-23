@@ -1,5 +1,17 @@
 [
   {
+    "id": "arao",
+    "name": "All Russian Astronomy Olympiad",
+    "shortName": "ARAO",
+    "website": "http://www.astroolymp.ru/",
+    "desc": "The All Russian Astronomy Olympiad (ARAO) is a national competition for students in Russia. The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics.\n",
+    "summary": "National astronomy olympiad for students in Russia.",
+    "icon": "🇷🇺",
+    "tag": "National",
+    "url": "http://www.astroolymp.ru/",
+    "editions": []
+  },
+  {
     "id": "aoac",
     "name": "AO Guide Astrophysics Challenge",
     "shortName": "AOAC",
@@ -76,6 +88,18 @@
         ]
       }
     ]
+  },
+  {
+    "id": "bdoaa",
+    "name": "Bangladesh Astronomy and Astrophysics Olympiad",
+    "shortName": "BDOAA",
+    "website": "https://bdoaa.org/",
+    "desc": "The Bangladesh Astronomy and Astrophysics Olympiad (BDOAA) is a national competition for students in Bangladesh, serving as a pathway to selection for the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. Top performers from BDOAA proceed to orientation camps and further selection rounds for international representation.\n",
+    "summary": "National astronomy olympiad for students in Bangladesh, pathway to IOAA selection.",
+    "icon": "🇧🇩",
+    "tag": "National",
+    "url": "https://bdoaa.org/",
+    "editions": []
   },
   {
     "id": "baao",
@@ -3434,6 +3458,48 @@
     ]
   },
   {
+    "id": "iran",
+    "name": "Iranian TSTs",
+    "shortName": "Iran",
+    "desc": "The Iranian TSTs are one of the toughest team selection tests. Iran consistently performs in the top 3 in the IOAA, and the TSTs are designed to select the best students for the national team. Only the 2014 TSTs are publicly available.\n",
+    "summary": "Iran's team selection tests for selection to the IOAA.",
+    "icon": "🇮🇷",
+    "tag": "National",
+    "editions": [
+      {
+        "year": 2014,
+        "name": "2014 Iranian TSTs",
+        "papers": [
+          {
+            "link": "/aoxiv/iran/2014/tst.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "iran-2014-1",
+            "number": "1",
+            "name": "Problem set #1"
+          },
+          {
+            "id": "iran-2014-2",
+            "number": "2",
+            "name": "Problem set #3"
+          },
+          {
+            "id": "iran-2014-3",
+            "number": "3",
+            "name": "Problem set #5"
+          },
+          {
+            "id": "iran-2014-4",
+            "number": "4",
+            "name": "Problem set #7"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "jao",
     "name": "Japanese Astronomical Olympics",
     "shortName": "JAO",
@@ -3604,6 +3670,74 @@
         ]
       },
       {
+        "year": 2024,
+        "name": "2024 JAO",
+        "location": "Japan",
+        "link": "https://iaojapan.org/preparation/",
+        "papers": [
+          {
+            "category": "Final Theory",
+            "majorCategory": "Theory",
+            "examDuration": 150,
+            "link": "/aoxiv/jao/2024/theory.pdf",
+            "solutionLink": "/aoxiv/jao/2024/theory_sol.pdf"
+          },
+          {
+            "category": "Final Practical",
+            "majorCategory": "Practical",
+            "examDuration": 90,
+            "link": "/aoxiv/jao/2024/prac.pdf",
+            "solutionLink": "/aoxiv/jao/2024/prac_sol.pdf"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "final-theory",
+            "name": "Final Theory",
+            "problemIds": [
+              "jao-2024-1",
+              "jao-2024-2",
+              "jao-2024-3"
+            ]
+          },
+          {
+            "id": "final-practical",
+            "name": "Final Practical",
+            "problemIds": [
+              "jao-2024-1p",
+              "jao-2024-2p"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "jao-2024-1",
+            "number": "1",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2024-2",
+            "number": "2",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2024-3",
+            "number": "3",
+            "category": "Final Theory"
+          },
+          {
+            "id": "jao-2024-1p",
+            "number": "1",
+            "category": "Final Practical"
+          },
+          {
+            "id": "jao-2024-2p",
+            "number": "2",
+            "category": "Final Practical"
+          }
+        ]
+      },
+      {
         "year": 2023,
         "name": "2023 JAO",
         "location": "Japan",
@@ -3637,6 +3771,26 @@
     ]
   },
   {
+    "id": "onaa",
+    "name": "Olimpiada Națională de Astronomie și Astrofizică (ONAA)",
+    "shortName": "ONAA",
+    "desc": "The Olimpiada Națională de Astronomie și Astrofizică (ONAA) serves as the primary selection mechanism for Romania's team to the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. The competition consists of a Junior and a Senior division, with the top performers in the Senior division being selected for the national IOAA team. The ONAA is organized annually and attracts students from across Romania who are passionate about astronomy and astrophysics. The selections for writing ONAA is conducted by OJAA, Olimpiada Județeană de Astronomie și Astrofizică, which is the county-level astronomy olympiad.\n",
+    "summary": "National astronomy olympiad for students in Romania, pathway to IOAA selection.",
+    "icon": "🇷🇴",
+    "tag": "National",
+    "editions": []
+  },
+  {
+    "id": "oraa",
+    "name": "Olimpiada Republicanǎ de Astronomie și Astrofizicǎ",
+    "shortName": "ORAA",
+    "desc": "The Olimpiada Republicanǎ de Astronomie și Astrofizicǎ (ORAA) serves as the primary selection mechanism for Moldova's team to the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. The competition consists of a Junior and a Senior division, with the top performers in the Senior division being selected for the national IOAA team. The ORAA is organized annually and attracts students from across Moldova who are passionate about astronomy and astrophysics.\n",
+    "summary": "National astronomy olympiad for students in Moldova, pathway to IOAA selection.",
+    "icon": "🇲🇩",
+    "tag": "National",
+    "editions": []
+  },
+  {
     "id": "owao",
     "name": "Open World Astronomy Olympiad",
     "shortName": "OWAO",
@@ -3650,6 +3804,7 @@
       {
         "year": 2025,
         "name": "OWAO 2025",
+        "location": "Russia, Sirius",
         "papers": [
           {
             "category": "Theory",
@@ -3770,6 +3925,7 @@
       {
         "year": 2024,
         "name": "OWAO 2024",
+        "location": "Russia, Sirius",
         "papers": [
           {
             "category": "Theory",
@@ -3898,6 +4054,7 @@
       {
         "year": 2023,
         "name": "OWAO 2023",
+        "location": "Russia, Sirius",
         "papers": [
           {
             "category": "Theory",
@@ -4029,6 +4186,7 @@
       {
         "year": 2022,
         "name": "OWAO 2022",
+        "location": "Russia, Sirius",
         "papers": [
           {
             "category": "Theory",

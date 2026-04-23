@@ -1,0 +1,21 @@
+name: "2014 Iranian TSTs"
+
+papers:
+  - link: "/aoxiv/iran/2014/tst.pdf"
+
+problems:
+  - id: "iran-2014-1"
+    number: "1"
+    name: "Problem set #1"
+
+  - id: "iran-2014-2"
+    number: "2"
+    name: "Problem set #3"
+
+  - id: "iran-2014-3"
+    number: "3"
+    name: "Problem set #5"
+
+  - id: "iran-2014-4"
+    number: "4"
+    name: "Problem set #7"
