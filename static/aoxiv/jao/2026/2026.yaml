@@ -12,7 +12,6 @@ papers:
     majorCategory: "Practical"
     examDuration: 90
     link: "/aoxiv/jao/2026/prac.pdf"
-    answerSheet: "/aoxiv/jao/2026/prac_anssheet.pdf"
 
 problems:
   - id: "jao-2026-1"

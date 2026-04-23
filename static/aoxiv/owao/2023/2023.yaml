@@ -1,4 +1,5 @@
 name: "OWAO 2023"
+location: "Russia, Sirius"
 
 papers:
   - category: "Theory"
@@ -11,4 +12,75 @@ papers:
     additionalFiles:
       - "/aoxiv/owao/2023/prac_files.zip"
 
-problems: []
+problems:
+  - id: "owao-2023-1"
+    number: "1"
+    category: "Theory"
+    name: Ceres
+    maxScore: 10
+
+  - id: "owao-2023-2"
+    number: "2"
+    category: "Theory"
+    name: Straight Forward
+    maxScore: 10
+
+  - id: "owao-2023-3"
+    number: "3"
+    category: "Theory"
+    name: Apparently Invisible
+    maxScore: 10
+
+  - id: "owao-2023-4"
+    number: "4"
+    category: "Theory"
+    name: Hot Potato
+    maxScore: 10
+
+  - id: "owao-2023-5"
+    number: "5"
+    category: "Theory"
+    name: Hide and Seek
+    maxScore: 10
+
+  - id: "owao-2023-6"
+    number: "6"
+    category: "Theory"
+    name: Space Vodka
+    maxScore: 10
+
+  - id: "owao-2023-7"
+    number: "7"
+    category: "Theory"
+    name: One Thousand and One Nights
+    maxScore: 10
+
+  - id: "owao-2023-8"
+    number: "8"
+    category: "Theory"
+    name: Omega Sirius
+    maxScore: 10
+  
+  - id: "owao-2023-9"
+    number: "9"
+    category: "Theory"
+    name: Get Into the Loop
+    maxScore: 20
+
+  - id: "owao-2023-1p"
+    number: "1"
+    category: "Practical"
+    name: Kholshevnikov Metric
+    maxScore: 20
+
+  - id: "owao-2023-2p"
+    number: "2"
+    category: "Practical"
+    name: Metallica
+    maxScore: 20
+
+  - id: "owao-2023-3p"
+    number: "3"
+    category: "Practical"
+    name: Eclipse in Siberia
+    maxScore: 20

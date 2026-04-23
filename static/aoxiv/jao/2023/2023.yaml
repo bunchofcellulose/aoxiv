@@ -1,0 +1,21 @@
+name: "2023 JAO"
+location: "Japan"
+link: "https://iaojapan.org/preparation/"
+
+papers:
+  - examDuration: 180
+    link: "/aoxiv/jao/2023/paper.pdf"
+    solutionLink: "/aoxiv/jao/2023/solutions.pdf"
+
+problems:
+  - id: "jao-2023-1"
+    number: "1"
+
+  - id: "jao-2023-2"
+    number: "2"
+  
+  - id: "jao-2023-3"
+    number: "3"
+
+  - id: "jao-2023-4"
+    number: "4"

@@ -3460,8 +3460,7 @@
             "category": "Final Practical",
             "majorCategory": "Practical",
             "examDuration": 90,
-            "link": "/aoxiv/jao/2026/prac.pdf",
-            "answerSheet": "/aoxiv/jao/2026/prac_anssheet.pdf"
+            "link": "/aoxiv/jao/2026/prac.pdf"
           }
         ],
         "mockExams": [
@@ -3532,7 +3531,7 @@
       },
       {
         "year": 2025,
-        "name": "2026 JAO",
+        "name": "2025 JAO",
         "location": "Japan",
         "link": "https://iaojapan.org/preparation/",
         "papers": [
@@ -3540,16 +3539,15 @@
             "category": "Final Theory",
             "majorCategory": "Theory",
             "examDuration": 150,
-            "link": "/aoxiv/jao/2026/theory.pdf",
-            "solutionLink": "/aoxiv/jao/2026/theory_sol.pdf"
+            "link": "/aoxiv/jao/2025/theory.pdf",
+            "solutionLink": "/aoxiv/jao/2025/theory_sol.pdf"
           },
           {
             "category": "Final Practical",
             "majorCategory": "Practical",
             "examDuration": 90,
-            "link": "/aoxiv/jao/2026/prac.pdf",
-            "answerSheet": "/aoxiv/jao/2026/prac_anssheet.pdf",
-            "solutionLink": "/aoxiv/jao/2026/prac_sol.pdf"
+            "link": "/aoxiv/jao/2025/prac.pdf",
+            "solutionLink": "/aoxiv/jao/2025/prac_sol.pdf"
           }
         ],
         "mockExams": [
@@ -3557,51 +3555,82 @@
             "id": "final-theory",
             "name": "Final Theory",
             "problemIds": [
-              "jao-2026-1",
-              "jao-2026-2",
-              "jao-2026-3",
-              "jao-2026-4"
+              "jao-2025-1",
+              "jao-2025-2",
+              "jao-2025-3",
+              "jao-2025-4"
             ]
           },
           {
             "id": "final-practical",
             "name": "Final Practical",
             "problemIds": [
-              "jao-2026-1p",
-              "jao-2026-2p"
+              "jao-2025-1p",
+              "jao-2025-2p"
             ]
           }
         ],
         "problems": [
           {
-            "id": "jao-2026-1",
+            "id": "jao-2025-1",
             "number": "1",
             "category": "Final Theory"
           },
           {
-            "id": "jao-2026-2",
+            "id": "jao-2025-2",
             "number": "2",
             "category": "Final Theory"
           },
           {
-            "id": "jao-2026-3",
+            "id": "jao-2025-3",
             "number": "3",
             "category": "Final Theory"
           },
           {
-            "id": "jao-2026-4",
+            "id": "jao-2025-4",
             "number": "4",
             "category": "Final Theory"
           },
           {
-            "id": "jao-2026-1p",
+            "id": "jao-2025-1p",
             "number": "1",
             "category": "Final Practical"
           },
           {
-            "id": "jao-2026-2p",
+            "id": "jao-2025-2p",
             "number": "2",
             "category": "Final Practical"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "2023 JAO",
+        "location": "Japan",
+        "link": "https://iaojapan.org/preparation/",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/aoxiv/jao/2023/paper.pdf",
+            "solutionLink": "/aoxiv/jao/2023/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "jao-2023-1",
+            "number": "1"
+          },
+          {
+            "id": "jao-2023-2",
+            "number": "2"
+          },
+          {
+            "id": "jao-2023-3",
+            "number": "3"
+          },
+          {
+            "id": "jao-2023-4",
+            "number": "4"
           }
         ]
       }
@@ -3633,7 +3662,110 @@
             "solutionLink": "/aoxiv/owao/2025/prac_sol.pdf"
           }
         ],
-        "problems": []
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "owao-2025-1",
+              "owao-2025-2",
+              "owao-2025-3",
+              "owao-2025-4",
+              "owao-2025-5",
+              "owao-2025-6",
+              "owao-2025-7",
+              "owao-2025-8"
+            ]
+          },
+          {
+            "id": "practical",
+            "name": "Practical",
+            "problemIds": [
+              "owao-2025-1p",
+              "owao-2025-2p",
+              "owao-2025-3p"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "owao-2025-1",
+            "number": "1",
+            "name": "Celestial Pause",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-2",
+            "number": "2",
+            "name": "Winter Ensemble",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-3",
+            "number": "3",
+            "name": "Swing of the Spheres",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-4",
+            "number": "4",
+            "name": "Tides on a Rod",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-5",
+            "number": "5",
+            "name": "Above the Photosphere",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-6",
+            "number": "6",
+            "name": "Glimpse of GLIMPSE",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-7",
+            "number": "7",
+            "name": "Nothing to Do There",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-8",
+            "number": "8",
+            "name": "Stellar Blends",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-1p",
+            "number": "1",
+            "name": "Chandrasekhar Says No",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-2p",
+            "number": "2",
+            "name": "At the World's Edge",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2025-3p",
+            "number": "3",
+            "name": "Beyond the World's Edge",
+            "category": "Practical",
+            "maxScore": 20
+          }
+        ]
       },
       {
         "year": 2024,
@@ -3650,7 +3782,118 @@
             "solutionLink": "/aoxiv/owao/2024/prac_sol.pdf"
           }
         ],
-        "problems": []
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "owao-2024-1",
+              "owao-2024-2",
+              "owao-2024-3",
+              "owao-2024-4",
+              "owao-2024-5",
+              "owao-2024-6",
+              "owao-2024-7",
+              "owao-2024-8",
+              "owao-2024-9"
+            ]
+          },
+          {
+            "id": "practical",
+            "name": "Practical",
+            "problemIds": [
+              "owao-2024-1p",
+              "owao-2024-2p",
+              "owao-2024-3p"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "owao-2024-1",
+            "number": "1",
+            "name": "Crossroad of Worlds",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-2",
+            "number": "2",
+            "name": "Satellite Tracking",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-3",
+            "number": "3",
+            "name": "Planet on the Spot",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-4",
+            "number": "4",
+            "name": "Let the Sky Fall",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-5",
+            "number": "5",
+            "name": "Almost Circumpolar",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-6",
+            "number": "6",
+            "name": "Jupiter in Sirius",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-7",
+            "number": "7",
+            "name": "Yet Another Pinwheel",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-8",
+            "number": "8",
+            "name": "Thirty Degress of Freedom",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-9",
+            "number": "9",
+            "name": "High Precision Guidance",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-1p",
+            "number": "1",
+            "name": "Scattering of Stones",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-2p",
+            "number": "2",
+            "name": "Support Service",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2024-3p",
+            "number": "3",
+            "name": "Ephemeric Quest",
+            "category": "Practical",
+            "maxScore": 20
+          }
+        ]
       },
       {
         "year": 2023,
@@ -3670,7 +3913,118 @@
             ]
           }
         ],
-        "problems": []
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "owao-2023-1",
+              "owao-2023-2",
+              "owao-2023-3",
+              "owao-2023-4",
+              "owao-2023-5",
+              "owao-2023-6",
+              "owao-2023-7",
+              "owao-2023-8",
+              "owao-2023-9"
+            ]
+          },
+          {
+            "id": "practical",
+            "name": "Practical",
+            "problemIds": [
+              "owao-2023-1p",
+              "owao-2023-2p",
+              "owao-2023-3p"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "owao-2023-1",
+            "number": "1",
+            "name": "Ceres",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-2",
+            "number": "2",
+            "name": "Straight Forward",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-3",
+            "number": "3",
+            "name": "Apparently Invisible",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-4",
+            "number": "4",
+            "name": "Hot Potato",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-5",
+            "number": "5",
+            "name": "Hide and Seek",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-6",
+            "number": "6",
+            "name": "Space Vodka",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-7",
+            "number": "7",
+            "name": "One Thousand and One Nights",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-8",
+            "number": "8",
+            "name": "Omega Sirius",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2023-9",
+            "number": "9",
+            "name": "Get Into the Loop",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2023-1p",
+            "number": "1",
+            "name": "Kholshevnikov Metric",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2023-2p",
+            "number": "2",
+            "name": "Metallica",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2023-3p",
+            "number": "3",
+            "name": "Eclipse in Siberia",
+            "category": "Practical",
+            "maxScore": 20
+          }
+        ]
       },
       {
         "year": 2022,
@@ -3690,7 +4044,118 @@
             ]
           }
         ],
-        "problems": []
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "owao-2022-1",
+              "owao-2022-2",
+              "owao-2022-3",
+              "owao-2022-4",
+              "owao-2022-5",
+              "owao-2022-6",
+              "owao-2022-7",
+              "owao-2022-8"
+            ]
+          },
+          {
+            "id": "practical",
+            "name": "Practical",
+            "problemIds": [
+              "owao-2022-1p",
+              "owao-2022-2p",
+              "owao-2022-3p",
+              "owao-2022-4p"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "owao-2022-1",
+            "number": "1",
+            "name": "Slow down and shine",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-2",
+            "number": "2",
+            "name": "Mysterious Mercury",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-3",
+            "number": "3",
+            "name": "Anti-Earth",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-4",
+            "number": "4",
+            "name": "Red Skies",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-5",
+            "number": "5",
+            "name": "Follow the Shadow",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-6",
+            "number": "6",
+            "name": "Orbital Time Machine",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-7",
+            "number": "7",
+            "name": "Polar Wi-Fi",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-8",
+            "number": "8",
+            "name": "Perfect Nebula",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "owao-2022-1p",
+            "number": "1",
+            "name": "Stone Ecliptic",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2022-2p",
+            "number": "2",
+            "name": "RR Lyrae",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2022-3p",
+            "number": "3",
+            "name": "Statistical Parallax",
+            "category": "Practical",
+            "maxScore": 20
+          },
+          {
+            "id": "owao-2022-4p",
+            "number": "4",
+            "name": "Nearby Cluster",
+            "category": "Practical",
+            "maxScore": 20
+          }
+        ]
       }
     ]
   },

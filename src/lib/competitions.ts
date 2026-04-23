@@ -73,6 +73,18 @@ export interface ContestCard {
 	url?: string;
 }
 
+export interface ProblemSearchItem {
+	problemId: string;
+	compId: string;
+	compName: string;
+	compShortName: string;
+	compIcon: string;
+	year: number;
+	location?: string;
+	problem: Problem;
+	searchText: string;
+}
+
 export const contests: ContestCard[] = competitions.map((competition) => ({
 	id: competition.id,
 	name: competition.name,
@@ -138,7 +150,7 @@ export function getGlobalStats(compId: string, year: number): Paper[] | null {
 }
 
 export function getClientSearchData() {
-	const allProblemsFlat: any[] = [];
+	const allProblemsFlat: ProblemSearchItem[] = [];
 	const seenIds = new Set<string>();
 
 	competitions.forEach((comp) => {
@@ -146,20 +158,31 @@ export function getClientSearchData() {
 			edition.problems.forEach((problem) => {
 				if (!seenIds.has(problem.id)) {
 					seenIds.add(problem.id);
+					const compIcon = comp.icon ?? '🌌';
+					const searchText = [
+						comp.name,
+						comp.shortName,
+						comp.id,
+						String(edition.year),
+						edition.location ?? '',
+						problem.number,
+						problem.name,
+						problem.author ?? '',
+						problem.category ?? ''
+					]
+						.join(' ')
+						.toLowerCase();
+
 					allProblemsFlat.push({
-						id: problem.id,
-						name: problem.name,
-						number: problem.number,
-						author: problem.author || 'Unknown',
-						category: problem.category || 'General',
-						year: edition.year,
-						compShortName: comp.shortName,
+						problemId: problem.id,
 						compId: comp.id,
-						link: problem.link || '',
-						solutionLink: problem.solutionLink || '',
-						answerSheet: problem.answerSheet || '',
-						gradingScheme: problem.gradingScheme || '',
-						maxScore: problem.maxScore
+						compName: comp.name,
+						compShortName: comp.shortName,
+						compIcon,
+						year: edition.year,
+						location: edition.location,
+						problem,
+						searchText
 					});
 				}
 			});

@@ -179,7 +179,10 @@
 	{#if filtered().length > 0}
 		<div class="flex flex-col gap-4">
 			{#each filtered() as edition (edition.year)}
-				<div class="overflow-hidden rounded-2xl border border-border bg-card">
+				<div
+					id={`year-${edition.year}`}
+					class="scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-card"
+				>
 					<!-- Year header -->
 					<div
 						class="flex items-center justify-between border-b border-border bg-muted/60 px-4 py-2.5"
@@ -235,11 +238,18 @@
 															variant="secondary"
 															class="bg-primary/15 text-primary hover:bg-primary/25"
 														>
-															<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+															<svg
+																viewBox="0 0 24 24"
+																fill="none"
+																stroke="currentColor"
+																aria-hidden="true"
+															>
 																<circle cx="12" cy="13" r="7"></circle>
 																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"></path>
 															</svg>
-															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads ? ' →' : ''}
+															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads
+																? ' →'
+																: ''}
 														</Badge>
 													{/if}
 													{#if paper.link}
@@ -277,7 +287,8 @@
 											<div class="grid grid-cols-1 gap-2 xs:grid-cols-2 xl:grid-cols-3">
 												{#each group.problems as problem (problem.id)}
 													<div
-														class="flex flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
+														id={problem.id}
+														class="flex scroll-mt-24 flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
 													>
 														<div class="flex items-center gap-2">
 															<span class="font-mono text-sm font-semibold text-primary"
@@ -346,11 +357,18 @@
 															variant="secondary"
 															class="bg-primary/15 text-primary hover:bg-primary/25"
 														>
-															<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+															<svg
+																viewBox="0 0 24 24"
+																fill="none"
+																stroke="currentColor"
+																aria-hidden="true"
+															>
 																<circle cx="12" cy="13" r="7"></circle>
 																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"></path>
 															</svg>
-															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads ? ' →' : ''}
+															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads
+																? ' →'
+																: ''}
 														</Badge>
 													{/if}
 													{#if paper.link}
@@ -388,7 +406,8 @@
 											<div class="grid grid-cols-1 gap-2 xs:grid-cols-2 xl:grid-cols-3">
 												{#each grouping.ungroupedProblems as problem (problem.id)}
 													<div
-														class="flex flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
+														id={problem.id}
+														class="flex scroll-mt-24 flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
 													>
 														<div class="flex items-center gap-2">
 															<span class="font-mono text-sm font-semibold text-primary"

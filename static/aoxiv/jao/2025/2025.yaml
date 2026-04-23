@@ -1,4 +1,4 @@
-name: "2026 JAO"
+name: "2025 JAO"
 location: "Japan"
 link: "https://iaojapan.org/preparation/"
 
@@ -6,37 +6,36 @@ papers:
   - category: "Final Theory"
     majorCategory: "Theory"
     examDuration: 150
-    link: "/aoxiv/jao/2026/theory.pdf"
-    solutionLink: "/aoxiv/jao/2026/theory_sol.pdf"
+    link: "/aoxiv/jao/2025/theory.pdf"
+    solutionLink: "/aoxiv/jao/2025/theory_sol.pdf"
 
   - category: "Final Practical"
     majorCategory: "Practical"
     examDuration: 90
-    link: "/aoxiv/jao/2026/prac.pdf"
-    answerSheet: "/aoxiv/jao/2026/prac_anssheet.pdf"
-    solutionLink: "/aoxiv/jao/2026/prac_sol.pdf"
+    link: "/aoxiv/jao/2025/prac.pdf"
+    solutionLink: "/aoxiv/jao/2025/prac_sol.pdf"
 
 problems:
-  - id: "jao-2026-1"
+  - id: "jao-2025-1"
     number: "1"
     category: "Final Theory"
 
-  - id: "jao-2026-2"
+  - id: "jao-2025-2"
     number: "2"
     category: "Final Theory"
 
-  - id: "jao-2026-3"
+  - id: "jao-2025-3"
     number: "3"
     category: "Final Theory"
 
-  - id: "jao-2026-4"
+  - id: "jao-2025-4"
     number: "4"
     category: "Final Theory"
 
-  - id: "jao-2026-1p"
+  - id: "jao-2025-1p"
     number: "1"
     category: "Final Practical"
 
-  - id: "jao-2026-2p"
+  - id: "jao-2025-2p"
     number: "2"
     category: "Final Practical"
