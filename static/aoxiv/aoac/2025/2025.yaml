@@ -2,11 +2,11 @@ name: "OAC 2025"
 
 papers:
   - category: "Open"
-    link: "/aoxiv/oac/2025/paper_open.pdf"
-    solutionLink: "/aoxiv/oac/2025/key_open.pdf"
+    link: "/aoxiv/aoac/2025/paper_open.pdf"
+    solutionLink: "/aoxiv/aoac/2025/key_open.pdf"
 
   - category: "Invitationals"
-    link: "/aoxiv/oac/2025/paper_invi.pdf"
+    link: "/aoxiv/aoac/2025/paper_invi.pdf"
 
 problems:
   - id: "oac-2025-1"
