@@ -3929,6 +3929,697 @@
     ]
   },
   {
+    "id": "ioaajr",
+    "name": "International Olympiad on Astronomy and Astrophysics Junior",
+    "shortName": "IOAA Jr.",
+    "website": "https://ioaajr2026.ubu.ac.th/",
+    "desc": "The International Olympiad on Astronomy and Astrophysics Junior (IOAA Jr.) is a global competition for secondary school students. It features multiple components such as theory and observation rounds. This archive contains publicly shared problem and solution PDFs from past editions listed by IOAA Jr.\n",
+    "summary": "International astronomy and astrophysics junior olympiad archive.",
+    "icon": "💫",
+    "tag": "International",
+    "editions": [
+      {
+        "year": 2025,
+        "name": "4th IOAA Jr. 2025",
+        "location": "Piatra-Neamț, Romania",
+        "papers": [
+          {
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2025/theory.pdf"
+          },
+          {
+            "category": "Sky Map",
+            "solutionLink": "/aoxiv/ioaajr/2025/skymap.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Telescope",
+            "solutionLink": "/aoxiv/ioaajr/2025/telescope.pdf",
+            "majorCategory": "Observation"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaajr-2025-1",
+              "ioaajr-2025-2",
+              "ioaajr-2025-3",
+              "ioaajr-2025-4",
+              "ioaajr-2025-5",
+              "ioaajr-2025-6",
+              "ioaajr-2025-7",
+              "ioaajr-2025-8",
+              "ioaajr-2025-9"
+            ]
+          },
+          {
+            "id": "sky-map",
+            "name": "Sky Map",
+            "problemIds": [
+              "ioaajr-2025-1om",
+              "ioaajr-2025-2om",
+              "ioaajr-2025-3om"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaajr-2025-1ot",
+              "ioaajr-2025-2ot",
+              "ioaajr-2025-3ot",
+              "ioaajr-2025-4ot"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaajr-2025-1",
+            "number": "T1",
+            "name": "Binary System",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2025-2",
+            "number": "T2",
+            "name": "Speed of Asteroid",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2025-3",
+            "number": "T3",
+            "name": "Where is Theodor",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2025-4",
+            "number": "T4",
+            "name": "Exploring NEAs",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2025-5",
+            "number": "T5",
+            "name": "Ceahlǎu Mountain",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2025-6",
+            "number": "T6",
+            "name": "The Flying Aquilla",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2025-7",
+            "number": "T7",
+            "name": "Lunar Eclipse",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaajr-2025-8",
+            "number": "T8",
+            "name": "Roche Limit, Hill Sphere, Lagrange Points",
+            "category": "Theory",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaajr-2025-9",
+            "number": "T9",
+            "name": "Lightcurves",
+            "category": "Theory",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaajr-2025-1om",
+            "number": "OM1",
+            "name": "Know your sky",
+            "category": "Sky Map",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaajr-2025-2om",
+            "number": "OM2",
+            "name": "Chart and time",
+            "category": "Sky Map",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2025-3om",
+            "number": "OM3",
+            "name": "Missing stars",
+            "category": "Sky Map",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2025-1ot",
+            "number": "OT1",
+            "category": "Telescope",
+            "maxScore": 4
+          },
+          {
+            "id": "ioaajr-2025-2ot",
+            "number": "OT2",
+            "category": "Telescope",
+            "maxScore": 9
+          },
+          {
+            "id": "ioaajr-2025-3ot",
+            "number": "OT3",
+            "category": "Telescope",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaajr-2025-4ot",
+            "number": "OT4",
+            "category": "Telescope",
+            "maxScore": 27
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "3rd IOAA Jr. 2024",
+        "location": "Kathmandu, Nepal",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaajr/2024/theory.pdf"
+          },
+          {
+            "category": "Sky Chart",
+            "link": "/aoxiv/ioaajr/2024/skymap.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Telescope",
+            "link": "/aoxiv/ioaajr/2024/telescope.pdf",
+            "majorCategory": "Observation"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaajr-2024-1",
+              "ioaajr-2024-2",
+              "ioaajr-2024-3",
+              "ioaajr-2024-4",
+              "ioaajr-2024-5",
+              "ioaajr-2024-6",
+              "ioaajr-2024-7",
+              "ioaajr-2024-8",
+              "ioaajr-2024-9",
+              "ioaajr-2024-10",
+              "ioaajr-2024-11",
+              "ioaajr-2024-12"
+            ]
+          },
+          {
+            "id": "sky-chart",
+            "name": "Sky Chart",
+            "problemIds": [
+              "ioaajr-2024-1oc",
+              "ioaajr-2024-2oc",
+              "ioaajr-2024-3oc"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaajr-2024-1ot",
+              "ioaajr-2024-2ot"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaajr-2024-1",
+            "number": "T1",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-2",
+            "number": "T2",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-3",
+            "number": "T3",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-4",
+            "number": "T4",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-5",
+            "number": "T5",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-6",
+            "number": "T6",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-7",
+            "number": "T7",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-8",
+            "number": "T8",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-9",
+            "number": "T9",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-10",
+            "number": "T10",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-11",
+            "number": "T11",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-12",
+            "number": "T12",
+            "category": "Theory",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaajr-2024-1oc",
+            "number": "OC1",
+            "category": "Sky Chart",
+            "maxScore": 43.5
+          },
+          {
+            "id": "ioaajr-2024-2oc",
+            "number": "OC2",
+            "category": "Sky Chart",
+            "maxScore": 13.5
+          },
+          {
+            "id": "ioaajr-2024-3oc",
+            "number": "OC3",
+            "category": "Sky Chart",
+            "maxScore": 18
+          },
+          {
+            "id": "ioaajr-2024-1ot",
+            "number": "OT1",
+            "name": "The Moon",
+            "category": "Telescope",
+            "maxScore": 32
+          },
+          {
+            "id": "ioaajr-2024-2ot",
+            "number": "OT2",
+            "category": "Telescope",
+            "maxScore": 16
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "2nd IOAA Jr. 2023",
+        "location": "Volos, Greece",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaajr/2023/theory.pdf",
+            "solutionLink": "/aoxiv/ioaajr/2023/theory_sol.pdf"
+          },
+          {
+            "category": "Sky Map",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Telescope",
+            "link": "/aoxiv/ioaajr/2023/telescope.pdf",
+            "majorCategory": "Observation"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaajr-2023-1",
+              "ioaajr-2023-2",
+              "ioaajr-2023-3",
+              "ioaajr-2023-4",
+              "ioaajr-2023-5",
+              "ioaajr-2023-6",
+              "ioaajr-2023-7",
+              "ioaajr-2023-8",
+              "ioaajr-2023-9",
+              "ioaajr-2023-10",
+              "ioaajr-2023-11",
+              "ioaajr-2023-12"
+            ]
+          },
+          {
+            "id": "sky-map",
+            "name": "Sky Map",
+            "problemIds": [
+              "ioaajr-2023-1om",
+              "ioaajr-2023-2om"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaajr-2023-1ot",
+              "ioaajr-2023-2ot"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaajr-2023-1",
+            "number": "T1",
+            "name": "Horizon crossing",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-2",
+            "number": "T2",
+            "name": "Planet orbits",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-3",
+            "number": "T3",
+            "name": "Unresolved binary star",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-4",
+            "number": "T4",
+            "name": "Rapidly spinning neutron star",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-5",
+            "number": "T5",
+            "name": "Moon phases",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-6",
+            "number": "T6",
+            "name": "Solar eclipse",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-7",
+            "number": "T7",
+            "name": "Parallax and proper motion",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-8",
+            "number": "T8",
+            "name": "Telescope",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-9",
+            "number": "T9",
+            "name": "Cosmology",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-10",
+            "number": "T10",
+            "name": "H-R Diagram",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2023-11",
+            "number": "T11",
+            "name": "SIRIUS A and B",
+            "category": "Theory",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaajr-2023-12",
+            "number": "T12",
+            "name": "SATELLITES",
+            "category": "Theory",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaajr-2023-1om",
+            "number": "OM1",
+            "name": "Navigating the night sky",
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaajr/2023/maps1.pdf",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaajr-2023-2om",
+            "number": "OM2",
+            "name": "Navigating the night sky",
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaajr/2023/maps2.pdf",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaajr-2023-1ot",
+            "number": "OT1",
+            "name": "Sun Observations",
+            "category": "Telescope",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaajr-2023-2ot",
+            "number": "OT2",
+            "name": "Cloud Sky Observation",
+            "category": "Telescope",
+            "maxScore": 45
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "1st IOAA Jr. 2022",
+        "location": "Câmpulung Moldovenesc, Romania",
+        "papers": [
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaajr/2022/mcq.pdf"
+          },
+          {
+            "category": "Sky Map",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Night Observation",
+            "link": "/aoxiv/ioaajr/2022/night.pdf",
+            "majorCategory": "Observation"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaajr-2022-1",
+              "ioaajr-2022-2",
+              "ioaajr-2022-3",
+              "ioaajr-2022-4",
+              "ioaajr-2022-5",
+              "ioaajr-2022-6",
+              "ioaajr-2022-7",
+              "ioaajr-2022-8",
+              "ioaajr-2022-9",
+              "ioaajr-2022-10",
+              "ioaajr-2022-11",
+              "ioaajr-2022-12"
+            ]
+          },
+          {
+            "id": "sky-map",
+            "name": "Sky Map",
+            "problemIds": [
+              "ioaajr-2022-om"
+            ]
+          },
+          {
+            "id": "night-observation",
+            "name": "Night Observation",
+            "problemIds": [
+              "ioaajr-2022-1ot",
+              "ioaajr-2022-2ot"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaajr-2022-1",
+            "number": "T1",
+            "name": "The stars observed with the telescope",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t1_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-2",
+            "number": "T2",
+            "name": "The Sun on the Horizon",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t2_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-3",
+            "number": "T3",
+            "name": "The escape velocity",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t3_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-4",
+            "number": "T4",
+            "name": "The Terrestrial Satellite",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t4_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-5",
+            "number": "T5",
+            "name": "Andromeda Galaxy Rotation",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t5_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-6",
+            "number": "T6",
+            "name": "The Sun as seen from Saturn",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t6_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-7",
+            "number": "T7",
+            "name": "Balls Suspended inside a Terrestrial Satellite",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t7_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-8",
+            "number": "T8",
+            "name": "Spaceship to the Sun",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t8_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-9",
+            "number": "T9",
+            "name": "The Moon, seen on the way to the Moon",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t9_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-10",
+            "number": "T10",
+            "name": "The luminosity of a star",
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaajr/2022/t10_sol.pdf",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaajr-2022-11",
+            "number": "T11",
+            "name": "Zodiac IOAA-J-2022",
+            "category": "Theory",
+            "link": "/aoxiv/ioaajr/2022/l1.pdf",
+            "solutionLink": "/aoxiv/ioaajr/2022/l1_sol.pdf",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaajr-2022-12",
+            "number": "T12",
+            "name": "The rocket that destroys the threatening asteroid",
+            "category": "Theory",
+            "link": "/aoxiv/ioaajr/2022/l2.pdf",
+            "solutionLink": "/aoxiv/ioaajr/2022/l2_sol.pdf",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaajr-2022-om",
+            "number": "OM",
+            "name": "Sky Map",
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaajr/2022/skymap.pdf",
+            "solutionLink": "/aoxiv/ioaajr/2022/skymap_sol.pdf",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaajr-2022-1ot",
+            "number": "OT1",
+            "name": "Observations with naked eye",
+            "category": "Night Observation"
+          },
+          {
+            "id": "ioaajr-2022-2ot",
+            "number": "OT2",
+            "name": "Observations using the astronomical telescope",
+            "category": "Night Observation"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "iran",
     "name": "Iran TSTs",
     "shortName": "Iran",

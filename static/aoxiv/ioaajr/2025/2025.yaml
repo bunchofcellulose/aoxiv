@@ -1,0 +1,108 @@
+name: 4th IOAA Jr. 2025
+location: Piatra-Neamț, Romania
+website: https://ioaajr2025.ro/
+
+papers:
+  - category: Theory
+    solutionLink: /aoxiv/ioaajr/2025/theory.pdf
+  
+  - category: Sky Map
+    solutionLink: /aoxiv/ioaajr/2025/skymap.pdf
+    majorCategory: Observation
+  
+  - category: Telescope
+    solutionLink: /aoxiv/ioaajr/2025/telescope.pdf
+    majorCategory: Observation
+
+problems:
+  - id: ioaajr-2025-1
+    number: T1
+    category: Theory
+    name: Binary System
+    maxScore: 10
+  
+  - id: ioaajr-2025-2
+    number: T2
+    category: Theory
+    name: Speed of Asteroid
+    maxScore: 10
+
+  - id: ioaajr-2025-3
+    number: T3
+    category: Theory
+    name: Where is Theodor
+    maxScore: 10
+
+  - id: ioaajr-2025-4
+    number: T4
+    category: Theory
+    name: Exploring NEAs
+    maxScore: 10
+  
+  - id: ioaajr-2025-5
+    number: T5
+    category: Theory
+    name: Ceahlǎu Mountain
+    maxScore: 15
+  
+  - id: ioaajr-2025-6
+    number: T6
+    category: Theory
+    name: The Flying Aquilla
+    maxScore: 15
+
+  - id: ioaajr-2025-7
+    number: T7
+    category: Theory
+    name: Lunar Eclipse
+    maxScore: 30
+  
+  - id: ioaajr-2025-8
+    number: T8
+    category: Theory
+    name: Roche Limit, Hill Sphere, Lagrange Points
+    maxScore: 40
+
+  - id: ioaajr-2025-9
+    number: T9
+    category: Theory
+    name: Lightcurves
+    maxScore: 40
+  
+  - id: ioaajr-2025-1om
+    number: OM1
+    category: Sky Map
+    name: Know your sky
+    maxScore: 40
+  
+  - id: ioaajr-2025-2om
+    number: OM2
+    category: Sky Map
+    name: Chart and time
+    maxScore: 10
+  
+  - id: ioaajr-2025-3om
+    number: OM3
+    category: Sky Map
+    name: Missing stars
+    maxScore: 10
+  
+  - id: ioaajr-2025-1ot
+    number: OT1
+    category: Telescope
+    maxScore: 4
+  
+  - id: ioaajr-2025-2ot
+    number: OT2
+    category: Telescope
+    maxScore: 9
+  
+  - id: ioaajr-2025-3ot
+    number: OT3
+    category: Telescope
+    maxScore: 20
+  
+  - id: ioaajr-2025-4ot
+    number: OT4
+    category: Telescope
+    maxScore: 27

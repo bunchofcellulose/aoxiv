@@ -1,0 +1,102 @@
+name: 3rd IOAA Jr. 2024
+location: Kathmandu, Nepal
+website: https://ioaajr2024.org/
+
+papers:
+  - category: Theory
+    link: /aoxiv/ioaajr/2024/theory.pdf
+  
+  - category: Sky Chart
+    link: /aoxiv/ioaajr/2024/skymap.pdf
+    majorCategory: Observation
+  
+  - category: Telescope
+    link: /aoxiv/ioaajr/2024/telescope.pdf
+    majorCategory: Observation
+
+problems:
+  - id: ioaajr-2024-1
+    number: T1
+    category: Theory
+    maxScore: 15
+  
+  - id: ioaajr-2024-2
+    number: T2
+    category: Theory
+    maxScore: 15
+
+  - id: ioaajr-2024-3
+    number: T3
+    category: Theory
+    maxScore: 15
+
+  - id: ioaajr-2024-4
+    number: T4
+    category: Theory
+    maxScore: 15
+  
+  - id: ioaajr-2024-5
+    number: T5
+    category: Theory
+    maxScore: 15
+  
+  - id: ioaajr-2024-6
+    number: T6
+    category: Theory
+    maxScore: 15
+
+  - id: ioaajr-2024-7
+    number: T7
+    category: Theory
+    maxScore: 15
+  
+  - id: ioaajr-2024-8
+    number: T8
+    category: Theory
+    maxScore: 15
+
+  - id: ioaajr-2024-9
+    number: T9
+    category: Theory
+    maxScore: 15
+  
+  - id: ioaajr-2024-10
+    number: T10
+    category: Theory
+    maxScore: 15
+
+  - id: ioaajr-2024-11
+    number: T11
+    category: Theory
+    maxScore: 15
+
+  - id: ioaajr-2024-12
+    number: T12
+    category: Theory
+    maxScore: 15
+  
+  - id: ioaajr-2024-1oc
+    number: OC1
+    category: Sky Chart
+    maxScore: 43.5
+  
+  - id: ioaajr-2024-2oc
+    number: OC2
+    category: Sky Chart
+    maxScore: 13.5
+  
+  - id: ioaajr-2024-3oc
+    number: OC3
+    category: Sky Chart
+    maxScore: 18
+  
+  - id: ioaajr-2024-1ot
+    number: OT1
+    category: Telescope
+    name: The Moon
+    maxScore: 32
+  
+  - id: ioaajr-2024-2ot
+    number: OT2
+    category: Telescope
+    maxScore: 16

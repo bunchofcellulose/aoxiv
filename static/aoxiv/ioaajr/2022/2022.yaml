@@ -1,0 +1,118 @@
+name: 1st IOAA Jr. 2022
+location: Câmpulung Moldovenesc, Romania
+
+papers:
+  - category: Theory
+    link: /aoxiv/ioaajr/2022/mcq.pdf
+  
+  - category: Sky Map
+    majorCategory: Observation
+  
+  - category: Night Observation
+    link: /aoxiv/ioaajr/2022/night.pdf
+    majorCategory: Observation
+
+problems:
+  - id: ioaajr-2022-1
+    number: T1
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t1_sol.pdf
+    name: The stars observed with the telescope
+  
+  - id: ioaajr-2022-2
+    number: T2
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t2_sol.pdf
+    name: The Sun on the Horizon
+
+  - id: ioaajr-2022-3
+    number: T3
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t3_sol.pdf
+    name: The escape velocity
+
+  - id: ioaajr-2022-4
+    number: T4
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t4_sol.pdf
+    name: The Terrestrial Satellite
+  
+  - id: ioaajr-2022-5
+    number: T5
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t5_sol.pdf
+    name: Andromeda Galaxy Rotation
+  
+  - id: ioaajr-2022-6
+    number: T6
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t6_sol.pdf
+    name: The Sun as seen from Saturn
+
+  - id: ioaajr-2022-7
+    number: T7
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t7_sol.pdf
+    name: Balls Suspended inside a Terrestrial Satellite
+  
+  - id: ioaajr-2022-8
+    number: T8
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t8_sol.pdf
+    name: Spaceship to the Sun
+
+  - id: ioaajr-2022-9
+    number: T9
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t9_sol.pdf
+    name: The Moon, seen on the way to the Moon
+  
+  - id: ioaajr-2022-10
+    number: T10
+    category: Theory
+    maxScore: 10
+    solutionLink: /aoxiv/ioaajr/2022/t10_sol.pdf
+    name: The luminosity of a star
+
+  - id: ioaajr-2022-11
+    number: T11
+    category: Theory
+    maxScore: 100
+    link: /aoxiv/ioaajr/2022/l1.pdf
+    solutionLink: /aoxiv/ioaajr/2022/l1_sol.pdf
+    name: Zodiac IOAA-J-2022
+
+  - id: ioaajr-2022-12
+    number: T12
+    category: Theory
+    maxScore: 100
+    link: /aoxiv/ioaajr/2022/l2.pdf
+    solutionLink: /aoxiv/ioaajr/2022/l2_sol.pdf
+    name: The rocket that destroys the threatening asteroid
+  
+  - id: ioaajr-2022-om
+    number: OM
+    category: Sky Map
+    name: Sky Map
+    maxScore: 45
+    link: /aoxiv/ioaajr/2022/skymap.pdf
+    solutionLink: /aoxiv/ioaajr/2022/skymap_sol.pdf
+
+  - id: ioaajr-2022-1ot
+    number: OT1
+    category: Night Observation
+    name: Observations with naked eye
+  
+  - id: ioaajr-2022-2ot
+    number: OT2
+    category: Night Observation
+    name: Observations using the astronomical telescope

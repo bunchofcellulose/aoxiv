@@ -1,0 +1,114 @@
+name: 2nd IOAA Jr. 2023
+location: Volos, Greece
+website: https://ioaajr2023.gr/
+
+papers:
+  - category: Theory
+    link: /aoxiv/ioaajr/2023/theory.pdf
+    solutionLink: /aoxiv/ioaajr/2023/theory_sol.pdf
+  
+  - category: Sky Map
+    majorCategory: Observation
+  
+  - category: Telescope
+    link: /aoxiv/ioaajr/2023/telescope.pdf
+    majorCategory: Observation
+
+problems:
+  - id: ioaajr-2023-1
+    number: T1
+    category: Theory
+    maxScore: 10
+    name: Horizon crossing
+  
+  - id: ioaajr-2023-2
+    number: T2
+    category: Theory
+    maxScore: 10
+    name: Planet orbits
+
+  - id: ioaajr-2023-3
+    number: T3
+    category: Theory
+    maxScore: 10
+    name: Unresolved binary star
+
+  - id: ioaajr-2023-4
+    number: T4
+    category: Theory
+    maxScore: 10
+    name: Rapidly spinning neutron star
+  
+  - id: ioaajr-2023-5
+    number: T5
+    category: Theory
+    maxScore: 10
+    name: Moon phases
+  
+  - id: ioaajr-2023-6
+    number: T6
+    category: Theory
+    maxScore: 10
+    name: Solar eclipse
+
+  - id: ioaajr-2023-7
+    number: T7
+    category: Theory
+    maxScore: 10
+    name: Parallax and proper motion
+  
+  - id: ioaajr-2023-8
+    number: T8
+    category: Theory
+    maxScore: 10
+    name: Telescope
+
+  - id: ioaajr-2023-9
+    number: T9
+    category: Theory
+    maxScore: 10
+    name: Cosmology
+  
+  - id: ioaajr-2023-10
+    number: T10
+    category: Theory
+    maxScore: 10
+    name: H-R Diagram
+
+  - id: ioaajr-2023-11
+    number: T11
+    category: Theory
+    maxScore: 40
+    name: SIRIUS A and B
+
+  - id: ioaajr-2023-12
+    number: T12
+    category: Theory
+    maxScore: 40
+    name: SATELLITES
+  
+  - id: ioaajr-2023-1om
+    number: OM1
+    category: Sky Map
+    name: Navigating the night sky
+    maxScore: 45
+    link: /aoxiv/ioaajr/2023/maps1.pdf
+  
+  - id: ioaajr-2023-2om
+    number: OM2
+    category: Sky Map
+    name: Navigating the night sky
+    maxScore: 45
+    link: /aoxiv/ioaajr/2023/maps2.pdf
+
+  - id: ioaajr-2023-1ot
+    number: OT1
+    category: Telescope
+    name: Sun Observations
+    maxScore: 45
+  
+  - id: ioaajr-2023-2ot
+    number: OT2
+    category: Telescope
+    maxScore: 45
+    name: Cloud Sky Observation
