@@ -1,0 +1,31 @@
+name: "BDOAA 2022"
+
+papers:
+  - category: "National"
+    link: "/aoxiv/bdoaa/2022/paper.pdf"
+
+problems:
+  - id: "bdoaa-2022-1"
+    number: "1"
+    name: "Lunar Eclipse"
+    maxScore: 12
+  
+  - id: "bdoaa-2022-2"
+    number: "2"
+    name: "The First Interstellar Comet"
+    maxScore: 8
+  
+  - id: "bdoaa-2022-3"
+    number: "3"
+    name: "Globular Cluster"
+    maxScore: 10
+  
+  - id: "bdoaa-2022-4"
+    number: "4"
+    name: "Earth Shine"
+    maxScore: 10
+
+  - id: "bdoaa-2022-5"
+    number: "5"
+    name: "Retrograde Motion"
+    maxScore: 23

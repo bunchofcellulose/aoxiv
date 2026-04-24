@@ -1,0 +1,42 @@
+name: "BDOAA 2018"
+
+papers:
+  - category: "National"
+    examDuration: 150
+    link: "/aoxiv/bdoaa/2018/paper.pdf"
+
+problems:
+  - id: "bdoaa-2018-1"
+    number: "1"
+    name: "Evolution of a Comet"
+    maxScore: 10
+  
+  - id: "bdoaa-2018-2"
+    number: "2"
+    name: "Eclipsing Binary"
+    maxScore: 6
+  
+  - id: "bdoaa-2018-3"
+    number: "3"
+    name: "Transfer Orbit"
+    maxScore: 8
+  
+  - id: "bdoaa-2018-4"
+    number: "4"
+    name: "Planetary Nebula"
+    maxScore: 10
+
+  - id: "bdoaa-2018-5"
+    number: "5"
+    name: "Binary Star"
+    maxScore: 25
+
+  - id: "bdoaa-2018-d"
+    number: "DA"
+    name: "Cepheid Variables"
+    maxScore: 22
+
+  - id: "bdoaa-2018-o"
+    number: "OM"
+    name: "August Sky"
+    maxScore: 22

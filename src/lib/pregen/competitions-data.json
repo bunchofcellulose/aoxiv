@@ -99,7 +99,437 @@
     "icon": "🇧🇩",
     "tag": "National",
     "url": "https://bdoaa.org/",
-    "editions": []
+    "editions": [
+      {
+        "year": 2025,
+        "name": "BDOAA 2025",
+        "papers": [
+          {
+            "category": "National Senior",
+            "examDuration": 120,
+            "link": "/aoxiv/bdoaa/2025/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2025-1",
+            "number": "1",
+            "name": "Metonic Photography",
+            "category": "National Senior"
+          },
+          {
+            "id": "bdoaa-2025-2",
+            "number": "2",
+            "name": "Double Satellite",
+            "category": "National Senior",
+            "maxScore": 20
+          },
+          {
+            "id": "bdoaa-2025-3",
+            "number": "3",
+            "name": "The Universe at Reionization",
+            "category": "National Senior",
+            "maxScore": 16
+          },
+          {
+            "id": "bdoaa-2025-4",
+            "number": "4",
+            "name": "AGN 2778",
+            "category": "National Senior",
+            "maxScore": 18
+          },
+          {
+            "id": "bdoaa-2025-5",
+            "number": "5",
+            "name": "Motion of the Stars",
+            "category": "National Senior",
+            "maxScore": 24
+          },
+          {
+            "id": "bdoaa-2025-6",
+            "number": "6",
+            "name": "Planetary Parade",
+            "category": "National Senior"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "BDOAA 2024",
+        "papers": [
+          {
+            "category": "National",
+            "examDuration": 120,
+            "link": "/aoxiv/bdoaa/2024/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2024-1",
+            "number": "1",
+            "name": "Despawning the moonlight!",
+            "category": "National"
+          },
+          {
+            "id": "bdoaa-2024-2",
+            "number": "2",
+            "name": "Moon Again",
+            "category": "National"
+          },
+          {
+            "id": "bdoaa-2024-3",
+            "number": "3",
+            "name": "In astronomy, everything is a metal!",
+            "category": "National"
+          },
+          {
+            "id": "bdoaa-2024-4",
+            "number": "4",
+            "name": "780 days of observation",
+            "category": "National"
+          },
+          {
+            "id": "bdoaa-2024-5",
+            "number": "5",
+            "name": "Butch Cat is Lost Again",
+            "category": "National"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "BDOAA 2023",
+        "papers": [
+          {
+            "category": "National",
+            "examDuration": 90,
+            "link": "/aoxiv/bdoaa/2023/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2023-1",
+            "number": "1",
+            "name": "Phases of Moon and Mercury",
+            "category": "National",
+            "maxScore": 5
+          },
+          {
+            "id": "bdoaa-2023-2",
+            "number": "2",
+            "name": "Dimensions of Blackhole",
+            "category": "National",
+            "maxScore": 14
+          },
+          {
+            "id": "bdoaa-2023-3",
+            "number": "3",
+            "name": "Rotation Rate of a Pulsar",
+            "category": "National",
+            "maxScore": 20
+          },
+          {
+            "id": "bdoaa-2023-4",
+            "number": "4",
+            "name": "Measuring the Astronomical Unit with the Venus Transit",
+            "category": "National",
+            "maxScore": 8
+          },
+          {
+            "id": "bdoaa-2023-5",
+            "number": "5",
+            "name": "Robinson Crusoe: Lost in the sands",
+            "category": "National",
+            "maxScore": 8
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "BDOAA 2022",
+        "papers": [
+          {
+            "category": "National",
+            "link": "/aoxiv/bdoaa/2022/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2022-1",
+            "number": "1",
+            "name": "Lunar Eclipse",
+            "category": "National",
+            "maxScore": 12
+          },
+          {
+            "id": "bdoaa-2022-2",
+            "number": "2",
+            "name": "The First Interstellar Comet",
+            "category": "National",
+            "maxScore": 8
+          },
+          {
+            "id": "bdoaa-2022-3",
+            "number": "3",
+            "name": "Globular Cluster",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2022-4",
+            "number": "4",
+            "name": "Earth Shine",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2022-5",
+            "number": "5",
+            "name": "Retrograde Motion",
+            "category": "National",
+            "maxScore": 23
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "name": "BDOAA 2021",
+        "papers": [
+          {
+            "category": "National",
+            "link": "/aoxiv/bdoaa/2021/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2021-1",
+            "number": "1",
+            "name": "Arman's digital Observation",
+            "category": "National",
+            "maxScore": 7
+          },
+          {
+            "id": "bdoaa-2021-2",
+            "number": "2",
+            "name": "Analysis of a Constellation image",
+            "category": "National",
+            "maxScore": 7
+          },
+          {
+            "id": "bdoaa-2021-3",
+            "number": "3",
+            "name": "Conicalbeeminator",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2021-4",
+            "number": "4",
+            "name": "Jack in a Well",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2021-5",
+            "number": "5",
+            "name": "An Introduction to Data Analysis",
+            "category": "National",
+            "maxScore": 19
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "name": "BDOAA 2020",
+        "papers": [
+          {
+            "category": "National Senior",
+            "examDuration": 180,
+            "link": "/aoxiv/bdoaa/2020/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2020-1",
+            "number": "1",
+            "name": "Astronomical Time!",
+            "category": "National Senior",
+            "maxScore": 7
+          },
+          {
+            "id": "bdoaa-2020-2",
+            "number": "2",
+            "name": "Planet around HD 63454",
+            "category": "National Senior",
+            "maxScore": 9
+          },
+          {
+            "id": "bdoaa-2020-3",
+            "number": "3",
+            "name": "Sun Rays and Solar Bodies",
+            "category": "National Senior",
+            "maxScore": 14
+          },
+          {
+            "id": "bdoaa-2020-4",
+            "number": "4",
+            "name": "Planet Observations Using Skymaps",
+            "category": "National Senior",
+            "maxScore": 11
+          },
+          {
+            "id": "bdoaa-2020-5",
+            "number": "5",
+            "name": "Sirius",
+            "category": "National Senior",
+            "maxScore": 13
+          },
+          {
+            "id": "bdoaa-2020-d",
+            "number": "DA",
+            "name": "Hubble's Law",
+            "category": "National Senior"
+          },
+          {
+            "id": "bdoaa-2020-o",
+            "number": "OM",
+            "name": "Star Charts",
+            "category": "National Senior"
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "name": "BDOAA 2019",
+        "papers": [
+          {
+            "category": "National",
+            "examDuration": 180,
+            "link": "/aoxiv/bdoaa/2019/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2019-1",
+            "number": "1",
+            "name": "Radiation pressure in Main Sequence Star",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2019-2",
+            "number": "2",
+            "name": "Stellar magnitudes",
+            "category": "National",
+            "maxScore": 11
+          },
+          {
+            "id": "bdoaa-2019-3",
+            "number": "3",
+            "name": "Weird Planet!",
+            "category": "National",
+            "maxScore": 12
+          },
+          {
+            "id": "bdoaa-2019-4",
+            "number": "4",
+            "name": "Nebula Expansion",
+            "category": "National",
+            "maxScore": 8
+          },
+          {
+            "id": "bdoaa-2019-6",
+            "number": "6",
+            "name": "Tidal Force",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2019-7",
+            "number": "7",
+            "name": "Period-Distance relationship of exoplanets",
+            "category": "National",
+            "maxScore": 22
+          },
+          {
+            "id": "bdoaa-2019-8",
+            "number": "8",
+            "name": "Sky Map 1",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2019-9",
+            "number": "9",
+            "name": "Sky Map 2",
+            "category": "National",
+            "maxScore": 7
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "name": "BDOAA 2018",
+        "papers": [
+          {
+            "category": "National",
+            "examDuration": 150,
+            "link": "/aoxiv/bdoaa/2018/paper.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2018-1",
+            "number": "1",
+            "name": "Evolution of a Comet",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2018-2",
+            "number": "2",
+            "name": "Eclipsing Binary",
+            "category": "National",
+            "maxScore": 6
+          },
+          {
+            "id": "bdoaa-2018-3",
+            "number": "3",
+            "name": "Transfer Orbit",
+            "category": "National",
+            "maxScore": 8
+          },
+          {
+            "id": "bdoaa-2018-4",
+            "number": "4",
+            "name": "Planetary Nebula",
+            "category": "National",
+            "maxScore": 10
+          },
+          {
+            "id": "bdoaa-2018-5",
+            "number": "5",
+            "name": "Binary Star",
+            "category": "National",
+            "maxScore": 25
+          },
+          {
+            "id": "bdoaa-2018-d",
+            "number": "DA",
+            "name": "Cepheid Variables",
+            "category": "National",
+            "maxScore": 22
+          },
+          {
+            "id": "bdoaa-2018-o",
+            "number": "OM",
+            "name": "August Sky",
+            "category": "National",
+            "maxScore": 22
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "baao",

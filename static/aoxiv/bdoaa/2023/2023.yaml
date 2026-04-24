@@ -1,0 +1,32 @@
+name: "BDOAA 2023"
+
+papers:
+  - category: "National"
+    examDuration: 90
+    link: "/aoxiv/bdoaa/2023/paper.pdf"
+
+problems:
+  - id: "bdoaa-2023-1"
+    number: "1"
+    name: "Phases of Moon and Mercury"
+    maxScore: 5
+  
+  - id: "bdoaa-2023-2"
+    number: "2"
+    name: "Dimensions of Blackhole"
+    maxScore: 14
+  
+  - id: "bdoaa-2023-3"
+    number: "3"
+    name: "Rotation Rate of a Pulsar"
+    maxScore: 20
+  
+  - id: "bdoaa-2023-4"
+    number: "4"
+    name: "Measuring the Astronomical Unit with the Venus Transit"
+    maxScore: 8
+
+  - id: "bdoaa-2023-5"
+    number: "5"
+    name: "Robinson Crusoe: Lost in the sands"
+    maxScore: 8

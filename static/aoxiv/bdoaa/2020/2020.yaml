@@ -1,0 +1,40 @@
+name: "BDOAA 2020"
+
+papers:
+  - category: "National Senior"
+    examDuration: 180
+    link: "/aoxiv/bdoaa/2020/paper.pdf"
+
+problems:
+  - id: "bdoaa-2020-1"
+    number: "1"
+    name: "Astronomical Time!"
+    maxScore: 7
+  
+  - id: "bdoaa-2020-2"
+    number: "2"
+    name: "Planet around HD 63454"
+    maxScore: 9
+  
+  - id: "bdoaa-2020-3"
+    number: "3"
+    name: "Sun Rays and Solar Bodies"
+    maxScore: 14
+  
+  - id: "bdoaa-2020-4"
+    number: "4"
+    name: "Planet Observations Using Skymaps"
+    maxScore: 11
+
+  - id: "bdoaa-2020-5"
+    number: "5"
+    name: "Sirius"
+    maxScore: 13
+  
+  - id: "bdoaa-2020-d"
+    number: "DA"
+    name: "Hubble's Law"
+
+  - id: "bdoaa-2020-o"
+    number: "OM"
+    name: "Star Charts"

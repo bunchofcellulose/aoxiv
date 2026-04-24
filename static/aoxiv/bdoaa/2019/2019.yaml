@@ -1,0 +1,47 @@
+name: "BDOAA 2019"
+
+papers:
+  - category: "National"
+    examDuration: 180
+    link: "/aoxiv/bdoaa/2019/paper.pdf"
+
+problems:
+  - id: "bdoaa-2019-1"
+    number: "1"
+    name: "Radiation pressure in Main Sequence Star"
+    maxScore: 10
+  
+  - id: "bdoaa-2019-2"
+    number: "2"
+    name: "Stellar magnitudes"
+    maxScore: 11
+  
+  - id: "bdoaa-2019-3"
+    number: "3"
+    name: "Weird Planet!"
+    maxScore: 12
+  
+  - id: "bdoaa-2019-4"
+    number: "4"
+    name: "Nebula Expansion"
+    maxScore: 8
+
+  - id: "bdoaa-2019-6"
+    number: "6"
+    name: "Tidal Force"
+    maxScore: 10
+  
+  - id: "bdoaa-2019-7"
+    number: "7"
+    name: "Period-Distance relationship of exoplanets"
+    maxScore: 22
+
+  - id: "bdoaa-2019-8"
+    number: "8"
+    name: "Sky Map 1"
+    maxScore: 10
+
+  - id: "bdoaa-2019-9"
+    number: "9"
+    name: "Sky Map 2"
+    maxScore: 7

@@ -1,0 +1,35 @@
+name: "BDOAA 2025"
+
+papers:
+  - category: "National Senior"
+    examDuration: 120
+    link: "/aoxiv/bdoaa/2025/paper.pdf"
+
+problems:
+  - id: "bdoaa-2025-1"
+    number: "1"
+    name: "Metonic Photography"
+  
+  - id: "bdoaa-2025-2"
+    number: "2"
+    name: "Double Satellite"
+    maxScore: 20
+  
+  - id: "bdoaa-2025-3"
+    number: "3"
+    name: "The Universe at Reionization"
+    maxScore: 16
+  
+  - id: "bdoaa-2025-4"
+    number: "4"
+    name: "AGN 2778"
+    maxScore: 18
+
+  - id: "bdoaa-2025-5"
+    number: "5"
+    name: "Motion of the Stars"
+    maxScore: 24
+  
+  - id: "bdoaa-2025-6"
+    number: "6"
+    name: "Planetary Parade"
