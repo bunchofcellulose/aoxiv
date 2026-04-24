@@ -9,13 +9,17 @@ papers:
 
 problems:
   - id: "jao-2023-1"
+    name: Various Topics Related to the Solar System
     number: "1"
 
   - id: "jao-2023-2"
+    name: Extrasolar Planets
     number: "2"
   
   - id: "jao-2023-3"
+    name:  Galaxies and Star Formation
     number: "3"
 
   - id: "jao-2023-4"
+    name: Stellar Clusters and Stellar Kinematics
     number: "4"

@@ -9,7 +9,48 @@
     "icon": "🇷🇺",
     "tag": "National",
     "url": "http://www.astroolymp.ru/",
-    "editions": []
+    "editions": [
+      {
+        "year": 2008,
+        "name": "ARAO 2008",
+        "papers": [
+          {
+            "solutionLink": "/aoxiv/arao/2008/paper.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2007,
+        "name": "ARAO 2007",
+        "papers": [
+          {
+            "solutionLink": "/aoxiv/arao/2007/paper.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2006,
+        "name": "ARAO 2006",
+        "papers": [
+          {
+            "solutionLink": "/aoxiv/arao/2006/paper.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2005,
+        "name": "ARAO 2005",
+        "papers": [
+          {
+            "solutionLink": "/aoxiv/arao/2005/paper.pdf"
+          }
+        ],
+        "problems": []
+      }
+    ]
   },
   {
     "id": "aoac",
@@ -3889,7 +3930,7 @@
   },
   {
     "id": "iran",
-    "name": "Iranian TSTs",
+    "name": "Iran TSTs",
     "shortName": "Iran",
     "desc": "The Iranian TSTs are one of the toughest team selection tests. Iran consistently performs in the top 3 in the IOAA, and the TSTs are designed to select the best students for the national team. Only the 2014 TSTs are publicly available.\n",
     "summary": "Iran's team selection tests for selection to the IOAA.",
@@ -3898,7 +3939,7 @@
     "editions": [
       {
         "year": 2014,
-        "name": "2014 Iranian TSTs",
+        "name": "2014 Iran TSTs",
         "papers": [
           {
             "link": "/aoxiv/iran/2014/tst.pdf"
@@ -4182,43 +4223,27 @@
         "problems": [
           {
             "id": "jao-2023-1",
-            "number": "1"
+            "number": "1",
+            "name": "Various Topics Related to the Solar System"
           },
           {
             "id": "jao-2023-2",
-            "number": "2"
+            "number": "2",
+            "name": "Extrasolar Planets"
           },
           {
             "id": "jao-2023-3",
-            "number": "3"
+            "number": "3",
+            "name": "Galaxies and Star Formation"
           },
           {
             "id": "jao-2023-4",
-            "number": "4"
+            "number": "4",
+            "name": "Stellar Clusters and Stellar Kinematics"
           }
         ]
       }
     ]
-  },
-  {
-    "id": "onaa",
-    "name": "Olimpiada Națională de Astronomie și Astrofizică (ONAA)",
-    "shortName": "ONAA",
-    "desc": "The Olimpiada Națională de Astronomie și Astrofizică (ONAA) serves as the primary selection mechanism for Romania's team to the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. The competition consists of a Junior and a Senior division, with the top performers in the Senior division being selected for the national IOAA team. The ONAA is organized annually and attracts students from across Romania who are passionate about astronomy and astrophysics. The selections for writing ONAA is conducted by OJAA, Olimpiada Județeană de Astronomie și Astrofizică, which is the county-level astronomy olympiad.\n",
-    "summary": "National astronomy olympiad for students in Romania, pathway to IOAA selection.",
-    "icon": "🇷🇴",
-    "tag": "National",
-    "editions": []
-  },
-  {
-    "id": "oraa",
-    "name": "Olimpiada Republicanǎ de Astronomie și Astrofizicǎ",
-    "shortName": "ORAA",
-    "desc": "The Olimpiada Republicanǎ de Astronomie și Astrofizicǎ (ORAA) serves as the primary selection mechanism for Moldova's team to the International Olympiad on Astronomy and Astrophysics (IOAA). The competition tests theoretical knowledge, observational skills, and problem-solving abilities in astronomy and astrophysics. The competition consists of a Junior and a Senior division, with the top performers in the Senior division being selected for the national IOAA team. The ORAA is organized annually and attracts students from across Moldova who are passionate about astronomy and astrophysics.\n",
-    "summary": "National astronomy olympiad for students in Moldova, pathway to IOAA selection.",
-    "icon": "🇲🇩",
-    "tag": "National",
-    "editions": []
   },
   {
     "id": "owao",
