@@ -1,7 +1,14 @@
 <script lang="ts">
+	import SvelteSeo from 'svelte-seo';
 	import ContestList from '../ContestList.svelte';
 	import { siteConfig } from '$lib/site-config';
 </script>
+
+<SvelteSeo
+	title={`Contests | ${siteConfig.name}`}
+	description="Browse astronomy and astrophysics olympiad contests, with official problems, solutions, and marking schemes."
+	keywords={siteConfig.seo.contestKeywords}
+/>
 
 <!-- Contests -->
 <section id="contests" class="mb-4">
