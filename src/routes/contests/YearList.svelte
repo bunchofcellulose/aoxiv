@@ -224,13 +224,14 @@
 
 										{#if showYearLevel(edition) && group.papers.length > 0}
 											<div class="mb-3 flex flex-wrap items-center gap-1.5">
-												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
+												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.results ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
 													{@const categoryLabel = paper.category ?? group.name}
 													{@const hasCategoryDownloads = !!(
 														paper.link ||
 														paper.solutionLink ||
 														paper.answerSheet ||
 														paper.gradingScheme ||
+														paper.results ||
 														(paper.additionalFiles?.length ?? 0)
 													)}
 													{#if paper.examDuration}
@@ -265,6 +266,11 @@
 													{#if paper.gradingScheme}
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
+														>
+													{/if}
+													{#if paper.results}
+														<Badge variant="outline" href={paper.results} target="_blank"
+															>{paper.category ? `${paper.category} ` : ''}Results</Badge
 														>
 													{/if}
 													{#if paper.additionalFiles}
@@ -331,6 +337,11 @@
 																	target="_blank">Grading Scheme</Badge
 																>
 															{/if}
+															{#if problem.results}
+																<Badge variant="outline" href={problem.results} target="_blank"
+																	>Results</Badge
+																>
+															{/if}
 														</div>
 													</div>
 												{/each}
@@ -343,13 +354,14 @@
 									<div class="flex flex-col gap-3">
 										{#if showYearLevel(edition) && grouping.ungroupedPapers.length > 0}
 											<div class="flex flex-wrap items-center gap-1.5">
-												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
+												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.results ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
 													{@const categoryLabel = paper.category ?? 'Paper'}
 													{@const hasCategoryDownloads = !!(
 														paper.link ||
 														paper.solutionLink ||
 														paper.answerSheet ||
 														paper.gradingScheme ||
+														paper.results ||
 														(paper.additionalFiles?.length ?? 0)
 													)}
 													{#if paper.examDuration}
@@ -384,6 +396,11 @@
 													{#if paper.gradingScheme}
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
+														>
+													{/if}
+													{#if paper.results}
+														<Badge variant="outline" href={paper.results} target="_blank"
+															>{paper.category ? `${paper.category} ` : ''}Results</Badge
 														>
 													{/if}
 													{#if paper.additionalFiles}
@@ -448,6 +465,11 @@
 																	variant="outline"
 																	href={problem.gradingScheme}
 																	target="_blank">Grading Scheme</Badge
+																>
+															{/if}
+															{#if problem.results}
+																<Badge variant="outline" href={problem.results} target="_blank"
+																	>Results</Badge
 																>
 															{/if}
 														</div>

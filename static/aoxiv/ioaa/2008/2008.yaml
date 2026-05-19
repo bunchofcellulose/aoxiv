@@ -1,0 +1,98 @@
+name: 2nd IOAA 2008
+location: Bandung, Indonesia
+
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2008/da.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2008/th.pdf
+    solutionLink: /aoxiv/ioaa/2008/th_sol.pdf
+    majorCategory: Theory
+
+problems:
+  - id: ioaa-2008-d1
+    number: D1
+    category: Data Analysis
+    name: Virgo Cluster
+  - id: ioaa-2008-d2
+    number: D2
+    category: Data Analysis
+    name: Determination of stellar masses in a visual binary system
+  - id: ioaa-2008-d3
+    number: D3
+    category: Data Analysis
+    name: The Age of Meteorite
+
+  - id: ioaa-2008-1
+    number: S1
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-2
+    number: S2
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-3
+    number: S3
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-4
+    number: S4
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-5
+    number: S5
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-6
+    number: S6
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-7
+    number: S7
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-8
+    number: S8
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-9
+    number: S9
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-10
+    number: S10
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-11
+    number: S11
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-12
+    number: S12
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2008-13
+    number: S13
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-14
+    number: S14
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-15
+    number: S15
+    category: Theory
+    maxScore: 20
+  - id: ioaa-2008-l1
+    number: L1
+    category: Theory
+    maxScore: 100
+  - id: ioaa-2008-l2
+    number: L2
+    category: Theory
+    maxScore: 100
+  - id: ioaa-2008-l3
+    number: L3
+    category: Theory
+    maxScore: 100

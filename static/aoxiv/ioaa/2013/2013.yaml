@@ -1,0 +1,101 @@
+name: 7th IOAA 2013
+location: Volos, Greece
+
+papers:
+  - category: Data Analysis
+    solutionLink: /aoxiv/ioaa/2013/da_sol.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    solutionLink: /aoxiv/ioaa/2013/th_sol.pdf
+    majorCategory: Theory
+
+problems:
+  - id: ioaa-2013-d1
+    number: D1
+    category: Data Analysis
+    maxScore: 24.5
+  - id: ioaa-2013-d2
+    number: D2
+    category: Data Analysis
+    maxScore: 32.5
+  - id: ioaa-2013-d3
+    number: D3
+    category: Data Analysis
+    maxScore: 18
+  - id: ioaa-2013-d4
+    number: D4
+    category: Data Analysis
+    maxScore: 75
+
+  - id: ioaa-2013-1
+    number: S1
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-2
+    number: S2
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-3
+    number: S3
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-4
+    number: S4
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-5
+    number: S5
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-6
+    number: S6
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-7
+    number: S7
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-8
+    number: S8
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-9
+    number: S9
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-10
+    number: S10
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-11
+    number: S11
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-12
+    number: S12
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-13
+    number: S13
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-14
+    number: S14
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-15
+    number: S15
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2013-l1
+    number: L1
+    category: Theory
+    maxScore: 50
+  - id: ioaa-2013-l2
+    number: L2
+    category: Theory
+    maxScore: 50
+  - id: ioaa-2013-l3
+    number: L3
+    category: Theory
+    maxScore: 50

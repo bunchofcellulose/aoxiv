@@ -3198,12 +3198,12 @@
         "papers": [
           {
             "category": "Data Analysis",
-            "link": "/aoxiv/ioaa/2020/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2020/da.pdf",
             "majorCategory": "Data Analysis"
           },
           {
             "category": "Theory",
-            "link": "/aoxiv/ioaa/2020/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2020/th.pdf",
             "majorCategory": "Theory"
           }
         ],
@@ -3923,6 +3923,1519 @@
             "name": "AstroSat",
             "category": "Theory",
             "maxScore": 50
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "name": "9th IOAA 2015",
+        "location": "Central Java, Indonesia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2015/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/da_sol.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2015/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2015-d1",
+              "ioaa-2015-d2"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2015-1",
+              "ioaa-2015-2",
+              "ioaa-2015-3",
+              "ioaa-2015-4",
+              "ioaa-2015-5",
+              "ioaa-2015-6",
+              "ioaa-2015-7",
+              "ioaa-2015-8",
+              "ioaa-2015-9",
+              "ioaa-2015-10",
+              "ioaa-2015-11",
+              "ioaa-2015-12",
+              "ioaa-2015-13",
+              "ioaa-2015-14",
+              "ioaa-2015-15",
+              "ioaa-2015-l1",
+              "ioaa-2015-l2",
+              "ioaa-2015-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2015-d1",
+            "number": "D1",
+            "category": "Data Analysis",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-d2",
+            "number": "D2",
+            "category": "Data Analysis",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-l1",
+            "number": "L1",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-l2",
+            "number": "L2",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2015-l3",
+            "number": "L3",
+            "category": "Theory",
+            "maxScore": 100
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "name": "8th IOAA 2014",
+        "location": "Suceava, Gura Humorului, Romania",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2014/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2014/da_sol.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2014/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2014/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2014-d1",
+              "ioaa-2014-d2",
+              "ioaa-2014-d3"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2014-1",
+              "ioaa-2014-2",
+              "ioaa-2014-3",
+              "ioaa-2014-4",
+              "ioaa-2014-5",
+              "ioaa-2014-6",
+              "ioaa-2014-7",
+              "ioaa-2014-8",
+              "ioaa-2014-9",
+              "ioaa-2014-10",
+              "ioaa-2014-11",
+              "ioaa-2014-12",
+              "ioaa-2014-13",
+              "ioaa-2014-14",
+              "ioaa-2014-15",
+              "ioaa-2014-l1",
+              "ioaa-2014-l2",
+              "ioaa-2014-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2014-d1",
+            "number": "D1",
+            "name": "Black Hole in Milky Way",
+            "category": "Data Analysis",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2014-d2",
+            "number": "D2",
+            "name": "Thermodynamic test",
+            "category": "Data Analysis",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2014-d3",
+            "number": "D3",
+            "name": "Observer on an extrasolar planet",
+            "category": "Data Analysis",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2014-1",
+            "number": "S1",
+            "name": "Lagrange Points",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-2",
+            "number": "S2",
+            "name": "Sun gravitational catastrophe!",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-3",
+            "number": "S3",
+            "name": "Cosmic radiation",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-4",
+            "number": "S4",
+            "name": "Mass function of a visual binary stellar system",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-5",
+            "number": "S5",
+            "name": "The Astronaut saved by... ice from a can!",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-6",
+            "number": "S6",
+            "name": "The life-time of a star from the main sequence",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-7",
+            "number": "S7",
+            "name": "The effective temperature on the surface of a star",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-8",
+            "number": "S8",
+            "name": "Gradient temperatures",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-9",
+            "number": "S9",
+            "name": "Pressure of light",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-10",
+            "number": "S10",
+            "name": "The density of the star",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-11",
+            "number": "S11",
+            "name": "Space-ship orbiting the Sun",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-12",
+            "number": "S12",
+            "name": "The Vega star in the mirror",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-13",
+            "number": "S13",
+            "name": "Stars with Romanian names",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-14",
+            "number": "S14",
+            "name": "Apparent magnitude of the Moon",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-15",
+            "number": "S15",
+            "name": "Absolute magnitude of a cepheid",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2014-l1",
+            "number": "L1",
+            "name": "Eagles on the Caraiman Cross!",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2014-l2",
+            "number": "L2",
+            "name": "Cosmic Pendulum",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2014-l3",
+            "number": "L3",
+            "name": "From Romania... to Antipod!... A ballistic messenger",
+            "category": "Theory",
+            "maxScore": 50
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "name": "7th IOAA 2013",
+        "location": "Volos, Greece",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "solutionLink": "/aoxiv/ioaa/2013/da_sol.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaa/2013/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2013-d1",
+              "ioaa-2013-d2",
+              "ioaa-2013-d3",
+              "ioaa-2013-d4"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2013-1",
+              "ioaa-2013-2",
+              "ioaa-2013-3",
+              "ioaa-2013-4",
+              "ioaa-2013-5",
+              "ioaa-2013-6",
+              "ioaa-2013-7",
+              "ioaa-2013-8",
+              "ioaa-2013-9",
+              "ioaa-2013-10",
+              "ioaa-2013-11",
+              "ioaa-2013-12",
+              "ioaa-2013-13",
+              "ioaa-2013-14",
+              "ioaa-2013-15",
+              "ioaa-2013-l1",
+              "ioaa-2013-l2",
+              "ioaa-2013-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2013-d1",
+            "number": "D1",
+            "category": "Data Analysis",
+            "maxScore": 24.5
+          },
+          {
+            "id": "ioaa-2013-d2",
+            "number": "D2",
+            "category": "Data Analysis",
+            "maxScore": 32.5
+          },
+          {
+            "id": "ioaa-2013-d3",
+            "number": "D3",
+            "category": "Data Analysis",
+            "maxScore": 18
+          },
+          {
+            "id": "ioaa-2013-d4",
+            "number": "D4",
+            "category": "Data Analysis",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2013-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-l1",
+            "number": "L1",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2013-l2",
+            "number": "L2",
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2013-l3",
+            "number": "L3",
+            "category": "Theory",
+            "maxScore": 50
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "name": "6th IOAA 2012",
+        "location": "Rio de Janeiro, Brazil",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2012/da.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2012/th.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2012-d1",
+              "ioaa-2012-d2"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2012-1",
+              "ioaa-2012-2",
+              "ioaa-2012-3",
+              "ioaa-2012-4",
+              "ioaa-2012-5",
+              "ioaa-2012-6",
+              "ioaa-2012-7",
+              "ioaa-2012-8",
+              "ioaa-2012-9",
+              "ioaa-2012-10",
+              "ioaa-2012-11",
+              "ioaa-2012-12",
+              "ioaa-2012-13",
+              "ioaa-2012-14",
+              "ioaa-2012-15",
+              "ioaa-2012-l1",
+              "ioaa-2012-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2012-d1",
+            "number": "D1",
+            "category": "Data Analysis"
+          },
+          {
+            "id": "ioaa-2012-d2",
+            "number": "D2",
+            "category": "Data Analysis"
+          },
+          {
+            "id": "ioaa-2012-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2012-l1",
+            "number": "L1",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2012-l2",
+            "number": "L2",
+            "category": "Theory",
+            "maxScore": 30
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "name": "5th IOAA 2011",
+        "location": "Silesia, Poland",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2011/da.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2011/th.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2011-d1",
+              "ioaa-2011-d2"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2011-1",
+              "ioaa-2011-2",
+              "ioaa-2011-3",
+              "ioaa-2011-4",
+              "ioaa-2011-5",
+              "ioaa-2011-6",
+              "ioaa-2011-7",
+              "ioaa-2011-8",
+              "ioaa-2011-9",
+              "ioaa-2011-10",
+              "ioaa-2011-11",
+              "ioaa-2011-12",
+              "ioaa-2011-13",
+              "ioaa-2011-14",
+              "ioaa-2011-15",
+              "ioaa-2011-l1",
+              "ioaa-2011-l2",
+              "ioaa-2011-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2011-d1",
+            "number": "D1",
+            "name": "Analysis of times of minima",
+            "category": "Data Analysis",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2011-d2",
+            "number": "D2",
+            "name": "Weighing a galaxy",
+            "category": "Data Analysis",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2011-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2011-l1",
+            "number": "L1",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2011-l2",
+            "number": "L2",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2011-l3",
+            "number": "L3",
+            "category": "Theory",
+            "maxScore": 30
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "4th IOAA 2010",
+        "location": "Beijing, China",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2010/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2010/da_sol.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "solutionLink": "/aoxiv/ioaa/2010/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2010-d1",
+              "ioaa-2010-d2"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2010-1",
+              "ioaa-2010-2",
+              "ioaa-2010-3",
+              "ioaa-2010-4",
+              "ioaa-2010-5",
+              "ioaa-2010-6",
+              "ioaa-2010-7",
+              "ioaa-2010-8",
+              "ioaa-2010-9",
+              "ioaa-2010-10",
+              "ioaa-2010-11",
+              "ioaa-2010-12",
+              "ioaa-2010-13",
+              "ioaa-2010-14",
+              "ioaa-2010-15",
+              "ioaa-2010-l1",
+              "ioaa-2010-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2010-d1",
+            "number": "D1",
+            "name": "CCD Image",
+            "category": "Data Analysis",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2010-d2",
+            "number": "D2",
+            "name": "Light curves of stars",
+            "category": "Data Analysis",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2010-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2010-l1",
+            "number": "L1",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2010-l2",
+            "number": "L2",
+            "category": "Theory",
+            "maxScore": 30
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "name": "3rd IOAA 2009",
+        "location": "Tehran, Iran",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2009/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2009/da_sol.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2009/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2009/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2009-d1",
+              "ioaa-2009-d2"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2009-1",
+              "ioaa-2009-2",
+              "ioaa-2009-3",
+              "ioaa-2009-4",
+              "ioaa-2009-5",
+              "ioaa-2009-6",
+              "ioaa-2009-7",
+              "ioaa-2009-8",
+              "ioaa-2009-9",
+              "ioaa-2009-10",
+              "ioaa-2009-11",
+              "ioaa-2009-12",
+              "ioaa-2009-13",
+              "ioaa-2009-14",
+              "ioaa-2009-15",
+              "ioaa-2009-l1",
+              "ioaa-2009-l2"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2009-d1",
+            "number": "D1",
+            "name": "CCD Image Processing",
+            "category": "Data Analysis",
+            "maxScore": 60
+          },
+          {
+            "id": "ioaa-2009-d2",
+            "number": "D2",
+            "name": "Venus",
+            "category": "Data Analysis",
+            "maxScore": 60
+          },
+          {
+            "id": "ioaa-2009-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2009-l1",
+            "number": "L1",
+            "name": "High Altitude Projectile",
+            "category": "Theory",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaa-2009-l2",
+            "number": "L2",
+            "name": "Apparent number density of stars in the Galaxy",
+            "category": "Theory",
+            "maxScore": 45
+          }
+        ]
+      },
+      {
+        "year": 2008,
+        "name": "2nd IOAA 2008",
+        "location": "Bandung, Indonesia",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2008/da.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2008/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2008/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2008-d1",
+              "ioaa-2008-d2",
+              "ioaa-2008-d3"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2008-1",
+              "ioaa-2008-2",
+              "ioaa-2008-3",
+              "ioaa-2008-4",
+              "ioaa-2008-5",
+              "ioaa-2008-6",
+              "ioaa-2008-7",
+              "ioaa-2008-8",
+              "ioaa-2008-9",
+              "ioaa-2008-10",
+              "ioaa-2008-11",
+              "ioaa-2008-12",
+              "ioaa-2008-13",
+              "ioaa-2008-14",
+              "ioaa-2008-15",
+              "ioaa-2008-l1",
+              "ioaa-2008-l2",
+              "ioaa-2008-l3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2008-d1",
+            "number": "D1",
+            "name": "Virgo Cluster",
+            "category": "Data Analysis"
+          },
+          {
+            "id": "ioaa-2008-d2",
+            "number": "D2",
+            "name": "Determination of stellar masses in a visual binary system",
+            "category": "Data Analysis"
+          },
+          {
+            "id": "ioaa-2008-d3",
+            "number": "D3",
+            "name": "The Age of Meteorite",
+            "category": "Data Analysis"
+          },
+          {
+            "id": "ioaa-2008-1",
+            "number": "S1",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-2",
+            "number": "S2",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-3",
+            "number": "S3",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-4",
+            "number": "S4",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-5",
+            "number": "S5",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-6",
+            "number": "S6",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-7",
+            "number": "S7",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-8",
+            "number": "S8",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-9",
+            "number": "S9",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-10",
+            "number": "S10",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-11",
+            "number": "S11",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-12",
+            "number": "S12",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2008-13",
+            "number": "S13",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-14",
+            "number": "S14",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-15",
+            "number": "S15",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2008-l1",
+            "number": "L1",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2008-l2",
+            "number": "L2",
+            "category": "Theory",
+            "maxScore": 100
+          },
+          {
+            "id": "ioaa-2008-l3",
+            "number": "L3",
+            "category": "Theory",
+            "maxScore": 100
+          }
+        ]
+      },
+      {
+        "year": 2007,
+        "name": "1st IOAA 2007",
+        "location": "Chiang Mai, Thailand",
+        "papers": [
+          {
+            "category": "Data Analysis",
+            "link": "/aoxiv/ioaa/2007/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2007/da_sol.pdf",
+            "majorCategory": "Data Analysis"
+          },
+          {
+            "category": "Theory",
+            "link": "/aoxiv/ioaa/2007/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2007/th_sol.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "problemIds": [
+              "ioaa-2007-d1",
+              "ioaa-2007-d2",
+              "ioaa-2007-d3"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2007-1",
+              "ioaa-2007-2",
+              "ioaa-2007-3",
+              "ioaa-2007-4"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "ioaa-2007-d1",
+            "number": "D1",
+            "name": "Galilean moons",
+            "category": "Data Analysis",
+            "maxScore": 4
+          },
+          {
+            "id": "ioaa-2007-d2",
+            "number": "D2",
+            "name": "The Moon's age",
+            "category": "Data Analysis",
+            "maxScore": 8
+          },
+          {
+            "id": "ioaa-2007-d3",
+            "number": "D3",
+            "name": "Solar System objects",
+            "category": "Data Analysis",
+            "maxScore": 8
+          },
+          {
+            "id": "ioaa-2007-1",
+            "number": "T1",
+            "category": "Theory",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2007-2",
+            "number": "T2",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2007-3",
+            "number": "T3",
+            "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2007-4",
+            "number": "T4",
+            "category": "Theory",
+            "maxScore": 10
           }
         ]
       }

@@ -2,10 +2,10 @@ name: 1st GeCAA 2020
 location: Estonia
 papers:
   - category: Data Analysis
-    link: /aoxiv/ioaa/2020/da.pdf
+    solutionLink: /aoxiv/ioaa/2020/da.pdf
     majorCategory: Data Analysis
   - category: Theory
-    link: /aoxiv/ioaa/2020/th.pdf
+    solutionLink: /aoxiv/ioaa/2020/th.pdf
     majorCategory: Theory
 problems:
   - id: ioaa-2020-1

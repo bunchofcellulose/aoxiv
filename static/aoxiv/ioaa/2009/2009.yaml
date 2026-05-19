@@ -1,0 +1,95 @@
+name: 3rd IOAA 2009
+location: Tehran, Iran
+
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2009/da.pdf
+    solutionLink: /aoxiv/ioaa/2009/da_sol.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2009/th.pdf
+    solutionLink: /aoxiv/ioaa/2009/th_sol.pdf
+    majorCategory: Theory
+
+problems:
+  - id: ioaa-2009-d1
+    number: D1
+    category: Data Analysis
+    name: CCD Image Processing
+    maxScore: 60
+  - id: ioaa-2009-d2
+    number: D2
+    category: Data Analysis
+    name: Venus
+    maxScore: 60
+
+  - id: ioaa-2009-1
+    number: S1
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-2
+    number: S2
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-3
+    number: S3
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-4
+    number: S4
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-5
+    number: S5
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-6
+    number: S6
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-7
+    number: S7
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-8
+    number: S8
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-9
+    number: S9
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-10
+    number: S10
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-11
+    number: S11
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-12
+    number: S12
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-13
+    number: S13
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-14
+    number: S14
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-15
+    number: S15
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2009-l1
+    number: L1
+    category: Theory
+    name: High Altitude Projectile
+    maxScore: 45
+  - id: ioaa-2009-l2
+    number: L2
+    category: Theory
+    name: Apparent number density of stars in the Galaxy
+    maxScore: 45

@@ -11,13 +11,16 @@ export interface Problem {
 	solutionLink?: string | undefined;
 	answerSheet?: string | undefined;
 	gradingScheme?: string | undefined;
+	results?: string | undefined;
 }
 
 export interface Paper {
 	category?: string;
 	link?: string;
 	solutionLink?: string;
+	answerSheet?: string;
 	gradingScheme?: string;
+	results?: string;
 	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];

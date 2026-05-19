@@ -1,0 +1,46 @@
+name: 1st IOAA 2007
+location: Chiang Mai, Thailand
+
+papers:
+  - category: Data Analysis
+    link: /aoxiv/ioaa/2007/da.pdf
+    solutionLink: /aoxiv/ioaa/2007/da_sol.pdf
+    majorCategory: Data Analysis
+  - category: Theory
+    link: /aoxiv/ioaa/2007/th.pdf
+    solutionLink: /aoxiv/ioaa/2007/th_sol.pdf
+    majorCategory: Theory
+
+problems:
+  - id: ioaa-2007-d1
+    number: D1
+    category: Data Analysis
+    name: Galilean moons
+    maxScore: 4
+  - id: ioaa-2007-d2
+    number: D2
+    category: Data Analysis
+    name: The Moon's age
+    maxScore: 8
+  - id: ioaa-2007-d3
+    number: D3
+    category: Data Analysis
+    name: Solar System objects
+    maxScore: 8
+
+  - id: ioaa-2007-1
+    number: T1
+    category: Theory
+    maxScore: 30
+  - id: ioaa-2007-2
+    number: T2
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2007-3
+    number: T3
+    category: Theory
+    maxScore: 10
+  - id: ioaa-2007-4
+    number: T4
+    category: Theory
+    maxScore: 10

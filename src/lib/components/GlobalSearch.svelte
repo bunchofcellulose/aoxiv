@@ -151,7 +151,8 @@
 			{ label: 'Problem', href: item.problem?.link },
 			{ label: 'Solution', href: item.problem?.solutionLink },
 			{ label: 'Answer Sheet', href: item.problem?.answerSheet },
-			{ label: 'Grading Scheme', href: item.problem?.gradingScheme }
+			{ label: 'Grading Scheme', href: item.problem?.gradingScheme },
+			{ label: 'Results', href: item.problem?.results }
 		].filter((link): link is { label: string; href: string } => Boolean(link.href));
 	}
 

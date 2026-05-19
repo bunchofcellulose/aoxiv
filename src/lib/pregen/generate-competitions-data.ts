@@ -13,13 +13,16 @@ export interface Problem {
 	solutionLink?: string | undefined;
 	answerSheet?: string | undefined;
 	gradingScheme?: string | undefined;
+	results?: string | undefined;
 }
 
 export interface Paper {
 	category?: string;
 	link?: string;
 	solutionLink?: string;
+	answerSheet?: string;
 	gradingScheme?: string;
+	results?: string;
 	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];
@@ -86,13 +89,16 @@ interface ProblemYaml {
 	maxScore?: number;
 	answerSheet?: string;
 	gradingScheme?: string;
+	results?: string;
 }
 
 interface PaperYaml {
 	category?: string;
 	link?: string;
 	solutionLink?: string;
+	answerSheet?: string;
 	gradingScheme?: string;
+	results?: string;
 	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];
@@ -213,6 +219,7 @@ function loadCompetition(compDir: string): Competition {
 				solutionLink: p.solutionLink,
 				answerSheet: p.answerSheet,
 				gradingScheme: p.gradingScheme,
+				results: p.results,
 				maxScore: p.maxScore
 			}));
 
