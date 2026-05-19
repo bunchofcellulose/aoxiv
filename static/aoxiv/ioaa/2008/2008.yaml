@@ -15,14 +15,17 @@ problems:
     number: D1
     category: Data Analysis
     name: Virgo Cluster
+    maxScore: 100
   - id: ioaa-2008-d2
     number: D2
     category: Data Analysis
     name: Determination of stellar masses in a visual binary system
+    maxScore: 100
   - id: ioaa-2008-d3
     number: D3
     category: Data Analysis
     name: The Age of Meteorite
+    maxScore: 100
 
   - id: ioaa-2008-1
     number: S1
