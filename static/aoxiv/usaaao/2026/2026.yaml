@@ -11,6 +11,7 @@ papers:
   - category: "NAC"
     examDuration: 150
     link: "/aoxiv/usaaao/2026/paper.pdf"
+    solutionLink: "/aoxiv/usaaao/2026/solutions.pdf"
 
 problems:
   - id: "usaaao-2026-1"
