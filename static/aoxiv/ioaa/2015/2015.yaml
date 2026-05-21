@@ -2,6 +2,7 @@ name: 9th IOAA 2015
 location: Central Java, Indonesia
 
 papers:
+  - results: /aoxiv/ioaa/2015/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2015/da.pdf
     solutionLink: /aoxiv/ioaa/2015/da_sol.pdf
