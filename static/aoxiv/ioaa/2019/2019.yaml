@@ -1,6 +1,7 @@
 name: 13th IOAA 2019
 location: Keszthely, Hungary
 papers:
+  - results: /aoxiv/ioaa/2019/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2019/da.pdf
     solutionLink: /aoxiv/ioaa/2019/da_sol.pdf

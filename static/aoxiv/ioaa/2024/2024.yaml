@@ -1,6 +1,7 @@
 name: 17th IOAA 2024
 location: Rio de Janeiro, Brazil
 papers:
+  - results: /aoxiv/ioaa/2024/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2024/da.pdf
     solutionLink: /aoxiv/ioaa/2024/da_sol.pdf

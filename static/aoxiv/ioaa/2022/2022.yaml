@@ -1,6 +1,7 @@
 name: 15th IOAA 2022
 location: Kutaisi, Georgia
 papers:
+  - results: /aoxiv/ioaa/2022/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2022/da.pdf
     solutionLink: /aoxiv/ioaa/2022/da_sol.pdf

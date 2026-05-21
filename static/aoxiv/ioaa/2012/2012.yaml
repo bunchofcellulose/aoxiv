@@ -2,6 +2,7 @@ name: 6th IOAA 2012
 location: Rio de Janeiro, Brazil
 
 papers:
+  - results: /aoxiv/ioaa/2012/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2012/da.pdf
     majorCategory: Data Analysis

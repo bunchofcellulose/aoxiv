@@ -2379,6 +2379,7 @@
         "location": "Mumbai, India",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2025/results.pdf",
             "category": "Data Analysis",
             "instructions": "/aoxiv/ioaa/2025/da_instructions.pdf",
             "link": "/aoxiv/ioaa/2025/data_analysis_questions.pdf",
@@ -2387,6 +2388,7 @@
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2025/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2025/theory_questions.pdf",
             "solutionLink": "/aoxiv/ioaa/2025/theory_solution.pdf",
@@ -2527,6 +2529,7 @@
         "location": "Rio de Janeiro, Brazil",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2024/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2024/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2024/da_sol.pdf",
@@ -2534,6 +2537,7 @@
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2024/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2024/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2024/th_sol.pdf",
@@ -2668,12 +2672,14 @@
         "location": "Katowice, Poland",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2023/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2023/DA.pdf",
             "solutionLink": "/aoxiv/ioaa/2023/DA_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2023/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2023/theory.pdf",
             "solutionLink": "/aoxiv/ioaa/2023/th_solutions.pdf",
@@ -2835,12 +2841,14 @@
         "location": "Kutaisi, Georgia",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2022/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2022/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2022/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2022/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2022/Problems.pdf",
             "solutionLink": "/aoxiv/ioaa/2022/Solutions.pdf",
@@ -2990,12 +2998,15 @@
         "location": "Bogota, Colombia",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2021/results.pdf",
             "category": "Data Analysis",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2021/results.pdf",
             "category": "Theory",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "instructions": "/aoxiv/ioaa/2021/th_ins.pdf"
           }
         ],
         "mockExams": [
@@ -3111,7 +3122,7 @@
           {
             "id": "ioaa-2021-12",
             "number": "T7",
-            "name": "Menkalinan (Beta Aurigae)",
+            "name": "Menkalinan (β Aurigae)",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2021/Q7.pdf",
             "solutionLink": "/aoxiv/ioaa/2021/T7_Solution.pdf",
@@ -3197,11 +3208,13 @@
         "location": "Estonia",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2020/results.pdf",
             "category": "Data Analysis",
             "solutionLink": "/aoxiv/ioaa/2020/da.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2020/results.pdf",
             "category": "Theory",
             "solutionLink": "/aoxiv/ioaa/2020/th.pdf",
             "majorCategory": "Theory"
@@ -3318,6 +3331,7 @@
         "location": "Keszthely, Hungary",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2019/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2019/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2019/da_sol.pdf",
@@ -3325,6 +3339,7 @@
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2019/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2019/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2019/th_sol.pdf",
@@ -3622,12 +3637,14 @@
         "location": "Phuket, Thailand",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2017/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2017/DataAnalysis.pdf",
             "solutionLink": "/aoxiv/ioaa/2017/DataAnalysis_Solution.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2017/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2017/Theory.pdf",
             "solutionLink": "/aoxiv/ioaa/2017/Theory_Solution.pdf",
@@ -3777,12 +3794,14 @@
         "location": "Bhubaneswar, India",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2016/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2016/data_analysis.pdf",
             "solutionLink": "/aoxiv/ioaa/2016/data_analysis_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2016/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2016/theory.pdf",
             "solutionLink": "/aoxiv/ioaa/2016/theory_sol.pdf",
@@ -4107,12 +4126,14 @@
         "location": "Suceava, Gura Humorului, Romania",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2014/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2014/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2014/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2014/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2014/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2014/th_sol.pdf",
@@ -4310,11 +4331,13 @@
         "location": "Volos, Greece",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2013/results.pdf",
             "category": "Data Analysis",
             "solutionLink": "/aoxiv/ioaa/2013/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2013/results.pdf",
             "category": "Theory",
             "solutionLink": "/aoxiv/ioaa/2013/th_sol.pdf",
             "majorCategory": "Theory"
@@ -4497,11 +4520,13 @@
         "location": "Rio de Janeiro, Brazil",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2012/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2012/da.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2012/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2012/th.pdf",
             "majorCategory": "Theory"
@@ -5228,19 +5253,22 @@
             "id": "ioaa-2008-d1",
             "number": "D1",
             "name": "Virgo Cluster",
-            "category": "Data Analysis"
+            "category": "Data Analysis",
+            "maxScore": 100
           },
           {
             "id": "ioaa-2008-d2",
             "number": "D2",
             "name": "Determination of stellar masses in a visual binary system",
-            "category": "Data Analysis"
+            "category": "Data Analysis",
+            "maxScore": 100
           },
           {
             "id": "ioaa-2008-d3",
             "number": "D3",
             "name": "The Age of Meteorite",
-            "category": "Data Analysis"
+            "category": "Data Analysis",
+            "maxScore": 100
           },
           {
             "id": "ioaa-2008-1",
@@ -5358,12 +5386,14 @@
         "location": "Chiang Mai, Thailand",
         "papers": [
           {
+            "results": "/aoxiv/ioaa/2007/results.pdf",
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2007/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2007/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
+            "results": "/aoxiv/ioaa/2007/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2007/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2007/th_sol.pdf",
@@ -7368,7 +7398,8 @@
           {
             "category": "NAC",
             "examDuration": 150,
-            "link": "/aoxiv/usaaao/2026/paper.pdf"
+            "link": "/aoxiv/usaaao/2026/paper.pdf",
+            "solutionLink": "/aoxiv/usaaao/2026/solutions.pdf"
           }
         ],
         "mockExams": [

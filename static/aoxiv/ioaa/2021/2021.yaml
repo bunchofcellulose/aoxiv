@@ -1,10 +1,12 @@
 name: 14th IOAA 2021
 location: Bogota, Colombia
 papers:
+  - results: /aoxiv/ioaa/2021/results.pdf
   - category: Data Analysis
     majorCategory: Data Analysis
   - category: Theory
     majorCategory: Theory
+    instructions: /aoxiv/ioaa/2021/th_ins.pdf
 
 problems:
   - id: ioaa-2021-1
@@ -66,7 +68,7 @@ problems:
   - id: ioaa-2021-12
     number: T7
     category: Theory
-    name: Menkalinan (Beta Aurigae)
+    name: Menkalinan (β Aurigae)
     link: /aoxiv/ioaa/2021/Q7.pdf
     solutionLink: /aoxiv/ioaa/2021/T7_Solution.pdf
     maxScore: 13

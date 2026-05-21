@@ -1,6 +1,7 @@
 name: 10th IOAA 2016
 location: Bhubaneswar, India
 papers:
+  - results: /aoxiv/ioaa/2016/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2016/data_analysis.pdf
     solutionLink: /aoxiv/ioaa/2016/data_analysis_sol.pdf

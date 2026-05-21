@@ -1,6 +1,7 @@
 name: 11th IOAA 2017
 location: Phuket, Thailand
 papers:
+  - results: /aoxiv/ioaa/2017/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2017/DataAnalysis.pdf
     solutionLink: /aoxiv/ioaa/2017/DataAnalysis_Solution.pdf

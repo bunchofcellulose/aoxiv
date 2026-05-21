@@ -224,13 +224,14 @@
 
 										{#if showYearLevel(edition) && group.papers.length > 0}
 											<div class="mb-3 flex flex-wrap items-center gap-1.5">
-												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.results ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
+												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.instructions ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.results ?? ''}-${paper.examDuration ?? ''}`)}
 													{@const categoryLabel = paper.category ?? group.name}
 													{@const hasCategoryDownloads = !!(
 														paper.link ||
 														paper.solutionLink ||
 														paper.answerSheet ||
 														paper.gradingScheme ||
+														paper.instructions ||
 														paper.results ||
 														(paper.additionalFiles?.length ?? 0)
 													)}
@@ -263,14 +264,14 @@
 															>{paper.category ? `${paper.category} ` : ''}Solutions</Badge
 														>
 													{/if}
+													{#if paper.instructions}
+														<Badge variant="outline" href={paper.instructions} target="_blank"
+															>{paper.category ? `${paper.category} ` : ''}Instructions</Badge
+														>
+													{/if}
 													{#if paper.gradingScheme}
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
-														>
-													{/if}
-													{#if paper.results}
-														<Badge variant="outline" href={paper.results} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Results</Badge
 														>
 													{/if}
 													{#if paper.additionalFiles}
@@ -283,6 +284,11 @@
 													{#if paper.answerSheet}
 														<Badge variant="outline" href={paper.answerSheet} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Answer Sheet</Badge
+														>
+													{/if}
+													{#if paper.results}
+														<Badge variant="outline" href={paper.results} target="_blank"
+															>{paper.category ? `${paper.category} ` : ''}Results</Badge
 														>
 													{/if}
 												{/each}
@@ -330,6 +336,11 @@
 																	>Answer Sheet</Badge
 																>
 															{/if}
+															{#if problem.instructions}
+																<Badge variant="outline" href={problem.instructions} target="_blank"
+																	>Instructions</Badge
+																>
+															{/if}
 															{#if problem.gradingScheme}
 																<Badge
 																	variant="outline"
@@ -354,13 +365,14 @@
 									<div class="flex flex-col gap-3">
 										{#if showYearLevel(edition) && grouping.ungroupedPapers.length > 0}
 											<div class="flex flex-wrap items-center gap-1.5">
-												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.gradingScheme ?? ''}-${paper.results ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.examDuration ?? ''}`)}
+												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.instructions ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.results ?? ''}-${paper.examDuration ?? ''}`)}
 													{@const categoryLabel = paper.category ?? 'Paper'}
 													{@const hasCategoryDownloads = !!(
 														paper.link ||
 														paper.solutionLink ||
 														paper.answerSheet ||
 														paper.gradingScheme ||
+														paper.instructions ||
 														paper.results ||
 														(paper.additionalFiles?.length ?? 0)
 													)}
@@ -393,14 +405,14 @@
 															>{paper.category ? `${paper.category} ` : ''}Solutions</Badge
 														>
 													{/if}
+													{#if paper.instructions}
+														<Badge variant="outline" href={paper.instructions} target="_blank"
+															>{paper.category ? `${paper.category} ` : ''}Instructions</Badge
+														>
+													{/if}
 													{#if paper.gradingScheme}
 														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
-														>
-													{/if}
-													{#if paper.results}
-														<Badge variant="outline" href={paper.results} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Results</Badge
 														>
 													{/if}
 													{#if paper.additionalFiles}
@@ -413,6 +425,11 @@
 													{#if paper.answerSheet}
 														<Badge variant="outline" href={paper.answerSheet} target="_blank"
 															>{paper.category ? `${paper.category} ` : ''}Answer Sheet</Badge
+														>
+													{/if}
+													{#if paper.results}
+														<Badge variant="outline" href={paper.results} target="_blank"
+															>{paper.category ? `${paper.category} ` : ''}Results</Badge
 														>
 													{/if}
 												{/each}
@@ -453,6 +470,11 @@
 															{#if problem.solutionLink}
 																<Badge variant="outline" href={problem.solutionLink} target="_blank"
 																	>Solution</Badge
+																>
+															{/if}
+															{#if problem.instructions}
+																<Badge variant="outline" href={problem.instructions} target="_blank"
+																	>Instructions</Badge
 																>
 															{/if}
 															{#if problem.answerSheet}

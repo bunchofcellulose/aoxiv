@@ -2,6 +2,7 @@ name: 7th IOAA 2013
 location: Volos, Greece
 
 papers:
+  - results: /aoxiv/ioaa/2013/results.pdf
   - category: Data Analysis
     solutionLink: /aoxiv/ioaa/2013/da_sol.pdf
     majorCategory: Data Analysis

@@ -1,6 +1,7 @@
 name: 16th IOAA 2023
 location: Katowice, Poland
 papers:
+  - results: /aoxiv/ioaa/2023/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2023/DA.pdf
     solutionLink: /aoxiv/ioaa/2023/DA_sol.pdf

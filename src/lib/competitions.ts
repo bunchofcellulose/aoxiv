@@ -12,6 +12,7 @@ export interface Problem {
 	answerSheet?: string | undefined;
 	gradingScheme?: string | undefined;
 	results?: string | undefined;
+	instructions?: string | undefined;
 }
 
 export interface Paper {
@@ -21,6 +22,7 @@ export interface Paper {
 	answerSheet?: string;
 	gradingScheme?: string;
 	results?: string;
+	instructions?: string;
 	additionalFiles?: string[];
 	examDuration?: number;
 	scores?: number[][];

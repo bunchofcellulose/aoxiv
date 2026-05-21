@@ -1,6 +1,7 @@
 name: 18th IOAA 2025
 location: Mumbai, India
 papers:
+  - results: /aoxiv/ioaa/2025/results.pdf
   - category: Data Analysis
     instructions: /aoxiv/ioaa/2025/da_instructions.pdf
     link: /aoxiv/ioaa/2025/data_analysis_questions.pdf

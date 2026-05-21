@@ -2,6 +2,7 @@ name: 1st IOAA 2007
 location: Chiang Mai, Thailand
 
 papers:
+  - results: /aoxiv/ioaa/2007/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2007/da.pdf
     solutionLink: /aoxiv/ioaa/2007/da_sol.pdf
