@@ -4,7 +4,6 @@ papers:
   - results: /aoxiv/ioaa/2022/results.pdf
   - category: Data Analysis
     link: /aoxiv/ioaa/2022/da.pdf
-    solutionLink: /aoxiv/ioaa/2022/da_sol.pdf
     majorCategory: Data Analysis
   - category: Theory
     link: /aoxiv/ioaa/2022/Problems.pdf
@@ -15,11 +14,13 @@ problems:
     number: D1
     category: Data Analysis
     name: Gravitational wave astronomy
+    solutionLink: /aoxiv/ioaa/2022/da_1_sol.pdf
     maxScore: 45
   - id: ioaa-2022-2
     number: D2
     category: Data Analysis
     name: Galactic Surveys
+    solutionLink: /aoxiv/ioaa/2022/da_2_sol.pdf
     maxScore: 105
   - id: ioaa-2022-16
     number: T1
