@@ -3,7 +3,7 @@ name: "BAAO 2026"
 papers:
   - examDuration: 180
     link: "/aoxiv/baao/2026/paper.pdf"
-    solutionLink: "/aoxiv/baao/2026/solutions.pdf"
+    # solutionLink: "/aoxiv/baao/2026/solutions.pdf"
     category: "Round 2"
 
 problems:

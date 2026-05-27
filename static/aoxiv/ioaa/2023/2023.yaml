@@ -12,78 +12,78 @@ papers:
     majorCategory: Theory
 
 problems:
-  - id: ioaa-2023-1
+  - id: ioaa-2023-d1
     number: D1
     category: Data Analysis
     name: Distance to the Large Magellanic Cloud
     maxScore: 50
-  - id: ioaa-2023-2
+  - id: ioaa-2023-d2
     number: D2
     category: Data Analysis
     name: Isolated black hole
     maxScore: 75
-  - id: ioaa-2023-11
-    number: T6
-    category: Theory
-    name: Bolometer
-    maxScore: 13
-  - id: ioaa-2023-12
-    number: T7
-    category: Theory
-    name: Libration
-    maxScore: 20
-  - id: ioaa-2023-13
-    number: T8
-    category: Theory
-    name: Neutrinos
-    maxScore: 20
-  - id: ioaa-2023-14
-    number: T9
-    category: Theory
-    name: Second eclipse
-    maxScore: 20
-  - id: ioaa-2023-15
-    number: T10
-    category: Theory
-    name: Aldebaran
-    maxScore: 25
-  - id: ioaa-2023-16
-    number: T11
-    category: Theory Long
-    name: X-ray emission from galaxy clusters
-    maxScore: 30
-  - id: ioaa-2023-17
-    number: T12
-    category: Theory Long
-    name: DART
-    maxScore: 40
-  - id: ioaa-2023-18
-    number: T13
-    category: Theory Long
-    name: LISA
-    maxScore: 45
-  - id: ioaa-2023-19
+  - id: ioaa-2023-1
     number: T1
     category: Theory Short
     name: Neptune
     maxScore: 5
-  - id: ioaa-2023-20
+  - id: ioaa-2023-2
     number: T2
     category: Theory Short
     name: Magnetic field
     maxScore: 5
-  - id: ioaa-2023-21
+  - id: ioaa-2023-3
     number: T3
     category: Theory Short
     name: Microlensing
     maxScore: 5
-  - id: ioaa-2023-22
+  - id: ioaa-2023-4
     number: T4
     category: Theory Short
     name: Europa
     maxScore: 10
-  - id: ioaa-2023-23
+  - id: ioaa-2023-5
     number: T5
     category: Theory Short
     name: Dark Energy
     maxScore: 12
+  - id: ioaa-2023-6
+    number: T6
+    category: Theory
+    name: Bolometer
+    maxScore: 13
+  - id: ioaa-2023-7
+    number: T7
+    category: Theory
+    name: Libration
+    maxScore: 20
+  - id: ioaa-2023-8
+    number: T8
+    category: Theory
+    name: Neutrinos
+    maxScore: 20
+  - id: ioaa-2023-9
+    number: T9
+    category: Theory
+    name: Second eclipse
+    maxScore: 20
+  - id: ioaa-2023-10
+    number: T10
+    category: Theory
+    name: Aldebaran
+    maxScore: 25
+  - id: ioaa-2023-11
+    number: T11
+    category: Theory Long
+    name: X-ray emission from galaxy clusters
+    maxScore: 30
+  - id: ioaa-2023-12
+    number: T12
+    category: Theory Long
+    name: DART
+    maxScore: 40
+  - id: ioaa-2023-13
+    number: T13
+    category: Theory Long
+    name: LISA
+    maxScore: 45
