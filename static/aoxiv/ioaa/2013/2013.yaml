@@ -16,6 +16,10 @@ papers:
   - category: Observation
     solutionLink: /aoxiv/ioaa/2013/obs_sol.pdf
     majorCategory: Observation
+  
+  - category: Team Competition
+    link: /aoxiv/ioaa/2013/team.pdf
+    majorCategory: Team Competition
 
 problems:
   - id: ioaa-2013-d1
