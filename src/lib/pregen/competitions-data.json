@@ -5386,6 +5386,11 @@
             "category": "Theory",
             "solutionLink": "/aoxiv/ioaa/2013/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "solutionLink": "/aoxiv/ioaa/2013/obs_sol.pdf",
+            "majorCategory": "Observation"
           }
         ],
         "mockExams": [
@@ -5421,6 +5426,15 @@
               "ioaa-2013-l1",
               "ioaa-2013-l2",
               "ioaa-2013-l3"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2013-o1",
+              "ioaa-2013-o2",
+              "ioaa-2013-o3"
             ]
           }
         ],
@@ -5556,6 +5570,22 @@
             "number": "L3",
             "category": "Theory",
             "maxScore": 50
+          },
+          {
+            "id": "ioaa-2013-o1",
+            "number": "O1",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2013-o2",
+            "number": "O2",
+            "category": "Observation"
+          },
+          {
+            "id": "ioaa-2013-o3",
+            "number": "O3",
+            "category": "Observation"
           }
         ]
       },
@@ -5579,6 +5609,17 @@
             "link": "/aoxiv/ioaa/2012/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2012/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/aoxiv/ioaa/2012/obs.pdf",
+            "solutionLink": "/aoxiv/ioaa/2012/obs_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team Competition",
+            "link": "/aoxiv/ioaa/2012/team.pdf",
+            "majorCategory": "Team"
           }
         ],
         "mockExams": [
@@ -5738,13 +5779,36 @@
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2011/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2011/da_sol.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 150
           },
           {
             "category": "Theory",
             "link": "/aoxiv/ioaa/2011/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2011/th_sol.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Night Observation",
+            "link": "/aoxiv/ioaa/2011/no.pdf",
+            "solutionLink": "/aoxiv/ioaa/2011/no_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 80
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2011/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2011/op_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 80
+          },
+          {
+            "category": "Group Competition",
+            "link": "/aoxiv/ioaa/2011/grp.pdf",
+            "solutionLink": "/aoxiv/ioaa/2011/grp_sol.pdf",
+            "majorCategory": "Group",
+            "examDuration": 60
           }
         ],
         "mockExams": [
@@ -5778,6 +5842,33 @@
               "ioaa-2011-l1",
               "ioaa-2011-l2",
               "ioaa-2011-l3"
+            ]
+          },
+          {
+            "id": "night-observation",
+            "name": "Night Observation",
+            "problemIds": [
+              "ioaa-2011-no1",
+              "ioaa-2011-no2"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2011-op1",
+              "ioaa-2011-op2"
+            ]
+          },
+          {
+            "id": "group-competition",
+            "name": "Group Competition",
+            "problemIds": [
+              "ioaa-2011-g1",
+              "ioaa-2011-g2",
+              "ioaa-2011-g3",
+              "ioaa-2011-g4",
+              "ioaa-2011-g5"
             ]
           }
         ],
@@ -5903,6 +5994,69 @@
             "number": "L3",
             "category": "Theory",
             "maxScore": 30
+          },
+          {
+            "id": "ioaa-2011-no1",
+            "number": "NO1",
+            "name": "The Little Dolphin",
+            "category": "Night Observation",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2011-no2",
+            "number": "NO2",
+            "name": "Determining declination",
+            "category": "Night Observation",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2011-op1",
+            "number": "OP1",
+            "name": "Earth",
+            "category": "Planetarium",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2011-op2",
+            "number": "OP2",
+            "name": "Mars",
+            "category": "Planetarium",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2011-g1",
+            "number": "G1",
+            "name": "Constellations",
+            "category": "Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-g2",
+            "number": "G2",
+            "name": "Orbital motion",
+            "category": "Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-g3",
+            "number": "G3",
+            "name": "Identifying telescope components",
+            "category": "Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-g4",
+            "number": "G4",
+            "name": "Minimum of an eclipsing binary",
+            "category": "Group Competition",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2011-g5",
+            "number": "G5",
+            "name": "Nocturnal",
+            "category": "Group Competition",
+            "maxScore": 20
           }
         ]
       },
@@ -5921,6 +6075,11 @@
             "category": "Theory",
             "solutionLink": "/aoxiv/ioaa/2010/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "solutionLink": "/aoxiv/ioaa/2010/obs_sol.pdf",
+            "majorCategory": "Observation"
           }
         ],
         "mockExams": [
@@ -6091,6 +6250,12 @@
             "link": "/aoxiv/ioaa/2009/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2009/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/aoxiv/ioaa/2009/obs.pdf",
+            "solutionLink": "/aoxiv/ioaa/2009/obs_sol.pdf",
+            "majorCategory": "Observation"
           }
         ],
         "mockExams": [
@@ -6122,6 +6287,15 @@
               "ioaa-2009-s15",
               "ioaa-2009-l1",
               "ioaa-2009-l2"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2009-o1",
+              "ioaa-2009-o2",
+              "ioaa-2009-o3"
             ]
           }
         ],
@@ -6237,6 +6411,24 @@
             "name": "Apparent number density of stars in the Galaxy",
             "category": "Theory",
             "maxScore": 45
+          },
+          {
+            "id": "ioaa-2009-o1",
+            "number": "O1",
+            "category": "Observation",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2009-o2",
+            "number": "O2",
+            "category": "Observation",
+            "maxScore": 80
+          },
+          {
+            "id": "ioaa-2009-o3",
+            "number": "O3",
+            "category": "Observation",
+            "maxScore": 80
           }
         ]
       },
@@ -6255,7 +6447,22 @@
             "category": "Theory",
             "link": "/aoxiv/ioaa/2008/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2008/th_sol.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Naked Eye",
+            "link": "/aoxiv/ioaa/2008/ne.pdf",
+            "solutionLink": "/aoxiv/ioaa/2008/ne_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 15
+          },
+          {
+            "category": "Telescope",
+            "link": "/aoxiv/ioaa/2008/ot.pdf",
+            "solutionLink": "/aoxiv/ioaa/2008/ot_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 30
           }
         ],
         "mockExams": [
@@ -6290,6 +6497,20 @@
               "ioaa-2008-l1",
               "ioaa-2008-l2",
               "ioaa-2008-l3"
+            ]
+          },
+          {
+            "id": "naked-eye",
+            "name": "Naked Eye",
+            "problemIds": [
+              "ioaa-2008-ne"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaa-2008-ot"
             ]
           }
         ],
@@ -6422,6 +6643,18 @@
             "number": "L3",
             "category": "Theory",
             "maxScore": 100
+          },
+          {
+            "id": "ioaa-2008-ne",
+            "number": "NE",
+            "category": "Naked Eye",
+            "maxScore": 150
+          },
+          {
+            "id": "ioaa-2008-ot",
+            "number": "OT",
+            "category": "Telescope",
+            "maxScore": 100
           }
         ]
       },
@@ -6438,13 +6671,20 @@
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2007/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2007/da_sol.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 180
           },
           {
             "category": "Theory",
             "link": "/aoxiv/ioaa/2007/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2007/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/aoxiv/ioaa/2007/obs.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 40
           }
         ],
         "mockExams": [
@@ -6465,6 +6705,14 @@
               "ioaa-2007-t2",
               "ioaa-2007-t3",
               "ioaa-2007-t4"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2007-o1",
+              "ioaa-2007-o2"
             ]
           }
         ],
@@ -6512,6 +6760,21 @@
             "id": "ioaa-2007-t4",
             "number": "T4",
             "category": "Theory",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2007-o1",
+            "number": "O1",
+            "name": "Use the provided celestial object pointer",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2007-o2",
+            "number": "O2",
+            "name": "Use the provided binoculars",
+            "category": "Observation",
+            "solutionLink": "/aoxiv/ioaa/2007/obs_2_sol.pdf",
             "maxScore": 10
           }
         ]

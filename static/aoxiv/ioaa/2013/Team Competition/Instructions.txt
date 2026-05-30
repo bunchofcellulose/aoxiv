@@ -1,0 +1,12 @@
+The Team competition consists of a "crossword" puzzle of 13x17 squares, where the 
+answers are numbers obtained by answering astronomical questions. For example
+if the question is:
+
+How many planets in the Solar System?
+
+the answer is "8" and the students should enter 8 into the appropriate square on
+the crossword (using a computer and online software). (If a number has a decimal fraction part the decimal point is ignored, e.g. 3.14 becomes 314. In these cases the units and the required precision is given).
+
+There are no blank squares, and the horizontal and vertical "clues" (questions) overlap so that the students do not need to answer all of them to complete the task.
+There are 180 questions so that the team must work together. Some of the questions are simple, others require analysis or mathematics.
+

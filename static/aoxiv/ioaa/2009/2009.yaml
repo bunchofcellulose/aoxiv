@@ -6,10 +6,16 @@ papers:
     link: /aoxiv/ioaa/2009/da.pdf
     solutionLink: /aoxiv/ioaa/2009/da_sol.pdf
     majorCategory: Data Analysis
+
   - category: Theory
     link: /aoxiv/ioaa/2009/th.pdf
     solutionLink: /aoxiv/ioaa/2009/th_sol.pdf
     majorCategory: Theory
+  
+  - category: Observation
+    link: /aoxiv/ioaa/2009/obs.pdf
+    solutionLink: /aoxiv/ioaa/2009/obs_sol.pdf
+    majorCategory: Observation
 
 problems:
   - id: ioaa-2009-d1
@@ -89,3 +95,16 @@ problems:
     category: Theory
     name: Apparent number density of stars in the Galaxy
     maxScore: 45
+
+  - id: ioaa-2009-o1
+    number: O1
+    category: Observation
+    maxScore: 40
+  - id: ioaa-2009-o2
+    number: O2
+    category: Observation
+    maxScore: 80
+  - id: ioaa-2009-o3
+    number: O3
+    category: Observation
+    maxScore: 80

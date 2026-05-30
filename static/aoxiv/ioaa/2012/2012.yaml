@@ -14,6 +14,15 @@ papers:
     link: /aoxiv/ioaa/2012/th.pdf
     solutionLink: /aoxiv/ioaa/2012/th_sol.pdf
     majorCategory: Theory
+  
+  - category: Observation
+    link: /aoxiv/ioaa/2012/obs.pdf
+    solutionLink: /aoxiv/ioaa/2012/obs_sol.pdf
+    majorCategory: Observation
+
+  - category: Team Competition
+    link: /aoxiv/ioaa/2012/team.pdf
+    majorCategory: Team
 
 problems:
   - id: ioaa-2012-d1

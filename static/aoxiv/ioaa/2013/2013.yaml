@@ -12,6 +12,10 @@ papers:
   - category: Theory
     solutionLink: /aoxiv/ioaa/2013/th_sol.pdf
     majorCategory: Theory
+  
+  - category: Observation
+    solutionLink: /aoxiv/ioaa/2013/obs_sol.pdf
+    majorCategory: Observation
 
 problems:
   - id: ioaa-2013-d1
@@ -103,3 +107,14 @@ problems:
     number: L3
     category: Theory
     maxScore: 50
+  
+  - id: ioaa-2013-o1
+    number: O1
+    category: Observation
+    maxScore: 10
+  - id: ioaa-2013-o2
+    number: O2
+    category: Observation
+  - id: ioaa-2013-o3
+    number: O3
+    category: Observation

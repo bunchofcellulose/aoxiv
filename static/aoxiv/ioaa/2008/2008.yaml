@@ -6,10 +6,24 @@ papers:
     link: /aoxiv/ioaa/2008/da.pdf
     solutionLink: /aoxiv/ioaa/2008/da_sol.pdf
     majorCategory: Data Analysis
+
   - category: Theory
     link: /aoxiv/ioaa/2008/th.pdf
     solutionLink: /aoxiv/ioaa/2008/th_sol.pdf
     majorCategory: Theory
+    examDuration: 300
+  
+  - category: Naked Eye
+    link: /aoxiv/ioaa/2008/ne.pdf
+    solutionLink: /aoxiv/ioaa/2008/ne_sol.pdf
+    majorCategory: Observation
+    examDuration: 15
+  
+  - category: Telescope
+    link: /aoxiv/ioaa/2008/ot.pdf
+    solutionLink: /aoxiv/ioaa/2008/ot_sol.pdf
+    majorCategory: Observation
+    examDuration: 30
 
 problems:
   - id: ioaa-2008-d1
@@ -99,4 +113,13 @@ problems:
   - id: ioaa-2008-l3
     number: L3
     category: Theory
+    maxScore: 100
+
+  - id: ioaa-2008-ne
+    number: NE
+    category: Naked Eye
+    maxScore: 150
+  - id: ioaa-2008-ot
+    number: OT
+    category: Telescope
     maxScore: 100

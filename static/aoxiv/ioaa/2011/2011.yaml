@@ -6,10 +6,31 @@ papers:
     link: /aoxiv/ioaa/2011/da.pdf
     solutionLink: /aoxiv/ioaa/2011/da_sol.pdf
     majorCategory: Data Analysis
+    examDuration: 150
+
   - category: Theory
     link: /aoxiv/ioaa/2011/th.pdf
     solutionLink: /aoxiv/ioaa/2011/th_sol.pdf
     majorCategory: Theory
+    examDuration: 300
+  
+  - category: Night Observation
+    link: /aoxiv/ioaa/2011/no.pdf
+    solutionLink: /aoxiv/ioaa/2011/no_sol.pdf
+    majorCategory: Observation
+    examDuration: 80
+  
+  - category: Planetarium
+    link: /aoxiv/ioaa/2011/op.pdf
+    solutionLink: /aoxiv/ioaa/2011/op_sol.pdf
+    majorCategory: Observation
+    examDuration: 80
+  
+  - category: Group Competition
+    link: /aoxiv/ioaa/2011/grp.pdf
+    solutionLink: /aoxiv/ioaa/2011/grp_sol.pdf
+    majorCategory: Group
+    examDuration: 60
 
 problems:
   - id: ioaa-2011-d1
@@ -95,3 +116,51 @@ problems:
     number: L3
     category: Theory
     maxScore: 30
+
+  - id: ioaa-2011-no1
+    number: NO1
+    category: Night Observation
+    name: The Little Dolphin
+    maxScore: 25
+  - id: ioaa-2011-no2
+    number: NO2
+    category: Night Observation
+    name: Determining declination
+    maxScore: 25
+  
+  - id: ioaa-2011-op1
+    number: OP1
+    category: Planetarium
+    name: Earth
+    maxScore: 25
+  - id: ioaa-2011-op2
+    number: OP2
+    category: Planetarium
+    name: Mars
+    maxScore: 25
+  
+  - id: ioaa-2011-g1
+    number: G1
+    category: Group Competition
+    name: Constellations
+    maxScore: 20
+  - id: ioaa-2011-g2
+    number: G2
+    category: Group Competition
+    name: Orbital motion
+    maxScore: 20
+  - id: ioaa-2011-g3
+    number: G3
+    category: Group Competition
+    name: Identifying telescope components
+    maxScore: 20
+  - id: ioaa-2011-g4
+    number: G4
+    category: Group Competition
+    name: Minimum of an eclipsing binary
+    maxScore: 20
+  - id: ioaa-2011-g5
+    number: G5
+    category: Group Competition
+    name: Nocturnal
+    maxScore: 20

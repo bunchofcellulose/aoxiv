@@ -10,6 +10,10 @@ papers:
   - category: Theory
     solutionLink: /aoxiv/ioaa/2010/th_sol.pdf
     majorCategory: Theory
+  
+  - category: Observation
+    solutionLink: /aoxiv/ioaa/2010/obs_sol.pdf
+    majorCategory: Observation
 
 problems:
   - id: ioaa-2010-d1
