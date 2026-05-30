@@ -23,63 +23,59 @@ problems:
     name: Venus
     maxScore: 60
 
-  - id: ioaa-2009-1
+  - id: ioaa-2009-s1
     number: S1
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-2
+  - id: ioaa-2009-s2
     number: S2
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-3
+  - id: ioaa-2009-s3
     number: S3
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-4
+  - id: ioaa-2009-s4
     number: S4
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-5
+  - id: ioaa-2009-s5
     number: S5
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-6
+  - id: ioaa-2009-s6
     number: S6
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-7
+  - id: ioaa-2009-s7
     number: S7
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-8
+  - id: ioaa-2009-s8
     number: S8
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-9
+  - id: ioaa-2009-s9
     number: S9
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-10
-    number: S10
-    category: Theory
-    maxScore: 10
-  - id: ioaa-2009-11
+  - id: ioaa-2009-s11
     number: S11
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-12
+  - id: ioaa-2009-s12
     number: S12
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-13
+  - id: ioaa-2009-s13
     number: S13
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-14
+  - id: ioaa-2009-s14
     number: S14
     category: Theory
     maxScore: 10
-  - id: ioaa-2009-15
+  - id: ioaa-2009-s15
     number: S15
     category: Theory
     maxScore: 10

@@ -6,8 +6,8 @@ papers:
     link: /aoxiv/ioaa/2010/da.pdf
     solutionLink: /aoxiv/ioaa/2010/da_sol.pdf
     majorCategory: Data Analysis
+
   - category: Theory
-    # link: /aoxiv/ioaa/2010/th.pdf
     solutionLink: /aoxiv/ioaa/2010/th_sol.pdf
     majorCategory: Theory
 
@@ -23,63 +23,63 @@ problems:
     name: Light curves of stars
     maxScore: 35
 
-  - id: ioaa-2010-1
+  - id: ioaa-2010-s1
     number: S1
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-2
+  - id: ioaa-2010-s2
     number: S2
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-3
+  - id: ioaa-2010-s3
     number: S3
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-4
+  - id: ioaa-2010-s4
     number: S4
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-5
+  - id: ioaa-2010-s5
     number: S5
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-6
+  - id: ioaa-2010-s6
     number: S6
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-7
+  - id: ioaa-2010-s7
     number: S7
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-8
+  - id: ioaa-2010-s8
     number: S8
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-9
+  - id: ioaa-2010-s9
     number: S9
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-10
+  - id: ioaa-2010-s10
     number: S10
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-11
+  - id: ioaa-2010-s11
     number: S11
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-12
+  - id: ioaa-2010-s12
     number: S12
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-13
+  - id: ioaa-2010-s13
     number: S13
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-14
+  - id: ioaa-2010-s14
     number: S14
     category: Theory
     maxScore: 10
-  - id: ioaa-2010-15
+  - id: ioaa-2010-s15
     number: S15
     category: Theory
     maxScore: 10

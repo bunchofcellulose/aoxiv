@@ -4,10 +4,11 @@ location: Silesia, Poland
 papers:
   - category: Data Analysis
     link: /aoxiv/ioaa/2011/da.pdf
+    solutionLink: /aoxiv/ioaa/2011/da_sol.pdf
     majorCategory: Data Analysis
   - category: Theory
     link: /aoxiv/ioaa/2011/th.pdf
-    # solutionLink: /aoxiv/ioaa/2011/th_sol.pdf
+    solutionLink: /aoxiv/ioaa/2011/th_sol.pdf
     majorCategory: Theory
 
 problems:
@@ -22,63 +23,63 @@ problems:
     name: Weighing a galaxy
     maxScore: 25
 
-  - id: ioaa-2011-1
+  - id: ioaa-2011-s1
     number: S1
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-2
+  - id: ioaa-2011-s2
     number: S2
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-3
+  - id: ioaa-2011-s3
     number: S3
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-4
+  - id: ioaa-2011-s4
     number: S4
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-5
+  - id: ioaa-2011-s5
     number: S5
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-6
+  - id: ioaa-2011-s6
     number: S6
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-7
+  - id: ioaa-2011-s7
     number: S7
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-8
+  - id: ioaa-2011-s8
     number: S8
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-9
+  - id: ioaa-2011-s9
     number: S9
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-10
+  - id: ioaa-2011-s10
     number: S10
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-11
+  - id: ioaa-2011-s11
     number: S11
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-12
+  - id: ioaa-2011-s12
     number: S12
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-13
+  - id: ioaa-2011-s13
     number: S13
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-14
+  - id: ioaa-2011-s14
     number: S14
     category: Theory
     maxScore: 10
-  - id: ioaa-2011-15
+  - id: ioaa-2011-s15
     number: S15
     category: Theory
     maxScore: 10

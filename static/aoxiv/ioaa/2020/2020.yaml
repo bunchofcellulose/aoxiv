@@ -2,65 +2,88 @@ name: 1st GeCAA 2020
 location: Estonia
 papers:
   - results: /aoxiv/ioaa/2020/results.pdf
+    category: Overall
+
   - category: Data Analysis
-    solutionLink: /aoxiv/ioaa/2020/da.pdf
+    solutionLink: /aoxiv/ioaa/2020/da_sol.pdf
     majorCategory: Data Analysis
+
   - category: Theory
-    solutionLink: /aoxiv/ioaa/2020/th.pdf
+    solutionLink: /aoxiv/ioaa/2020/th_sol.pdf
     majorCategory: Theory
+
+  - category: Observation
+    solutionLink: /aoxiv/ioaa/2020/obs_sol.pdf
+    majorCategory: Observation
+  
+  - category: Team Exam
+    majorCategory: Team
+
 problems:
-  - id: ioaa-2020-1
+  - id: ioaa-2020-d1
     number: D1
     category: Data Analysis
     name: AGN
     maxScore: 15
-  - id: ioaa-2020-2
+  - id: ioaa-2020-d2
     number: D2
     category: Data Analysis
     name: Minor Planet
     maxScore: 50
-  - id: ioaa-2020-3
+  - id: ioaa-2020-d3
     number: D3
     category: Data Analysis
     name: Hypervelocity Stars
     maxScore: 55
-  - id: ioaa-2020-9
+  - id: ioaa-2020-t1
     number: T1
     category: Theory
     name: Astrophotography
     maxScore: 10
-  - id: ioaa-2020-10
+  - id: ioaa-2020-t2
     number: T2
     category: Theory
     name: Flat Earth
     maxScore: 10
-  - id: ioaa-2020-11
+  - id: ioaa-2020-t3
     number: T3
     category: Theory
     name: Mirror
     maxScore: 10
-  - id: ioaa-2020-12
+  - id: ioaa-2020-t4
     number: T4
     category: Theory
     name: Light Curves
     maxScore: 20
-  - id: ioaa-2020-13
+  - id: ioaa-2020-t5
     number: T5
     category: Theory
     name: HII region
     maxScore: 20
-  - id: ioaa-2020-14
+  - id: ioaa-2020-t6
     number: T6
     category: Theory
     name: Occultation of an X-ray Source
     maxScore: 20
-  - id: ioaa-2020-15
+  - id: ioaa-2020-t7
     number: T7
     category: Theory
     name: Radiant of a Meteor Shower
     maxScore: 30
-  - id: ioaa-2020-16
+  - id: ioaa-2020-t8
     number: T8
     category: Theory
     name: Jupiter's Great Red Spot
     maxScore: 30
+
+  - id: ioaa-2020-g1
+    number: G1
+    category: Team Exam
+    name: Measuring the distance to the Moon
+    link: /aoxiv/ioaa/2020/team_1.pdf
+  - id: ioaa-2020-g2
+    number: G2
+    category: Team Exam
+    name: Spectral Distortions of the CMB
+    link: /aoxiv/ioaa/2020/team_2.pdf
+    solutionLink: /aoxiv/ioaa/2020/team_2_sol.pdf

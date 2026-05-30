@@ -3,10 +3,13 @@ location: Chiang Mai, Thailand
 
 papers:
   - results: /aoxiv/ioaa/2007/results.pdf
+    category: Overall
+
   - category: Data Analysis
     link: /aoxiv/ioaa/2007/da.pdf
     solutionLink: /aoxiv/ioaa/2007/da_sol.pdf
     majorCategory: Data Analysis
+
   - category: Theory
     link: /aoxiv/ioaa/2007/th.pdf
     solutionLink: /aoxiv/ioaa/2007/th_sol.pdf
@@ -29,19 +32,19 @@ problems:
     name: Solar System objects
     maxScore: 8
 
-  - id: ioaa-2007-1
+  - id: ioaa-2007-t1
     number: T1
     category: Theory
     maxScore: 30
-  - id: ioaa-2007-2
+  - id: ioaa-2007-t2
     number: T2
     category: Theory
     maxScore: 10
-  - id: ioaa-2007-3
+  - id: ioaa-2007-t3
     number: T3
     category: Theory
     maxScore: 10
-  - id: ioaa-2007-4
+  - id: ioaa-2007-t4
     number: T4
     category: Theory
     maxScore: 10

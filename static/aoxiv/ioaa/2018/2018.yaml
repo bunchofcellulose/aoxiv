@@ -6,72 +6,118 @@ papers:
     solutionLink: /aoxiv/ioaa/2018/18_da_sol.pdf
     answerSheet: /aoxiv/ioaa/2018/18_da_anssheet.pdf
     majorCategory: Data Analysis
+    examDuration: 300
+
   - category: Theory
     link: /aoxiv/ioaa/2018/18_th.pdf
     solutionLink: /aoxiv/ioaa/2018/18_th_sol.pdf
     answerSheet: /aoxiv/ioaa/2018/18_th_anssheet.pdf
     majorCategory: Theory
+    examDuration: 300
+  
+  - category: Day Observation
+    link: /aoxiv/ioaa/2018/18_do.pdf
+    solutionLink: /aoxiv/ioaa/2018/18_do_sol.pdf
+    majorCategory: Observation
+    examDuration: 60
+  
+  - category: Night Observation
+    link: /aoxiv/ioaa/2018/18_no.pdf
+    solutionLink: /aoxiv/ioaa/2018/18_no_sol.pdf
+    majorCategory: Observation
+    examDuration: 10
+  
+  - category: Team Competition
+    link: /aoxiv/ioaa/2018/18_team.pdf
+    majorCategory: Team
+
 problems:
-  - id: ioaa-2018-1
+  - id: ioaa-2018-d1
     number: D1
     category: Data Analysis
     name: Dust and Young Stars in Star-forming Galaxies
-  - id: ioaa-2018-2
+  - id: ioaa-2018-d2
     number: D2
     category: Data Analysis
     name: Compact Object in a Binary System
-  - id: ioaa-2018-9
+
+  - id: ioaa-2018-t1
     number: T1
     category: Theory
     name: Super Luminal Galaxies
     maxScore: 10
-  - id: ioaa-2018-10
+  - id: ioaa-2018-t2
     number: T2
     category: Theory
     name: Distance
     maxScore: 10
-  - id: ioaa-2018-11
+  - id: ioaa-2018-t3
     number: T3
     category: Theory
     name: Atmospheric Refraction
     maxScore: 10
-  - id: ioaa-2018-12
+  - id: ioaa-2018-t4
     number: T4
     category: Theory
     name: Height of a Hill
     maxScore: 10
-  - id: ioaa-2018-13
+  - id: ioaa-2018-t5
     number: T5
     category: Theory
     name: Sidereal Time
     maxScore: 10
-  - id: ioaa-2018-14
+  - id: ioaa-2018-t6
     number: T6
     category: Theory
     name: Observe the Sun with FAST
     maxScore: 25
-  - id: ioaa-2018-15
+  - id: ioaa-2018-t7
     number: T7
     category: Theory
     name: Sunspot
     maxScore: 25
-  - id: ioaa-2018-16
+  - id: ioaa-2018-t8
     number: T8
     category: Theory
     name: A Possible Dark Matter Deficient Galaxy
     maxScore: 25
-  - id: ioaa-2018-17
+  - id: ioaa-2018-t9
     number: T9
     category: Theory
     name: Radio Galaxy
     maxScore: 25
-  - id: ioaa-2018-18
+  - id: ioaa-2018-t10
     number: T10
     category: Theory
     name: Vega and Altair
     maxScore: 75
-  - id: ioaa-2018-19
+  - id: ioaa-2018-t11
     number: T11
     category: Theory
     name: Thermal History of the Universe
     maxScore: 75
+  
+  - id: ioaa-2018-o1
+    number: O1
+    category: Day Observation
+    maxScore: 40
+  - id: ioaa-2018-o2
+    number: O2
+    category: Day Observation
+    maxScore: 20
+  - id: ioaa-2018-o3
+    number: O3
+    category: Day Observation
+    maxScore: 20
+  - id: ioaa-2018-o4
+    number: O4
+    category: Day Observation
+    maxScore: 20
+  - id: ioaa-2018-o5
+    number: O5
+    category: Night Observation
+    maxScore: 10
+  - id: ioaa-2018-o6
+    number: O6
+    category: Night Observation
+    maxScore: 40

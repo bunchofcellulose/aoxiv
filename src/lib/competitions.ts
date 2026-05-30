@@ -13,6 +13,7 @@ export interface Problem {
 	gradingScheme?: string | undefined;
 	results?: string | undefined;
 	instructions?: string | undefined;
+	additionalFiles?: string[] | undefined;
 }
 
 export interface Paper {

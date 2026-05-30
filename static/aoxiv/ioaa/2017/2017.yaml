@@ -2,87 +2,144 @@ name: 11th IOAA 2017
 location: Phuket, Thailand
 papers:
   - results: /aoxiv/ioaa/2017/results.pdf
+    category: Overall
+
   - category: Data Analysis
     link: /aoxiv/ioaa/2017/DataAnalysis.pdf
     solutionLink: /aoxiv/ioaa/2017/DataAnalysis_Solution.pdf
     majorCategory: Data Analysis
+    examDuration: 240
+
   - category: Theory
     link: /aoxiv/ioaa/2017/Theory.pdf
     solutionLink: /aoxiv/ioaa/2017/Theory_Solution.pdf
     majorCategory: Theory
+    examDuration: 300
+  
+  - category: Day Observation
+    link: /aoxiv/ioaa/2017/do.pdf
+    majorCategory: Observation
+  
+  - category: Night Observation
+    link: /aoxiv/ioaa/2017/no.pdf
+    majorCategory: Observation
+  
+  - category: Team Competition
+    link: /aoxiv/ioaa/2017/team.pdf
+    majorCategory: Team
+
 problems:
-  - id: ioaa-2017-1
+  - id: ioaa-2017-d1
     number: D1
     category: Data Analysis
     name: Calibrating distance ladder to the LMC
     maxScore: 75
-  - id: ioaa-2017-2
+  - id: ioaa-2017-d2
     number: D2
     category: Data Analysis
     name: The search for dark matter
     maxScore: 75
-  - id: ioaa-2017-14
+
+  - id: ioaa-2017-t1
     number: T1
     category: Theory
     name: The Large Magellanic Cloud in Phuket
     maxScore: 10
-  - id: ioaa-2017-15
+  - id: ioaa-2017-t2
     number: T2
     category: Theory
     name: Earth's Transit Zone
     maxScore: 10
-  - id: ioaa-2017-16
+  - id: ioaa-2017-t3
     number: T3
     category: Theory
     name: The Milky Way's Distant Outer Arm
     maxScore: 10
-  - id: ioaa-2017-17
+  - id: ioaa-2017-t4
     number: T4
     category: Theory
     name: 21-cm HI galaxy survey
     maxScore: 10
-  - id: ioaa-2017-18
+  - id: ioaa-2017-t5
     number: T5
     category: Theory
     name: A Synchronous Satellite
     maxScore: 10
-  - id: ioaa-2017-19
+  - id: ioaa-2017-t6
     number: T6
     category: Theory
     name: Supernova 1987A
     maxScore: 15
-  - id: ioaa-2017-20
+  - id: ioaa-2017-t7
     number: T7
     category: Theory
     name: Life on Other Planets
     maxScore: 20
-  - id: ioaa-2017-21
+  - id: ioaa-2017-t8
     number: T8
     category: Theory
     name: The Star of Bethlehem
     maxScore: 20
-  - id: ioaa-2017-22
+  - id: ioaa-2017-t9
     number: T9
     category: Theory
     name: Galactic Outflow
     maxScore: 20
-  - id: ioaa-2017-23
+  - id: ioaa-2017-t10
     number: T10
     category: Theory
     name: GOTO
     maxScore: 25
-  - id: ioaa-2017-24
+  - id: ioaa-2017-t11
     number: T11
     category: Theory
     name: Mass of the Local Group
     maxScore: 50
-  - id: ioaa-2017-25
+  - id: ioaa-2017-t12
     number: T12
     category: Theory
     name: Shipwreck
     maxScore: 40
-  - id: ioaa-2017-26
+  - id: ioaa-2017-t13
     number: T13
     category: Theory
     name: Exomoon
     maxScore: 60
+  
+  - id: ioaa-2017-p1
+    number: P1
+    category: Day Observation
+    name: Naked eye observation from real sky with panoramic 360-degrees image
+  - id: ioaa-2017-p2
+    number: P2
+    category: Day Observation
+    name: Planet observation with real sky in panoramic 360-degrees image
+  - id: ioaa-2017-p3
+    number: P3
+    category: Day Observation
+    name: Analemma on another planet
+  - id: ioaa-2017-p4
+    number: P4
+    category: Day Observation
+    name: Exposure time from a Photograph
+  - id: ioaa-2017-p5
+    number: P5
+    category: Day Observation
+    name: Find True North from Moon shadow
+  - id: ioaa-2017-p6
+    number: P6
+    category: Day Observation
+    name: Find Latitude from Equatorial Mount
+  - id: ioaa-2017-p7
+    number: P7
+    category: Day Observation
+    name: Precision Polar Alignment with Equatorial Mount
+
+  - id: ioaa-2017-n1
+    number: N1
+    category: Night Observation
+    name: Observation with Equatorial Mount Telescope
+  - id: ioaa-2017-n2
+    number: N2
+    category: Night Observation
+    name: Observation with Dobsonian Telescope

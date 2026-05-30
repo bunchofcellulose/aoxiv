@@ -2,95 +2,154 @@ name: 13th IOAA 2019
 location: Keszthely, Hungary
 papers:
   - results: /aoxiv/ioaa/2019/results.pdf
+    category: Overall
+
   - category: Data Analysis
     link: /aoxiv/ioaa/2019/da.pdf
     solutionLink: /aoxiv/ioaa/2019/da_sol.pdf
     answerSheet: /aoxiv/ioaa/2019/da_ans.pdf
     majorCategory: Data Analysis
+
   - category: Theory
     link: /aoxiv/ioaa/2019/th.pdf
     solutionLink: /aoxiv/ioaa/2019/th_sol.pdf
     answerSheet: /aoxiv/ioaa/2019/th_ans.pdf
     majorCategory: Theory
+
+  - category: Observation
+    link: /aoxiv/ioaa/2019/ot.pdf
+    solutionLink: /aoxiv/ioaa/2019/ot_sol.pdf
+    majorCategory: Observation
+  
+  - category: Planetarium
+    link: /aoxiv/ioaa/2019/op.pdf
+    solutionLink: /aoxiv/ioaa/2019/op_sol.pdf
+    majorCategory: Observation
+    examDuration: 45
+  
+  - category: Team Competition
+    solutionLink: /aoxiv/ioaa/2019/team_sol.pdf
+    majorCategory: Team
+
 problems:
-  - id: ioaa-2019-1
+  - id: ioaa-2019-d1
     number: D1
     category: Data Analysis
     name: Photometry and spectroscopy of Nova Del 2013
     maxScore: 60
-  - id: ioaa-2019-2
+  - id: ioaa-2019-d2
     number: D2
     category: Data Analysis
     name: Triply eclipsing hierarchical triple stellar system
     maxScore: 90
-  - id: ioaa-2019-7
+
+  - id: ioaa-2019-t1
     number: T1
     category: Theory
     name: Famous astronomical events
     maxScore: 10
-  - id: ioaa-2019-8
+  - id: ioaa-2019-t2
     number: T2
     category: Theory
     name: Deflection of radio photons in the gravitational field of solar system
       bodies
     maxScore: 10
-  - id: ioaa-2019-9
+  - id: ioaa-2019-t3
     number: T3
     category: Theory
     name: The supermassive black hole in the centre of Milky Way Galaxy and M87
     maxScore: 10
-  - id: ioaa-2019-10
+  - id: ioaa-2019-t4
     number: T4
     category: Theory
     name: Improving a common reflecting telescope
     maxScore: 10
-  - id: ioaa-2019-11
+  - id: ioaa-2019-t5
     number: T5
     category: Theory
     name: Cosmic Microwave Background Oven
     maxScore: 10
-  - id: ioaa-2019-12
+  - id: ioaa-2019-t6
     number: T6
     category: Theory
     name: The height of the chimney of Tiszaujvaros power plant
     maxScore: 20
-  - id: ioaa-2019-13
+  - id: ioaa-2019-t7
     number: T7
     category: Theory
     name: Effect of sunspots on solar irradiance
     maxScore: 20
-  - id: ioaa-2019-14
+  - id: ioaa-2019-t8
     number: T8
     category: Theory
     name: Amplitude variation of RR Lyrae stars
     maxScore: 20
-  - id: ioaa-2019-15
+  - id: ioaa-2019-t9
     number: T9
     category: Theory
     name: Distance of the Lagrangian point L2 of the Earth-Moon system
     maxScore: 20
-  - id: ioaa-2019-16
+  - id: ioaa-2019-t10
     number: T10
     category: Theory
     name: South to East to North
     maxScore: 20
-  - id: ioaa-2019-17
+  - id: ioaa-2019-t11
     number: T11
     category: Theory
     name: Identification of light curves of selected variable star types
     maxScore: 25
-  - id: ioaa-2019-18
+  - id: ioaa-2019-t12
     number: T12
     category: Theory
     name: Distance to a Near-Earth Asteroid
     maxScore: 25
-  - id: ioaa-2019-19
+  - id: ioaa-2019-t13
     number: T13
     category: Theory
     name: Distance to the Coma galaxy cluster
     maxScore: 40
-  - id: ioaa-2019-20
+  - id: ioaa-2019-t14
     number: T14
     category: Theory
     name: Photographing a nanosatellite
     maxScore: 60
+  
+  - id: ioaa-2019-ot1
+    number: OT1
+    category: Observation
+    name: Finderscope Alignment
+    maxScore: 5
+  - id: ioaa-2019-ot2
+    number: OT2
+    category: Observation
+    name: Observation of Saturn
+    maxScore: 15
+  - id: ioaa-2019-ot3
+    number: OT3
+    category: Observation
+    name: M57 - Field of view
+    maxScore: 10
+  - id: ioaa-2019-ot4
+    number: OT4
+    category: Observation
+    name: 'Variable star: AF Cygni'
+    maxScore: 15
+  - id: ioaa-2019-ot5
+    number: OT5
+    category: Observation
+    name: Naked eye brightness estimation
+    maxScore: 5
+  
+  - id: ioaa-2019-op1
+    number: OP1
+    category: Planetarium
+    maxScore: 44
+  - id: ioaa-2019-op2
+    number: OP2
+    category: Planetarium
+    maxScore: 28
+  - id: ioaa-2019-op3
+    number: OP3
+    category: Planetarium
+    maxScore: 28

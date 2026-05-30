@@ -3,14 +3,36 @@ location: Suceava, Gura Humorului, Romania
 
 papers:
   - results: /aoxiv/ioaa/2014/results.pdf
+    category: Overall
+
   - category: Data Analysis
     link: /aoxiv/ioaa/2014/da.pdf
     solutionLink: /aoxiv/ioaa/2014/da_sol.pdf
     majorCategory: Data Analysis
+
   - category: Theory
     link: /aoxiv/ioaa/2014/th.pdf
     solutionLink: /aoxiv/ioaa/2014/th_sol.pdf
     majorCategory: Theory
+
+  - category: Night Observation
+    link: /aoxiv/ioaa/2014/no.pdf
+    majorCategory: Observation
+  
+  - category: Sky Map
+    link: /aoxiv/ioaa/2014/om.pdf
+    solutionLink: /aoxiv/ioaa/2014/om_sol.pdf
+    majorCategory: Observation
+  
+  - category: Planetarium
+    link: /aoxiv/ioaa/2014/op.pdf
+    solutionLink: /aoxiv/ioaa/2014/op_sol.pdf
+    majorCategory: Observation
+  
+  - category: Team Competition
+    link: /aoxiv/ioaa/2014/team.pdf
+    solutionLink: /aoxiv/ioaa/2014/team_sol.pdf
+    majorCategory: Team Competition
 
 problems:
   - id: ioaa-2014-d1
@@ -29,77 +51,77 @@ problems:
     name: Observer on an extrasolar planet
     maxScore: 25
 
-  - id: ioaa-2014-1
+  - id: ioaa-2014-s1
     number: S1
     category: Theory
     name: Lagrange Points
     maxScore: 10
-  - id: ioaa-2014-2
+  - id: ioaa-2014-s2
     number: S2
     category: Theory
     name: Sun gravitational catastrophe!
     maxScore: 10
-  - id: ioaa-2014-3
+  - id: ioaa-2014-s3
     number: S3
     category: Theory
     name: Cosmic radiation
     maxScore: 10
-  - id: ioaa-2014-4
+  - id: ioaa-2014-s4
     number: S4
     category: Theory
     name: Mass function of a visual binary stellar system
     maxScore: 10
-  - id: ioaa-2014-5
+  - id: ioaa-2014-s5
     number: S5
     category: Theory
     name: The Astronaut saved by... ice from a can!
     maxScore: 10
-  - id: ioaa-2014-6
+  - id: ioaa-2014-s6
     number: S6
     category: Theory
     name: The life-time of a star from the main sequence
     maxScore: 10
-  - id: ioaa-2014-7
+  - id: ioaa-2014-s7
     number: S7
     category: Theory
     name: The effective temperature on the surface of a star
     maxScore: 10
-  - id: ioaa-2014-8
+  - id: ioaa-2014-s8
     number: S8
     category: Theory
     name: Gradient temperatures
     maxScore: 10
-  - id: ioaa-2014-9
+  - id: ioaa-2014-s9
     number: S9
     category: Theory
     name: Pressure of light
     maxScore: 10
-  - id: ioaa-2014-10
+  - id: ioaa-2014-s10
     number: S10
     category: Theory
     name: The density of the star
     maxScore: 10
-  - id: ioaa-2014-11
+  - id: ioaa-2014-s11
     number: S11
     category: Theory
     name: Space-ship orbiting the Sun
     maxScore: 10
-  - id: ioaa-2014-12
+  - id: ioaa-2014-s12
     number: S12
     category: Theory
     name: The Vega star in the mirror
     maxScore: 10
-  - id: ioaa-2014-13
+  - id: ioaa-2014-s13
     number: S13
     category: Theory
     name: Stars with Romanian names
     maxScore: 10
-  - id: ioaa-2014-14
+  - id: ioaa-2014-s14
     number: S14
     category: Theory
     name: Apparent magnitude of the Moon
     maxScore: 10
-  - id: ioaa-2014-15
+  - id: ioaa-2014-s15
     number: S15
     category: Theory
     name: Absolute magnitude of a cepheid

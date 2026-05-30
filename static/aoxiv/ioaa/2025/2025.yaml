@@ -2,83 +2,175 @@ name: 18th IOAA 2025
 location: Mumbai, India
 papers:
   - results: /aoxiv/ioaa/2025/results.pdf
+    category: Overall
   - category: Data Analysis
     instructions: /aoxiv/ioaa/2025/da_instructions.pdf
     link: /aoxiv/ioaa/2025/data_analysis_questions.pdf
     solutionLink: /aoxiv/ioaa/2025/data_analysis_solutions.pdf
     answerSheet: /aoxiv/ioaa/2025/data_analysis_summary_answersheet.pdf
     majorCategory: Data Analysis
+    examDuration: 240
+
   - category: Theory
     link: /aoxiv/ioaa/2025/theory_questions.pdf
     solutionLink: /aoxiv/ioaa/2025/theory_solution.pdf
     answerSheet: /aoxiv/ioaa/2025/theory_summary_answersheet.pdf
     instructions: /aoxiv/ioaa/2025/theory_instructions.pdf
     majorCategory: Theory
+    examDuration: 300
+
+  - category: Group Competition
+    link: /aoxiv/ioaa/2025/grp.pdf
+    solutionLink: /aoxiv/ioaa/2025/grp_sol.pdf
+    answerSheet: /aoxiv/ioaa/2025/grp_anssheet.pdf
+    additionalFiles: [/aoxiv/ioaa/2025/grp_writeup.pdf]
+    majorCategory: Group
+
+  - category: Telescope
+    link: /aoxiv/ioaa/2025/ot.pdf
+    solutionLink: /aoxiv/ioaa/2025/ot_sol.pdf
+    answerSheet: /aoxiv/ioaa/2025/ot_anssheet.pdf
+    instructions: /aoxiv/ioaa/2025/ot_ins.pdf
+    majorCategory: Observation
+    examDuration: 60
+
+  - category: Sky Map
+    link: /aoxiv/ioaa/2025/om.pdf
+    solutionLink: /aoxiv/ioaa/2025/om_sol.pdf
+    answerSheet: /aoxiv/ioaa/2025/om_anssheet.pdf
+    instructions: /aoxiv/ioaa/2025/om_ins.pdf
+    majorCategory: Observation
+    examDuration: 60
+
+  - category: Planetarium
+    link: /aoxiv/ioaa/2025/op.pdf
+    solutionLink: /aoxiv/ioaa/2025/op_sol.pdf
+    answerSheet: /aoxiv/ioaa/2025/op_anssheet.pdf
+    instructions: /aoxiv/ioaa/2025/op_ins.pdf
+    majorCategory: Observation
+    examDuration: 60
+
 problems:
-  - id: ioaa-2025-1
+  - id: ioaa-2025-d1
     number: D1
     category: Data Analysis
     name: 30 Years of Exoplanets
     maxScore: 90
-  - id: ioaa-2025-2
+  - id: ioaa-2025-d2
     number: D2
     category: Data Analysis
     name: Predicting arrival times of coronal mass ejections on Earth
     maxScore: 60
-  - id: ioaa-2025-17
+
+  - id: ioaa-2025-t1
     number: T1
     category: Theory
     name: Daksha Mission
     maxScore: 10
-  - id: ioaa-2025-18
+  - id: ioaa-2025-t2
     number: T2
     category: Theory
     name: Makar-Sankranti
     maxScore: 10
-  - id: ioaa-2025-19
+  - id: ioaa-2025-t3
     number: T3
     category: Theory
     name: Gravitational Waves
     maxScore: 15
-  - id: ioaa-2025-20
+  - id: ioaa-2025-t4
     number: T4
     category: Theory
     name: Balmer Decrement
-  - id: ioaa-2025-21
+  - id: ioaa-2025-t5
     number: T5
     category: Theory
     name: Quasars
     maxScore: 20
-  - id: ioaa-2025-22
+  - id: ioaa-2025-t6
     number: T6
     category: Theory
     name: Galactic Rotation
     maxScore: 20
-  - id: ioaa-2025-23
+  - id: ioaa-2025-t7
     number: T7
     category: Theory
     name: Neutron Star Binary
     maxScore: 20
-  - id: ioaa-2025-24
+  - id: ioaa-2025-t8
     number: T8
     category: Theory
     name: Shadow of a black hole
     maxScore: 20
-  - id: ioaa-2025-25
+  - id: ioaa-2025-t9
     number: T9
     category: Theory
     name: Atmospheric Seeing
-  - id: ioaa-2025-26
+  - id: ioaa-2025-t10
     number: T10
     category: Theory
     name: Big Bang Nucleosynthesis
     maxScore: 35
-  - id: ioaa-2025-27
+  - id: ioaa-2025-t11
     number: T11
     category: Theory
     name: Stars through graphs
     maxScore: 50
-  - id: ioaa-2025-28
+  - id: ioaa-2025-t12
     number: T12
     category: Theory
     name: Hawking Radiation from Black Holes
+    maxScore: 50
+  
+  - id: ioaa-2025-ot1
+    number: OT1
+    category: Telescope
+    name: Discovery of ‘Z’
+    link: /aoxiv/ioaa/2025/ot_1.pdf
+    solutionLink: /aoxiv/ioaa/2025/ot_1_sol.pdf
+    maxScore: 25
+  - id: ioaa-2025-ot2
+    number: OT2
+    category: Telescope
+    name: Lensing Time Delay
+    maxScore: 25
+  
+  - id: ioaa-2025-om1
+    number: OM1
+    category: Sky Map
+    name: Know your Sky
+    link: /aoxiv/ioaa/2025/om_1.pdf
+    solutionLink: /aoxiv/ioaa/2025/om_1_sol.pdf
+    maxScore: 16
+  - id: ioaa-2025-om2
+    number: OM2
+    category: Sky Map
+    name: Know your Grid
+    link: /aoxiv/ioaa/2025/om_2.pdf
+    solutionLink: /aoxiv/ioaa/2025/om_2_sol.pdf
+    maxScore: 16
+  - id: ioaa-2025-om3
+    number: OM3
+    category: Sky Map
+    name: Know your Time
+    maxScore: 18
+  
+  - id: ioaa-2025-op1
+    number: OP1
+    category: Planetarium
+    name: Hypothesized Planet in the Solar System
+    link: /aoxiv/ioaa/2025/op_1.pdf
+    solutionLink: /aoxiv/ioaa/2025/op_1_sol.pdf
+    maxScore: 25
+  - id: ioaa-2025-op2
+    number: OP2
+    category: Planetarium
+    name: Observer on a Ringed Planet
+    link: /aoxiv/ioaa/2025/op_2.pdf
+    solutionLink: /aoxiv/ioaa/2025/op_2_sol.pdf
+    maxScore: 25
+  
+  - id: ioaa-2025-g1
+    number: G1
+    category: Group Competition
+    name: Uncovering Galactic dark matter using a radio telescope
+    maxScore: 150

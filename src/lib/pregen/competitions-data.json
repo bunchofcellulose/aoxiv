@@ -584,6 +584,48 @@
     "url": "https://www.bpho.org.uk/baao/Papers/R2/",
     "editions": [
       {
+        "year": 2026,
+        "name": "BAAO 2026",
+        "papers": [
+          {
+            "examDuration": 180,
+            "link": "/aoxiv/baao/2026/paper.pdf",
+            "category": "Round 2"
+          }
+        ],
+        "mockExams": [
+          {
+            "id": "round-2",
+            "name": "Round 2",
+            "problemIds": [
+              "baao-2026-1",
+              "baao-2026-2",
+              "baao-2026-3"
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "id": "baao-2026-1",
+            "number": "1",
+            "name": "Poynting Into a Star",
+            "category": "Round 2"
+          },
+          {
+            "id": "baao-2026-2",
+            "number": "2",
+            "name": "Seeing the First Stars",
+            "category": "Round 2"
+          },
+          {
+            "id": "baao-2026-3",
+            "number": "3",
+            "name": "Television Satellite",
+            "category": "Round 2"
+          }
+        ]
+      },
+      {
         "year": 2025,
         "name": "BAAO 2025",
         "papers": [
@@ -2380,21 +2422,62 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2025/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "instructions": "/aoxiv/ioaa/2025/da_instructions.pdf",
             "link": "/aoxiv/ioaa/2025/data_analysis_questions.pdf",
             "solutionLink": "/aoxiv/ioaa/2025/data_analysis_solutions.pdf",
             "answerSheet": "/aoxiv/ioaa/2025/data_analysis_summary_answersheet.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 240
           },
           {
-            "results": "/aoxiv/ioaa/2025/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2025/theory_questions.pdf",
             "solutionLink": "/aoxiv/ioaa/2025/theory_solution.pdf",
             "answerSheet": "/aoxiv/ioaa/2025/theory_summary_answersheet.pdf",
             "instructions": "/aoxiv/ioaa/2025/theory_instructions.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Group Competition",
+            "link": "/aoxiv/ioaa/2025/grp.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/grp_sol.pdf",
+            "answerSheet": "/aoxiv/ioaa/2025/grp_anssheet.pdf",
+            "additionalFiles": [
+              "/aoxiv/ioaa/2025/grp_writeup.pdf"
+            ],
+            "majorCategory": "Group"
+          },
+          {
+            "category": "Telescope",
+            "link": "/aoxiv/ioaa/2025/ot.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/ot_sol.pdf",
+            "answerSheet": "/aoxiv/ioaa/2025/ot_anssheet.pdf",
+            "instructions": "/aoxiv/ioaa/2025/ot_ins.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 60
+          },
+          {
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaa/2025/om.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/om_sol.pdf",
+            "answerSheet": "/aoxiv/ioaa/2025/om_anssheet.pdf",
+            "instructions": "/aoxiv/ioaa/2025/om_ins.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 60
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2025/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/op_sol.pdf",
+            "answerSheet": "/aoxiv/ioaa/2025/op_anssheet.pdf",
+            "instructions": "/aoxiv/ioaa/2025/op_ins.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 60
           }
         ],
         "mockExams": [
@@ -2402,124 +2485,223 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2025-1",
-              "ioaa-2025-2"
+              "ioaa-2025-d1",
+              "ioaa-2025-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2025-17",
-              "ioaa-2025-18",
-              "ioaa-2025-19",
-              "ioaa-2025-20",
-              "ioaa-2025-21",
-              "ioaa-2025-22",
-              "ioaa-2025-23",
-              "ioaa-2025-24",
-              "ioaa-2025-25",
-              "ioaa-2025-26",
-              "ioaa-2025-27",
-              "ioaa-2025-28"
+              "ioaa-2025-t1",
+              "ioaa-2025-t2",
+              "ioaa-2025-t3",
+              "ioaa-2025-t4",
+              "ioaa-2025-t5",
+              "ioaa-2025-t6",
+              "ioaa-2025-t7",
+              "ioaa-2025-t8",
+              "ioaa-2025-t9",
+              "ioaa-2025-t10",
+              "ioaa-2025-t11",
+              "ioaa-2025-t12"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaa-2025-ot1",
+              "ioaa-2025-ot2"
+            ]
+          },
+          {
+            "id": "sky-map",
+            "name": "Sky Map",
+            "problemIds": [
+              "ioaa-2025-om1",
+              "ioaa-2025-om2",
+              "ioaa-2025-om3"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2025-op1",
+              "ioaa-2025-op2"
+            ]
+          },
+          {
+            "id": "group-competition",
+            "name": "Group Competition",
+            "problemIds": [
+              "ioaa-2025-g1"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2025-1",
+            "id": "ioaa-2025-d1",
             "number": "D1",
             "name": "30 Years of Exoplanets",
             "category": "Data Analysis",
             "maxScore": 90
           },
           {
-            "id": "ioaa-2025-2",
+            "id": "ioaa-2025-d2",
             "number": "D2",
             "name": "Predicting arrival times of coronal mass ejections on Earth",
             "category": "Data Analysis",
             "maxScore": 60
           },
           {
-            "id": "ioaa-2025-17",
+            "id": "ioaa-2025-t1",
             "number": "T1",
             "name": "Daksha Mission",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2025-18",
+            "id": "ioaa-2025-t2",
             "number": "T2",
             "name": "Makar-Sankranti",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2025-19",
+            "id": "ioaa-2025-t3",
             "number": "T3",
             "name": "Gravitational Waves",
             "category": "Theory",
             "maxScore": 15
           },
           {
-            "id": "ioaa-2025-20",
+            "id": "ioaa-2025-t4",
             "number": "T4",
             "name": "Balmer Decrement",
             "category": "Theory"
           },
           {
-            "id": "ioaa-2025-21",
+            "id": "ioaa-2025-t5",
             "number": "T5",
             "name": "Quasars",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2025-22",
+            "id": "ioaa-2025-t6",
             "number": "T6",
             "name": "Galactic Rotation",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2025-23",
+            "id": "ioaa-2025-t7",
             "number": "T7",
             "name": "Neutron Star Binary",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2025-24",
+            "id": "ioaa-2025-t8",
             "number": "T8",
             "name": "Shadow of a black hole",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2025-25",
+            "id": "ioaa-2025-t9",
             "number": "T9",
             "name": "Atmospheric Seeing",
             "category": "Theory"
           },
           {
-            "id": "ioaa-2025-26",
+            "id": "ioaa-2025-t10",
             "number": "T10",
             "name": "Big Bang Nucleosynthesis",
             "category": "Theory",
             "maxScore": 35
           },
           {
-            "id": "ioaa-2025-27",
+            "id": "ioaa-2025-t11",
             "number": "T11",
             "name": "Stars through graphs",
             "category": "Theory",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2025-28",
+            "id": "ioaa-2025-t12",
             "number": "T12",
             "name": "Hawking Radiation from Black Holes",
-            "category": "Theory"
+            "category": "Theory",
+            "maxScore": 50
+          },
+          {
+            "id": "ioaa-2025-ot1",
+            "number": "OT1",
+            "name": "Discovery of ‘Z’",
+            "category": "Telescope",
+            "link": "/aoxiv/ioaa/2025/ot_1.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/ot_1_sol.pdf",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2025-ot2",
+            "number": "OT2",
+            "name": "Lensing Time Delay",
+            "category": "Telescope",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2025-om1",
+            "number": "OM1",
+            "name": "Know your Sky",
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaa/2025/om_1.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/om_1_sol.pdf",
+            "maxScore": 16
+          },
+          {
+            "id": "ioaa-2025-om2",
+            "number": "OM2",
+            "name": "Know your Grid",
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaa/2025/om_2.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/om_2_sol.pdf",
+            "maxScore": 16
+          },
+          {
+            "id": "ioaa-2025-om3",
+            "number": "OM3",
+            "name": "Know your Time",
+            "category": "Sky Map",
+            "maxScore": 18
+          },
+          {
+            "id": "ioaa-2025-op1",
+            "number": "OP1",
+            "name": "Hypothesized Planet in the Solar System",
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2025/op_1.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/op_1_sol.pdf",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2025-op2",
+            "number": "OP2",
+            "name": "Observer on a Ringed Planet",
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2025/op_2.pdf",
+            "solutionLink": "/aoxiv/ioaa/2025/op_2_sol.pdf",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2025-g1",
+            "number": "G1",
+            "name": "Uncovering Galactic dark matter using a radio telescope",
+            "category": "Group Competition",
+            "maxScore": 150
           }
         ]
       },
@@ -2530,19 +2712,42 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2024/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2024/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2024/da_sol.pdf",
             "gradingScheme": "/aoxiv/ioaa/2024/da_grading_scheme.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 180
           },
           {
-            "results": "/aoxiv/ioaa/2024/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2024/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2024/th_sol.pdf",
             "gradingScheme": "/aoxiv/ioaa/2024/th_grading_scheme.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Group Competition",
+            "link": "/aoxiv/ioaa/2024/grp.pdf",
+            "majorCategory": "Group"
+          },
+          {
+            "category": "Observation",
+            "link": "/aoxiv/ioaa/2024/obs.pdf",
+            "solutionLink": "/aoxiv/ioaa/2024/obs_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 40
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2024/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2024/op_sol.pdf",
+            "majorCategory": "Planetarium",
+            "examDuration": 20
           }
         ],
         "mockExams": [
@@ -2550,119 +2755,173 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2024-1",
-              "ioaa-2024-2"
+              "ioaa-2024-d1",
+              "ioaa-2024-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2024-10",
-              "ioaa-2024-11",
-              "ioaa-2024-12",
-              "ioaa-2024-13",
-              "ioaa-2024-14",
-              "ioaa-2024-15",
-              "ioaa-2024-16",
-              "ioaa-2024-17",
-              "ioaa-2024-18",
-              "ioaa-2024-19",
-              "ioaa-2024-20"
+              "ioaa-2024-t1",
+              "ioaa-2024-t2",
+              "ioaa-2024-t3",
+              "ioaa-2024-t4",
+              "ioaa-2024-t5",
+              "ioaa-2024-t6",
+              "ioaa-2024-t7",
+              "ioaa-2024-t8",
+              "ioaa-2024-t9",
+              "ioaa-2024-t10",
+              "ioaa-2024-t11"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2024-op1",
+              "ioaa-2024-op2"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2024-ot1",
+              "ioaa-2024-ot2",
+              "ioaa-2024-ot3",
+              "ioaa-2024-ot4"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2024-1",
+            "id": "ioaa-2024-d1",
             "number": "D1",
             "name": "Photometric comparison of surveys",
             "category": "Data Analysis",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2024-2",
+            "id": "ioaa-2024-d2",
             "number": "D2",
             "name": "Shapley Hypothesis",
             "category": "Data Analysis",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2024-10",
+            "id": "ioaa-2024-t1",
             "number": "T1",
             "name": "Sundial",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2024-11",
+            "id": "ioaa-2024-t2",
             "number": "T2",
             "name": "Galaxy Cluster",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2024-12",
+            "id": "ioaa-2024-t3",
             "number": "T3",
             "name": "Asteroid",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2024-13",
+            "id": "ioaa-2024-t4",
             "number": "T4",
             "name": "White Dwarf",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2024-14",
+            "id": "ioaa-2024-t5",
             "number": "T5",
             "name": "CMB",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2024-15",
+            "id": "ioaa-2024-t6",
             "number": "T6",
             "name": "Cluster Photography",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2024-16",
+            "id": "ioaa-2024-t7",
             "number": "T7",
             "name": "Castaway",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2024-17",
+            "id": "ioaa-2024-t8",
             "number": "T8",
             "name": "Binary Hardening",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2024-18",
+            "id": "ioaa-2024-t9",
             "number": "T9",
             "name": "Physics of Accretion",
             "category": "Theory",
             "maxScore": 35
           },
           {
-            "id": "ioaa-2024-19",
+            "id": "ioaa-2024-t10",
             "number": "T10",
             "name": "Greatest Eclipse",
             "category": "Theory",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2024-20",
+            "id": "ioaa-2024-t11",
             "number": "T11",
             "name": "Ground Tracks",
             "category": "Theory",
             "maxScore": 75
+          },
+          {
+            "id": "ioaa-2024-op1",
+            "number": "OP1",
+            "category": "Planetarium",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-op2",
+            "number": "OP2",
+            "category": "Planetarium",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2024-ot1",
+            "number": "OT1",
+            "category": "Observation",
+            "maxScore": 18
+          },
+          {
+            "id": "ioaa-2024-ot2",
+            "number": "OT2",
+            "category": "Observation",
+            "maxScore": 16
+          },
+          {
+            "id": "ioaa-2024-ot3",
+            "number": "OT3",
+            "category": "Observation",
+            "maxScore": 11
+          },
+          {
+            "id": "ioaa-2024-ot4",
+            "number": "OT4",
+            "category": "Observation",
+            "maxScore": 30
           }
         ]
       },
@@ -2673,17 +2932,41 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2023/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2023/DA.pdf",
             "solutionLink": "/aoxiv/ioaa/2023/DA_sol.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 180
           },
           {
-            "results": "/aoxiv/ioaa/2023/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2023/theory.pdf",
             "solutionLink": "/aoxiv/ioaa/2023/th_solutions.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Telescope",
+            "link": "/aoxiv/ioaa/2023/ot.pdf",
+            "solutionLink": "/aoxiv/ioaa/2023/ot_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 90
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2023/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2023/op_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 90
+          },
+          {
+            "category": "Group Competition",
+            "link": "/aoxiv/ioaa/2023/grp.pdf",
+            "majorCategory": "Group",
+            "examDuration": 90
           }
         ],
         "mockExams": [
@@ -2691,147 +2974,263 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2023-1",
-              "ioaa-2023-2"
-            ]
-          },
-          {
-            "id": "theory",
-            "name": "Theory",
-            "problemIds": [
-              "ioaa-2023-11",
-              "ioaa-2023-12",
-              "ioaa-2023-13",
-              "ioaa-2023-14",
-              "ioaa-2023-15"
-            ]
-          },
-          {
-            "id": "theory-long",
-            "name": "Theory Long",
-            "problemIds": [
-              "ioaa-2023-16",
-              "ioaa-2023-17",
-              "ioaa-2023-18"
+              "ioaa-2023-d1",
+              "ioaa-2023-d2"
             ]
           },
           {
             "id": "theory-short",
             "name": "Theory Short",
             "problemIds": [
-              "ioaa-2023-19",
-              "ioaa-2023-20",
-              "ioaa-2023-21",
-              "ioaa-2023-22",
-              "ioaa-2023-23"
+              "ioaa-2023-t1",
+              "ioaa-2023-t2",
+              "ioaa-2023-t3",
+              "ioaa-2023-t4",
+              "ioaa-2023-t5"
+            ]
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "problemIds": [
+              "ioaa-2023-t6",
+              "ioaa-2023-t7",
+              "ioaa-2023-t8",
+              "ioaa-2023-t9",
+              "ioaa-2023-t10"
+            ]
+          },
+          {
+            "id": "theory-long",
+            "name": "Theory Long",
+            "problemIds": [
+              "ioaa-2023-t11",
+              "ioaa-2023-t12",
+              "ioaa-2023-t13"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaa-2023-ot1",
+              "ioaa-2023-ot2",
+              "ioaa-2023-ot3",
+              "ioaa-2023-ot4"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2023-op1",
+              "ioaa-2023-op2",
+              "ioaa-2023-op3"
+            ]
+          },
+          {
+            "id": "group-competition",
+            "name": "Group Competition",
+            "problemIds": [
+              "ioaa-2023-g1",
+              "ioaa-2023-g2",
+              "ioaa-2023-g3",
+              "ioaa-2023-g4",
+              "ioaa-2023-g5",
+              "ioaa-2023-g6"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2023-1",
+            "id": "ioaa-2023-d1",
             "number": "D1",
             "name": "Distance to the Large Magellanic Cloud",
             "category": "Data Analysis",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2023-2",
+            "id": "ioaa-2023-d2",
             "number": "D2",
             "name": "Isolated black hole",
             "category": "Data Analysis",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2023-11",
-            "number": "T6",
-            "name": "Bolometer",
-            "category": "Theory",
-            "maxScore": 13
-          },
-          {
-            "id": "ioaa-2023-12",
-            "number": "T7",
-            "name": "Libration",
-            "category": "Theory",
-            "maxScore": 20
-          },
-          {
-            "id": "ioaa-2023-13",
-            "number": "T8",
-            "name": "Neutrinos",
-            "category": "Theory",
-            "maxScore": 20
-          },
-          {
-            "id": "ioaa-2023-14",
-            "number": "T9",
-            "name": "Second eclipse",
-            "category": "Theory",
-            "maxScore": 20
-          },
-          {
-            "id": "ioaa-2023-15",
-            "number": "T10",
-            "name": "Aldebaran",
-            "category": "Theory",
-            "maxScore": 25
-          },
-          {
-            "id": "ioaa-2023-16",
-            "number": "T11",
-            "name": "X-ray emission from galaxy clusters",
-            "category": "Theory Long",
-            "maxScore": 30
-          },
-          {
-            "id": "ioaa-2023-17",
-            "number": "T12",
-            "name": "DART",
-            "category": "Theory Long",
-            "maxScore": 40
-          },
-          {
-            "id": "ioaa-2023-18",
-            "number": "T13",
-            "name": "LISA",
-            "category": "Theory Long",
-            "maxScore": 45
-          },
-          {
-            "id": "ioaa-2023-19",
+            "id": "ioaa-2023-t1",
             "number": "T1",
             "name": "Neptune",
             "category": "Theory Short",
             "maxScore": 5
           },
           {
-            "id": "ioaa-2023-20",
+            "id": "ioaa-2023-t2",
             "number": "T2",
             "name": "Magnetic field",
             "category": "Theory Short",
             "maxScore": 5
           },
           {
-            "id": "ioaa-2023-21",
+            "id": "ioaa-2023-t3",
             "number": "T3",
             "name": "Microlensing",
             "category": "Theory Short",
             "maxScore": 5
           },
           {
-            "id": "ioaa-2023-22",
+            "id": "ioaa-2023-t4",
             "number": "T4",
             "name": "Europa",
             "category": "Theory Short",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2023-23",
+            "id": "ioaa-2023-t5",
             "number": "T5",
             "name": "Dark Energy",
             "category": "Theory Short",
             "maxScore": 12
+          },
+          {
+            "id": "ioaa-2023-t6",
+            "number": "T6",
+            "name": "Bolometer",
+            "category": "Theory",
+            "maxScore": 13
+          },
+          {
+            "id": "ioaa-2023-t7",
+            "number": "T7",
+            "name": "Libration",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-t8",
+            "number": "T8",
+            "name": "Neutrinos",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-t9",
+            "number": "T9",
+            "name": "Second eclipse",
+            "category": "Theory",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-t10",
+            "number": "T10",
+            "name": "Aldebaran",
+            "category": "Theory",
+            "maxScore": 25
+          },
+          {
+            "id": "ioaa-2023-t11",
+            "number": "T11",
+            "name": "X-ray emission from galaxy clusters",
+            "category": "Theory Long",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2023-t12",
+            "number": "T12",
+            "name": "DART",
+            "category": "Theory Long",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2023-t13",
+            "number": "T13",
+            "name": "LISA",
+            "category": "Theory Long",
+            "maxScore": 45
+          },
+          {
+            "id": "ioaa-2023-ot1",
+            "number": "OT1",
+            "name": "Asteroid occultation",
+            "category": "Telescope",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2023-ot2",
+            "number": "OT2",
+            "name": "Starlink",
+            "category": "Telescope",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2023-ot3",
+            "number": "OT3",
+            "name": "Planetary Moons",
+            "category": "Telescope",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2023-ot4",
+            "number": "OT4",
+            "name": "Supernova",
+            "category": "Telescope",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2023-op1",
+            "number": "OP1",
+            "name": "Knowledge of the sky",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-op2",
+            "number": "OP2",
+            "name": "Retrograde Mars",
+            "category": "Planetarium",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2023-op3",
+            "number": "OP3",
+            "name": "TRAPPIST-1",
+            "category": "Planetarium",
+            "maxScore": 35
+          },
+          {
+            "id": "ioaa-2023-g1",
+            "number": "G1",
+            "name": "Crossword",
+            "category": "Group Competition"
+          },
+          {
+            "id": "ioaa-2023-g2",
+            "number": "G2",
+            "name": "Reply to Arecibo Message",
+            "category": "Group Competition"
+          },
+          {
+            "id": "ioaa-2023-g3",
+            "number": "G3",
+            "name": "Mars loop",
+            "category": "Group Competition"
+          },
+          {
+            "id": "ioaa-2023-g4",
+            "number": "G4",
+            "name": "Southern Pole Star",
+            "category": "Group Competition"
+          },
+          {
+            "id": "ioaa-2023-g5",
+            "number": "G5",
+            "name": "Astrolabe",
+            "category": "Group Competition"
+          },
+          {
+            "id": "ioaa-2023-g6",
+            "number": "G6",
+            "name": "Saros",
+            "category": "Group Competition"
           }
         ]
       },
@@ -2842,17 +3241,33 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2022/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2022/da.pdf",
-            "solutionLink": "/aoxiv/ioaa/2022/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2022/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2022/Problems.pdf",
             "solutionLink": "/aoxiv/ioaa/2022/Solutions.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Day Observation",
+            "link": "/aoxiv/ioaa/2022/do.pdf",
+            "solutionLink": "/aoxiv/ioaa/2022/ot_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Night Observation",
+            "link": "/aoxiv/ioaa/2022/no.pdf",
+            "solutionLink": "/aoxiv/ioaa/2022/ot_sol.pdf",
+            "additionalFiles": [
+              "/aoxiv/ioaa/2022/no_alternative.pdf"
+            ],
+            "majorCategory": "Observation"
           }
         ],
         "mockExams": [
@@ -2860,135 +3275,212 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2022-1",
-              "ioaa-2022-2"
+              "ioaa-2022-d1",
+              "ioaa-2022-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2022-16",
-              "ioaa-2022-17",
-              "ioaa-2022-18",
-              "ioaa-2022-19",
-              "ioaa-2022-20",
-              "ioaa-2022-21",
-              "ioaa-2022-22",
-              "ioaa-2022-23",
-              "ioaa-2022-24",
-              "ioaa-2022-25",
-              "ioaa-2022-26",
-              "ioaa-2022-27",
-              "ioaa-2022-28"
+              "ioaa-2022-t1",
+              "ioaa-2022-t2",
+              "ioaa-2022-t3",
+              "ioaa-2022-t4",
+              "ioaa-2022-t5",
+              "ioaa-2022-t6",
+              "ioaa-2022-t7",
+              "ioaa-2022-t8",
+              "ioaa-2022-t9",
+              "ioaa-2022-t10",
+              "ioaa-2022-t11",
+              "ioaa-2022-t12",
+              "ioaa-2022-t13"
+            ]
+          },
+          {
+            "id": "night-observation",
+            "name": "Night Observation",
+            "problemIds": [
+              "ioaa-2022-o1",
+              "ioaa-2022-o2",
+              "ioaa-2022-o3",
+              "ioaa-2022-o4"
+            ]
+          },
+          {
+            "id": "day-observation",
+            "name": "Day Observation",
+            "problemIds": [
+              "ioaa-2022-o5",
+              "ioaa-2022-o6",
+              "ioaa-2022-o7",
+              "ioaa-2022-o8",
+              "ioaa-2022-o9"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2022-1",
+            "id": "ioaa-2022-d1",
             "number": "D1",
             "name": "Gravitational wave astronomy",
             "category": "Data Analysis",
+            "solutionLink": "/aoxiv/ioaa/2022/da_1_sol.pdf",
             "maxScore": 45
           },
           {
-            "id": "ioaa-2022-2",
+            "id": "ioaa-2022-d2",
             "number": "D2",
             "name": "Galactic Surveys",
             "category": "Data Analysis",
+            "solutionLink": "/aoxiv/ioaa/2022/da_2_sol.pdf",
             "maxScore": 105
           },
           {
-            "id": "ioaa-2022-16",
+            "id": "ioaa-2022-t1",
             "number": "T1",
             "name": "Planck's units",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2022-17",
+            "id": "ioaa-2022-t2",
             "number": "T2",
             "name": "Circumbinary planet",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2022-18",
+            "id": "ioaa-2022-t3",
             "number": "T3",
             "name": "Expanding ring nebula",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2022-19",
+            "id": "ioaa-2022-t4",
             "number": "T4",
             "name": "Journey Between Galaxies",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2022-20",
+            "id": "ioaa-2022-t5",
             "number": "T5",
             "name": "Flaring protoplanetary disk",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2022-21",
+            "id": "ioaa-2022-t6",
             "number": "T6",
             "name": "Photometry of Binary stars",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2022-22",
+            "id": "ioaa-2022-t7",
             "number": "T7",
             "name": "Georgia to Georgia",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2022-23",
+            "id": "ioaa-2022-t8",
             "number": "T8",
             "name": "Ring of a planet",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2022-24",
+            "id": "ioaa-2022-t9",
             "number": "T9",
             "name": "Solar Retrograde Motion on Mercury",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2022-25",
+            "id": "ioaa-2022-t10",
             "number": "T10",
             "name": "Accretion",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2022-26",
+            "id": "ioaa-2022-t11",
             "number": "T11",
             "name": "Dyson Sphere",
             "category": "Theory",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2022-27",
+            "id": "ioaa-2022-t12",
             "number": "T12",
             "name": "Co-orbital satellites",
             "category": "Theory",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2022-28",
+            "id": "ioaa-2022-t13",
             "number": "T13",
             "name": "Relativistic Beaming",
             "category": "Theory",
             "maxScore": 50
+          },
+          {
+            "id": "ioaa-2022-o1",
+            "number": "O1",
+            "category": "Night Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2022-o2",
+            "number": "O2",
+            "category": "Night Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2022-o3",
+            "number": "O3",
+            "category": "Night Observation",
+            "maxScore": 6
+          },
+          {
+            "id": "ioaa-2022-o4",
+            "number": "O4",
+            "category": "Night Observation",
+            "maxScore": 14
+          },
+          {
+            "id": "ioaa-2022-o5",
+            "number": "O5",
+            "category": "Day Observation",
+            "maxScore": 9
+          },
+          {
+            "id": "ioaa-2022-o6",
+            "number": "O6",
+            "category": "Day Observation",
+            "maxScore": 21
+          },
+          {
+            "id": "ioaa-2022-o7",
+            "number": "O7",
+            "category": "Day Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2022-o8",
+            "number": "O8",
+            "category": "Day Observation",
+            "maxScore": 30
+          },
+          {
+            "id": "ioaa-2022-o9",
+            "number": "O9",
+            "category": "Day Observation",
+            "maxScore": 5
           }
         ]
       },
@@ -2999,14 +3491,42 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2021/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2021/results.pdf",
             "category": "Theory",
             "majorCategory": "Theory",
-            "instructions": "/aoxiv/ioaa/2021/th_ins.pdf"
+            "instructions": "/aoxiv/ioaa/2021/th_ins.pdf",
+            "examDuration": 300
+          },
+          {
+            "category": "Team Competition",
+            "majorCategory": "Team",
+            "link": "/aoxiv/ioaa/2021/team.pdf",
+            "solutionLink": "/aoxiv/ioaa/2021/team_sol.pdf"
+          },
+          {
+            "category": "Solar Physics",
+            "majorCategory": "Observation",
+            "link": "/aoxiv/ioaa/2021/sp.pdf",
+            "solutionLink": "/aoxiv/ioaa/2021/sp_sol.pdf",
+            "instructions": "/aoxiv/ioaa/2021/sp_ins.pdf",
+            "examDuration": 120
+          },
+          {
+            "category": "Planetarium",
+            "majorCategory": "Observation",
+            "link": "/aoxiv/ioaa/2021/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2021/op_sol.pdf",
+            "instructions": "/aoxiv/ioaa/2021/op_ins.pdf",
+            "additionalFiles": [
+              "/aoxiv/ioaa/2021/op_sim.ppsx"
+            ],
+            "examDuration": 45
           }
         ],
         "mockExams": [
@@ -3014,41 +3534,62 @@
             "id": "data-analysis-1",
             "name": "Data Analysis 1",
             "problemIds": [
-              "ioaa-2021-1"
+              "ioaa-2021-d1"
             ]
           },
           {
             "id": "data-analysis-2",
             "name": "Data Analysis 2",
             "problemIds": [
-              "ioaa-2021-2"
+              "ioaa-2021-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2021-6",
-              "ioaa-2021-7",
-              "ioaa-2021-8",
-              "ioaa-2021-9",
-              "ioaa-2021-10",
-              "ioaa-2021-11",
-              "ioaa-2021-12",
-              "ioaa-2021-13",
-              "ioaa-2021-14",
-              "ioaa-2021-15",
-              "ioaa-2021-16",
-              "ioaa-2021-17",
-              "ioaa-2021-18",
-              "ioaa-2021-19",
-              "ioaa-2021-20"
+              "ioaa-2021-t1",
+              "ioaa-2021-t2",
+              "ioaa-2021-t3",
+              "ioaa-2021-t4",
+              "ioaa-2021-t5",
+              "ioaa-2021-t6",
+              "ioaa-2021-t7",
+              "ioaa-2021-t8",
+              "ioaa-2021-t9",
+              "ioaa-2021-t10",
+              "ioaa-2021-t11",
+              "ioaa-2021-t12",
+              "ioaa-2021-t13",
+              "ioaa-2021-t14",
+              "ioaa-2021-t15"
+            ]
+          },
+          {
+            "id": "team-competition",
+            "name": "Team Competition",
+            "problemIds": [
+              "ioaa-2021-g1"
+            ]
+          },
+          {
+            "id": "solar-physics",
+            "name": "Solar Physics",
+            "problemIds": [
+              "ioaa-2021-sp1"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2021-op1"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2021-1",
+            "id": "ioaa-2021-d1",
             "number": "D1",
             "name": "Scaling Relations",
             "category": "Data Analysis 1",
@@ -3057,7 +3598,7 @@
             "maxScore": 75
           },
           {
-            "id": "ioaa-2021-2",
+            "id": "ioaa-2021-d2",
             "number": "D2",
             "name": "Stars and Exoplanets",
             "category": "Data Analysis 2",
@@ -3066,7 +3607,7 @@
             "maxScore": 75
           },
           {
-            "id": "ioaa-2021-6",
+            "id": "ioaa-2021-t1",
             "number": "T1",
             "name": "LIGO",
             "category": "Theory",
@@ -3075,7 +3616,7 @@
             "maxScore": 5
           },
           {
-            "id": "ioaa-2021-7",
+            "id": "ioaa-2021-t2",
             "number": "T2",
             "name": "Temperature of the Earth",
             "category": "Theory",
@@ -3084,7 +3625,7 @@
             "maxScore": 10
           },
           {
-            "id": "ioaa-2021-8",
+            "id": "ioaa-2021-t3",
             "number": "T3",
             "name": "Mars",
             "category": "Theory",
@@ -3093,7 +3634,7 @@
             "maxScore": 10
           },
           {
-            "id": "ioaa-2021-9",
+            "id": "ioaa-2021-t4",
             "number": "T4",
             "name": "ALMA - Calculating photons",
             "category": "Theory",
@@ -3102,7 +3643,7 @@
             "maxScore": 10
           },
           {
-            "id": "ioaa-2021-10",
+            "id": "ioaa-2021-t5",
             "number": "T5",
             "name": "Under pressure",
             "category": "Theory",
@@ -3111,7 +3652,7 @@
             "maxScore": 10
           },
           {
-            "id": "ioaa-2021-11",
+            "id": "ioaa-2021-t6",
             "number": "T6",
             "name": "Macondo and Melquiades",
             "category": "Theory",
@@ -3120,7 +3661,7 @@
             "maxScore": 12
           },
           {
-            "id": "ioaa-2021-12",
+            "id": "ioaa-2021-t7",
             "number": "T7",
             "name": "Menkalinan (β Aurigae)",
             "category": "Theory",
@@ -3129,7 +3670,7 @@
             "maxScore": 13
           },
           {
-            "id": "ioaa-2021-13",
+            "id": "ioaa-2021-t8",
             "number": "T8",
             "name": "IOAA Logo",
             "category": "Theory",
@@ -3138,7 +3679,7 @@
             "maxScore": 15
           },
           {
-            "id": "ioaa-2021-14",
+            "id": "ioaa-2021-t9",
             "number": "T9",
             "name": "Pluto Satellites",
             "category": "Theory",
@@ -3147,7 +3688,7 @@
             "maxScore": 15
           },
           {
-            "id": "ioaa-2021-15",
+            "id": "ioaa-2021-t10",
             "number": "T10",
             "name": "Terrestrial Transit",
             "category": "Theory",
@@ -3156,7 +3697,7 @@
             "maxScore": 15
           },
           {
-            "id": "ioaa-2021-16",
+            "id": "ioaa-2021-t11",
             "number": "T11",
             "name": "Minimum velocity of a projectile",
             "category": "Theory",
@@ -3165,7 +3706,7 @@
             "maxScore": 15
           },
           {
-            "id": "ioaa-2021-17",
+            "id": "ioaa-2021-t12",
             "number": "T12",
             "name": "Hodograph",
             "category": "Theory",
@@ -3174,7 +3715,7 @@
             "maxScore": 15
           },
           {
-            "id": "ioaa-2021-18",
+            "id": "ioaa-2021-t13",
             "number": "T13",
             "name": "Lucy: The First Mission to the Trojan Asteroids",
             "category": "Theory",
@@ -3183,7 +3724,7 @@
             "maxScore": 15
           },
           {
-            "id": "ioaa-2021-19",
+            "id": "ioaa-2021-t14",
             "number": "T14",
             "name": "Formation of the Venus-2",
             "category": "Theory",
@@ -3192,13 +3733,34 @@
             "maxScore": 35
           },
           {
-            "id": "ioaa-2021-20",
+            "id": "ioaa-2021-t15",
             "number": "T15",
             "name": "Cosmic String",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2021/Q15.pdf",
             "solutionLink": "/aoxiv/ioaa/2021/T15_Solution.pdf",
             "maxScore": 55
+          },
+          {
+            "id": "ioaa-2021-g1",
+            "number": "G1",
+            "name": "Group Radio Astronomy",
+            "category": "Team Competition",
+            "maxScore": 115
+          },
+          {
+            "id": "ioaa-2021-sp1",
+            "number": "SP1",
+            "name": "The Solar Slap",
+            "category": "Solar Physics",
+            "maxScore": 75
+          },
+          {
+            "id": "ioaa-2021-op1",
+            "number": "OP1",
+            "name": "Simulated Sky",
+            "category": "Planetarium",
+            "maxScore": 75
           }
         ]
       },
@@ -3209,15 +3771,26 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2020/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
-            "solutionLink": "/aoxiv/ioaa/2020/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2020/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2020/results.pdf",
             "category": "Theory",
-            "solutionLink": "/aoxiv/ioaa/2020/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2020/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "solutionLink": "/aoxiv/ioaa/2020/obs_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team Exam",
+            "majorCategory": "Team"
           }
         ],
         "mockExams": [
@@ -3225,103 +3798,126 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2020-1",
-              "ioaa-2020-2",
-              "ioaa-2020-3"
+              "ioaa-2020-d1",
+              "ioaa-2020-d2",
+              "ioaa-2020-d3"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2020-9",
-              "ioaa-2020-10",
-              "ioaa-2020-11",
-              "ioaa-2020-12",
-              "ioaa-2020-13",
-              "ioaa-2020-14",
-              "ioaa-2020-15",
-              "ioaa-2020-16"
+              "ioaa-2020-t1",
+              "ioaa-2020-t2",
+              "ioaa-2020-t3",
+              "ioaa-2020-t4",
+              "ioaa-2020-t5",
+              "ioaa-2020-t6",
+              "ioaa-2020-t7",
+              "ioaa-2020-t8"
+            ]
+          },
+          {
+            "id": "team-exam",
+            "name": "Team Exam",
+            "problemIds": [
+              "ioaa-2020-g1",
+              "ioaa-2020-g2"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2020-1",
+            "id": "ioaa-2020-d1",
             "number": "D1",
             "name": "AGN",
             "category": "Data Analysis",
             "maxScore": 15
           },
           {
-            "id": "ioaa-2020-2",
+            "id": "ioaa-2020-d2",
             "number": "D2",
             "name": "Minor Planet",
             "category": "Data Analysis",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2020-3",
+            "id": "ioaa-2020-d3",
             "number": "D3",
             "name": "Hypervelocity Stars",
             "category": "Data Analysis",
             "maxScore": 55
           },
           {
-            "id": "ioaa-2020-9",
+            "id": "ioaa-2020-t1",
             "number": "T1",
             "name": "Astrophotography",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2020-10",
+            "id": "ioaa-2020-t2",
             "number": "T2",
             "name": "Flat Earth",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2020-11",
+            "id": "ioaa-2020-t3",
             "number": "T3",
             "name": "Mirror",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2020-12",
+            "id": "ioaa-2020-t4",
             "number": "T4",
             "name": "Light Curves",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2020-13",
+            "id": "ioaa-2020-t5",
             "number": "T5",
             "name": "HII region",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2020-14",
+            "id": "ioaa-2020-t6",
             "number": "T6",
             "name": "Occultation of an X-ray Source",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2020-15",
+            "id": "ioaa-2020-t7",
             "number": "T7",
             "name": "Radiant of a Meteor Shower",
             "category": "Theory",
             "maxScore": 30
           },
           {
-            "id": "ioaa-2020-16",
+            "id": "ioaa-2020-t8",
             "number": "T8",
             "name": "Jupiter's Great Red Spot",
             "category": "Theory",
             "maxScore": 30
+          },
+          {
+            "id": "ioaa-2020-g1",
+            "number": "G1",
+            "name": "Measuring the distance to the Moon",
+            "category": "Team Exam",
+            "link": "/aoxiv/ioaa/2020/team_1.pdf"
+          },
+          {
+            "id": "ioaa-2020-g2",
+            "number": "G2",
+            "name": "Spectral Distortions of the CMB",
+            "category": "Team Exam",
+            "link": "/aoxiv/ioaa/2020/team_2.pdf",
+            "solutionLink": "/aoxiv/ioaa/2020/team_2_sol.pdf"
           }
         ]
       },
@@ -3332,6 +3928,9 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2019/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2019/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2019/da_sol.pdf",
@@ -3339,12 +3938,29 @@
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2019/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2019/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2019/th_sol.pdf",
             "answerSheet": "/aoxiv/ioaa/2019/th_ans.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Observation",
+            "link": "/aoxiv/ioaa/2019/ot.pdf",
+            "solutionLink": "/aoxiv/ioaa/2019/ot_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2019/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2019/op_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 45
+          },
+          {
+            "category": "Team Competition",
+            "solutionLink": "/aoxiv/ioaa/2019/team_sol.pdf",
+            "majorCategory": "Team"
           }
         ],
         "mockExams": [
@@ -3352,143 +3968,216 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2019-1",
-              "ioaa-2019-2"
+              "ioaa-2019-d1",
+              "ioaa-2019-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2019-7",
-              "ioaa-2019-8",
-              "ioaa-2019-9",
-              "ioaa-2019-10",
-              "ioaa-2019-11",
-              "ioaa-2019-12",
-              "ioaa-2019-13",
-              "ioaa-2019-14",
-              "ioaa-2019-15",
-              "ioaa-2019-16",
-              "ioaa-2019-17",
-              "ioaa-2019-18",
-              "ioaa-2019-19",
-              "ioaa-2019-20"
+              "ioaa-2019-t1",
+              "ioaa-2019-t2",
+              "ioaa-2019-t3",
+              "ioaa-2019-t4",
+              "ioaa-2019-t5",
+              "ioaa-2019-t6",
+              "ioaa-2019-t7",
+              "ioaa-2019-t8",
+              "ioaa-2019-t9",
+              "ioaa-2019-t10",
+              "ioaa-2019-t11",
+              "ioaa-2019-t12",
+              "ioaa-2019-t13",
+              "ioaa-2019-t14"
+            ]
+          },
+          {
+            "id": "observation",
+            "name": "Observation",
+            "problemIds": [
+              "ioaa-2019-ot1",
+              "ioaa-2019-ot2",
+              "ioaa-2019-ot3",
+              "ioaa-2019-ot4",
+              "ioaa-2019-ot5"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2019-op1",
+              "ioaa-2019-op2",
+              "ioaa-2019-op3"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2019-1",
+            "id": "ioaa-2019-d1",
             "number": "D1",
             "name": "Photometry and spectroscopy of Nova Del 2013",
             "category": "Data Analysis",
             "maxScore": 60
           },
           {
-            "id": "ioaa-2019-2",
+            "id": "ioaa-2019-d2",
             "number": "D2",
             "name": "Triply eclipsing hierarchical triple stellar system",
             "category": "Data Analysis",
             "maxScore": 90
           },
           {
-            "id": "ioaa-2019-7",
+            "id": "ioaa-2019-t1",
             "number": "T1",
             "name": "Famous astronomical events",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2019-8",
+            "id": "ioaa-2019-t2",
             "number": "T2",
             "name": "Deflection of radio photons in the gravitational field of solar system bodies",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2019-9",
+            "id": "ioaa-2019-t3",
             "number": "T3",
             "name": "The supermassive black hole in the centre of Milky Way Galaxy and M87",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2019-10",
+            "id": "ioaa-2019-t4",
             "number": "T4",
             "name": "Improving a common reflecting telescope",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2019-11",
+            "id": "ioaa-2019-t5",
             "number": "T5",
             "name": "Cosmic Microwave Background Oven",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2019-12",
+            "id": "ioaa-2019-t6",
             "number": "T6",
             "name": "The height of the chimney of Tiszaujvaros power plant",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2019-13",
+            "id": "ioaa-2019-t7",
             "number": "T7",
             "name": "Effect of sunspots on solar irradiance",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2019-14",
+            "id": "ioaa-2019-t8",
             "number": "T8",
             "name": "Amplitude variation of RR Lyrae stars",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2019-15",
+            "id": "ioaa-2019-t9",
             "number": "T9",
             "name": "Distance of the Lagrangian point L2 of the Earth-Moon system",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2019-16",
+            "id": "ioaa-2019-t10",
             "number": "T10",
             "name": "South to East to North",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2019-17",
+            "id": "ioaa-2019-t11",
             "number": "T11",
             "name": "Identification of light curves of selected variable star types",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2019-18",
+            "id": "ioaa-2019-t12",
             "number": "T12",
             "name": "Distance to a Near-Earth Asteroid",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2019-19",
+            "id": "ioaa-2019-t13",
             "number": "T13",
             "name": "Distance to the Coma galaxy cluster",
             "category": "Theory",
             "maxScore": 40
           },
           {
-            "id": "ioaa-2019-20",
+            "id": "ioaa-2019-t14",
             "number": "T14",
             "name": "Photographing a nanosatellite",
             "category": "Theory",
             "maxScore": 60
+          },
+          {
+            "id": "ioaa-2019-ot1",
+            "number": "OT1",
+            "name": "Finderscope Alignment",
+            "category": "Observation",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2019-ot2",
+            "number": "OT2",
+            "name": "Observation of Saturn",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2019-ot3",
+            "number": "OT3",
+            "name": "M57 - Field of view",
+            "category": "Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2019-ot4",
+            "number": "OT4",
+            "name": "Variable star: AF Cygni",
+            "category": "Observation",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2019-ot5",
+            "number": "OT5",
+            "name": "Naked eye brightness estimation",
+            "category": "Observation",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2019-op1",
+            "number": "OP1",
+            "category": "Planetarium",
+            "maxScore": 44
+          },
+          {
+            "id": "ioaa-2019-op2",
+            "number": "OP2",
+            "category": "Planetarium",
+            "maxScore": 28
+          },
+          {
+            "id": "ioaa-2019-op3",
+            "number": "OP3",
+            "category": "Planetarium",
+            "maxScore": 28
           }
         ]
       },
@@ -3502,14 +4191,35 @@
             "link": "/aoxiv/ioaa/2018/18_da.pdf",
             "solutionLink": "/aoxiv/ioaa/2018/18_da_sol.pdf",
             "answerSheet": "/aoxiv/ioaa/2018/18_da_anssheet.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 300
           },
           {
             "category": "Theory",
             "link": "/aoxiv/ioaa/2018/18_th.pdf",
             "solutionLink": "/aoxiv/ioaa/2018/18_th_sol.pdf",
             "answerSheet": "/aoxiv/ioaa/2018/18_th_anssheet.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Day Observation",
+            "link": "/aoxiv/ioaa/2018/18_do.pdf",
+            "solutionLink": "/aoxiv/ioaa/2018/18_do_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 60
+          },
+          {
+            "category": "Night Observation",
+            "link": "/aoxiv/ioaa/2018/18_no.pdf",
+            "solutionLink": "/aoxiv/ioaa/2018/18_no_sol.pdf",
+            "majorCategory": "Observation",
+            "examDuration": 10
+          },
+          {
+            "category": "Team Competition",
+            "link": "/aoxiv/ioaa/2018/18_team.pdf",
+            "majorCategory": "Team"
           }
         ],
         "mockExams": [
@@ -3517,117 +4227,171 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2018-1",
-              "ioaa-2018-2"
+              "ioaa-2018-d1",
+              "ioaa-2018-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2018-9",
-              "ioaa-2018-10",
-              "ioaa-2018-11",
-              "ioaa-2018-12",
-              "ioaa-2018-13",
-              "ioaa-2018-14",
-              "ioaa-2018-15",
-              "ioaa-2018-16",
-              "ioaa-2018-17",
-              "ioaa-2018-18",
-              "ioaa-2018-19"
+              "ioaa-2018-t1",
+              "ioaa-2018-t2",
+              "ioaa-2018-t3",
+              "ioaa-2018-t4",
+              "ioaa-2018-t5",
+              "ioaa-2018-t6",
+              "ioaa-2018-t7",
+              "ioaa-2018-t8",
+              "ioaa-2018-t9",
+              "ioaa-2018-t10",
+              "ioaa-2018-t11"
+            ]
+          },
+          {
+            "id": "day-observation",
+            "name": "Day Observation",
+            "problemIds": [
+              "ioaa-2018-o1",
+              "ioaa-2018-o2",
+              "ioaa-2018-o3",
+              "ioaa-2018-o4"
+            ]
+          },
+          {
+            "id": "night-observation",
+            "name": "Night Observation",
+            "problemIds": [
+              "ioaa-2018-o5",
+              "ioaa-2018-o6"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2018-1",
+            "id": "ioaa-2018-d1",
             "number": "D1",
             "name": "Dust and Young Stars in Star-forming Galaxies",
             "category": "Data Analysis"
           },
           {
-            "id": "ioaa-2018-2",
+            "id": "ioaa-2018-d2",
             "number": "D2",
             "name": "Compact Object in a Binary System",
             "category": "Data Analysis"
           },
           {
-            "id": "ioaa-2018-9",
+            "id": "ioaa-2018-t1",
             "number": "T1",
             "name": "Super Luminal Galaxies",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2018-10",
+            "id": "ioaa-2018-t2",
             "number": "T2",
             "name": "Distance",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2018-11",
+            "id": "ioaa-2018-t3",
             "number": "T3",
             "name": "Atmospheric Refraction",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2018-12",
+            "id": "ioaa-2018-t4",
             "number": "T4",
             "name": "Height of a Hill",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2018-13",
+            "id": "ioaa-2018-t5",
             "number": "T5",
             "name": "Sidereal Time",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2018-14",
+            "id": "ioaa-2018-t6",
             "number": "T6",
             "name": "Observe the Sun with FAST",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2018-15",
+            "id": "ioaa-2018-t7",
             "number": "T7",
             "name": "Sunspot",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2018-16",
+            "id": "ioaa-2018-t8",
             "number": "T8",
             "name": "A Possible Dark Matter Deficient Galaxy",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2018-17",
+            "id": "ioaa-2018-t9",
             "number": "T9",
             "name": "Radio Galaxy",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2018-18",
+            "id": "ioaa-2018-t10",
             "number": "T10",
             "name": "Vega and Altair",
             "category": "Theory",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2018-19",
+            "id": "ioaa-2018-t11",
             "number": "T11",
             "name": "Thermal History of the Universe",
             "category": "Theory",
             "maxScore": 75
+          },
+          {
+            "id": "ioaa-2018-o1",
+            "number": "O1",
+            "category": "Day Observation",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2018-o2",
+            "number": "O2",
+            "category": "Day Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-o3",
+            "number": "O3",
+            "category": "Day Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-o4",
+            "number": "O4",
+            "category": "Day Observation",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2018-o5",
+            "number": "O5",
+            "category": "Night Observation",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2018-o6",
+            "number": "O6",
+            "category": "Night Observation",
+            "maxScore": 40
           }
         ]
       },
@@ -3638,17 +4402,36 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2017/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2017/DataAnalysis.pdf",
             "solutionLink": "/aoxiv/ioaa/2017/DataAnalysis_Solution.pdf",
-            "majorCategory": "Data Analysis"
+            "majorCategory": "Data Analysis",
+            "examDuration": 240
           },
           {
-            "results": "/aoxiv/ioaa/2017/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2017/Theory.pdf",
             "solutionLink": "/aoxiv/ioaa/2017/Theory_Solution.pdf",
-            "majorCategory": "Theory"
+            "majorCategory": "Theory",
+            "examDuration": 300
+          },
+          {
+            "category": "Day Observation",
+            "link": "/aoxiv/ioaa/2017/do.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Night Observation",
+            "link": "/aoxiv/ioaa/2017/no.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team Competition",
+            "link": "/aoxiv/ioaa/2017/team.pdf",
+            "majorCategory": "Team"
           }
         ],
         "mockExams": [
@@ -3656,135 +4439,210 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2017-1",
-              "ioaa-2017-2"
+              "ioaa-2017-d1",
+              "ioaa-2017-d2"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2017-14",
-              "ioaa-2017-15",
-              "ioaa-2017-16",
-              "ioaa-2017-17",
-              "ioaa-2017-18",
-              "ioaa-2017-19",
-              "ioaa-2017-20",
-              "ioaa-2017-21",
-              "ioaa-2017-22",
-              "ioaa-2017-23",
-              "ioaa-2017-24",
-              "ioaa-2017-25",
-              "ioaa-2017-26"
+              "ioaa-2017-t1",
+              "ioaa-2017-t2",
+              "ioaa-2017-t3",
+              "ioaa-2017-t4",
+              "ioaa-2017-t5",
+              "ioaa-2017-t6",
+              "ioaa-2017-t7",
+              "ioaa-2017-t8",
+              "ioaa-2017-t9",
+              "ioaa-2017-t10",
+              "ioaa-2017-t11",
+              "ioaa-2017-t12",
+              "ioaa-2017-t13"
+            ]
+          },
+          {
+            "id": "day-observation",
+            "name": "Day Observation",
+            "problemIds": [
+              "ioaa-2017-p1",
+              "ioaa-2017-p2",
+              "ioaa-2017-p3",
+              "ioaa-2017-p4",
+              "ioaa-2017-p5",
+              "ioaa-2017-p6",
+              "ioaa-2017-p7"
+            ]
+          },
+          {
+            "id": "night-observation",
+            "name": "Night Observation",
+            "problemIds": [
+              "ioaa-2017-n1",
+              "ioaa-2017-n2"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2017-1",
+            "id": "ioaa-2017-d1",
             "number": "D1",
             "name": "Calibrating distance ladder to the LMC",
             "category": "Data Analysis",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2017-2",
+            "id": "ioaa-2017-d2",
             "number": "D2",
             "name": "The search for dark matter",
             "category": "Data Analysis",
             "maxScore": 75
           },
           {
-            "id": "ioaa-2017-14",
+            "id": "ioaa-2017-t1",
             "number": "T1",
             "name": "The Large Magellanic Cloud in Phuket",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2017-15",
+            "id": "ioaa-2017-t2",
             "number": "T2",
             "name": "Earth's Transit Zone",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2017-16",
+            "id": "ioaa-2017-t3",
             "number": "T3",
             "name": "The Milky Way's Distant Outer Arm",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2017-17",
+            "id": "ioaa-2017-t4",
             "number": "T4",
             "name": "21-cm HI galaxy survey",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2017-18",
+            "id": "ioaa-2017-t5",
             "number": "T5",
             "name": "A Synchronous Satellite",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2017-19",
+            "id": "ioaa-2017-t6",
             "number": "T6",
             "name": "Supernova 1987A",
             "category": "Theory",
             "maxScore": 15
           },
           {
-            "id": "ioaa-2017-20",
+            "id": "ioaa-2017-t7",
             "number": "T7",
             "name": "Life on Other Planets",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2017-21",
+            "id": "ioaa-2017-t8",
             "number": "T8",
             "name": "The Star of Bethlehem",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2017-22",
+            "id": "ioaa-2017-t9",
             "number": "T9",
             "name": "Galactic Outflow",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2017-23",
+            "id": "ioaa-2017-t10",
             "number": "T10",
             "name": "GOTO",
             "category": "Theory",
             "maxScore": 25
           },
           {
-            "id": "ioaa-2017-24",
+            "id": "ioaa-2017-t11",
             "number": "T11",
             "name": "Mass of the Local Group",
             "category": "Theory",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2017-25",
+            "id": "ioaa-2017-t12",
             "number": "T12",
             "name": "Shipwreck",
             "category": "Theory",
             "maxScore": 40
           },
           {
-            "id": "ioaa-2017-26",
+            "id": "ioaa-2017-t13",
             "number": "T13",
             "name": "Exomoon",
             "category": "Theory",
             "maxScore": 60
+          },
+          {
+            "id": "ioaa-2017-p1",
+            "number": "P1",
+            "name": "Naked eye observation from real sky with panoramic 360-degrees image",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-p2",
+            "number": "P2",
+            "name": "Planet observation with real sky in panoramic 360-degrees image",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-p3",
+            "number": "P3",
+            "name": "Analemma on another planet",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-p4",
+            "number": "P4",
+            "name": "Exposure time from a Photograph",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-p5",
+            "number": "P5",
+            "name": "Find True North from Moon shadow",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-p6",
+            "number": "P6",
+            "name": "Find Latitude from Equatorial Mount",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-p7",
+            "number": "P7",
+            "name": "Precision Polar Alignment with Equatorial Mount",
+            "category": "Day Observation"
+          },
+          {
+            "id": "ioaa-2017-n1",
+            "number": "N1",
+            "name": "Observation with Equatorial Mount Telescope",
+            "category": "Night Observation"
+          },
+          {
+            "id": "ioaa-2017-n2",
+            "number": "N2",
+            "name": "Observation with Dobsonian Telescope",
+            "category": "Night Observation"
           }
         ]
       },
@@ -3795,17 +4653,43 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2016/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2016/data_analysis.pdf",
             "solutionLink": "/aoxiv/ioaa/2016/data_analysis_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2016/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2016/theory.pdf",
             "solutionLink": "/aoxiv/ioaa/2016/theory_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Group Competition",
+            "link": "/aoxiv/ioaa/2016/grp.pdf",
+            "solutionLink": "/aoxiv/ioaa/2016/grp_sol.pdf",
+            "majorCategory": "Group"
+          },
+          {
+            "category": "Telescope",
+            "link": "/aoxiv/ioaa/2016/ot.pdf",
+            "solutionLink": "/aoxiv/ioaa/2016/ot_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaa/2016/om.pdf",
+            "solutionLink": "/aoxiv/ioaa/2016/om_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2016/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2016/op_sol.pdf",
+            "majorCategory": "Observation"
           }
         ],
         "mockExams": [
@@ -3813,135 +4697,235 @@
             "id": "data-analysis",
             "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2016-1",
-              "ioaa-2016-2",
-              "ioaa-2016-3"
+              "ioaa-2016-d1",
+              "ioaa-2016-d2",
+              "ioaa-2016-d3"
             ]
           },
           {
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2016-15",
-              "ioaa-2016-16",
-              "ioaa-2016-17",
-              "ioaa-2016-18",
-              "ioaa-2016-19",
-              "ioaa-2016-20",
-              "ioaa-2016-21",
-              "ioaa-2016-22",
-              "ioaa-2016-23",
-              "ioaa-2016-24",
-              "ioaa-2016-25",
-              "ioaa-2016-26"
+              "ioaa-2016-t1",
+              "ioaa-2016-t2",
+              "ioaa-2016-t3",
+              "ioaa-2016-t4",
+              "ioaa-2016-t5",
+              "ioaa-2016-t6",
+              "ioaa-2016-t7",
+              "ioaa-2016-t8",
+              "ioaa-2016-t9",
+              "ioaa-2016-t10",
+              "ioaa-2016-t11",
+              "ioaa-2016-t12"
+            ]
+          },
+          {
+            "id": "group-competition",
+            "name": "Group Competition",
+            "problemIds": [
+              "ioaa-2016-g1"
+            ]
+          },
+          {
+            "id": "telescope",
+            "name": "Telescope",
+            "problemIds": [
+              "ioaa-2016-ot1",
+              "ioaa-2016-ot2",
+              "ioaa-2016-ot3"
+            ]
+          },
+          {
+            "id": "sky-map",
+            "name": "Sky Map",
+            "problemIds": [
+              "ioaa-2016-om1",
+              "ioaa-2016-om2",
+              "ioaa-2016-om3",
+              "ioaa-2016-om4",
+              "ioaa-2016-om5"
+            ]
+          },
+          {
+            "id": "planetarium",
+            "name": "Planetarium",
+            "problemIds": [
+              "ioaa-2016-op1",
+              "ioaa-2016-op2"
             ]
           }
         ],
         "problems": [
           {
-            "id": "ioaa-2016-1",
+            "id": "ioaa-2016-d1",
             "number": "D1",
             "name": "Binary Pulsar",
             "category": "Data Analysis",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2016-2",
+            "id": "ioaa-2016-d2",
             "number": "D2",
             "name": "Distance to the Moon",
             "category": "Data Analysis",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2016-3",
+            "id": "ioaa-2016-d3",
             "number": "D3",
             "name": "Type IA Supernovae",
             "category": "Data Analysis",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2016-15",
+            "id": "ioaa-2016-t1",
             "number": "T1",
             "name": "True or False",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2016-16",
+            "id": "ioaa-2016-t2",
             "number": "T2",
             "name": "Gases on Titan",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2016-17",
+            "id": "ioaa-2016-t3",
             "number": "T3",
             "name": "Early Universe",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2016-18",
+            "id": "ioaa-2016-t4",
             "number": "T4",
             "name": "Shadows",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2016-19",
+            "id": "ioaa-2016-t5",
             "number": "T5",
             "name": "GMRT beam transit",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2016-20",
+            "id": "ioaa-2016-t6",
             "number": "T6",
             "name": "Cepheid Pulsations",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2016-21",
+            "id": "ioaa-2016-t7",
             "number": "T7",
             "name": "Telescope optics",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2016-22",
+            "id": "ioaa-2016-t8",
             "number": "T8",
             "name": "U-Band photometry",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2016-23",
+            "id": "ioaa-2016-t9",
             "number": "T9",
             "name": "Mars Orbiter Mission",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2016-24",
+            "id": "ioaa-2016-t10",
             "number": "T10",
             "name": "Gravitational Lensing Telescope",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2016-25",
+            "id": "ioaa-2016-t11",
             "number": "T11",
             "name": "Gravitational Waves",
             "category": "Theory",
             "maxScore": 50
           },
           {
-            "id": "ioaa-2016-26",
+            "id": "ioaa-2016-t12",
             "number": "T12",
             "name": "AstroSat",
             "category": "Theory",
             "maxScore": 50
+          },
+          {
+            "id": "ioaa-2016-g1",
+            "number": "G1",
+            "category": "Group Competition"
+          },
+          {
+            "id": "ioaa-2016-ot1",
+            "number": "OT1",
+            "category": "Telescope",
+            "maxScore": 10
+          },
+          {
+            "id": "ioaa-2016-ot2",
+            "number": "OT2",
+            "category": "Telescope",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-ot3",
+            "number": "OT3",
+            "category": "Telescope",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-om1",
+            "number": "OM1",
+            "category": "Sky Map",
+            "maxScore": 20
+          },
+          {
+            "id": "ioaa-2016-om2",
+            "number": "OM2",
+            "category": "Sky Map",
+            "maxScore": 15
+          },
+          {
+            "id": "ioaa-2016-om3",
+            "number": "OM3",
+            "category": "Sky Map",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2016-om4",
+            "number": "OM4",
+            "category": "Sky Map",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2016-om5",
+            "number": "OM5",
+            "category": "Sky Map",
+            "maxScore": 5
+          },
+          {
+            "id": "ioaa-2016-op1",
+            "number": "OP1",
+            "category": "Planetarium",
+            "maxScore": 40
+          },
+          {
+            "id": "ioaa-2016-op2",
+            "number": "OP2",
+            "category": "Planetarium",
+            "maxScore": 10
           }
         ]
       },
@@ -3950,6 +4934,10 @@
         "name": "9th IOAA 2015",
         "location": "Central Java, Indonesia",
         "papers": [
+          {
+            "results": "/aoxiv/ioaa/2015/results.pdf",
+            "category": "Overall"
+          },
           {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2015/da.pdf",
@@ -3961,6 +4949,36 @@
             "link": "/aoxiv/ioaa/2015/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2015/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Team Competition",
+            "link": "/aoxiv/ioaa/2015/team.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/team_sol.pdf",
+            "majorCategory": "Team"
+          },
+          {
+            "category": "Main Telescope",
+            "link": "/aoxiv/ioaa/2015/ot.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/ot_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaa/2015/om.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/om_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2015/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/op_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Small Telescope",
+            "link": "/aoxiv/ioaa/2015/ot2.pdf",
+            "solutionLink": "/aoxiv/ioaa/2015/ot2_sol.pdf",
+            "majorCategory": "Observation"
           }
         ],
         "mockExams": [
@@ -3976,21 +4994,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2015-1",
-              "ioaa-2015-2",
-              "ioaa-2015-3",
-              "ioaa-2015-4",
-              "ioaa-2015-5",
-              "ioaa-2015-6",
-              "ioaa-2015-7",
-              "ioaa-2015-8",
-              "ioaa-2015-9",
-              "ioaa-2015-10",
-              "ioaa-2015-11",
-              "ioaa-2015-12",
-              "ioaa-2015-13",
-              "ioaa-2015-14",
-              "ioaa-2015-15",
+              "ioaa-2015-s1",
+              "ioaa-2015-s2",
+              "ioaa-2015-s3",
+              "ioaa-2015-s4",
+              "ioaa-2015-s5",
+              "ioaa-2015-s6",
+              "ioaa-2015-s7",
+              "ioaa-2015-s8",
+              "ioaa-2015-s9",
+              "ioaa-2015-s10",
+              "ioaa-2015-s11",
+              "ioaa-2015-s12",
+              "ioaa-2015-s13",
+              "ioaa-2015-s14",
+              "ioaa-2015-s15",
               "ioaa-2015-l1",
               "ioaa-2015-l2",
               "ioaa-2015-l3"
@@ -4011,91 +5029,91 @@
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-1",
+            "id": "ioaa-2015-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-2",
+            "id": "ioaa-2015-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-3",
+            "id": "ioaa-2015-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-4",
+            "id": "ioaa-2015-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-5",
+            "id": "ioaa-2015-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-6",
+            "id": "ioaa-2015-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-7",
+            "id": "ioaa-2015-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-8",
+            "id": "ioaa-2015-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-9",
+            "id": "ioaa-2015-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-10",
+            "id": "ioaa-2015-s10",
             "number": "S10",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-11",
+            "id": "ioaa-2015-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-12",
+            "id": "ioaa-2015-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-13",
+            "id": "ioaa-2015-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-14",
+            "id": "ioaa-2015-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 100
           },
           {
-            "id": "ioaa-2015-15",
+            "id": "ioaa-2015-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 100
@@ -4127,17 +5145,42 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2014/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2014/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2014/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2014/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2014/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2014/th_sol.pdf",
             "majorCategory": "Theory"
+          },
+          {
+            "category": "Night Observation",
+            "link": "/aoxiv/ioaa/2014/no.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Sky Map",
+            "link": "/aoxiv/ioaa/2014/om.pdf",
+            "solutionLink": "/aoxiv/ioaa/2014/om_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2014/op.pdf",
+            "solutionLink": "/aoxiv/ioaa/2014/op_sol.pdf",
+            "majorCategory": "Observation"
+          },
+          {
+            "category": "Team Competition",
+            "link": "/aoxiv/ioaa/2014/team.pdf",
+            "solutionLink": "/aoxiv/ioaa/2014/team_sol.pdf",
+            "majorCategory": "Team Competition"
           }
         ],
         "mockExams": [
@@ -4154,21 +5197,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2014-1",
-              "ioaa-2014-2",
-              "ioaa-2014-3",
-              "ioaa-2014-4",
-              "ioaa-2014-5",
-              "ioaa-2014-6",
-              "ioaa-2014-7",
-              "ioaa-2014-8",
-              "ioaa-2014-9",
-              "ioaa-2014-10",
-              "ioaa-2014-11",
-              "ioaa-2014-12",
-              "ioaa-2014-13",
-              "ioaa-2014-14",
-              "ioaa-2014-15",
+              "ioaa-2014-s1",
+              "ioaa-2014-s2",
+              "ioaa-2014-s3",
+              "ioaa-2014-s4",
+              "ioaa-2014-s5",
+              "ioaa-2014-s6",
+              "ioaa-2014-s7",
+              "ioaa-2014-s8",
+              "ioaa-2014-s9",
+              "ioaa-2014-s10",
+              "ioaa-2014-s11",
+              "ioaa-2014-s12",
+              "ioaa-2014-s13",
+              "ioaa-2014-s14",
+              "ioaa-2014-s15",
               "ioaa-2014-l1",
               "ioaa-2014-l2",
               "ioaa-2014-l3"
@@ -4198,105 +5241,105 @@
             "maxScore": 25
           },
           {
-            "id": "ioaa-2014-1",
+            "id": "ioaa-2014-s1",
             "number": "S1",
             "name": "Lagrange Points",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-2",
+            "id": "ioaa-2014-s2",
             "number": "S2",
             "name": "Sun gravitational catastrophe!",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-3",
+            "id": "ioaa-2014-s3",
             "number": "S3",
             "name": "Cosmic radiation",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-4",
+            "id": "ioaa-2014-s4",
             "number": "S4",
             "name": "Mass function of a visual binary stellar system",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-5",
+            "id": "ioaa-2014-s5",
             "number": "S5",
             "name": "The Astronaut saved by... ice from a can!",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-6",
+            "id": "ioaa-2014-s6",
             "number": "S6",
             "name": "The life-time of a star from the main sequence",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-7",
+            "id": "ioaa-2014-s7",
             "number": "S7",
             "name": "The effective temperature on the surface of a star",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-8",
+            "id": "ioaa-2014-s8",
             "number": "S8",
             "name": "Gradient temperatures",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-9",
+            "id": "ioaa-2014-s9",
             "number": "S9",
             "name": "Pressure of light",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-10",
+            "id": "ioaa-2014-s10",
             "number": "S10",
             "name": "The density of the star",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-11",
+            "id": "ioaa-2014-s11",
             "number": "S11",
             "name": "Space-ship orbiting the Sun",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-12",
+            "id": "ioaa-2014-s12",
             "number": "S12",
             "name": "The Vega star in the mirror",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-13",
+            "id": "ioaa-2014-s13",
             "number": "S13",
             "name": "Stars with Romanian names",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-14",
+            "id": "ioaa-2014-s14",
             "number": "S14",
             "name": "Apparent magnitude of the Moon",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2014-15",
+            "id": "ioaa-2014-s15",
             "number": "S15",
             "name": "Absolute magnitude of a cepheid",
             "category": "Theory",
@@ -4332,12 +5375,14 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2013/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "solutionLink": "/aoxiv/ioaa/2013/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2013/results.pdf",
             "category": "Theory",
             "solutionLink": "/aoxiv/ioaa/2013/th_sol.pdf",
             "majorCategory": "Theory"
@@ -4358,21 +5403,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2013-1",
-              "ioaa-2013-2",
-              "ioaa-2013-3",
-              "ioaa-2013-4",
-              "ioaa-2013-5",
-              "ioaa-2013-6",
-              "ioaa-2013-7",
-              "ioaa-2013-8",
-              "ioaa-2013-9",
-              "ioaa-2013-10",
-              "ioaa-2013-11",
-              "ioaa-2013-12",
-              "ioaa-2013-13",
-              "ioaa-2013-14",
-              "ioaa-2013-15",
+              "ioaa-2013-s1",
+              "ioaa-2013-s2",
+              "ioaa-2013-s3",
+              "ioaa-2013-s4",
+              "ioaa-2013-s5",
+              "ioaa-2013-s6",
+              "ioaa-2013-s7",
+              "ioaa-2013-s8",
+              "ioaa-2013-s9",
+              "ioaa-2013-s10",
+              "ioaa-2013-s11",
+              "ioaa-2013-s12",
+              "ioaa-2013-s13",
+              "ioaa-2013-s14",
+              "ioaa-2013-s15",
               "ioaa-2013-l1",
               "ioaa-2013-l2",
               "ioaa-2013-l3"
@@ -4405,91 +5450,91 @@
             "maxScore": 75
           },
           {
-            "id": "ioaa-2013-1",
+            "id": "ioaa-2013-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-2",
+            "id": "ioaa-2013-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-3",
+            "id": "ioaa-2013-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-4",
+            "id": "ioaa-2013-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-5",
+            "id": "ioaa-2013-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-6",
+            "id": "ioaa-2013-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-7",
+            "id": "ioaa-2013-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-8",
+            "id": "ioaa-2013-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-9",
+            "id": "ioaa-2013-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-10",
+            "id": "ioaa-2013-s10",
             "number": "S10",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-11",
+            "id": "ioaa-2013-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-12",
+            "id": "ioaa-2013-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-13",
+            "id": "ioaa-2013-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-14",
+            "id": "ioaa-2013-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2013-15",
+            "id": "ioaa-2013-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 10
@@ -4521,14 +5566,18 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2012/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2012/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2012/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2012/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2012/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2012/th_sol.pdf",
             "majorCategory": "Theory"
           }
         ],
@@ -4545,21 +5594,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2012-1",
-              "ioaa-2012-2",
-              "ioaa-2012-3",
-              "ioaa-2012-4",
-              "ioaa-2012-5",
-              "ioaa-2012-6",
-              "ioaa-2012-7",
-              "ioaa-2012-8",
-              "ioaa-2012-9",
-              "ioaa-2012-10",
-              "ioaa-2012-11",
-              "ioaa-2012-12",
-              "ioaa-2012-13",
-              "ioaa-2012-14",
-              "ioaa-2012-15",
+              "ioaa-2012-s1",
+              "ioaa-2012-s2",
+              "ioaa-2012-s3",
+              "ioaa-2012-s4",
+              "ioaa-2012-s5",
+              "ioaa-2012-s6",
+              "ioaa-2012-s7",
+              "ioaa-2012-s8",
+              "ioaa-2012-s9",
+              "ioaa-2012-s10",
+              "ioaa-2012-s11",
+              "ioaa-2012-s12",
+              "ioaa-2012-s13",
+              "ioaa-2012-s14",
+              "ioaa-2012-s15",
               "ioaa-2012-l1",
               "ioaa-2012-l2"
             ]
@@ -4577,91 +5626,91 @@
             "category": "Data Analysis"
           },
           {
-            "id": "ioaa-2012-1",
+            "id": "ioaa-2012-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-2",
+            "id": "ioaa-2012-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-3",
+            "id": "ioaa-2012-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-4",
+            "id": "ioaa-2012-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-5",
+            "id": "ioaa-2012-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-6",
+            "id": "ioaa-2012-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-7",
+            "id": "ioaa-2012-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-8",
+            "id": "ioaa-2012-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-9",
+            "id": "ioaa-2012-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-10",
+            "id": "ioaa-2012-s10",
             "number": "S10",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-11",
+            "id": "ioaa-2012-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-12",
+            "id": "ioaa-2012-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-13",
+            "id": "ioaa-2012-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-14",
+            "id": "ioaa-2012-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2012-15",
+            "id": "ioaa-2012-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 10
@@ -4688,11 +5737,13 @@
           {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2011/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2011/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
             "category": "Theory",
             "link": "/aoxiv/ioaa/2011/th.pdf",
+            "solutionLink": "/aoxiv/ioaa/2011/th_sol.pdf",
             "majorCategory": "Theory"
           }
         ],
@@ -4709,21 +5760,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2011-1",
-              "ioaa-2011-2",
-              "ioaa-2011-3",
-              "ioaa-2011-4",
-              "ioaa-2011-5",
-              "ioaa-2011-6",
-              "ioaa-2011-7",
-              "ioaa-2011-8",
-              "ioaa-2011-9",
-              "ioaa-2011-10",
-              "ioaa-2011-11",
-              "ioaa-2011-12",
-              "ioaa-2011-13",
-              "ioaa-2011-14",
-              "ioaa-2011-15",
+              "ioaa-2011-s1",
+              "ioaa-2011-s2",
+              "ioaa-2011-s3",
+              "ioaa-2011-s4",
+              "ioaa-2011-s5",
+              "ioaa-2011-s6",
+              "ioaa-2011-s7",
+              "ioaa-2011-s8",
+              "ioaa-2011-s9",
+              "ioaa-2011-s10",
+              "ioaa-2011-s11",
+              "ioaa-2011-s12",
+              "ioaa-2011-s13",
+              "ioaa-2011-s14",
+              "ioaa-2011-s15",
               "ioaa-2011-l1",
               "ioaa-2011-l2",
               "ioaa-2011-l3"
@@ -4746,91 +5797,91 @@
             "maxScore": 25
           },
           {
-            "id": "ioaa-2011-1",
+            "id": "ioaa-2011-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-2",
+            "id": "ioaa-2011-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-3",
+            "id": "ioaa-2011-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-4",
+            "id": "ioaa-2011-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-5",
+            "id": "ioaa-2011-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-6",
+            "id": "ioaa-2011-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-7",
+            "id": "ioaa-2011-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-8",
+            "id": "ioaa-2011-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-9",
+            "id": "ioaa-2011-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-10",
+            "id": "ioaa-2011-s10",
             "number": "S10",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-11",
+            "id": "ioaa-2011-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-12",
+            "id": "ioaa-2011-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-13",
+            "id": "ioaa-2011-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-14",
+            "id": "ioaa-2011-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2011-15",
+            "id": "ioaa-2011-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 10
@@ -4885,21 +5936,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2010-1",
-              "ioaa-2010-2",
-              "ioaa-2010-3",
-              "ioaa-2010-4",
-              "ioaa-2010-5",
-              "ioaa-2010-6",
-              "ioaa-2010-7",
-              "ioaa-2010-8",
-              "ioaa-2010-9",
-              "ioaa-2010-10",
-              "ioaa-2010-11",
-              "ioaa-2010-12",
-              "ioaa-2010-13",
-              "ioaa-2010-14",
-              "ioaa-2010-15",
+              "ioaa-2010-s1",
+              "ioaa-2010-s2",
+              "ioaa-2010-s3",
+              "ioaa-2010-s4",
+              "ioaa-2010-s5",
+              "ioaa-2010-s6",
+              "ioaa-2010-s7",
+              "ioaa-2010-s8",
+              "ioaa-2010-s9",
+              "ioaa-2010-s10",
+              "ioaa-2010-s11",
+              "ioaa-2010-s12",
+              "ioaa-2010-s13",
+              "ioaa-2010-s14",
+              "ioaa-2010-s15",
               "ioaa-2010-l1",
               "ioaa-2010-l2"
             ]
@@ -4921,91 +5972,91 @@
             "maxScore": 35
           },
           {
-            "id": "ioaa-2010-1",
+            "id": "ioaa-2010-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-2",
+            "id": "ioaa-2010-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-3",
+            "id": "ioaa-2010-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-4",
+            "id": "ioaa-2010-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-5",
+            "id": "ioaa-2010-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-6",
+            "id": "ioaa-2010-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-7",
+            "id": "ioaa-2010-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-8",
+            "id": "ioaa-2010-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-9",
+            "id": "ioaa-2010-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-10",
+            "id": "ioaa-2010-s10",
             "number": "S10",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-11",
+            "id": "ioaa-2010-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-12",
+            "id": "ioaa-2010-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-13",
+            "id": "ioaa-2010-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-14",
+            "id": "ioaa-2010-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2010-15",
+            "id": "ioaa-2010-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 10
@@ -5055,21 +6106,20 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2009-1",
-              "ioaa-2009-2",
-              "ioaa-2009-3",
-              "ioaa-2009-4",
-              "ioaa-2009-5",
-              "ioaa-2009-6",
-              "ioaa-2009-7",
-              "ioaa-2009-8",
-              "ioaa-2009-9",
-              "ioaa-2009-10",
-              "ioaa-2009-11",
-              "ioaa-2009-12",
-              "ioaa-2009-13",
-              "ioaa-2009-14",
-              "ioaa-2009-15",
+              "ioaa-2009-s1",
+              "ioaa-2009-s2",
+              "ioaa-2009-s3",
+              "ioaa-2009-s4",
+              "ioaa-2009-s5",
+              "ioaa-2009-s6",
+              "ioaa-2009-s7",
+              "ioaa-2009-s8",
+              "ioaa-2009-s9",
+              "ioaa-2009-s11",
+              "ioaa-2009-s12",
+              "ioaa-2009-s13",
+              "ioaa-2009-s14",
+              "ioaa-2009-s15",
               "ioaa-2009-l1",
               "ioaa-2009-l2"
             ]
@@ -5091,91 +6141,85 @@
             "maxScore": 60
           },
           {
-            "id": "ioaa-2009-1",
+            "id": "ioaa-2009-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-2",
+            "id": "ioaa-2009-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-3",
+            "id": "ioaa-2009-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-4",
+            "id": "ioaa-2009-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-5",
+            "id": "ioaa-2009-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-6",
+            "id": "ioaa-2009-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-7",
+            "id": "ioaa-2009-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-8",
+            "id": "ioaa-2009-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-9",
+            "id": "ioaa-2009-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-10",
-            "number": "S10",
-            "category": "Theory",
-            "maxScore": 10
-          },
-          {
-            "id": "ioaa-2009-11",
+            "id": "ioaa-2009-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-12",
+            "id": "ioaa-2009-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-13",
+            "id": "ioaa-2009-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-14",
+            "id": "ioaa-2009-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2009-15",
+            "id": "ioaa-2009-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 10
@@ -5204,6 +6248,7 @@
           {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2008/da.pdf",
+            "solutionLink": "/aoxiv/ioaa/2008/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
@@ -5227,21 +6272,21 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2008-1",
-              "ioaa-2008-2",
-              "ioaa-2008-3",
-              "ioaa-2008-4",
-              "ioaa-2008-5",
-              "ioaa-2008-6",
-              "ioaa-2008-7",
-              "ioaa-2008-8",
-              "ioaa-2008-9",
-              "ioaa-2008-10",
-              "ioaa-2008-11",
-              "ioaa-2008-12",
-              "ioaa-2008-13",
-              "ioaa-2008-14",
-              "ioaa-2008-15",
+              "ioaa-2008-s1",
+              "ioaa-2008-s2",
+              "ioaa-2008-s3",
+              "ioaa-2008-s4",
+              "ioaa-2008-s5",
+              "ioaa-2008-s6",
+              "ioaa-2008-s7",
+              "ioaa-2008-s8",
+              "ioaa-2008-s9",
+              "ioaa-2008-s10",
+              "ioaa-2008-s11",
+              "ioaa-2008-s12",
+              "ioaa-2008-s13",
+              "ioaa-2008-s14",
+              "ioaa-2008-s15",
               "ioaa-2008-l1",
               "ioaa-2008-l2",
               "ioaa-2008-l3"
@@ -5271,91 +6316,91 @@
             "maxScore": 100
           },
           {
-            "id": "ioaa-2008-1",
+            "id": "ioaa-2008-s1",
             "number": "S1",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-2",
+            "id": "ioaa-2008-s2",
             "number": "S2",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-3",
+            "id": "ioaa-2008-s3",
             "number": "S3",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-4",
+            "id": "ioaa-2008-s4",
             "number": "S4",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-5",
+            "id": "ioaa-2008-s5",
             "number": "S5",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-6",
+            "id": "ioaa-2008-s6",
             "number": "S6",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-7",
+            "id": "ioaa-2008-s7",
             "number": "S7",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-8",
+            "id": "ioaa-2008-s8",
             "number": "S8",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-9",
+            "id": "ioaa-2008-s9",
             "number": "S9",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-10",
+            "id": "ioaa-2008-s10",
             "number": "S10",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-11",
+            "id": "ioaa-2008-s11",
             "number": "S11",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-12",
+            "id": "ioaa-2008-s12",
             "number": "S12",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2008-13",
+            "id": "ioaa-2008-s13",
             "number": "S13",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-14",
+            "id": "ioaa-2008-s14",
             "number": "S14",
             "category": "Theory",
             "maxScore": 20
           },
           {
-            "id": "ioaa-2008-15",
+            "id": "ioaa-2008-s15",
             "number": "S15",
             "category": "Theory",
             "maxScore": 20
@@ -5387,13 +6432,15 @@
         "papers": [
           {
             "results": "/aoxiv/ioaa/2007/results.pdf",
+            "category": "Overall"
+          },
+          {
             "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2007/da.pdf",
             "solutionLink": "/aoxiv/ioaa/2007/da_sol.pdf",
             "majorCategory": "Data Analysis"
           },
           {
-            "results": "/aoxiv/ioaa/2007/results.pdf",
             "category": "Theory",
             "link": "/aoxiv/ioaa/2007/th.pdf",
             "solutionLink": "/aoxiv/ioaa/2007/th_sol.pdf",
@@ -5414,10 +6461,10 @@
             "id": "theory",
             "name": "Theory",
             "problemIds": [
-              "ioaa-2007-1",
-              "ioaa-2007-2",
-              "ioaa-2007-3",
-              "ioaa-2007-4"
+              "ioaa-2007-t1",
+              "ioaa-2007-t2",
+              "ioaa-2007-t3",
+              "ioaa-2007-t4"
             ]
           }
         ],
@@ -5444,25 +6491,25 @@
             "maxScore": 8
           },
           {
-            "id": "ioaa-2007-1",
+            "id": "ioaa-2007-t1",
             "number": "T1",
             "category": "Theory",
             "maxScore": 30
           },
           {
-            "id": "ioaa-2007-2",
+            "id": "ioaa-2007-t2",
             "number": "T2",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2007-3",
+            "id": "ioaa-2007-t3",
             "number": "T3",
             "category": "Theory",
             "maxScore": 10
           },
           {
-            "id": "ioaa-2007-4",
+            "id": "ioaa-2007-t4",
             "number": "T4",
             "category": "Theory",
             "maxScore": 10

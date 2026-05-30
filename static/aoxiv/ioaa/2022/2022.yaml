@@ -2,88 +2,141 @@ name: 15th IOAA 2022
 location: Kutaisi, Georgia
 papers:
   - results: /aoxiv/ioaa/2022/results.pdf
+    category: Overall
+
   - category: Data Analysis
     link: /aoxiv/ioaa/2022/da.pdf
     majorCategory: Data Analysis
+
   - category: Theory
     link: /aoxiv/ioaa/2022/Problems.pdf
     solutionLink: /aoxiv/ioaa/2022/Solutions.pdf
     majorCategory: Theory
+  
+  - category: Day Observation
+    link: /aoxiv/ioaa/2022/do.pdf
+    solutionLink: /aoxiv/ioaa/2022/ot_sol.pdf
+    majorCategory: Observation
+  
+  - category: Night Observation
+    link: /aoxiv/ioaa/2022/no.pdf
+    solutionLink: /aoxiv/ioaa/2022/ot_sol.pdf
+    additionalFiles: [/aoxiv/ioaa/2022/no_alternative.pdf]
+    majorCategory: Observation
+
 problems:
-  - id: ioaa-2022-1
+  - id: ioaa-2022-d1
     number: D1
     category: Data Analysis
     name: Gravitational wave astronomy
     solutionLink: /aoxiv/ioaa/2022/da_1_sol.pdf
     maxScore: 45
-  - id: ioaa-2022-2
+  - id: ioaa-2022-d2
     number: D2
     category: Data Analysis
     name: Galactic Surveys
     solutionLink: /aoxiv/ioaa/2022/da_2_sol.pdf
     maxScore: 105
-  - id: ioaa-2022-16
+
+  - id: ioaa-2022-t1
     number: T1
     category: Theory
     name: Planck's units
     maxScore: 10
-  - id: ioaa-2022-17
+  - id: ioaa-2022-t2
     number: T2
     category: Theory
     name: Circumbinary planet
     maxScore: 10
-  - id: ioaa-2022-18
+  - id: ioaa-2022-t3
     number: T3
     category: Theory
     name: Expanding ring nebula
     maxScore: 10
-  - id: ioaa-2022-19
+  - id: ioaa-2022-t4
     number: T4
     category: Theory
     name: Journey Between Galaxies
     maxScore: 10
-  - id: ioaa-2022-20
+  - id: ioaa-2022-t5
     number: T5
     category: Theory
     name: Flaring protoplanetary disk
     maxScore: 10
-  - id: ioaa-2022-21
+  - id: ioaa-2022-t6
     number: T6
     category: Theory
     name: Photometry of Binary stars
     maxScore: 20
-  - id: ioaa-2022-22
+  - id: ioaa-2022-t7
     number: T7
     category: Theory
     name: Georgia to Georgia
     maxScore: 20
-  - id: ioaa-2022-23
+  - id: ioaa-2022-t8
     number: T8
     category: Theory
     name: Ring of a planet
     maxScore: 20
-  - id: ioaa-2022-24
+  - id: ioaa-2022-t9
     number: T9
     category: Theory
     name: Solar Retrograde Motion on Mercury
     maxScore: 20
-  - id: ioaa-2022-25
+  - id: ioaa-2022-t10
     number: T10
     category: Theory
     name: Accretion
     maxScore: 20
-  - id: ioaa-2022-26
+  - id: ioaa-2022-t11
     number: T11
     category: Theory
     name: Dyson Sphere
     maxScore: 50
-  - id: ioaa-2022-27
+  - id: ioaa-2022-t12
     number: T12
     category: Theory
     name: Co-orbital satellites
     maxScore: 50
-  - id: ioaa-2022-28
+  - id: ioaa-2022-t13
     number: T13
     category: Theory
     name: Relativistic Beaming
     maxScore: 50
+  
+  - id: ioaa-2022-o1
+    number: O1
+    category: Night Observation
+    maxScore: 15
+  - id: ioaa-2022-o2
+    number: O2
+    category: Night Observation
+    maxScore: 15
+  - id: ioaa-2022-o3
+    number: O3
+    category: Night Observation
+    maxScore: 6
+  - id: ioaa-2022-o4
+    number: O4
+    category: Night Observation
+    maxScore: 14
+  - id: ioaa-2022-o5
+    number: O5
+    category: Day Observation
+    maxScore: 9
+  - id: ioaa-2022-o6
+    number: O6
+    category: Day Observation
+    maxScore: 21
+  - id: ioaa-2022-o7
+    number: O7
+    category: Day Observation
+    maxScore: 20
+  - id: ioaa-2022-o8
+    number: O8
+    category: Day Observation
+    maxScore: 30
+  - id: ioaa-2022-o9
+    number: O9
+    category: Day Observation
+    maxScore: 5

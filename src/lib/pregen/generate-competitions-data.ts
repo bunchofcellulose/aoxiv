@@ -15,6 +15,7 @@ export interface Problem {
 	gradingScheme?: string | undefined;
 	results?: string | undefined;
 	instructions?: string | undefined;
+	additionalFiles?: string[] | undefined;
 }
 
 export interface Paper {
@@ -93,6 +94,7 @@ interface ProblemYaml {
 	gradingScheme?: string;
 	results?: string;
 	instructions?: string;
+	additionalFiles?: string[];
 }
 
 interface PaperYaml {
@@ -225,6 +227,7 @@ function loadCompetition(compDir: string): Competition {
 				gradingScheme: p.gradingScheme,
 				results: p.results,
 				instructions: p.instructions,
+				additionalFiles: p.additionalFiles,
 				maxScore: p.maxScore
 			}));
 
