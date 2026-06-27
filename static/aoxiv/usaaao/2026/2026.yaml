@@ -105,6 +105,12 @@ problems:
     category: "Theory"
     name: "Stellar Odyssey"
     maxScore: 60
+
+  - id: "usaaao-2026-3t5"
+    number: "T5"
+    category: "Theory"
+    name: "His Dark Materials"
+    maxScore: 120
   
   - id: "usaaao-2026-3p1"
     number: "P1"
