@@ -13,6 +13,18 @@ papers:
     link: "/aoxiv/usaaao/2026/paper.pdf"
     solutionLink: "/aoxiv/usaaao/2026/solutions.pdf"
 
+  - category: "Theory"
+    examDuration: 210
+    link: "/aoxiv/usaaao/2026/third_th.pdf"
+    solutionLink: "/aoxiv/usaaao/2026/third_th_sol.pdf"
+    majorCategory: "Third Exam"
+
+  - category: "Practical"
+    examDuration: 120
+    link: "/aoxiv/usaaao/2026/third_prac.pdf"
+    solutionLink: "/aoxiv/usaaao/2026/third_prac_sol.pdf"
+    majorCategory: "Third Exam"
+
 problems:
   - id: "usaaao-2026-1"
     number: "1"
@@ -70,3 +82,50 @@ problems:
     name: "Neutron Star Dynamics"
     answerSheet: "/aoxiv/usaaao/2026/anssheetq9.pdf"
     maxScore: 85
+
+  - id: "usaaao-2026-3t1"
+    number: "T1"
+    category: "Theory"
+    maxScore: 10
+  
+  - id: "usaaao-2026-3t2"
+    number: "T2"
+    category: "Theory"
+    name: "Dubhe"
+    maxScore: 20
+
+  - id: "usaaao-2026-3t3"
+    number: "T3"
+    category: "Theory"
+    name: "Recession of the Moon"
+    maxScore: 50
+  
+  - id: "usaaao-2026-3t4"
+    number: "T4"
+    category: "Theory"
+    name: "Stellar Odyssey"
+    maxScore: 60
+  
+  - id: "usaaao-2026-3p1"
+    number: "P1"
+    category: "Practical"
+    name: "Type II Supernova"
+    maxScore: 55
+
+  - id: "usaaao-2026-3p2"
+    number: "P2"
+    category: "Practical"
+    name: "Travelers in Outer Space"
+    maxScore: 75
+
+  - id: "usaaao-2026-3p3"
+    number: "P3"
+    category: "Practical"
+    name: "Stars in the Telescope"
+    maxScore: 46
+  
+  - id: "usaaao-2026-3p4"
+    number: "P4"
+    category: "Practical"
+    name: "Sky Map Attack 2!"
+    maxScore: 54

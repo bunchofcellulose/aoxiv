@@ -7,28 +7,176 @@
 	import OfficialResultsPanel from '$lib/components/OfficialResultsPanel.svelte';
 	import { Switch } from '$lib/components/ui/switch/index.js';
 
-	// Find the competition by ID
+	// ---------------------------------------------------------------------------
+	// Types (derived from the data shape, not hardcoded union literals)
+	// ---------------------------------------------------------------------------
+
+	type Competition = (typeof competitions)[number];
+	type Edition = Competition['editions'][number];
+	type PaperItem = Edition['papers'][number];
+	type ProblemItem = Edition['problems'][number];
+
+	interface MatchedEdition extends Edition {
+		matchedProblems: ProblemItem[];
+	}
+
+	interface MajorGroup {
+		name: string;
+		papers: PaperItem[];
+		problems: ProblemItem[];
+	}
+
+	interface Grouping {
+		grouped: MajorGroup[];
+		ungroupedPapers: PaperItem[];
+		ungroupedProblems: ProblemItem[];
+	}
+
+	// ---------------------------------------------------------------------------
+	// Known groups — controls display order; anything else sorts alphabetically
+	// ---------------------------------------------------------------------------
+
+	const KNOWN_ORDER = [
+		'Overall',
+		'Theory',
+		'Practical',
+		'Data Analysis',
+		'Observation',
+		'Group',
+		'Team'
+	] as const;
+
+	// ---------------------------------------------------------------------------
+	// State
+	// ---------------------------------------------------------------------------
+
 	const competition = $derived(competitions.find((c) => c.id === contestId));
 	const editions = $derived(competition?.editions ?? []);
 
 	let query = $state('');
 	let showFullYear = $state(false);
 
-	const filtered = $derived(() => {
+	// ---------------------------------------------------------------------------
+	// Helpers
+	// ---------------------------------------------------------------------------
+
+	function matchesProblem(p: ProblemItem, q: string): boolean {
+		return (
+			(p.name?.toLowerCase().includes(q) ?? false) ||
+			(p.number?.toLowerCase().includes(q) ?? false) ||
+			(p.author?.toLowerCase().includes(q) ?? false) ||
+			(p.category?.toLowerCase().includes(q) ?? false)
+		);
+	}
+
+	/**
+	 * Infer a canonical major-group name from a raw string.
+	 * Returns undefined when no known prefix matches — callers can then
+	 * fall back to using the raw value directly.
+	 */
+	function inferMajorGroup(value: string | undefined): string | undefined {
+		if (!value) return undefined;
+		const n = value.toLowerCase().replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
+		if (n.startsWith('data analysis')) return 'Data Analysis';
+		if (n.startsWith('theory') || n.startsWith('long') || n.startsWith('short')) return 'Theory';
+		if (n.startsWith('observation') || n.startsWith('planetarium')) return 'Observation';
+		if (n.startsWith('group')) return 'Group';
+		if (n.startsWith('team')) return 'Team';
+		if (n.startsWith('practical') || n.startsWith('experimental')) return 'Practical';
+		if (n.startsWith('overall')) return 'Overall';
+		return undefined;
+	}
+
+	/**
+	 * Resolve the major-group name for a paper.
+	 * Priority: explicit majorCategory string → infer from majorCategory → infer from category.
+	 */
+	function resolvePaperMajor(paper: PaperItem): string | undefined {
+		const raw = (paper as Record<string, unknown>).majorCategory as string | undefined;
+		if (raw && raw.trim()) return raw.trim();
+		return inferMajorGroup(raw) ?? inferMajorGroup(paper.category);
+	}
+
+	function sortGroups(groups: MajorGroup[]): MajorGroup[] {
+		return groups.slice().sort((a, b) => {
+			const ai = KNOWN_ORDER.indexOf(a.name as (typeof KNOWN_ORDER)[number]);
+			const bi = KNOWN_ORDER.indexOf(b.name as (typeof KNOWN_ORDER)[number]);
+			if (ai !== -1 && bi !== -1) return ai - bi;
+			if (ai !== -1) return -1;
+			if (bi !== -1) return 1;
+			return a.name.localeCompare(b.name);
+		});
+	}
+
+	function getMajorGrouping(edition: MatchedEdition, includePapers: boolean): Grouping {
+		const groupMap = new Map<string, MajorGroup>();
+		const categoryToMajor: Record<string, string> = {};
+		const ungroupedPapers: PaperItem[] = [];
+		const ungroupedProblems: ProblemItem[] = [];
+
+		function getOrCreate(name: string): MajorGroup {
+			let g = groupMap.get(name);
+			if (!g) {
+				g = { name, papers: [], problems: [] };
+				groupMap.set(name, g);
+			}
+			return g;
+		}
+
+		// --- Papers ---
+		if (includePapers) {
+			for (const paper of edition.papers ?? []) {
+				const major = resolvePaperMajor(paper);
+				if (major) {
+					getOrCreate(major).papers.push(paper);
+					if (paper.category) {
+						categoryToMajor[paper.category] = major;
+						// Also map the base category (strip suffixes like "Solutions", "Part 1")
+						const base = paper.category
+							.replace(/\s+solutions?$/i, '')
+							.replace(/\s+answer\s*sheet$/i, '')
+							.replace(/\s+part\s+\d+$/i, '')
+							.trim();
+						if (base && base !== paper.category) categoryToMajor[base] = major;
+					}
+				} else {
+					ungroupedPapers.push(paper);
+				}
+			}
+		}
+
+		// --- Problems ---
+		for (const problem of edition.matchedProblems ?? []) {
+			const major =
+				(problem.category ? categoryToMajor[problem.category] : undefined) ??
+				inferMajorGroup(problem.category);
+			if (major) {
+				getOrCreate(major).problems.push(problem);
+			} else {
+				ungroupedProblems.push(problem);
+			}
+		}
+
+		const grouped = sortGroups(
+			[...groupMap.values()].filter((g) => g.papers.length > 0 || g.problems.length > 0)
+		);
+
+		return { grouped, ungroupedPapers, ungroupedProblems };
+	}
+
+	// ---------------------------------------------------------------------------
+	// Derived state
+	// ---------------------------------------------------------------------------
+
+	const filtered = $derived((): MatchedEdition[] => {
 		const q = query.trim().toLowerCase();
 		if (!q) return editions.map((ed) => ({ ...ed, matchedProblems: ed.problems }));
 
-		const results = [];
+		const results: MatchedEdition[] = [];
 		for (const edition of editions) {
 			const yearMatches = String(edition.year).includes(q);
 			const locationMatches = edition.location?.toLowerCase().includes(q) ?? false;
-			const matchedProblems = edition.problems.filter(
-				(p) =>
-					p.name?.toLowerCase().includes(q) ||
-					p.number?.toLowerCase().includes(q) ||
-					p.author?.toLowerCase().includes(q) ||
-					p.category?.toLowerCase().includes(q)
-			);
+			const matchedProblems = edition.problems.filter((p) => matchesProblem(p, q));
 
 			if (yearMatches || locationMatches) {
 				results.push({ ...edition, matchedProblems: edition.problems });
@@ -42,29 +190,18 @@
 		return results;
 	});
 
-	const hasProblemMatches = $derived(() => {
+	const hasProblemMatches = $derived((): boolean => {
 		const q = query.trim().toLowerCase();
 		if (!q) return false;
 		return editions.some(
 			(ed) =>
 				!String(ed.year).includes(q) &&
 				!(ed.location?.toLowerCase().includes(q) ?? false) &&
-				ed.problems.some(
-					(p) =>
-						p.name?.toLowerCase().includes(q) ||
-						p.number?.toLowerCase().includes(q) ||
-						p.author?.toLowerCase().includes(q) ||
-						p.category?.toLowerCase().includes(q)
-				)
+				ed.problems.some((p) => matchesProblem(p, q))
 		);
 	});
 
-	type FilteredEdition = (typeof filtered extends () => infer R ? R : never)[number];
-	type PaperItem = FilteredEdition['papers'][number];
-	type ProblemItem = FilteredEdition['matchedProblems'][number];
-	type MajorGroupName = 'Data Analysis' | 'Theory' | 'Practical' | 'Observation' | 'Group' | 'Team' | 'Overall';
-
-	function showYearLevel(edition: FilteredEdition) {
+	function showYearLevel(edition: MatchedEdition): boolean {
 		const q = query.trim().toLowerCase();
 		return (
 			!q ||
@@ -74,99 +211,20 @@
 		);
 	}
 
-	function getMajorGrouping(edition: FilteredEdition, includePapers: boolean) {
-		const order: MajorGroupName[] = [
-			'Overall',
-			'Theory',
-			'Practical',
-			'Data Analysis',
-			'Observation',
-			'Group',
-			'Team'
-		];
-		const groups: Record<
-			MajorGroupName,
-			{ name: MajorGroupName; papers: PaperItem[]; problems: ProblemItem[] }
-		> = {
-			'Data Analysis': { name: 'Data Analysis', papers: [], problems: [] },
-			'Theory': { name: 'Theory', papers: [], problems: [] },
-			'Practical': { name: 'Practical', papers: [], problems: [] },
-			'Observation': { name: 'Observation', papers: [], problems: [] },
-			'Group': { name: 'Group', papers: [], problems: [] },
-			'Team': { name: 'Team', papers: [], problems: [] },
-			'Overall': { name: 'Overall', papers: [], problems: [] }
-		};
-		const categoryToMajor: Record<string, MajorGroupName> = {};
-		const ungroupedPapers: PaperItem[] = [];
-		const ungroupedProblems: ProblemItem[] = [];
-		const inferMajorGroup = (value?: string): MajorGroupName | undefined => {
-			if (!value) return undefined;
-			const normalized = value.toLowerCase().replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
-			if (normalized.startsWith('data analysis')) return 'Data Analysis';
-			if (
-				normalized.startsWith('theory') ||
-				normalized.startsWith('long') ||
-				normalized.startsWith('short')
-			)
-				return 'Theory';
-			if (normalized.startsWith('observation') || normalized.startsWith('planetarium'))
-				return 'Observation';
-			if (normalized.startsWith('group'))
-				return 'Group';
-			if (normalized.startsWith('team'))
-				return 'Team';
-			if (normalized.startsWith('practical') || normalized.startsWith('experimental'))
-				return 'Practical';
-			if (normalized.startsWith('overall'))
-				return 'Overall';
-			return undefined;
-		};
-
-		if (includePapers) {
-			for (const paper of edition.papers ?? []) {
-				const raw = paper.majorCategory as string | undefined;
-				const paperMajor = inferMajorGroup(raw) ?? inferMajorGroup(paper.category);
-				if (paperMajor) {
-					groups[paperMajor].papers.push(paper);
-				} else {
-					ungroupedPapers.push(paper);
-				}
-				if (paperMajor && paper.category) {
-					categoryToMajor[paper.category] = paperMajor;
-					const baseCategory = paper.category
-						.replace(/\s+solutions?$/i, '')
-						.replace(/\s+answer\s*sheet$/i, '')
-						.replace(/\s+part\s+\d+$/i, '')
-						.trim();
-					if (baseCategory) {
-						categoryToMajor[baseCategory] = paperMajor;
-					}
-				}
-			}
-		}
-
-		for (const problem of edition.matchedProblems ?? []) {
-			const mappedMajor =
-				(problem.category && categoryToMajor[problem.category]) ||
-				inferMajorGroup(problem.category);
-			if (mappedMajor) {
-				groups[mappedMajor].problems.push(problem);
-			} else {
-				ungroupedProblems.push(problem);
-			}
-		}
-
-		const grouped = order
-			.map((name) => groups[name])
-			.filter(
-				(
-					group
-				): group is { name: MajorGroupName; papers: PaperItem[]; problems: ProblemItem[] } => {
-					return group.papers.length > 0 || group.problems.length > 0;
-				}
-			);
-
-		return { grouped, ungroupedPapers, ungroupedProblems };
+	// Unique key for a paper (used in #each)
+	function paperKey(paper: PaperItem): string {
+		return [
+			paper.category ?? '',
+			(paper as Record<string, unknown>).majorCategory ?? '',
+			paper.link ?? '',
+			paper.solutionLink ?? '',
+			paper.instructions ?? '',
+			paper.gradingScheme ?? '',
+			paper.answerSheet ?? '',
+			(paper.additionalFiles ?? []).join(','),
+			paper.results ?? '',
+			paper.examDuration ?? ''
+		].join('|');
 	}
 </script>
 
@@ -187,6 +245,9 @@
 	{#if filtered().length > 0}
 		<div class="flex flex-col gap-4">
 			{#each filtered() as edition (edition.year)}
+				{@const yearVisible = showYearLevel(edition)}
+				{@const grouping = getMajorGrouping(edition, yearVisible)}
+
 				<div
 					id={`year-${edition.year}`}
 					class="scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-card"
@@ -200,9 +261,7 @@
 								{edition.year}
 							</span>
 							{#if edition.location}
-								<span class="text-sm text-muted-foreground">
-									{edition.location}
-								</span>
+								<span class="text-sm text-muted-foreground">{edition.location}</span>
 							{/if}
 						</div>
 						{#if edition.link}
@@ -211,7 +270,7 @@
 					</div>
 
 					<div class="flex flex-col gap-4 p-4">
-						{#if showYearLevel(edition)}
+						{#if yearVisible}
 							<OfficialResultsPanel
 								{edition}
 								filteredProblems={edition.matchedProblems ?? edition.problems}
@@ -219,9 +278,9 @@
 						{/if}
 
 						<!-- Major-category boxes -->
-						{#if (showYearLevel(edition) && edition.papers && edition.papers.length > 0) || (edition.matchedProblems && edition.matchedProblems.length > 0)}
-							{@const grouping = getMajorGrouping(edition, showYearLevel(edition))}
+						{#if grouping.grouped.length > 0 || grouping.ungroupedPapers.length > 0 || grouping.ungroupedProblems.length > 0}
 							<div class="flex flex-col gap-3">
+								<!-- Grouped sections -->
 								{#each grouping.grouped as group (group.name)}
 									<div class="rounded-lg border border-border/70 bg-background/70 p-3">
 										<div
@@ -230,18 +289,19 @@
 											{group.name}
 										</div>
 
-										{#if showYearLevel(edition) && group.papers.length > 0}
+										<!-- Papers -->
+										{#if yearVisible && group.papers.length > 0}
 											<div class="mb-3 flex flex-wrap items-center gap-1.5">
-												{#each group.papers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.instructions ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.results ?? ''}-${paper.examDuration ?? ''}`)}
+												{#each group.papers as paper (paperKey(paper))}
 													{@const categoryLabel = paper.category ?? group.name}
-													{@const hasCategoryDownloads = !!(
+													{@const hasDownloads = !!(
 														paper.link ||
 														paper.solutionLink ||
 														paper.answerSheet ||
 														paper.gradingScheme ||
 														paper.instructions ||
 														paper.results ||
-														(paper.additionalFiles?.length ?? 0)
+														(paper.additionalFiles?.length ?? 0) > 0
 													)}
 													{#if paper.examDuration}
 														<Badge
@@ -255,54 +315,55 @@
 																aria-hidden="true"
 															>
 																<circle cx="12" cy="13" r="7"></circle>
-																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"></path>
+																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"
+																></path>
 															</svg>
-															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads
-																? ' →'
-																: ''}
+															{categoryLabel}
+															{paper.examDuration} min{hasDownloads ? ' →' : ''}
 														</Badge>
 													{/if}
 													{#if paper.instructions}
-														<Badge variant="outline" href={paper.instructions} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Instructions</Badge
-														>
+														<Badge variant="outline" href={paper.instructions} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Instructions
+														</Badge>
 													{/if}
 													{#if paper.link}
-														<Badge variant="outline" href={paper.link} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Problems</Badge
-														>
+														<Badge variant="outline" href={paper.link} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Problems
+														</Badge>
 													{/if}
 													{#if paper.additionalFiles}
 														{#each paper.additionalFiles as file (file)}
-															<Badge variant="outline" href={file} target="_blank"
-																>{paper.category ? `${paper.category} ` : ''}Additional Files</Badge
-															>
+															<Badge variant="outline" href={file} target="_blank">
+																{paper.category ? `${paper.category} ` : ''}Additional Files
+															</Badge>
 														{/each}
 													{/if}
 													{#if paper.answerSheet}
-														<Badge variant="outline" href={paper.answerSheet} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Answer Sheet</Badge
-														>
+														<Badge variant="outline" href={paper.answerSheet} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Answer Sheet
+														</Badge>
 													{/if}
 													{#if paper.solutionLink}
-														<Badge variant="outline" href={paper.solutionLink} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Solutions</Badge
-														>
+														<Badge variant="outline" href={paper.solutionLink} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Solutions
+														</Badge>
 													{/if}
 													{#if paper.gradingScheme}
-														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
-														>
+														<Badge variant="outline" href={paper.gradingScheme} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Grading Scheme
+														</Badge>
 													{/if}
 													{#if paper.results}
-														<Badge variant="outline" href={paper.results} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Results</Badge
-														>
+														<Badge variant="outline" href={paper.results} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Results
+														</Badge>
 													{/if}
 												{/each}
 											</div>
 										{/if}
 
+										<!-- Problems -->
 										{#if group.problems.length > 0}
 											<div class="grid grid-cols-1 gap-2 xs:grid-cols-2 xl:grid-cols-3">
 												{#each group.problems as problem (problem.id)}
@@ -311,27 +372,29 @@
 														class="flex scroll-mt-24 flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
 													>
 														<div class="flex items-center gap-2">
-															<span class="font-mono text-sm font-semibold text-primary"
-																>Problem {problem.number}</span
-															>
+															<span class="font-mono text-sm font-semibold text-primary">
+																Problem {problem.number}
+															</span>
 															{#if problem.maxScore}
-																<span class="text-xs text-muted-foreground"
-																	>({problem.maxScore} pts)</span
-																>
+																<span class="text-xs text-muted-foreground">
+																	({problem.maxScore} pts)
+																</span>
 															{/if}
 														</div>
-														<span class="text-left text-sm leading-snug font-medium text-foreground"
-															>{problem.name}</span
+														<span
+															class="text-left text-sm leading-snug font-medium text-foreground"
 														>
+															{problem.name}
+														</span>
 														{#if problem.category}
-															<span class="text-xs font-medium text-primary"
-																>{problem.category}</span
-															>
+															<span class="text-xs font-medium text-primary">{problem.category}</span>
 														{/if}
 														<div class="flex flex-wrap gap-1.5">
 															{#if problem.instructions}
-																<Badge variant="outline" href={problem.instructions} target="_blank"
-																	>Instructions</Badge
+																<Badge
+																	variant="outline"
+																	href={problem.instructions}
+																	target="_blank">Instructions</Badge
 																>
 															{/if}
 															{#if problem.link}
@@ -347,13 +410,17 @@
 																{/each}
 															{/if}
 															{#if problem.answerSheet}
-																<Badge variant="outline" href={problem.answerSheet} target="_blank"
-																	>Answer Sheet</Badge
+																<Badge
+																	variant="outline"
+																	href={problem.answerSheet}
+																	target="_blank">Answer Sheet</Badge
 																>
 															{/if}
 															{#if problem.solutionLink}
-																<Badge variant="outline" href={problem.solutionLink} target="_blank"
-																	>Solution</Badge
+																<Badge
+																	variant="outline"
+																	href={problem.solutionLink}
+																	target="_blank">Solution</Badge
 																>
 															{/if}
 															{#if problem.gradingScheme}
@@ -376,20 +443,21 @@
 									</div>
 								{/each}
 
-								{#if (showYearLevel(edition) && grouping.ungroupedPapers.length > 0) || grouping.ungroupedProblems.length > 0}
+								<!-- Ungrouped papers + problems -->
+								{#if (yearVisible && grouping.ungroupedPapers.length > 0) || grouping.ungroupedProblems.length > 0}
 									<div class="flex flex-col gap-3">
-										{#if showYearLevel(edition) && grouping.ungroupedPapers.length > 0}
+										{#if yearVisible && grouping.ungroupedPapers.length > 0}
 											<div class="flex flex-wrap items-center gap-1.5">
-												{#each grouping.ungroupedPapers as paper (`${paper.category ?? ''}-${paper.link ?? ''}-${paper.solutionLink ?? ''}-${paper.instructions ?? ''}-${paper.gradingScheme ?? ''}-${paper.answerSheet ?? ''}-${paper.additionalFiles?.join(',') ?? ''}-${paper.results ?? ''}-${paper.examDuration ?? ''}`)}
+												{#each grouping.ungroupedPapers as paper (paperKey(paper))}
 													{@const categoryLabel = paper.category ?? 'Paper'}
-													{@const hasCategoryDownloads = !!(
+													{@const hasDownloads = !!(
 														paper.link ||
 														paper.solutionLink ||
 														paper.answerSheet ||
 														paper.gradingScheme ||
 														paper.instructions ||
 														paper.results ||
-														(paper.additionalFiles?.length ?? 0)
+														(paper.additionalFiles?.length ?? 0) > 0
 													)}
 													{#if paper.examDuration}
 														<Badge
@@ -403,49 +471,49 @@
 																aria-hidden="true"
 															>
 																<circle cx="12" cy="13" r="7"></circle>
-																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"></path>
+																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"
+																></path>
 															</svg>
-															{categoryLabel}{' '}{paper.examDuration} min{hasCategoryDownloads
-																? ' →'
-																: ''}
+															{categoryLabel}
+															{paper.examDuration} min{hasDownloads ? ' →' : ''}
+														</Badge>
+													{/if}
+													{#if paper.instructions}
+														<Badge variant="outline" href={paper.instructions} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Instructions
 														</Badge>
 													{/if}
 													{#if paper.link}
-														<Badge variant="outline" href={paper.link} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Problems</Badge
-														>
-													{/if}
-													{#if paper.solutionLink}
-														<Badge variant="outline" href={paper.solutionLink} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Solutions</Badge
-														>
-													{/if}
-													{#if paper.instructions}
-														<Badge variant="outline" href={paper.instructions} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Instructions</Badge
-														>
-													{/if}
-													{#if paper.gradingScheme}
-														<Badge variant="outline" href={paper.gradingScheme} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Grading Scheme</Badge
-														>
+														<Badge variant="outline" href={paper.link} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Problems
+														</Badge>
 													{/if}
 													{#if paper.additionalFiles}
 														{#each paper.additionalFiles as file (file)}
-															<Badge variant="outline" href={file} target="_blank"
-																>{paper.category ? `${paper.category} ` : ''}Additional Files</Badge
-															>
+															<Badge variant="outline" href={file} target="_blank">
+																{paper.category ? `${paper.category} ` : ''}Additional Files
+															</Badge>
 														{/each}
 													{/if}
 													{#if paper.answerSheet}
-														<Badge variant="outline" href={paper.answerSheet} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Answer Sheet</Badge
-														>
+														<Badge variant="outline" href={paper.answerSheet} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Answer Sheet
+														</Badge>
+													{/if}
+													{#if paper.solutionLink}
+														<Badge variant="outline" href={paper.solutionLink} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Solutions
+														</Badge>
+													{/if}
+													{#if paper.gradingScheme}
+														<Badge variant="outline" href={paper.gradingScheme} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Grading Scheme
+														</Badge>
 													{/if}
 													{#if paper.results}
-														<Badge variant="outline" href={paper.results} target="_blank"
-															>{paper.category ? `${paper.category} ` : ''}Results</Badge
-														>
+														<Badge variant="outline" href={paper.results} target="_blank">
+															{paper.category ? `${paper.category} ` : ''}Results
+														</Badge>
 													{/if}
 												{/each}
 											</div>
@@ -459,27 +527,29 @@
 														class="flex scroll-mt-24 flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
 													>
 														<div class="flex items-center gap-2">
-															<span class="font-mono text-sm font-semibold text-primary"
-																>Problem {problem.number}</span
-															>
+															<span class="font-mono text-sm font-semibold text-primary">
+																Problem {problem.number}
+															</span>
 															{#if problem.maxScore}
-																<span class="text-xs text-muted-foreground"
-																	>({problem.maxScore} pts)</span
-																>
+																<span class="text-xs text-muted-foreground">
+																	({problem.maxScore} pts)
+																</span>
 															{/if}
 														</div>
-														<span class="text-left text-sm leading-snug font-medium text-foreground"
-															>{problem.name}</span
+														<span
+															class="text-left text-sm leading-snug font-medium text-foreground"
 														>
+															{problem.name}
+														</span>
 														{#if problem.category}
-															<span class="text-xs font-medium text-primary"
-																>{problem.category}</span
-															>
+															<span class="text-xs font-medium text-primary">{problem.category}</span>
 														{/if}
 														<div class="flex flex-wrap gap-1.5">
 															{#if problem.instructions}
-																<Badge variant="outline" href={problem.instructions} target="_blank"
-																	>Instructions</Badge
+																<Badge
+																	variant="outline"
+																	href={problem.instructions}
+																	target="_blank">Instructions</Badge
 																>
 															{/if}
 															{#if problem.link}
@@ -495,13 +565,17 @@
 																{/each}
 															{/if}
 															{#if problem.answerSheet}
-																<Badge variant="outline" href={problem.answerSheet} target="_blank"
-																	>Answer Sheet</Badge
+																<Badge
+																	variant="outline"
+																	href={problem.answerSheet}
+																	target="_blank">Answer Sheet</Badge
 																>
 															{/if}
 															{#if problem.solutionLink}
-																<Badge variant="outline" href={problem.solutionLink} target="_blank"
-																	>Solution</Badge
+																<Badge
+																	variant="outline"
+																	href={problem.solutionLink}
+																	target="_blank">Solution</Badge
 																>
 															{/if}
 															{#if problem.gradingScheme}
@@ -524,16 +598,17 @@
 									</div>
 								{/if}
 
-								{#if showYearLevel(edition) && edition.problemsLink}
+								<!-- Archive link -->
+								{#if yearVisible && edition.problemsLink}
 									<div class="rounded-lg border border-border/70 bg-background/70 p-3">
 										<div
 											class="mb-2 text-xs font-semibold tracking-wider text-muted-foreground uppercase"
 										>
 											Archive
 										</div>
-										<Badge variant="outline" href={edition.problemsLink} target="_blank"
-											>All Problems</Badge
-										>
+										<Badge variant="outline" href={edition.problemsLink} target="_blank">
+											All Problems
+										</Badge>
 									</div>
 								{/if}
 							</div>
