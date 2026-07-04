@@ -1,0 +1,28 @@
+name: "BDOAA 2026"
+
+papers:
+  - category: "National Senior"
+    examDuration: 120
+    link: "/aoxiv/bdoaa/2026/paper.pdf"
+    solutionLink: "/aoxiv/bdoaa/2026/solutions.pdf"
+
+problems:
+  - id: "bdoaa-2026-1"
+    number: "1"
+    name: "Occultations"
+    maxScore: 17
+  
+  - id: "bdoaa-2026-2"
+    number: "2"
+    name: "Olbers's Paradox"
+    maxScore: 14
+  
+  - id: "bdoaa-2026-3"
+    number: "3"
+    name: "Astrometric Imaging and Binary Inference"
+    maxScore: 19
+  
+  - id: "bdoaa-2026-4"
+    number: "4"
+    name: "The Lost Years Written in the Stars"
+    maxScore: 30
