@@ -1,21 +1,58 @@
 <script lang="ts">
 	import '../app.css';
 	import { resolve } from '$app/paths';
-	let { children } = $props();
+	import { page } from '$app/state';
+	import { afterNavigate } from '$app/navigation';
+	import { authClient } from '$lib/auth-client';
+	let { children, data } = $props();
 
-	import NavLink from '$lib/components/NavLink.svelte';
-	import GlobalSearch from '$lib/components/GlobalSearch.svelte';
-	import { siteConfig } from '$lib/site-config';
-	import Separator from '$lib/components/ui/separator/separator.svelte';
-	import { Button } from '$lib/components/ui/button/index.js';
+	// Google Analytics page-view tracking on client-side navigations. The gtag loader and
+	// initial config live in app.html; here we just re-send the current path after each
+	// SPA navigation. (This previously lived in app.html, but that file is a plain HTML
+	// template — not a Svelte component — so its `import`/`afterNavigate` threw at runtime.)
+	afterNavigate(() => {
+		const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
+		gtag?.('config', 'G-BHEQ5451BE', { page_path: window.location.pathname });
+	});
+
 	import { ModeWatcher } from 'mode-watcher';
 	import * as NavigationMenu from '$lib/components/ui/navigation-menu/index.js';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
-	import AppSidebar from '$lib/components/AppSidebar.svelte';
-	import NavButtons from './NavButtons.svelte';
-	import SearchIcon from '@lucide/svelte/icons/search';
+	import AppSidebar from './AppSidebar.svelte';
+	import ScrollToTop from '$lib/components/ScrollToTop.svelte';
+	import GlobalSearch from '$lib/components/GlobalSearch.svelte';
+	import Brand from '$lib/components/Brand.svelte';
+	import { Toaster } from '$lib/components/ui/sonner/index.js';
+	import { Search } from '@lucide/svelte';
+	import LogIn from '$lib/components/buttons/LogIn.svelte';
+	import { buttonVariants } from '$lib/components/ui/button/index.js';
+	import * as Kbd from '$lib/components/ui/kbd/index.js';
+	import DarkModeButton from '$lib/components/buttons/DarkModeButton.svelte';
 
-	const navLinks = siteConfig.navigation?.links ?? [];
+	const navLinks = [
+		{ url: '/', label: 'home' },
+		{ url: '/olympiads', label: 'olympiads' },
+		{ url: '/resources', label: 'resources' }
+	];
+
+	// Page/route data is cached (see +page.server.ts and (reg)/+layout.server.ts), so the
+	// server-rendered `data.user` can be stale after a login/logout — e.g. the logged-out
+	// payload lingers after signing in through the OAuth full-page redirect. The client
+	// session store always reflects the true auth state and is not affected by that cache,
+	// so the auth chrome (login/profile button, sidebar, admin link) reads from it. We fall
+	// back to `data.user` only while the session is still loading, to avoid a flash.
+	const session = authClient.useSession();
+	const currentUser = $derived(
+		$session.isPending ? (data?.user ?? null) : ($session.data?.user ?? null)
+	);
+
+	const moreNavLinks = $derived([
+		{ url: '/blog', label: 'blog' },
+		{ url: '/contribute', label: 'contribute' },
+		{ url: '/privacy', label: 'privacy policy' },
+		...(currentUser?.role === 'admin' ? [{ url: '/admin', label: 'admin' }] : [])
+	]);
+
 	let searchOpen = $state(false);
 </script>
 
@@ -25,67 +62,106 @@
 
 <ModeWatcher />
 <GlobalSearch bind:open={searchOpen} />
+<Toaster richColors closeButton position="top-center" />
 
 <Sidebar.Provider>
-	<AppSidebar {navLinks} brandName={siteConfig.name} />
-	<div
-		class="flex min-h-screen w-full flex-col items-center bg-background px-8 py-3 sm:px-10 sm:py-6"
-	>
-		<div class="w-full md:w-5/6 xl:w-2/3">
-			<nav class="grid grid-cols-3 items-center md:hidden">
+	<AppSidebar navLinks={navLinks.concat(moreNavLinks)} user={currentUser} />
+	<!-- Main wrapper — transparent so html gradient shows through -->
+	<div class="flex min-h-screen w-full flex-col items-center bg-background px-4 pt-6 pb-3">
+		<div class="w-full lg:w-5/6 xl:w-2/3">
+			<!-- Mobile nav — glass pill -->
+			<nav
+				class="sticky top-3 z-40 flex flex-row flex-wrap items-center justify-between gap-2 rounded-full border
+				       border-white/65
+				       bg-white/45 p-1.5
+				       shadow-lg
+				       ring-1 shadow-violet-500/5 ring-white/50
+				       backdrop-blur-xl ring-inset md:hidden
+				       dark:border-white/10 dark:bg-white/5 dark:shadow-black/40 dark:ring-white/5"
+			>
 				<Sidebar.Trigger />
-				<a
-					href={resolve('/')}
-					class="justify-self-center text-base font-medium text-foreground hover:text-primary"
-				>
-					{siteConfig.name}
+				<a href={resolve('/')} class="px-1">
+					<Brand class="text-lg" />
 				</a>
-				<Button
-					variant="ghost"
-					size="icon"
-					class="justify-self-end"
+				<button
 					onclick={() => (searchOpen = true)}
+					class="{buttonVariants({ variant: 'ghost', size: 'icon' })} justify-self-end"
 					aria-label="Search problems"
 				>
-					<SearchIcon class="size-4" />
-				</Button>
+					<Search class="size-4" />
+				</button>
 			</nav>
-			<nav class="hidden flex-row flex-wrap items-center justify-between gap-2 md:flex">
-				<NavigationMenu.Root>
-					<NavigationMenu.List class="gap-2 sm:gap-3">
+
+			<!-- Desktop nav — glass pill -->
+			<nav
+				class="sticky top-3 z-40 hidden flex-row flex-wrap items-center justify-between gap-2 rounded-full border
+				       border-white/65
+				       bg-white/45 p-1.5
+				       shadow-lg
+				       ring-1 shadow-violet-500/5 ring-white/50
+				       backdrop-blur-xl ring-inset md:flex
+				       dark:border-white/10 dark:bg-white/5 dark:shadow-black/40 dark:ring-white/5"
+			>
+				<NavigationMenu.Root viewport={false}>
+					<NavigationMenu.List class="gap-1 sm:gap-2">
 						{#each navLinks as navLink (navLink.url)}
-							<NavLink url={navLink.url} label={navLink.label} />
+							<NavigationMenu.Item>
+								<NavigationMenu.Link
+									href={navLink.url}
+									aria-current={page.url.pathname == navLink.url}
+									data-active={page.url.pathname == navLink.url}
+									class="rounded-full py-2 text-base font-medium text-foreground transition-colors duration-250 hover:text-primary"
+									>{navLink.label}</NavigationMenu.Link
+								>
+							</NavigationMenu.Item>
 						{/each}
+						<NavigationMenu.Item openOnHover={false}>
+							<NavigationMenu.Trigger class="transition-colors duration-250">
+								<p>more</p>
+							</NavigationMenu.Trigger>
+							<NavigationMenu.Content>
+								<ul class="flex flex-col gap-1">
+									{#each moreNavLinks as navLink (navLink.url)}
+										<li>
+											<NavigationMenu.Link
+												href={navLink.url}
+												aria-current={page.url.pathname == navLink.url}
+												data-active={page.url.pathname == navLink.url}
+												class="rounded-full py-2 text-base font-medium text-foreground transition-colors duration-250 hover:text-primary"
+												>{navLink.label}</NavigationMenu.Link
+											>
+										</li>
+									{/each}
+								</ul>
+							</NavigationMenu.Content>
+						</NavigationMenu.Item>
 					</NavigationMenu.List>
 				</NavigationMenu.Root>
 				<div class="flex items-center gap-2">
-					<Button
-						variant="outline"
-						class="items-center gap-2 text-sm text-muted-foreground"
+					<button
 						onclick={() => (searchOpen = true)}
+						class="{buttonVariants({
+							variant: 'ghost'
+						})} items-center gap-2 border border-white/50
+						       bg-white/30 text-sm text-muted-foreground hover:bg-white/50 dark:border-white/10
+						       dark:bg-white/5 dark:hover:bg-white/10"
 						aria-label="Search problems"
 					>
-						<SearchIcon class="size-4" />
-						<span class="hidden lg:block">search...</span>
-						<span
-							class="hidden rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[0.7rem] text-muted-foreground lg:inline-flex"
-						>
-							⌘
-						</span>
-						<span
-							class="hidden rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[0.7rem] text-muted-foreground lg:inline-flex"
-						>
-							K
-						</span>
-					</Button>
-					<NavButtons />
+						<Search class="size-4" />
+						<span class="block">search…</span>
+						<Kbd.Root class="inline-flex">⌘</Kbd.Root>
+						<Kbd.Root class="inline-flex">K</Kbd.Root>
+					</button>
+					<DarkModeButton />
+					<LogIn user={currentUser} />
 				</div>
 			</nav>
 
-			<Separator class="my-3" />
 			<main>
 				{@render children?.()}
 			</main>
 		</div>
 	</div>
 </Sidebar.Provider>
+
+<ScrollToTop />

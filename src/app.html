@@ -3,29 +3,19 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="%sveltekit.assets%/favicon.svg" />
-		
+
 		<!-- Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHEQ5451BE"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
+			function gtag() {
+				dataLayer.push(arguments);
+			}
 			gtag('js', new Date());
 
 			gtag('config', 'G-BHEQ5451BE');
 		</script>
 
-		<script lang="ts">
-			import { afterNavigate } from '$app/navigation';
-
-			afterNavigate(() => {
-				if (window.gtag) {
-				window.gtag('config', 'G-BHEQ5451BE', {
-					page_path: window.location.pathname
-				});
-				}
-			});
-		</script>
-		
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>

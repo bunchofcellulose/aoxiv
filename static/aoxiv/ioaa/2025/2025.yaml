@@ -81,6 +81,7 @@ problems:
     number: T4
     category: Theory
     name: Balmer Decrement
+    maxScore: 15
   - id: ioaa-2025-t5
     number: T5
     category: Theory
@@ -105,6 +106,7 @@ problems:
     number: T9
     category: Theory
     name: Atmospheric Seeing
+    maxScore: 35
   - id: ioaa-2025-t10
     number: T10
     category: Theory

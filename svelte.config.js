@@ -1,5 +1,7 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-vercel';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,7 +14,13 @@ const config = {
 		})
 	},
 
-	preprocess: [mdsvex()],
+	preprocess: [
+		mdsvex({
+			extensions: ['.svx'],
+			smartypants: true,
+			layout: join(dirname(fileURLToPath(import.meta.url)), './src/lib/prose.svelte')
+		})
+	],
 	extensions: ['.svelte', '.svx']
 };
 

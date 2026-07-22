@@ -1,21 +1,20 @@
 import { redirect } from '@sveltejs/kit';
+import { competitions } from '$lib/competitions';
 
-const contests = [
-	'apho',
-	'eotvos',
-	'eupho',
-	'inpho',
-	'ipho',
-	'sjpo',
-	'spho',
-	'spot',
-	'usapho',
-	'usatst'
-];
+const olympiadIds = new Set(competitions.map((c) => c.id));
 
-export function load({ url }) {
-	// redirect legacy urls
-	if (contests.find((i) => i == url.pathname.split('/')[1])) {
-		redirect(308, '/contests' + url.pathname);
+export function load({ url, locals }) {
+	const seg = url.pathname.split('/')[1];
+
+	// Legacy: /contests/* → /olympiads/*
+	if (seg === 'contests') {
+		redirect(308, url.pathname.replace('/contests', '/olympiads') + url.search);
 	}
+
+	// Legacy: bare /<olympiad-id> → /olympiads/<olympiad-id>
+	if (olympiadIds.has(seg)) {
+		redirect(308, '/olympiads' + url.pathname);
+	}
+
+	return { user: locals.user ?? null };
 }

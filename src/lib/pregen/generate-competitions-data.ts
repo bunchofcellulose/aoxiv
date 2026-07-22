@@ -35,6 +35,7 @@ export interface Paper {
 	bronze?: number;
 	hm?: number;
 	camp?: number;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	[key: string]: any;
 }
 
@@ -114,6 +115,7 @@ interface PaperYaml {
 	bronze?: number;
 	hm?: number;
 	camp?: number;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	[key: string]: any;
 }
 
@@ -180,7 +182,7 @@ function loadCompetition(compDir: string): Competition {
 	let meta: CompYaml = { id: compId, name: compId, shortName: compId.toUpperCase(), website: '' };
 	try {
 		meta = readYaml<CompYaml>(indexFilePath);
-	} catch (e) {
+	} catch {
 		console.warn(`Warning: Missing or invalid index.yaml for competition ${compId}`);
 	}
 

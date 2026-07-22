@@ -142,6 +142,48 @@
     "url": "https://bdoaa.org/",
     "editions": [
       {
+        "year": 2026,
+        "name": "BDOAA 2026",
+        "papers": [
+          {
+            "category": "National Senior",
+            "examDuration": 120,
+            "link": "/aoxiv/bdoaa/2026/paper.pdf",
+            "solutionLink": "/aoxiv/bdoaa/2026/solutions.pdf"
+          }
+        ],
+        "problems": [
+          {
+            "id": "bdoaa-2026-1",
+            "number": "1",
+            "name": "Occultations",
+            "category": "National Senior",
+            "maxScore": 17
+          },
+          {
+            "id": "bdoaa-2026-2",
+            "number": "2",
+            "name": "Olbers's Paradox",
+            "category": "National Senior",
+            "maxScore": 14
+          },
+          {
+            "id": "bdoaa-2026-3",
+            "number": "3",
+            "name": "Astrometric Imaging and Binary Inference",
+            "category": "National Senior",
+            "maxScore": 19
+          },
+          {
+            "id": "bdoaa-2026-4",
+            "number": "4",
+            "name": "The Lost Years Written in the Stars",
+            "category": "National Senior",
+            "maxScore": 30
+          }
+        ]
+      },
+      {
         "year": 2025,
         "name": "BDOAA 2025",
         "papers": [
@@ -583,48 +625,6 @@
     "tag": "National",
     "url": "https://www.bpho.org.uk/baao/Papers/R2/",
     "editions": [
-      {
-        "year": 2026,
-        "name": "BAAO 2026",
-        "papers": [
-          {
-            "examDuration": 180,
-            "link": "/aoxiv/baao/2026/paper.pdf",
-            "category": "Round 2"
-          }
-        ],
-        "mockExams": [
-          {
-            "id": "round-2",
-            "name": "Round 2",
-            "problemIds": [
-              "baao-2026-1",
-              "baao-2026-2",
-              "baao-2026-3"
-            ]
-          }
-        ],
-        "problems": [
-          {
-            "id": "baao-2026-1",
-            "number": "1",
-            "name": "Poynting Into a Star",
-            "category": "Round 2"
-          },
-          {
-            "id": "baao-2026-2",
-            "number": "2",
-            "name": "Seeing the First Stars",
-            "category": "Round 2"
-          },
-          {
-            "id": "baao-2026-3",
-            "number": "3",
-            "name": "Television Satellite",
-            "category": "Round 2"
-          }
-        ]
-      },
       {
         "year": 2025,
         "name": "BAAO 2025",
@@ -8227,7 +8227,8 @@
               "usaaao-2026-3t1",
               "usaaao-2026-3t2",
               "usaaao-2026-3t3",
-              "usaaao-2026-3t4"
+              "usaaao-2026-3t4",
+              "usaaao-2026-3t5"
             ]
           },
           {
@@ -8334,6 +8335,13 @@
             "name": "Stellar Odyssey",
             "category": "Theory",
             "maxScore": 60
+          },
+          {
+            "id": "usaaao-2026-3t5",
+            "number": "T5",
+            "name": "His Dark Materials",
+            "category": "Theory",
+            "maxScore": 120
           },
           {
             "id": "usaaao-2026-3p1",

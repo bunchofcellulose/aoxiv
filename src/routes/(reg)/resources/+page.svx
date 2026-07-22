@@ -1,0 +1,16 @@
+---
+title: Resources
+description: A collection of astronomy and astrophysics olympiad resources I find the most useful
+---
+
+- [aoGuide](https://aoguide.app/) - a comprehensive guide for learning olympiad astronomy and astrophysics, with structured notes, syllabus coverage, and curated resources.
+
+- [IOAA official website](https://ioaastrophysics.org/) - the home of the International Olympiad on Astronomy and Astrophysics, including past problems, statutes, and syllabus.
+
+- [Astronomy olympiad Discord server](https://discord.gg/bV8bxvTmzU) - a friendly community of students and mentors preparing for astronomy and astrophysics olympiads.
+
+- [An Introduction to Modern Astrophysics (Carroll & Ostlie)](https://www.cambridge.org/highereducation/books/an-introduction-to-modern-astrophysics/56E4AC96D6A5E5C0A98D5A2E12CC1C51) - the standard reference textbook that covers most of the theory needed for the higher-level olympiads.
+
+- [Fundamental Astronomy (Karttunen et al.)](https://link.springer.com/book/10.1007/978-3-662-53045-0) - an accessible textbook widely used for building up the fundamentals.
+
+- [Stellarium](https://stellarium.org/) - a free, open-source planetarium for practising observational rounds and sky recognition.

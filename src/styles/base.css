@@ -1,35 +1,22 @@
 @layer base {
 	h1 {
-		@apply mb-2 text-center text-2xl font-semibold;
-		@variant sm {
-			@apply text-3xl;
-		}
+		@apply text-3xl font-bold sm:text-4xl;
 	}
 
 	h2 {
-		@apply text-xl font-semibold;
-		@variant sm {
-			@apply text-2xl;
-		}
+		@apply text-xl font-semibold sm:text-2xl;
 	}
 
 	h3 {
-		@apply text-lg leading-6 font-semibold;
-		@variant sm {
-			@apply text-xl;
-		}
+		@apply text-lg font-semibold sm:text-xl;
 	}
 
 	p {
-		@apply mb-2 text-justify text-base leading-relaxed;
+		@apply text-base;
 	}
 
 	span {
-		@apply text-justify text-base leading-relaxed font-normal text-muted-foreground;
-	}
-
-	a {
-		@apply text-base leading-relaxed font-medium text-primary decoration-2 underline-offset-4 transition-all hover:text-primary/50;
+		@apply text-base text-muted-foreground;
 	}
 
 	button {

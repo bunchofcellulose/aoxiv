@@ -9,9 +9,9 @@ fork:
   url: "https://phoxiv.org"
 hero:
   title: aoXiv
-  description: A comprehensive archive of astronomy and astrophysics olympiads. Ranging from the prestigious IOAA to national competitions like INAO and USAAAO, aoXiv provides official/translated problem statements, solutions, answer sheets, and grading schemes you rarely find elsewhere.
-  primaryCtaLabel: Browse contests
-  primaryCtaPath: /contests
+  description: A comprehensive archive of astronomy and astrophysics olympiads, from the well-known IOAA to national gems like INAO and USAAAO. Includes solutions and grading schemes you rarely find elsewhere.
+  primaryCtaLabel: Browse olympiads
+  primaryCtaPath: /olympiads
   secondaryCtaLabel: Contribute
 seo:
   homeTitle: aoXiv
@@ -22,7 +22,7 @@ navigation:
   links:
     - label: home
       url: /
-    - label: contests
-      url: /contests
+    - label: olympiads
+      url: /olympiads
     - label: resources
-      url: https://aoguide.app/guide/resources
+      url: /resources

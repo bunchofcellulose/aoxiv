@@ -33,6 +33,7 @@ export interface Paper {
 	bronze?: number;
 	hm?: number;
 	camp?: number;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	[key: string]: any;
 }
 
@@ -153,6 +154,85 @@ export function getGlobalStats(compId: string, year: number): Paper[] | null {
 	if (!editionData || !editionData.edition.papers) return null;
 	const stats = editionData.edition.papers.filter((p) => p.scores && p.scores.length > 0);
 	return stats.length > 0 ? stats : null;
+}
+
+/**
+ * A problem entry shaped for the global ⌘K search palette (mirrors phoXiv's
+ * `SearchItem`). `problem.files` is the flattened list of downloadable
+ * resources, each with a display label.
+ */
+export interface SearchItem {
+	olympiadId: string;
+	olympiadName: string;
+	olympiadIcon: string;
+	year: number;
+	problem: {
+		number: string;
+		title?: string;
+		files: { label: string; url: string }[];
+	};
+	searchText: string;
+}
+
+/** Flatten a problem's resource links into labelled file entries. */
+function problemFiles(problem: Problem): { label: string; url: string }[] {
+	const entries: [string, string | undefined][] = [
+		['Problem', problem.link],
+		['Solution', problem.solutionLink],
+		['Answer Sheet', problem.answerSheet],
+		['Marking Scheme', problem.gradingScheme],
+		['Results', problem.results],
+		['Instructions', problem.instructions]
+	];
+	const files = entries
+		.filter((e): e is [string, string] => Boolean(e[1]))
+		.map(([label, url]) => ({ label, url }));
+	for (const url of problem.additionalFiles ?? []) {
+		files.push({ label: url.split('/').pop() ?? 'File', url });
+	}
+	return files;
+}
+
+/** Build the flat search index consumed by GlobalSearch.svelte. */
+export function getSearchIndex(): SearchItem[] {
+	const items: SearchItem[] = [];
+	const seen = new Set<string>();
+
+	for (const comp of competitions) {
+		const icon = comp.icon ?? '🌌';
+		for (const edition of comp.editions) {
+			for (const problem of edition.problems) {
+				if (seen.has(problem.id)) continue;
+				seen.add(problem.id);
+				items.push({
+					olympiadId: comp.id,
+					olympiadName: comp.name,
+					olympiadIcon: icon,
+					year: edition.year,
+					problem: {
+						number: problem.number,
+						title: problem.name,
+						files: problemFiles(problem)
+					},
+					searchText: [
+						comp.name,
+						comp.shortName,
+						comp.id,
+						String(edition.year),
+						edition.location ?? '',
+						problem.number,
+						problem.name,
+						problem.author ?? '',
+						problem.category ?? ''
+					]
+						.join(' ')
+						.toLowerCase()
+				});
+			}
+		}
+	}
+
+	return items;
 }
 
 export function getClientSearchData() {

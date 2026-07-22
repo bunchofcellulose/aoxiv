@@ -1,0 +1,25 @@
+---
+title: Welcome to aoXiv!
+date: 2026-07-22
+description: What aoXiv is, why it exists, and how you can help.
+tags: [meta, introduction]
+author: aoXiv
+---
+
+Welcome to aoXiv — an archive for astronomy and astrophysics olympiads. This is where major updates and changes will be posted.
+
+## What is aoXiv?
+
+aoXiv aims to be the most comprehensive archive of high-school astronomy and astrophysics olympiad problems. It collects official (and, where needed, translated) problem statements, solutions, answer sheets, and grading schemes for the canonical olympiads — and shines a light on the many lesser-known national and regional competitions too.
+
+It is a fork of [phoXiv](https://phoxiv.org), the physics-olympiad archive, adapted for astronomy and astrophysics.
+
+## Why?
+
+Astronomy olympiad materials are scattered across dozens of national websites, personal folders, and dead links. Finding a complete set of problems and solutions for a given competition and year is often frustrating. aoXiv brings them together in one fast, searchable, mobile-friendly place.
+
+## How do I contribute?
+
+Want to add problems, fix an error, or contribute a whole new olympiad? Sign in and head to the [contribute](/contribute) page, open an issue or PR on [GitHub](https://github.com/bunchofcellulose/aoXiv), or drop a message in the [Discord server](https://discord.gg/bV8bxvTmzU).
+
+Browsing is, and always will be, open to everyone — no account required.

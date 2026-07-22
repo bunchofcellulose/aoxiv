@@ -17,6 +17,57 @@ bun run dev
 bun run build
 ```
 
+Browsing works without any configuration. Authentication (login / profile /
+contribute / admin) stays disabled until the environment variables below are set.
+
+## Authentication & environment
+
+aoXiv uses [better-auth](https://better-auth.com) with GitHub OAuth, backed by a
+[Neon](https://neon.tech) Postgres database. Auth runs on Vercel.
+
+1. **Create the env file** — copy the template and fill in the values:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+2. **Neon Postgres** — create a project at [neon.tech](https://neon.tech) and put
+   its connection string in `DATABASE_URL`.
+
+3. **GitHub OAuth app** — create one at
+   <https://github.com/settings/developers> → _New OAuth App_. Set the
+   authorization callback URL to `<BETTER_AUTH_URL>/api/auth/callback/github`
+   (e.g. `http://localhost:5173/api/auth/callback/github` for dev). Put the
+   client ID/secret in `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET`.
+
+4. **Auth secret** — generate one and put it in `BETTER_AUTH_SECRET`:
+
+   ```bash
+   openssl rand -base64 32
+   ```
+
+5. **Create the database tables** — the auth schema (`user`, `session`,
+   `account`, `verification`) lives in `src/lib/server/db/schema.ts`:
+
+   ```bash
+   bun run db:generate   # generate SQL migrations from the schema
+   bun run db:migrate    # apply them to DATABASE_URL
+   # or, for quick local iteration:
+   bun run db:push
+   ```
+
+6. **Become an admin** — sign in with GitHub once, then set your account's `role`
+   to `admin` (matching `SUPERADMIN_EMAIL`) directly in the database (e.g. via
+   `bun run db:studio`). The `/admin` panel can then manage everyone else.
+
+On Vercel, add the same variables under _Project → Settings → Environment
+Variables_ and set `BETTER_AUTH_URL` / `TRUSTED_ORIGINS` to your production
+domain.
+
+> **Note:** olympiad _content_ is file-based (see below), not stored in the
+> database. The `/contribute` forms are gated behind auth but do not yet persist
+> content — add problems by editing the YAML and opening a PR.
+
 ## Adding more competitions
 
 The archive data lives in `static/contests/`. Each competition is one folder, and each year is a subfolder with one year YAML.

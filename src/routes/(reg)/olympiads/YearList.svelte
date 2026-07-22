@@ -1,14 +1,23 @@
 <script lang="ts">
-	const { contestId }: { contestId: string } = $props();
+	const { olympiadId }: { olympiadId: string } = $props();
 	import { competitions } from '$lib/competitions';
-	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import SearchBar from '$lib/components/SearchBar.svelte';
 	import SearchEmptyState from '$lib/components/SearchEmptyState.svelte';
-	import OfficialResultsPanel from '$lib/components/OfficialResultsPanel.svelte';
 	import { Switch } from '$lib/components/ui/switch/index.js';
+	import {
+		FileText,
+		CircleCheck,
+		ClipboardList,
+		FileCheck2,
+		Trophy,
+		Info,
+		Paperclip,
+		ExternalLink,
+		Clock
+	} from '@lucide/svelte';
 
 	// ---------------------------------------------------------------------------
-	// Types (derived from the data shape, not hardcoded union literals)
+	// Types
 	// ---------------------------------------------------------------------------
 
 	type Competition = (typeof competitions)[number];
@@ -20,44 +29,173 @@
 		matchedProblems: ProblemItem[];
 	}
 
-	interface MajorGroup {
-		name: string;
-		papers: PaperItem[];
+	type FileKind =
+		| 'problem'
+		| 'solution'
+		| 'grading'
+		| 'answer'
+		| 'results'
+		| 'instructions'
+		| 'additional';
+
+	interface FileLink {
+		label: string;
+		url: string;
+		kind: FileKind;
+	}
+
+	interface Round {
+		key: string;
+		title: string;
+		majorCategory?: string;
+		duration?: number;
+		files: FileLink[];
 		problems: ProblemItem[];
 	}
-
-	interface Grouping {
-		grouped: MajorGroup[];
-		ungroupedPapers: PaperItem[];
-		ungroupedProblems: ProblemItem[];
-	}
-
-	// ---------------------------------------------------------------------------
-	// Known groups — controls display order; anything else sorts alphabetically
-	// ---------------------------------------------------------------------------
-
-	const KNOWN_ORDER = [
-		'Overall',
-		'Theory',
-		'Practical',
-		'Data Analysis',
-		'Observation',
-		'Group',
-		'Team'
-	] as const;
 
 	// ---------------------------------------------------------------------------
 	// State
 	// ---------------------------------------------------------------------------
 
-	const competition = $derived(competitions.find((c) => c.id === contestId));
+	const competition = $derived(competitions.find((c) => c.id === olympiadId));
 	const editions = $derived(competition?.editions ?? []);
 
 	let query = $state('');
 	let showFullYear = $state(false);
 
+	// Round display order — anything unknown sorts after these, alphabetically.
+	const ROUND_ORDER = [
+		'first round',
+		'qualifier',
+		'qualification',
+		'invitationals',
+		'nac',
+		'final theory',
+		'theory',
+		'theory long',
+		'theory short',
+		'data analysis',
+		'practical',
+		'final practical',
+		'observation',
+		'night observation',
+		'day observation',
+		'planetarium',
+		'sky map',
+		'sky chart',
+		'telescope',
+		'group competition',
+		'group',
+		'team competition',
+		'team'
+	];
+
+	function roundRank(title: string): number {
+		const i = ROUND_ORDER.indexOf(title.toLowerCase());
+		return i === -1 ? ROUND_ORDER.length : i;
+	}
+
 	// ---------------------------------------------------------------------------
-	// Helpers
+	// File extraction
+	// ---------------------------------------------------------------------------
+
+	function fileName(url: string): string {
+		return decodeURIComponent(url.split('/').pop() ?? 'File').replace(/\.[a-z0-9]+$/i, '');
+	}
+
+	function resourceFiles(src: {
+		link?: string;
+		solutionLink?: string;
+		gradingScheme?: string;
+		answerSheet?: string;
+		instructions?: string;
+		results?: string;
+		additionalFiles?: string[];
+	}): FileLink[] {
+		const out: FileLink[] = [];
+		if (src.link) out.push({ label: 'Problems', url: src.link, kind: 'problem' });
+		if (src.solutionLink) out.push({ label: 'Solutions', url: src.solutionLink, kind: 'solution' });
+		if (src.gradingScheme)
+			out.push({ label: 'Grading scheme', url: src.gradingScheme, kind: 'grading' });
+		if (src.answerSheet) out.push({ label: 'Answer sheet', url: src.answerSheet, kind: 'answer' });
+		if (src.instructions)
+			out.push({ label: 'Instructions', url: src.instructions, kind: 'instructions' });
+		if (src.results) out.push({ label: 'Results', url: src.results, kind: 'results' });
+		for (const f of src.additionalFiles ?? [])
+			out.push({ label: fileName(f), url: f, kind: 'additional' });
+		return out;
+	}
+
+	function isResultsOnly(p: PaperItem): boolean {
+		return !p.link && !p.solutionLink && !p.gradingScheme && !p.answerSheet && !!p.results;
+	}
+
+	// ---------------------------------------------------------------------------
+	// Grouping: build rounds (by category) + year-level results
+	// ---------------------------------------------------------------------------
+
+	function buildRounds(
+		edition: MatchedEdition,
+		includePapers: boolean
+	): { rounds: Round[]; results: FileLink[]; official?: string } {
+		// Local, non-reactive lookup used only within this function.
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
+		const map = new Map<string, Round>();
+		const results: FileLink[] = [];
+
+		const get = (title: string): Round => {
+			const key = title || 'Exam';
+			let r = map.get(key);
+			if (!r) {
+				r = { key, title, files: [], problems: [] };
+				map.set(key, r);
+			}
+			return r;
+		};
+
+		if (includePapers) {
+			for (const paper of edition.papers ?? []) {
+				const cat = (paper.category ?? '').trim();
+				// Roll "Overall" / results-only papers up into a year-level results row.
+				if (cat.toLowerCase() === 'overall' || (isResultsOnly(paper) && !cat)) {
+					results.push(...resourceFiles(paper));
+					continue;
+				}
+				const r = get(cat);
+				r.files.push(...resourceFiles(paper));
+				if (paper.examDuration && !r.duration) r.duration = paper.examDuration;
+				const mc = (paper as Record<string, unknown>).majorCategory as string | undefined;
+				if (mc && !r.majorCategory) r.majorCategory = mc;
+			}
+		}
+
+		// Attach problems to their round (by category). Problems without a category
+		// go to the single unnamed exam, or a generic bucket.
+		const singleUnnamed =
+			map.size === 1 && map.has('Exam') ? (map.get('Exam') as Round) : undefined;
+
+		for (const prob of edition.matchedProblems ?? []) {
+			const cat = (prob.category ?? '').trim();
+			let round: Round;
+			if (cat && map.has(cat)) round = map.get(cat) as Round;
+			else if (!cat && singleUnnamed) round = singleUnnamed;
+			else round = get(cat);
+			round.problems.push(prob);
+		}
+
+		const rounds = [...map.values()]
+			.filter((r) => r.files.length > 0 || r.problems.length > 0)
+			.sort((a, b) => {
+				const ra = roundRank(a.title);
+				const rb = roundRank(b.title);
+				return ra !== rb ? ra - rb : a.title.localeCompare(b.title);
+			});
+
+		return { rounds, results, official: edition.link };
+	}
+
+	// ---------------------------------------------------------------------------
+	// Search / filtering
 	// ---------------------------------------------------------------------------
 
 	function matchesProblem(p: ProblemItem, q: string): boolean {
@@ -68,105 +206,6 @@
 			(p.category?.toLowerCase().includes(q) ?? false)
 		);
 	}
-
-	/**
-	 * Infer a canonical major-group name from a raw string.
-	 * Returns undefined when no known prefix matches — callers can then
-	 * fall back to using the raw value directly.
-	 */
-	function inferMajorGroup(value: string | undefined): string | undefined {
-		if (!value) return undefined;
-		const n = value.toLowerCase().replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
-		if (n.startsWith('data analysis')) return 'Data Analysis';
-		if (n.startsWith('theory') || n.startsWith('long') || n.startsWith('short')) return 'Theory';
-		if (n.startsWith('observation') || n.startsWith('planetarium')) return 'Observation';
-		if (n.startsWith('group')) return 'Group';
-		if (n.startsWith('team')) return 'Team';
-		if (n.startsWith('practical') || n.startsWith('experimental')) return 'Practical';
-		if (n.startsWith('overall')) return 'Overall';
-		return undefined;
-	}
-
-	/**
-	 * Resolve the major-group name for a paper.
-	 * Priority: explicit majorCategory string → infer from majorCategory → infer from category.
-	 */
-	function resolvePaperMajor(paper: PaperItem): string | undefined {
-		const raw = (paper as Record<string, unknown>).majorCategory as string | undefined;
-		if (raw && raw.trim()) return raw.trim();
-		return inferMajorGroup(raw) ?? inferMajorGroup(paper.category);
-	}
-
-	function sortGroups(groups: MajorGroup[]): MajorGroup[] {
-		return groups.slice().sort((a, b) => {
-			const ai = KNOWN_ORDER.indexOf(a.name as (typeof KNOWN_ORDER)[number]);
-			const bi = KNOWN_ORDER.indexOf(b.name as (typeof KNOWN_ORDER)[number]);
-			if (ai !== -1 && bi !== -1) return ai - bi;
-			if (ai !== -1) return -1;
-			if (bi !== -1) return 1;
-			return a.name.localeCompare(b.name);
-		});
-	}
-
-	function getMajorGrouping(edition: MatchedEdition, includePapers: boolean): Grouping {
-		const groupMap = new Map<string, MajorGroup>();
-		const categoryToMajor: Record<string, string> = {};
-		const ungroupedPapers: PaperItem[] = [];
-		const ungroupedProblems: ProblemItem[] = [];
-
-		function getOrCreate(name: string): MajorGroup {
-			let g = groupMap.get(name);
-			if (!g) {
-				g = { name, papers: [], problems: [] };
-				groupMap.set(name, g);
-			}
-			return g;
-		}
-
-		// --- Papers ---
-		if (includePapers) {
-			for (const paper of edition.papers ?? []) {
-				const major = resolvePaperMajor(paper);
-				if (major) {
-					getOrCreate(major).papers.push(paper);
-					if (paper.category) {
-						categoryToMajor[paper.category] = major;
-						// Also map the base category (strip suffixes like "Solutions", "Part 1")
-						const base = paper.category
-							.replace(/\s+solutions?$/i, '')
-							.replace(/\s+answer\s*sheet$/i, '')
-							.replace(/\s+part\s+\d+$/i, '')
-							.trim();
-						if (base && base !== paper.category) categoryToMajor[base] = major;
-					}
-				} else {
-					ungroupedPapers.push(paper);
-				}
-			}
-		}
-
-		// --- Problems ---
-		for (const problem of edition.matchedProblems ?? []) {
-			const major =
-				(problem.category ? categoryToMajor[problem.category] : undefined) ??
-				inferMajorGroup(problem.category);
-			if (major) {
-				getOrCreate(major).problems.push(problem);
-			} else {
-				ungroupedProblems.push(problem);
-			}
-		}
-
-		const grouped = sortGroups(
-			[...groupMap.values()].filter((g) => g.papers.length > 0 || g.problems.length > 0)
-		);
-
-		return { grouped, ungroupedPapers, ungroupedProblems };
-	}
-
-	// ---------------------------------------------------------------------------
-	// Derived state
-	// ---------------------------------------------------------------------------
 
 	const filtered = $derived((): MatchedEdition[] => {
 		const q = query.trim().toLowerCase();
@@ -211,409 +250,230 @@
 		);
 	}
 
-	// Unique key for a paper (used in #each)
-	function paperKey(paper: PaperItem): string {
-		return [
-			paper.category ?? '',
-			(paper as Record<string, unknown>).majorCategory ?? '',
-			paper.link ?? '',
-			paper.solutionLink ?? '',
-			paper.instructions ?? '',
-			paper.gradingScheme ?? '',
-			paper.answerSheet ?? '',
-			(paper.additionalFiles ?? []).join(','),
-			paper.results ?? '',
-			paper.examDuration ?? ''
-		].join('|');
+	function editionProblemCount(edition: MatchedEdition): number {
+		return edition.problems.length;
 	}
 </script>
 
 <section class="my-4">
-	<div class="mb-4">
+	<div class="mb-5">
 		<SearchBar placeholder="Search by year or problem…" bind:value={query}>
 			{#snippet filters()}
 				{#if hasProblemMatches()}
 					<label class="flex cursor-pointer items-center gap-2">
 						<Switch bind:checked={showFullYear} />
-						<span class="text-sm font-medium text-muted-foreground">Show full year</span>
+						<span class="text-sm font-medium text-nowrap text-muted-foreground">Show full year</span
+						>
 					</label>
 				{/if}
 			{/snippet}
 		</SearchBar>
 	</div>
 
+	<!-- Icon for a file kind — shared by the pill + circle variants -->
+	{#snippet fileIcon(kind: FileKind)}
+		{#if kind === 'problem'}<FileText class="size-3.5" />
+		{:else if kind === 'solution'}<CircleCheck class="size-3.5" />
+		{:else if kind === 'grading'}<ClipboardList class="size-3.5" />
+		{:else if kind === 'answer'}<FileCheck2 class="size-3.5" />
+		{:else if kind === 'results'}<Trophy class="size-3.5" />
+		{:else if kind === 'instructions'}<Info class="size-3.5" />
+		{:else}<Paperclip class="size-3.5" />{/if}
+	{/snippet}
+
+	<!-- Full labelled pill — used for round-level (paper) files -->
+	{#snippet fileLink(f: FileLink)}
+		{@const styles = {
+			problem: 'bg-primary text-primary-foreground hover:bg-primary/90 border-transparent',
+			solution:
+				'bg-primary/12 text-primary hover:bg-primary/20 border-primary/20 dark:bg-primary/15',
+			grading: 'bg-card text-foreground/80 hover:bg-muted hover:text-foreground border-border',
+			answer: 'bg-card text-foreground/80 hover:bg-muted hover:text-foreground border-border',
+			results: 'bg-card text-foreground/80 hover:bg-muted hover:text-foreground border-border',
+			instructions: 'bg-card text-foreground/80 hover:bg-muted hover:text-foreground border-border',
+			additional: 'bg-card text-foreground/80 hover:bg-muted hover:text-foreground border-border'
+		}}
+		<a
+			href={f.url}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors {styles[
+				f.kind
+			]}"
+		>
+			{@render fileIcon(f.kind)}
+			{f.label}
+		</a>
+	{/snippet}
+
+	<!-- Compact icon-only circle — used for individual problem files -->
+	{#snippet fileCircle(f: FileLink)}
+		{@const styles = {
+			problem: 'bg-primary text-primary-foreground hover:bg-primary/90',
+			solution: 'bg-primary/15 text-primary hover:bg-primary/25',
+			grading: 'bg-muted text-foreground/70 hover:bg-accent hover:text-foreground',
+			answer: 'bg-muted text-foreground/70 hover:bg-accent hover:text-foreground',
+			results: 'bg-muted text-foreground/70 hover:bg-accent hover:text-foreground',
+			instructions: 'bg-muted text-foreground/70 hover:bg-accent hover:text-foreground',
+			additional: 'bg-muted text-foreground/70 hover:bg-accent hover:text-foreground'
+		}}
+		<a
+			href={f.url}
+			target="_blank"
+			rel="noopener noreferrer"
+			title={f.label}
+			aria-label={f.label}
+			class="inline-flex size-7 shrink-0 items-center justify-center rounded-full transition-colors {styles[
+				f.kind
+			]}"
+		>
+			{@render fileIcon(f.kind)}
+		</a>
+	{/snippet}
+
 	{#if filtered().length > 0}
-		<div class="flex flex-col gap-4">
+		<div class="flex flex-col gap-5">
 			{#each filtered() as edition (edition.year)}
 				{@const yearVisible = showYearLevel(edition)}
-				{@const grouping = getMajorGrouping(edition, yearVisible)}
-
+				{@const grouped = buildRounds(edition, yearVisible)}
 				<div
 					id={`year-${edition.year}`}
-					class="scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-card"
+					class="scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-card/60"
 				>
 					<!-- Year header -->
 					<div
-						class="flex items-center justify-between border-b border-border bg-muted/60 px-4 py-2.5"
+						class="flex flex-wrap items-center justify-between gap-3 border-b border-border bg-muted/40 px-4 py-3 sm:px-5"
 					>
-						<div class="flex items-center gap-3">
-							<span class="font-mono text-lg font-semibold text-foreground tabular-nums">
+						<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+							<span class="font-mono text-xl font-bold tracking-tight text-foreground tabular-nums">
 								{edition.year}
 							</span>
 							{#if edition.location}
 								<span class="text-sm text-muted-foreground">{edition.location}</span>
 							{/if}
+							<span class="text-xs text-muted-foreground/70">
+								{grouped.rounds.length}
+								{grouped.rounds.length === 1 ? 'round' : 'rounds'}
+								{#if editionProblemCount(edition) > 0}
+									· {editionProblemCount(edition)} problems
+								{/if}
+							</span>
 						</div>
-						{#if edition.link}
-							<Badge variant="outline" href={edition.link} target="_blank">Official Site</Badge>
-						{/if}
+						<div class="flex flex-wrap items-center gap-2">
+							{#each grouped.results as f (f.url)}
+								<a
+									href={f.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary transition-colors hover:border-primary/60 hover:bg-primary/20"
+								>
+									{@render fileIcon(f.kind)}
+									{f.label}
+								</a>
+							{/each}
+							{#if grouped.official}
+								<a
+									href={grouped.official}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary transition-colors hover:border-primary/60 hover:bg-primary/20"
+								>
+									<ExternalLink class="size-3.5" /> Official site
+								</a>
+							{/if}
+						</div>
 					</div>
 
-					<div class="flex flex-col gap-4 p-4">
-						{#if yearVisible}
-							<OfficialResultsPanel
-								{edition}
-								filteredProblems={edition.matchedProblems ?? edition.problems}
-							/>
-						{/if}
-
-						<!-- Major-category boxes -->
-						{#if grouping.grouped.length > 0 || grouping.ungroupedPapers.length > 0 || grouping.ungroupedProblems.length > 0}
-							<div class="flex flex-col gap-3">
-								<!-- Grouped sections -->
-								{#each grouping.grouped as group (group.name)}
-									<div class="rounded-lg border border-border/70 bg-background/70 p-3">
-										<div
-											class="mb-2 text-xs font-semibold tracking-wider text-muted-foreground uppercase"
-										>
-											{group.name}
-										</div>
-
-										<!-- Papers -->
-										{#if yearVisible && group.papers.length > 0}
-											<div class="mb-3 flex flex-wrap items-center gap-1.5">
-												{#each group.papers as paper (paperKey(paper))}
-													{@const categoryLabel = paper.category ?? group.name}
-													{@const hasDownloads = !!(
-														paper.link ||
-														paper.solutionLink ||
-														paper.answerSheet ||
-														paper.gradingScheme ||
-														paper.instructions ||
-														paper.results ||
-														(paper.additionalFiles?.length ?? 0) > 0
-													)}
-													{#if paper.examDuration}
-														<Badge
-															variant="secondary"
-															class="bg-primary/15 text-primary hover:bg-primary/25"
-														>
-															<svg
-																viewBox="0 0 24 24"
-																fill="none"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<circle cx="12" cy="13" r="7"></circle>
-																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"
-																></path>
-															</svg>
-															{categoryLabel}
-															{paper.examDuration} min{hasDownloads ? ' →' : ''}
-														</Badge>
-													{/if}
-													{#if paper.instructions}
-														<Badge variant="outline" href={paper.instructions} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Instructions
-														</Badge>
-													{/if}
-													{#if paper.link}
-														<Badge variant="outline" href={paper.link} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Problems
-														</Badge>
-													{/if}
-													{#if paper.additionalFiles}
-														{#each paper.additionalFiles as file (file)}
-															<Badge variant="outline" href={file} target="_blank">
-																{paper.category ? `${paper.category} ` : ''}Additional Files
-															</Badge>
-														{/each}
-													{/if}
-													{#if paper.answerSheet}
-														<Badge variant="outline" href={paper.answerSheet} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Answer Sheet
-														</Badge>
-													{/if}
-													{#if paper.solutionLink}
-														<Badge variant="outline" href={paper.solutionLink} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Solutions
-														</Badge>
-													{/if}
-													{#if paper.gradingScheme}
-														<Badge variant="outline" href={paper.gradingScheme} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Grading Scheme
-														</Badge>
-													{/if}
-													{#if paper.results}
-														<Badge variant="outline" href={paper.results} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Results
-														</Badge>
-													{/if}
-												{/each}
-											</div>
-										{/if}
-
-										<!-- Problems -->
-										{#if group.problems.length > 0}
-											<div class="grid grid-cols-1 gap-2 xs:grid-cols-2 xl:grid-cols-3">
-												{#each group.problems as problem (problem.id)}
-													<div
-														id={problem.id}
-														class="flex scroll-mt-24 flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
+					<!-- Rounds -->
+					{#if grouped.rounds.length > 0}
+						<div class="flex flex-col gap-3 p-3 sm:p-4">
+							{#each grouped.rounds as round (round.key)}
+								<div class="rounded-xl border border-border/60 bg-background/50 p-4">
+									<!-- Round header -->
+									{#if round.title}
+										<div class="mb-3 flex flex-wrap items-center justify-between gap-2">
+											<div class="flex flex-wrap items-center gap-2">
+												<h3 class="text-sm font-semibold tracking-wide text-foreground uppercase">
+													{round.title}
+												</h3>
+												{#if round.majorCategory && round.majorCategory !== round.title}
+													<span
+														class="rounded-full bg-muted px-2 py-0.5 text-[0.7rem] font-medium text-muted-foreground"
 													>
-														<div class="flex items-center gap-2">
-															<span class="font-mono text-sm font-semibold text-primary">
-																Problem {problem.number}
+														{round.majorCategory}
+													</span>
+												{/if}
+											</div>
+											{#if round.duration}
+												<span
+													class="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground"
+												>
+													<Clock class="size-3.5" />
+													{round.duration} min
+												</span>
+											{/if}
+										</div>
+									{/if}
+
+									<!-- Round file links -->
+									{#if round.files.length > 0}
+										<div class="mb-3 flex flex-wrap gap-1.5">
+											{#each round.files as f (f.url + f.label)}
+												{@render fileLink(f)}
+											{/each}
+										</div>
+									{/if}
+
+									<!-- Problems in this round -->
+									{#if round.problems.length > 0}
+										<div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+											{#each round.problems as problem (problem.id)}
+												{@const problemFiles = resourceFiles(problem)}
+												<div
+													id={problem.id}
+													class="flex scroll-mt-24 items-center justify-between gap-3 rounded-lg border border-border/50 bg-card px-3 py-2.5"
+												>
+													<div class="flex min-w-0 flex-col gap-0.5">
+														<div class="flex min-w-0 items-baseline gap-2">
+															<span
+																class="shrink-0 font-mono text-sm font-semibold text-primary tabular-nums"
+															>
+																{problem.number}
 															</span>
-															{#if problem.maxScore}
-																<span class="text-xs text-muted-foreground">
-																	({problem.maxScore} pts)
+															{#if problem.name}
+																<span class="text-sm leading-snug font-medium text-foreground">
+																	{problem.name}
 																</span>
 															{/if}
 														</div>
-														<span
-															class="text-left text-sm leading-snug font-medium text-foreground"
-														>
-															{problem.name}
-														</span>
-														{#if problem.category}
-															<span class="text-xs font-medium text-primary">{problem.category}</span>
+														{#if problem.author}
+															<span class="text-xs text-muted-foreground">by {problem.author}</span>
 														{/if}
-														<div class="flex flex-wrap gap-1.5">
-															{#if problem.instructions}
-																<Badge
-																	variant="outline"
-																	href={problem.instructions}
-																	target="_blank">Instructions</Badge
-																>
-															{/if}
-															{#if problem.link}
-																<Badge variant="outline" href={problem.link} target="_blank"
-																	>Problem</Badge
-																>
-															{/if}
-															{#if problem.additionalFiles}
-																{#each problem.additionalFiles as file (file)}
-																	<Badge variant="outline" href={file} target="_blank"
-																		>Additional Files</Badge
-																	>
-																{/each}
-															{/if}
-															{#if problem.answerSheet}
-																<Badge
-																	variant="outline"
-																	href={problem.answerSheet}
-																	target="_blank">Answer Sheet</Badge
-																>
-															{/if}
-															{#if problem.solutionLink}
-																<Badge
-																	variant="outline"
-																	href={problem.solutionLink}
-																	target="_blank">Solution</Badge
-																>
-															{/if}
-															{#if problem.gradingScheme}
-																<Badge
-																	variant="outline"
-																	href={problem.gradingScheme}
-																	target="_blank">Grading Scheme</Badge
-																>
-															{/if}
-															{#if problem.results}
-																<Badge variant="outline" href={problem.results} target="_blank"
-																	>Results</Badge
-																>
-															{/if}
-														</div>
 													</div>
-												{/each}
-											</div>
-										{/if}
-									</div>
-								{/each}
-
-								<!-- Ungrouped papers + problems -->
-								{#if (yearVisible && grouping.ungroupedPapers.length > 0) || grouping.ungroupedProblems.length > 0}
-									<div class="flex flex-col gap-3">
-										{#if yearVisible && grouping.ungroupedPapers.length > 0}
-											<div class="flex flex-wrap items-center gap-1.5">
-												{#each grouping.ungroupedPapers as paper (paperKey(paper))}
-													{@const categoryLabel = paper.category ?? 'Paper'}
-													{@const hasDownloads = !!(
-														paper.link ||
-														paper.solutionLink ||
-														paper.answerSheet ||
-														paper.gradingScheme ||
-														paper.instructions ||
-														paper.results ||
-														(paper.additionalFiles?.length ?? 0) > 0
-													)}
-													{#if paper.examDuration}
-														<Badge
-															variant="secondary"
-															class="bg-primary/15 text-primary hover:bg-primary/25"
-														>
-															<svg
-																viewBox="0 0 24 24"
-																fill="none"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<circle cx="12" cy="13" r="7"></circle>
-																<path d="M12 13V9m0 4l2.5 2.5M9 2h6m-4 0v2m8.5 4.5-1.5 1.5"
-																></path>
-															</svg>
-															{categoryLabel}
-															{paper.examDuration} min{hasDownloads ? ' →' : ''}
-														</Badge>
-													{/if}
-													{#if paper.instructions}
-														<Badge variant="outline" href={paper.instructions} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Instructions
-														</Badge>
-													{/if}
-													{#if paper.link}
-														<Badge variant="outline" href={paper.link} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Problems
-														</Badge>
-													{/if}
-													{#if paper.additionalFiles}
-														{#each paper.additionalFiles as file (file)}
-															<Badge variant="outline" href={file} target="_blank">
-																{paper.category ? `${paper.category} ` : ''}Additional Files
-															</Badge>
+													<div class="flex shrink-0 items-center gap-1.5">
+														{#each problemFiles as f (f.url + f.label)}
+															{@render fileCircle(f)}
 														{/each}
-													{/if}
-													{#if paper.answerSheet}
-														<Badge variant="outline" href={paper.answerSheet} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Answer Sheet
-														</Badge>
-													{/if}
-													{#if paper.solutionLink}
-														<Badge variant="outline" href={paper.solutionLink} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Solutions
-														</Badge>
-													{/if}
-													{#if paper.gradingScheme}
-														<Badge variant="outline" href={paper.gradingScheme} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Grading Scheme
-														</Badge>
-													{/if}
-													{#if paper.results}
-														<Badge variant="outline" href={paper.results} target="_blank">
-															{paper.category ? `${paper.category} ` : ''}Results
-														</Badge>
-													{/if}
-												{/each}
-											</div>
-										{/if}
-
-										{#if grouping.ungroupedProblems.length > 0}
-											<div class="grid grid-cols-1 gap-2 xs:grid-cols-2 xl:grid-cols-3">
-												{#each grouping.ungroupedProblems as problem (problem.id)}
-													<div
-														id={problem.id}
-														class="flex scroll-mt-24 flex-col gap-2 rounded-md border border-border/60 bg-background p-3"
-													>
-														<div class="flex items-center gap-2">
-															<span class="font-mono text-sm font-semibold text-primary">
-																Problem {problem.number}
+														{#if problem.maxScore}
+															<span
+																class="ml-0.5 font-mono text-xs whitespace-nowrap text-muted-foreground"
+															>
+																{problem.maxScore} pts
 															</span>
-															{#if problem.maxScore}
-																<span class="text-xs text-muted-foreground">
-																	({problem.maxScore} pts)
-																</span>
-															{/if}
-														</div>
-														<span
-															class="text-left text-sm leading-snug font-medium text-foreground"
-														>
-															{problem.name}
-														</span>
-														{#if problem.category}
-															<span class="text-xs font-medium text-primary">{problem.category}</span>
 														{/if}
-														<div class="flex flex-wrap gap-1.5">
-															{#if problem.instructions}
-																<Badge
-																	variant="outline"
-																	href={problem.instructions}
-																	target="_blank">Instructions</Badge
-																>
-															{/if}
-															{#if problem.link}
-																<Badge variant="outline" href={problem.link} target="_blank"
-																	>Problem</Badge
-																>
-															{/if}
-															{#if problem.additionalFiles}
-																{#each problem.additionalFiles as file (file)}
-																	<Badge variant="outline" href={file} target="_blank"
-																		>Additional Files</Badge
-																	>
-																{/each}
-															{/if}
-															{#if problem.answerSheet}
-																<Badge
-																	variant="outline"
-																	href={problem.answerSheet}
-																	target="_blank">Answer Sheet</Badge
-																>
-															{/if}
-															{#if problem.solutionLink}
-																<Badge
-																	variant="outline"
-																	href={problem.solutionLink}
-																	target="_blank">Solution</Badge
-																>
-															{/if}
-															{#if problem.gradingScheme}
-																<Badge
-																	variant="outline"
-																	href={problem.gradingScheme}
-																	target="_blank">Grading Scheme</Badge
-																>
-															{/if}
-															{#if problem.results}
-																<Badge variant="outline" href={problem.results} target="_blank"
-																	>Results</Badge
-																>
-															{/if}
-														</div>
 													</div>
-												{/each}
-											</div>
-										{/if}
-									</div>
-								{/if}
-
-								<!-- Archive link -->
-								{#if yearVisible && edition.problemsLink}
-									<div class="rounded-lg border border-border/70 bg-background/70 p-3">
-										<div
-											class="mb-2 text-xs font-semibold tracking-wider text-muted-foreground uppercase"
-										>
-											Archive
+												</div>
+											{/each}
 										</div>
-										<Badge variant="outline" href={edition.problemsLink} target="_blank">
-											All Problems
-										</Badge>
-									</div>
-								{/if}
-							</div>
-						{/if}
-					</div>
+									{/if}
+								</div>
+							{/each}
+						</div>
+					{:else}
+						<div class="px-5 py-6 text-sm text-muted-foreground">
+							No files available for this year yet.
+						</div>
+					{/if}
 				</div>
 			{/each}
 		</div>

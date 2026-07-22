@@ -35,7 +35,7 @@
 		if (scores.every((value) => typeof value === 'number')) return [scores as number[]];
 		if (scores.every((value) => Array.isArray(value))) {
 			return (scores as unknown[]).map((row) =>
-				(Array.isArray(row) ? row.filter((v): v is number => typeof v === 'number') : [])
+				Array.isArray(row) ? row.filter((v): v is number => typeof v === 'number') : []
 			);
 		}
 		return [];
@@ -105,7 +105,9 @@
 				if (scoreMatrix.length === 0) return null;
 
 				const problemMaxByCategory = filteredProblems
-					.filter((problem) => !paper.category || !problem.category || problem.category === paper.category)
+					.filter(
+						(problem) => !paper.category || !problem.category || problem.category === paper.category
+					)
 					.map((problem) => problem.maxScore ?? 20);
 				const totalMax = problemMaxByCategory.reduce((sum, value) => sum + value, 0);
 
@@ -130,17 +132,21 @@
 {#if scorePapers.length > 0}
 	<div class="rounded-xl border border-border bg-background p-4">
 		<details class="group">
-			<summary class="flex cursor-pointer list-none items-center justify-between gap-3 rounded-md px-1 py-1 text-left hover:bg-muted/40">
+			<summary
+				class="flex cursor-pointer list-none items-center justify-between gap-3 rounded-md px-1 py-1 text-left hover:bg-muted/40"
+			>
 				<div class="flex items-center gap-2">
 					<Badge variant="secondary">Official Results</Badge>
-					<span class="text-sm text-muted-foreground">Overall score distribution and summary statistics</span>
+					<span class="text-sm text-muted-foreground"
+						>Overall score distribution and summary statistics</span
+					>
 				</div>
 				<span class="text-xs font-medium text-muted-foreground group-open:hidden">Show</span>
 				<span class="hidden text-xs font-medium text-muted-foreground group-open:inline">Hide</span>
 			</summary>
 
 			<div class="mt-4 flex flex-col gap-4">
-				{#each scorePapers as paper}
+				{#each scorePapers as paper, i (i)}
 					<div class="rounded-lg border border-border/80 bg-card p-4">
 						<div class="mb-3 flex flex-wrap items-center gap-2">
 							<Badge variant="outline">{paper.category ?? 'General'}</Badge>
@@ -155,23 +161,41 @@
 							</p>
 							<div class="rounded-md border border-border/70 bg-background/60 p-2">
 								<svg viewBox="0 0 560 230" class="h-56 w-full">
-									<line x1="44" y1="170" x2="540" y2="170" stroke="currentColor" class="text-border" />
-									<line x1="44" y1="20" x2="44" y2="170" stroke="currentColor" class="text-border" />
+									<line
+										x1="44"
+										y1="170"
+										x2="540"
+										y2="170"
+										stroke="currentColor"
+										class="text-border"
+									/>
+									<line
+										x1="44"
+										y1="20"
+										x2="44"
+										y2="170"
+										stroke="currentColor"
+										class="text-border"
+									/>
 
-									{#each paper.overallHistogram as bucket, idx}
+									{#each paper.overallHistogram as bucket, idx (idx)}
 										<rect
 											x={46 + idx * (490 / Math.max(paper.overallHistogram.length, 1))}
-											y={170 - ((bucket.count / paper.maxOverallBar) * 140)}
-											width={Math.max((490 / Math.max(paper.overallHistogram.length, 1)) - 2, 1)}
+											y={170 - (bucket.count / paper.maxOverallBar) * 140}
+											width={Math.max(490 / Math.max(paper.overallHistogram.length, 1) - 2, 1)}
 											height={(bucket.count / paper.maxOverallBar) * 140}
 											class="fill-primary/80"
 										/>
 									{/each}
 								</svg>
-								<div class="mt-2 flex items-center justify-between text-[10px] text-muted-foreground">
+								<div
+									class="mt-2 flex items-center justify-between text-[10px] text-muted-foreground"
+								>
 									<span>{paper.overallHistogram[0]?.label ?? ''}</span>
 									<span class="font-mono">max freq: {paper.maxOverallBar}</span>
-									<span>{paper.overallHistogram[paper.overallHistogram.length - 1]?.label ?? ''}</span>
+									<span
+										>{paper.overallHistogram[paper.overallHistogram.length - 1]?.label ?? ''}</span
+									>
 								</div>
 							</div>
 						</div>
@@ -206,7 +230,9 @@
 										</tr>
 										<tr class="border-t border-border/70">
 											<td class="px-3 py-2 font-medium">Max possible</td>
-											<td class="px-3 py-2 font-mono">{paper.totalMax > 0 ? paper.totalMax.toFixed(2) : '-'}</td>
+											<td class="px-3 py-2 font-mono"
+												>{paper.totalMax > 0 ? paper.totalMax.toFixed(2) : '-'}</td
+											>
 										</tr>
 									</tbody>
 								</table>
