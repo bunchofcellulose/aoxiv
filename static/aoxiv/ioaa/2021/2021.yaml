@@ -35,14 +35,14 @@ papers:
 problems:
   - id: ioaa-2021-d1
     number: D1
-    category: Data Analysis 1
+    category: Data Analysis
     name: Scaling Relations
     link: /aoxiv/ioaa/2021/Q1_da.pdf
     solutionLink: /aoxiv/ioaa/2021/DA1_solution.pdf
     maxScore: 75
   - id: ioaa-2021-d2
     number: D2
-    category: Data Analysis 2
+    category: Data Analysis
     name: Stars and Exoplanets
     link: /aoxiv/ioaa/2021/Q2_da.pdf
     solutionLink: /aoxiv/ioaa/2021/DA2_solution.pdf
