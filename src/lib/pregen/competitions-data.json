@@ -3575,16 +3575,10 @@
         ],
         "mockExams": [
           {
-            "id": "data-analysis-1",
-            "name": "Data Analysis 1",
+            "id": "data-analysis",
+            "name": "Data Analysis",
             "problemIds": [
-              "ioaa-2021-d1"
-            ]
-          },
-          {
-            "id": "data-analysis-2",
-            "name": "Data Analysis 2",
-            "problemIds": [
+              "ioaa-2021-d1",
               "ioaa-2021-d2"
             ]
           },
@@ -3636,7 +3630,7 @@
             "id": "ioaa-2021-d1",
             "number": "D1",
             "name": "Scaling Relations",
-            "category": "Data Analysis 1",
+            "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2021/Q1_da.pdf",
             "solutionLink": "/aoxiv/ioaa/2021/DA1_solution.pdf",
             "maxScore": 75
@@ -3645,7 +3639,7 @@
             "id": "ioaa-2021-d2",
             "number": "D2",
             "name": "Stars and Exoplanets",
-            "category": "Data Analysis 2",
+            "category": "Data Analysis",
             "link": "/aoxiv/ioaa/2021/Q2_da.pdf",
             "solutionLink": "/aoxiv/ioaa/2021/DA2_solution.pdf",
             "maxScore": 75

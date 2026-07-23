@@ -332,24 +332,27 @@
 	{/snippet}
 
 	{#if filtered().length > 0}
-		<div class="flex flex-col gap-5">
+		<div class="flex flex-col gap-10">
 			{#each filtered() as edition (edition.year)}
 				{@const yearVisible = showYearLevel(edition)}
 				{@const grouped = buildRounds(edition, yearVisible)}
 				<div
 					id={`year-${edition.year}`}
-					class="scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-card/60"
+					class="scroll-mt-24 rounded-2xl border border-border bg-card/60 shadow-sm"
 				>
-					<!-- Year header -->
+					<!-- Year header — sticky, so the current year stays pinned while scrolling its rounds -->
 					<div
-						class="flex flex-wrap items-center justify-between gap-3 border-b border-border bg-muted/40 px-4 py-3 sm:px-5"
+						class="sticky top-16 z-20 flex flex-wrap items-center justify-between gap-3 rounded-t-2xl border-b-2 border-primary/40 bg-card/95 px-4 py-3.5 backdrop-blur-md sm:px-5"
 					>
-						<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-							<span class="font-mono text-xl font-bold tracking-tight text-foreground tabular-nums">
-								{edition.year}
+						<div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+							<span class="flex items-center gap-2.5">
+								<span class="h-6 w-1.5 rounded-full bg-primary" aria-hidden="true"></span>
+								<span class="font-mono text-2xl font-bold tracking-tight text-primary tabular-nums">
+									{edition.year}
+								</span>
 							</span>
 							{#if edition.location}
-								<span class="text-sm text-muted-foreground">{edition.location}</span>
+								<span class="text-sm font-medium text-foreground/80">{edition.location}</span>
 							{/if}
 							<span class="text-xs text-muted-foreground/70">
 								{grouped.rounds.length}

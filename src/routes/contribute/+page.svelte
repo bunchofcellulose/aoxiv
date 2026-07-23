@@ -1,246 +1,170 @@
 <script lang="ts">
-	import type { PageProps } from './$types';
-	import { enhance } from '$app/forms';
 	import Title from '$lib/components/Title.svelte';
-	import * as Card from '$lib/components/ui/card/index.js';
 	import { Button } from '$lib/components/ui/button/index.js';
-	import * as Tabs from '$lib/components/ui/tabs/index.js';
-	import * as Select from '$lib/components/ui/select/index.js';
-	import * as Combobox from '$lib/components/ui/combobox/index.js';
-	import { Input } from '$lib/components/ui/input/index.js';
-	import { Textarea } from '$lib/components/ui/textarea/index.js';
-	import { ArrowRight, Info } from '@lucide/svelte';
+	import { siteConfig } from '$lib/site-config';
 	import SvelteSeo from 'svelte-seo';
-	import type { ContestTag } from '$lib/competitions';
+	import {
+		FileText,
+		CircleCheck,
+		ClipboardList,
+		Trophy,
+		Sparkles,
+		PencilLine,
+		GitPullRequest,
+		MessagesSquare,
+		ExternalLink
+	} from '@lucide/svelte';
 
-	let initialTab = $state('existing');
-	let { data, form }: PageProps = $props();
-
-	let tag = $state<ContestTag | undefined>();
-	let olympiadId = $state<string | undefined>();
-	let searchOlympiad = $state<string>('');
-
-	// Icon file preview for the new olympiad form
-	let iconPreviewUrl = $state<string | null>(null);
-
-	function onIconFileChange(e: Event) {
-		const file = (e.currentTarget as HTMLInputElement).files?.[0];
-		if (iconPreviewUrl) URL.revokeObjectURL(iconPreviewUrl);
-		iconPreviewUrl = file ? URL.createObjectURL(file) : null;
-	}
-
-	const filtered = $derived(
-		searchOlympiad === ''
-			? data.olympiads
-			: data.olympiads.filter(
-					(olympiad) =>
-						olympiad.name.toLowerCase().includes(searchOlympiad.toLowerCase()) ||
-						olympiad.id.toLowerCase().includes(searchOlympiad.toLowerCase())
-				)
-	);
+	// Things people commonly send in — shown as a quick "what belongs here" grid.
+	const contributions = [
+		{ icon: FileText, label: 'Missing problem papers' },
+		{ icon: CircleCheck, label: 'Official solutions' },
+		{ icon: ClipboardList, label: 'Grading schemes & answer keys' },
+		{ icon: Trophy, label: 'Results & score statistics' },
+		{ icon: Sparkles, label: 'A whole new olympiad' },
+		{ icon: PencilLine, label: 'Fixes & corrections' }
+	];
 </script>
 
-<SvelteSeo title="Contribute — aoXiv" description="Contribute to aoXiv" />
+<SvelteSeo
+	title="Contribute — aoXiv"
+	description="How to add problems, solutions, and new olympiads to the aoXiv archive."
+/>
 
 <Title
 	title="Contribute"
-	description="Help grow the archive. Pick an olympiad and year to edit, or propose a brand-new olympiad."
+	description="aoXiv is a community-maintained, open archive. Every problem, solution, and result here was added by someone like you — here's how to add more."
 />
 
-<!-- File-based data notice -->
-<div
-	class="mx-auto mb-5 flex max-w-xl items-start gap-2.5 rounded-xl border border-primary/30 bg-primary/5 px-4 py-3 text-sm text-muted-foreground"
->
-	<Info class="mt-0.5 size-4 shrink-0 text-primary" />
-	<p class="m-0">
-		aoXiv's problem data is currently file-based (YAML), so these forms don't save to a database
-		yet. To add problems or a new olympiad, open a pull request on GitHub or reach out on Discord.
+<div class="mx-auto flex max-w-2xl flex-col gap-8">
+	<!-- What you can add -->
+	<section>
+		<h2 class="mb-3 text-lg font-semibold tracking-tight">What you can add</h2>
+		<div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+			{#each contributions as item (item.label)}
+				<div
+					class="flex items-center gap-2.5 rounded-xl border border-border/60 bg-card/60 px-3.5 py-3 text-sm"
+				>
+					<item.icon class="size-4 shrink-0 text-primary" />
+					<span class="text-foreground/90">{item.label}</span>
+				</div>
+			{/each}
+		</div>
+	</section>
+
+	<!-- Two ways to contribute -->
+	<section class="flex flex-col gap-4">
+		<h2 class="text-lg font-semibold tracking-tight">Two ways to do it</h2>
+
+		<!-- Path A: pull request -->
+		<div class="rounded-2xl border border-border bg-card/60 p-5">
+			<div class="mb-3 flex items-center gap-2.5">
+				<GitPullRequest class="size-5 text-primary" />
+				<h3 class="text-base font-semibold">Open a pull request</h3>
+				<span class="rounded-full bg-muted px-2 py-0.5 text-[0.7rem] font-medium text-muted-foreground">
+					comfortable with git
+				</span>
+			</div>
+			<p class="mt-0 mb-4 text-sm text-muted-foreground">
+				All archive data is plain files in the repo — no database. Each olympiad is a folder under
+				<code class="rounded bg-muted px-1.5 py-0.5 text-xs">static/aoxiv/</code>, and each year is a
+				subfolder holding its PDFs plus one YAML file that describes them.
+			</p>
+			<ol class="m-0 flex list-none flex-col gap-3 p-0">
+				{#snippet step(n: number)}
+					<span
+						class="flex size-6 shrink-0 items-center justify-center rounded-full bg-primary/12 font-mono text-xs font-semibold text-primary tabular-nums"
+					>
+						{n}
+					</span>
+				{/snippet}
+
+				<li class="flex gap-3">
+					{@render step(1)}
+					<span class="pt-0.5 text-sm text-foreground/90">
+						Fork the repository and clone it locally.
+					</span>
+				</li>
+				<li class="flex gap-3">
+					{@render step(2)}
+					<span class="pt-0.5 text-sm text-foreground/90">
+						Drop the PDFs into
+						<code class="rounded bg-muted px-1.5 py-0.5 text-xs"
+							>static/aoxiv/&lt;olympiad&gt;/&lt;year&gt;/</code
+						> (create the folders if the year is new).
+					</span>
+				</li>
+				<li class="flex gap-3">
+					{@render step(3)}
+					<span class="pt-0.5 text-sm text-foreground/90">
+						Add or edit the
+						<code class="rounded bg-muted px-1.5 py-0.5 text-xs">&lt;year&gt;.yaml</code>
+						(e.g. <code class="rounded bg-muted px-1.5 py-0.5 text-xs">2025/2025.yaml</code>) listing
+						each paper and problem. The full format — with a worked example — is in the repo README
+						under <span class="font-medium text-foreground">“Adding more competitions.”</span>
+					</span>
+				</li>
+				<li class="flex gap-3">
+					{@render step(4)}
+					<span class="pt-0.5 text-sm text-foreground/90">
+						Preview it with <code class="rounded bg-muted px-1.5 py-0.5 text-xs">pnpm install</code>
+						then <code class="rounded bg-muted px-1.5 py-0.5 text-xs">pnpm dev</code> — the site
+						regenerates its data on start, so your addition shows up locally.
+					</span>
+				</li>
+				<li class="flex gap-3">
+					{@render step(5)}
+					<span class="pt-0.5 text-sm text-foreground/90">
+						Commit, push, and open a pull request. That’s it.
+					</span>
+				</li>
+			</ol>
+
+			<div class="mt-5 flex flex-wrap gap-2">
+				<Button href={siteConfig.githubUrl} target="_blank" rel="noopener noreferrer">
+					Open the repo <ExternalLink class="size-3.5" />
+				</Button>
+				<Button
+					variant="outline"
+					href={`${siteConfig.githubUrl}#adding-more-competitions`}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Read the format guide <ExternalLink class="size-3.5" />
+				</Button>
+			</div>
+		</div>
+
+		<!-- Path B: Discord -->
+		<div class="rounded-2xl border border-border bg-card/60 p-5">
+			<div class="mb-3 flex items-center gap-2.5">
+				<MessagesSquare class="size-5 text-primary" />
+				<h3 class="text-base font-semibold">Send it on Discord</h3>
+				<span class="rounded-full bg-muted px-2 py-0.5 text-[0.7rem] font-medium text-muted-foreground">
+					no git needed
+				</span>
+			</div>
+			<p class="mt-0 mb-4 text-sm text-muted-foreground">
+				Not into git, or unsure where something belongs? Just hand us the material and a maintainer
+				will file it. In your message, include:
+			</p>
+			<ul class="m-0 mb-5 flex list-disc flex-col gap-1.5 pl-5 text-sm text-foreground/90">
+				<li>Which <span class="font-medium">olympiad and year</span> it’s from</li>
+				<li>The <span class="font-medium">PDFs or links</span> (problems, solutions, results…)</li>
+				<li>Anything you know about it — the round, exam duration, or scoring</li>
+			</ul>
+			<Button
+				variant="outline"
+				href={siteConfig.discordUrl}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<MessagesSquare class="size-4" /> Join the Discord
+			</Button>
+		</div>
+	</section>
+
+	<p class="text-center text-sm text-muted-foreground">
+		Spot a typo or a broken link? That counts too — open an issue or ping us on Discord.
 	</p>
 </div>
-
-<Tabs.Root class="mx-auto max-w-xl gap-5" bind:value={initialTab}>
-	<Tabs.List variant="default">
-		<Tabs.Trigger value="existing">Existing olympiad</Tabs.Trigger>
-		<Tabs.Trigger value="new">New olympiad</Tabs.Trigger>
-	</Tabs.List>
-
-	<Tabs.Content value="existing">
-		<Card.Root>
-			<Card.Header>
-				<Card.Title>Go to a year</Card.Title>
-				<Card.Description>
-					Select an olympiad and enter a year. Leave the year blank to edit the olympiad's metadata
-					instead.
-				</Card.Description>
-			</Card.Header>
-			<Card.Content>
-				<form method="POST" action="?/selectYear" use:enhance class="flex flex-col gap-4">
-					<div class="flex flex-col gap-1.5">
-						<label for="olympiadId" class="text-sm font-medium">Olympiad</label>
-						<Combobox.Root type="single" name="olympiadId" required bind:value={olympiadId}>
-							<Combobox.Input
-								oninput={(e) => (searchOlympiad = (e.currentTarget as HTMLInputElement).value)}
-								placeholder="Search for an olympiad..."
-							/>
-							<Combobox.Content class="max-h-100 overflow-scroll">
-								{#each filtered as o (o.id)}
-									<Combobox.Item value={o.id} label={o.name}>{o.name}</Combobox.Item>
-								{/each}
-							</Combobox.Content>
-						</Combobox.Root>
-					</div>
-					<div class="flex flex-col gap-1.5">
-						<label for="year" class="text-sm font-medium">
-							Year
-							<span class="ml-1 text-xs font-normal text-muted-foreground">
-								— leave blank to edit olympiad metadata
-							</span>
-						</label>
-						<Input
-							id="year"
-							name="year"
-							type="number"
-							min="1900"
-							max="2100"
-							placeholder="e.g. 2025 (optional)"
-						/>
-					</div>
-					{#if form?.selectError}
-						<p class="text-sm text-destructive">{form.selectError}</p>
-					{/if}
-					<Button type="submit" class="self-start">
-						Go <ArrowRight />
-					</Button>
-				</form>
-			</Card.Content>
-		</Card.Root>
-	</Tabs.Content>
-
-	<Tabs.Content value="new">
-		<Card.Root>
-			<Card.Header>
-				<Card.Title>New olympiad</Card.Title>
-				<Card.Description>Propose a new olympiad and its first year.</Card.Description>
-			</Card.Header>
-			<Card.Content>
-				<form
-					method="POST"
-					action="?/createOlympiad"
-					enctype="multipart/form-data"
-					use:enhance
-					class="flex flex-col gap-4"
-				>
-					<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-						<div class="flex flex-col gap-1.5">
-							<label for="id" class="text-sm font-medium">
-								ID <span class="text-sm text-muted-foreground">(unique acronym)</span>
-							</label>
-							<Input id="id" name="id" type="text" required placeholder="e.g. ioaa" />
-						</div>
-						<div class="flex flex-col gap-1.5">
-							<label for="icon" class="text-sm font-medium">
-								Emoji icon <span class="text-sm text-muted-foreground">(optional)</span>
-							</label>
-							<Input id="icon" name="icon" type="text" placeholder="e.g. 🔭" />
-						</div>
-					</div>
-
-					<!-- Icon file upload -->
-					<div class="flex flex-col gap-1.5">
-						<label for="iconFile" class="text-sm font-medium">
-							Icon image
-							<span class="text-sm text-muted-foreground">(optional — overrides emoji)</span>
-						</label>
-						<div class="flex items-center gap-3">
-							<input
-								id="iconFile"
-								name="iconFile"
-								type="file"
-								accept=".svg,.png,.jpg,.jpeg,.webp,.avif,image/svg+xml,image/png,image/jpeg,image/webp,image/avif"
-								onchange={onIconFileChange}
-								class="flex-1 cursor-pointer text-sm text-muted-foreground file:mr-3 file:rounded-4xl file:border file:border-border file:bg-card file:px-3 file:py-1 file:text-sm file:font-medium file:text-foreground"
-							/>
-							{#if iconPreviewUrl}
-								<img
-									src={iconPreviewUrl}
-									alt="Icon preview"
-									class="h-9 w-auto rounded-md border border-border object-contain"
-								/>
-							{/if}
-						</div>
-						<p class="text-xs text-muted-foreground">SVG, PNG, JPG, WebP, or AVIF · max 2 MB</p>
-					</div>
-
-					<div class="flex flex-col gap-1.5">
-						<label for="name" class="text-sm font-medium">Full name</label>
-						<Input
-							id="name"
-							name="name"
-							type="text"
-							required
-							placeholder="e.g. International Olympiad on Astronomy and Astrophysics"
-						/>
-					</div>
-					<div class="flex flex-col gap-1.5">
-						<label for="summary" class="text-sm font-medium">Summary</label>
-						<Input
-							id="summary"
-							name="summary"
-							type="text"
-							required
-							placeholder="One sentence description"
-						/>
-					</div>
-					<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-						<div class="flex flex-col gap-1.5">
-							<!-- svelte-ignore a11y_label_has_associated_control -->
-							<label class="text-sm font-medium">Tag</label>
-							<Select.Root name="tag" type="single" bind:value={tag}>
-								<Select.Trigger>
-									{#if tag}
-										{tag}
-									{:else}
-										<span class="text-sm text-muted-foreground">Select a tag...</span>
-									{/if}
-								</Select.Trigger>
-								<Select.Content class="overflow-scroll">
-									<Select.Item value="International">International</Select.Item>
-									<Select.Item value="Regional">Regional</Select.Item>
-									<Select.Item value="National">National</Select.Item>
-									<Select.Item value="Open">Open</Select.Item>
-								</Select.Content>
-							</Select.Root>
-						</div>
-						<div class="flex flex-col gap-1.5">
-							<label for="first-year" class="text-sm font-medium">First year</label>
-							<Input
-								id="first-year"
-								name="year"
-								type="number"
-								required
-								min="1900"
-								max="2100"
-								placeholder="e.g. 2025"
-							/>
-						</div>
-					</div>
-					<div class="flex flex-col gap-1.5">
-						<label for="description" class="text-sm font-medium">
-							Description <span class="text-sm text-muted-foreground">(optional, Markdown)</span>
-						</label>
-						<Textarea
-							id="description"
-							name="description"
-							rows={3}
-							placeholder="Longer description shown on the olympiad page..."
-						></Textarea>
-					</div>
-					{#if form?.createError}
-						<p class="text-sm text-destructive">{form.createError}</p>
-					{/if}
-					<Button type="submit" class="self-start">Create olympiad <ArrowRight /></Button>
-				</form>
-			</Card.Content>
-		</Card.Root>
-	</Tabs.Content>
-</Tabs.Root>
