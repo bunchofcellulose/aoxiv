@@ -135,16 +135,19 @@ problems:
     number: OP1
     category: Planetarium
     name: Knowledge of the sky
+    link: /aoxiv/ioaa/2023/op1.pdf
     maxScore: 20
   - id: ioaa-2023-op2
     number: OP2
     category: Planetarium
     name: Retrograde Mars
+    link: /aoxiv/ioaa/2023/op2.pdf
     maxScore: 20
   - id: ioaa-2023-op3
     number: OP3
     category: Planetarium
     name: TRAPPIST-1
+    link: /aoxiv/ioaa/2023/op3.pdf
     maxScore: 35
 
   - id: ioaa-2023-g1
