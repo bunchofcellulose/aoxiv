@@ -46,27 +46,27 @@ problems:
     maxScore: 75
   - id: ioaa-2023-t1
     number: T1
-    category: Theory Short
+    category: Theory
     name: Neptune
     maxScore: 5
   - id: ioaa-2023-t2
     number: T2
-    category: Theory Short
+    category: Theory
     name: Magnetic field
     maxScore: 5
   - id: ioaa-2023-t3
     number: T3
-    category: Theory Short
+    category: Theory
     name: Microlensing
     maxScore: 5
   - id: ioaa-2023-t4
     number: T4
-    category: Theory Short
+    category: Theory
     name: Europa
     maxScore: 10
   - id: ioaa-2023-t5
     number: T5
-    category: Theory Short
+    category: Theory
     name: Dark Energy
     maxScore: 12
   - id: ioaa-2023-t6
@@ -96,17 +96,17 @@ problems:
     maxScore: 25
   - id: ioaa-2023-t11
     number: T11
-    category: Theory Long
+    category: Theory
     name: X-ray emission from galaxy clusters
     maxScore: 30
   - id: ioaa-2023-t12
     number: T12
-    category: Theory Long
+    category: Theory
     name: DART
     maxScore: 40
   - id: ioaa-2023-t13
     number: T13
-    category: Theory Long
+    category: Theory
     name: LISA
     maxScore: 45
   
