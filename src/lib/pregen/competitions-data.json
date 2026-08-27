@@ -3023,31 +3023,19 @@
             ]
           },
           {
-            "id": "theory-short",
-            "name": "Theory Short",
+            "id": "theory",
+            "name": "Theory",
             "problemIds": [
               "ioaa-2023-t1",
               "ioaa-2023-t2",
               "ioaa-2023-t3",
               "ioaa-2023-t4",
-              "ioaa-2023-t5"
-            ]
-          },
-          {
-            "id": "theory",
-            "name": "Theory",
-            "problemIds": [
+              "ioaa-2023-t5",
               "ioaa-2023-t6",
               "ioaa-2023-t7",
               "ioaa-2023-t8",
               "ioaa-2023-t9",
-              "ioaa-2023-t10"
-            ]
-          },
-          {
-            "id": "theory-long",
-            "name": "Theory Long",
-            "problemIds": [
+              "ioaa-2023-t10",
               "ioaa-2023-t11",
               "ioaa-2023-t12",
               "ioaa-2023-t13"
@@ -3104,35 +3092,35 @@
             "id": "ioaa-2023-t1",
             "number": "T1",
             "name": "Neptune",
-            "category": "Theory Short",
+            "category": "Theory",
             "maxScore": 5
           },
           {
             "id": "ioaa-2023-t2",
             "number": "T2",
             "name": "Magnetic field",
-            "category": "Theory Short",
+            "category": "Theory",
             "maxScore": 5
           },
           {
             "id": "ioaa-2023-t3",
             "number": "T3",
             "name": "Microlensing",
-            "category": "Theory Short",
+            "category": "Theory",
             "maxScore": 5
           },
           {
             "id": "ioaa-2023-t4",
             "number": "T4",
             "name": "Europa",
-            "category": "Theory Short",
+            "category": "Theory",
             "maxScore": 10
           },
           {
             "id": "ioaa-2023-t5",
             "number": "T5",
             "name": "Dark Energy",
-            "category": "Theory Short",
+            "category": "Theory",
             "maxScore": 12
           },
           {
@@ -3174,21 +3162,21 @@
             "id": "ioaa-2023-t11",
             "number": "T11",
             "name": "X-ray emission from galaxy clusters",
-            "category": "Theory Long",
+            "category": "Theory",
             "maxScore": 30
           },
           {
             "id": "ioaa-2023-t12",
             "number": "T12",
             "name": "DART",
-            "category": "Theory Long",
+            "category": "Theory",
             "maxScore": 40
           },
           {
             "id": "ioaa-2023-t13",
             "number": "T13",
             "name": "LISA",
-            "category": "Theory Long",
+            "category": "Theory",
             "maxScore": 45
           },
           {
@@ -3224,6 +3212,7 @@
             "number": "OP1",
             "name": "Knowledge of the sky",
             "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2023/op1.pdf",
             "maxScore": 20
           },
           {
@@ -3231,6 +3220,7 @@
             "number": "OP2",
             "name": "Retrograde Mars",
             "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2023/op2.pdf",
             "maxScore": 20
           },
           {
@@ -3238,6 +3228,7 @@
             "number": "OP3",
             "name": "TRAPPIST-1",
             "category": "Planetarium",
+            "link": "/aoxiv/ioaa/2023/op3.pdf",
             "maxScore": 35
           },
           {
@@ -7829,6 +7820,124 @@
             "name": "Stellar Clusters and Stellar Kinematics"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "nsea",
+    "name": "National Standard Examination in Astronomy",
+    "shortName": "NSEA",
+    "website": "https://iapt.org.in",
+    "desc": "Introductory stage of the selection process for the Indian team competing at the IOAA.\n",
+    "summary": "National astronomy exam for high school students in India, serving as the first step toward the IOAA.",
+    "icon": "🇮🇳",
+    "tag": "National",
+    "url": "https://iapt.org.in",
+    "editions": [
+      {
+        "year": 2025,
+        "name": "2025 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2025/paper.pdf",
+            "solutionLink": "/competitions/nsea/2025/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2024,
+        "name": "2024 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2024/paper.pdf",
+            "solutionLink": "/competitions/nsea/2024/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2023,
+        "name": "2023 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2023/paper.pdf",
+            "solutionLink": "/competitions/nsea/2023/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2022,
+        "name": "2022 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2022/paper.pdf",
+            "solutionLink": "/competitions/nsea/2022/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2019,
+        "name": "2019 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2019/paper.pdf",
+            "solutionLink": "/competitions/nsea/2019/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2018,
+        "name": "2018 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2018/paper.pdf",
+            "solutionLink": "/competitions/nsea/2018/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2016,
+        "name": "2016 National Standard Examination in Astronomy",
+        "location": "India",
+        "link": "https://iapt.org.in",
+        "papers": [
+          {
+            "examDuration": 120,
+            "link": "/competitions/nsea/2016/paper.pdf",
+            "solutionLink": "/competitions/nsea/2016/solutions.pdf",
+            "n": null
+          }
+        ],
+        "problems": []
       }
     ]
   },
