@@ -1,0 +1,9 @@
+name: '2025 National Standard Examination in Astronomy'
+location: 'India'
+link: 'https://iapt.org.in'
+
+papers:
+  - examDuration: 120
+    link: '/competitions/nsea/2025/paper.pdf'
+    solutionLink: '/competitions/nsea/2025/solutions.pdf'
+    n: ~

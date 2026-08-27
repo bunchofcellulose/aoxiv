@@ -1,0 +1,9 @@
+name: '2018 National Standard Examination in Astronomy'
+location: 'India'
+link: 'https://iapt.org.in'
+
+papers:
+  - examDuration: 120
+    link: '/competitions/nsea/2018/paper.pdf'
+    solutionLink: '/competitions/nsea/2018/solutions.pdf'
+    n: ~
